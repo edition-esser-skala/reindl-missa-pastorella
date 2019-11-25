@@ -32,10 +32,10 @@ KyrieSopranoNotes = {
 		d'4. d8 h([ c)] d([ e)]
 		d4( \tuplet 3/2 4 { e8[ d c]) } h4 g'8([ h,)] %15
 		a([ c)] h d \appoggiatura d8 c4( h8[ a)]
-		a2( h4) r8 r16 d
+		a2( h4) r8 d^\critnote
 		\tuplet 3/2 4 { c8([ g c] e[ c e]) } g4 r8 c,
-		\tuplet 3/2 4 { h([ g h] d[ h d]) } g4 r8 r16 d
-		\tuplet 3/2 4 { c8([ g c] e[ c e]) } g4 r8 r16 c, %20
+		\tuplet 3/2 4 { h([ g h] d[ h d]) } g4 r8 d^\critnote
+		\tuplet 3/2 4 { c8([ g c] e[ c e]) } g4 r8 c,^\critnote %20
 		\tuplet 3/2 4 { h8([ g h] d[ h d]) } g4 d
 		d8([ c e c)] c([ h)] g'([ h,)]
 		h4 a r2
@@ -59,7 +59,7 @@ KyrieSopranoNotes = {
 		r4 g h( d)
 		g g, h( d)
 		g2 r4 \mvTr d\pE^\solo
-		\tuplet 3/2 4 { c8([ g c] e[ c e]) } g4 r8 r16 c, %45
+		\tuplet 3/2 4 { c8([ g c] e[ c e]) } g4 r8 c,^\critnote %45
 		\tuplet 3/2 4 { h8([ g h] d[ h d]) } g4 r
 		R1
 		r2 r4 \mvTr h,\fE^\tutti
@@ -124,7 +124,7 @@ KyrieSopranoNotes = {
 		d4 h8([ g)] a([ fis g e)] %130
 		d'2 r4 d
 		d1
-		c!
+		\once \tieDashed c!~
 		c
 		h %135
 		a
@@ -322,7 +322,7 @@ KyrieSopranoLyrics = \lyricmode {
 	son, e --
 	lei --
 	_
-	_
+	
 	_ %135
 	_
 	son, e --

@@ -62,11 +62,11 @@ KyrieOrgano = {
 		d' d d d %55
 		d2 r
 		R1*6 %62
-		g4\p g g g
+		\mvTr g4\p-\soloE g g g
 		g g g g
 		g2 fis4 d %65
 		a' a a, a
-		d\f d-! fis-! a-!
+		d \mvTr d-!\f-\tuttiE fis-! a-!
 		d-! d,-! fis-! a-!
 		d-! a8-! fis-! a4-! fis8-! d-!
 		fis4 fis fis fis %70

@@ -121,7 +121,7 @@ KyrieAltoNotes = {
 		d'2 r %130
 		r r4 fis,
 		gis1
-		a
+		\once \tieDashed a~
 		a
 		g! %135
 		fis
@@ -194,7 +194,7 @@ KyrieAltoNotes = {
 		d2 r\fermata \bar "|." %226 FINIS
 	}
 }
-% \tuplet 3/2 4 {  }
+
 KyrieAltoLyrics = \lyricmode {
 	Ky -- ri -- e e -- %14
 	lei -- son, e -- %15
@@ -298,7 +298,7 @@ KyrieAltoLyrics = \lyricmode {
 	e --
 	lei --
 	_
-	_
+
 	_ %135
 	_
 	son, e --
