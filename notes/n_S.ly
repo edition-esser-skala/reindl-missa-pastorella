@@ -33,10 +33,10 @@ KyrieSopranoNotes = {
 		d4( \tuplet 3/2 4 { e8[ d c]) } h4 g'8([ h,)] %15
 		a([ c)] h d \appoggiatura d8 c4( h8[ a)]
 		a2( h4) r8 d^\critnote
-		\tuplet 3/2 4 { c8([ g c] e[ c e]) } g4 r8 c,
-		\tuplet 3/2 4 { h([ g h] d[ h d]) } g4 r8 d^\critnote
-		\tuplet 3/2 4 { c8([ g c] e[ c e]) } g4 r8 c,^\critnote %20
-		\tuplet 3/2 4 { h8([ g h] d[ h d]) } g4 d
+		\stemUp \tuplet 3/2 4 { c8([ g c] e[ c e]) } \stemNeutral g4 r8 c,
+		\stemUp \tuplet 3/2 4 { h([ g h] d[ h d]) } \stemNeutral g4 r8 d^\critnote
+		\stemUp \tuplet 3/2 4 { c8([ g c] e[ c e]) } \stemNeutral g4 r8 c,^\critnote %20
+		\stemUp \tuplet 3/2 4 { h8([ g h] d[ h d]) } \stemNeutral g4 d
 		d8([ c e c)] c([ h)] g'([ h,)]
 		h4 a r2
 		R1*2 %25
@@ -59,8 +59,8 @@ KyrieSopranoNotes = {
 		r4 g h( d)
 		g g, h( d)
 		g2 r4 \mvTr d\pE^\solo
-		\tuplet 3/2 4 { c8([ g c] e[ c e]) } g4 r8 c,^\critnote %45
-		\tuplet 3/2 4 { h8([ g h] d[ h d]) } g4 r
+		\stemUp \tuplet 3/2 4 { c8([ g c] e[ c e]) } \stemNeutral g4 r8 c,^\critnote %45
+		\stemUp \tuplet 3/2 4 { h8([ g h] d[ h d]) } \stemNeutral g4 r
 		R1
 		r2 r4 \mvTr h,\fE^\tutti
 		h1
@@ -177,8 +177,8 @@ KyrieSopranoNotes = {
 		d4 \appoggiatura fis16 e8[( d16 c]) h4 g'8([ h,)]
 		a([ c)] h d c4( h8[ a)] %190
 		a2( h4) d
-		\tuplet 3/2 4 { c8([ g c] e[ c e]) } g4 r8 c,
-		\tuplet 3/2 4 { h([ g h] d[ h d]) } g4 r
+		\stemUp \tuplet 3/2 4 { c8([ g c] e[ c e]) } \stemNeutral g4 r8 c,
+		\stemUp \tuplet 3/2 4 { h([ g h] d[ h d]) } \stemNeutral g4 r
 		R1
 		r2 r4 \mvTr h,\fE^\tutti %195
 		h1
@@ -322,7 +322,7 @@ KyrieSopranoLyrics = \lyricmode {
 	son, e --
 	lei --
 	_
-	
+
 	_ %135
 	_
 	son, e --

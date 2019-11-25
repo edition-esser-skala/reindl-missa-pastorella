@@ -41,8 +41,8 @@ KyrieTenoreNotes = {
 		g2 r
 		R1 %45
 		r2 r4 \mvTr d\pE^\solo
-		\tuplet 3/2 4 { c8([ g c] e[ c e]) } g4 r8 c,
-		\tuplet 3/2 4 { h8([ g h] d[ h d]) } g4 \mvTr d\fE^\tuttiE
+		\stemUp \tuplet 3/2 4 { c8([ g c] e[ c e]) } \stemNeutral g4 r8 c,
+		\stemUp \tuplet 3/2 4 { h8([ g h] d[ h d]) } \stemNeutral g4 \mvTr d\fE^\tuttiE
 		d1~
 		d~ %50
 		d~
@@ -54,7 +54,7 @@ KyrieTenoreNotes = {
 		\mvTr e2.\pE^\solo g8([ fis)]
 		e2 r4 g8([ e)]
 		\appoggiatura d4 cis2 d4 fis8([ a,)] %65
-		a2 g4. fis16[ g]
+		a2 g4.\trillE fis16[ g]
 		fis4 \mvTr d\fE^\tuttiE fis( a)
 		d d, fis( a)
 		d2 r4 fis
@@ -106,7 +106,7 @@ KyrieTenoreNotes = {
 		a d b( gis)
 		a e' d h
 		a1 %125
-		g2 r
+		a2 r
 		R1
 		d~
 		d4 g fis e
@@ -136,7 +136,7 @@ KyrieTenoreNotes = {
 		c1
 		h2 r %170
 		R1*2
-		r2 r4 d'
+		r2 r4 d
 		g,2( c)
 		c r4 c %175
 		fis,2( h)
@@ -148,8 +148,8 @@ KyrieTenoreNotes = {
 		d2 r
 		R1*10 %192
 		r2 r4 \mvTr d\pE^\solo
-		\tuplet 3/2 4 { c8([ g c] e[ c e]) } g4 r8 c,
-		\tuplet 3/2 4 { h8([ g h] d[ h d]) } g4 \mvTr d\fE^\tuttiE %195
+		\stemUp \tuplet 3/2 4 { c8([ g c] e[ c e]) } \stemNeutral g4 r8 c,
+		\stemUp \tuplet 3/2 4 { h8([ g h] d[ h d]) } \stemNeutral g4 \mvTr d\fE^\tuttiE %195
 		d1~
 		d~
 		d~
