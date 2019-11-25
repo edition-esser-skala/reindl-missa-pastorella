@@ -48,12 +48,12 @@ KyrieOrgano = {
 		R1
 		r4 g,-! h-! d-!
 		g-! g,-! h-! d-!
-		g\p g g g
+		g g \mvTr g\p-\soloE g
 		g g g g %45
 		g g g g
 		g g g g
-		g g g g
-		g\f h8 g d'4 h8 g
+		g g g \mvTr g\f-\tuttiE
+		g h8 g d'4 h8 g
 		d4 fis8 d a'4 fis8 d %50
 		g4 h8 g d'4 h8 g
 		d4 fis8 d a'4 fis8 d
@@ -86,7 +86,7 @@ KyrieOrgano = {
 		d fis8 d a'4 fis8 d
 		a4 a a2 %85
 		R1*4
-		d4\p d d d %90
+		\mvTr d4\p-\soloE d d d %90
 		d d d d
 		a a a a
 		d d' d d
@@ -96,7 +96,7 @@ KyrieOrgano = {
 		d d d d
 		e cis d gis,
 		a a, r2
-		a'4\f cis8 a e'4 cis8 a %100
+		\mvTr a'4\f-\tuttiE cis8 a e'4 cis8 a %100
 		d4 fis,8 d a'4 fis8 d
 		a'4 cis8 a e'4 cis8 a
 		d4 fis,8 d a'4 fis8 d
@@ -143,13 +143,13 @@ KyrieOrgano = {
 		h2-! r
 		r4 c!-! h-! ais-! %145
 		h h, h r
-		\clef "treble_8" r \mvTr e\p-\vlcE e e
+		\clef "treble_8" r \mvTr e\p-\vlcE-\soloE e e
 		r gis gis fis
 		a2 r
 		r4 d, d d %150
 		r fis fis fis
 		g2 r
-		\clef bass r4 \mvTr d-\bassiE d d
+		\clef bass r4 d-\bassiE d d
 		r d d d
 		r d d d %155
 		r d d d
@@ -158,7 +158,7 @@ KyrieOrgano = {
 		cis, cis cis cis
 		d2 r %160
 		R1*3
-		g4\f c h a
+		\mvTr g4\f-\tuttiE c h a
 		g1~ %165
 		g4 c, h a
 		g1~
@@ -179,15 +179,15 @@ KyrieOrgano = {
 		d'2 <d d,>4 q
 		q2 r
 		R1*4 %187
-		g4\p g g g
+		\mvTr g4\p-\soloE g g g
 		g g g g
 		d d d d %190
 		g g g g
 		g g g g
 		g g g g
 		g g g g
-		g g g g %195
-		g\f h8 g d'4 h8 g
+		g g g \mvTr g\f-\tuttiE %195
+		g h8 g d'4 h8 g
 		d4 fis8 d a'4 fis8 d
 		g4 h8 g d'4 h8 g
 		d4 fis8 d a'4 fis8 d
@@ -381,13 +381,13 @@ KyrieBassFigures = \figuremode {
 	<8 3> %170
 	<7 2>
 	<8 3>
-	r
-	<4 2>2 <[6]>
-	r <6>4 <5> %175
-	<4 2>2 <6>
-	<_!> <6>4 <5>
-	<4 2>2 <\t \t>
-	r <6>4 <5>
+	r2 <[7]>4 <[6]>
+	<4 2>2. <[6]>4
+	r2 <6>4 <5> %175
+	<4 2>2. <6>4
+	<_!>2 <6>4 <5>
+	<4 2>2. <[6]>4
+	r2 <6>4 <5>
 	<8 3>1 \bassFigureExtendersOn %180
 	q2. q4 \bassFigureExtendersOff
 	<8 3>1

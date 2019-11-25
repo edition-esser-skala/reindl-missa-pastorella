@@ -41,7 +41,7 @@ KyrieSopranoNotes = {
 		h4 a r2
 		R1*2 %25
 		\mvTr g1~\fE^\tutti
-		g4 e'8[ c] d[ h] a([ c)]
+		g4 e'8[ c] d[ h] c([ a)]
 		g'1~
 		g4 e8([ c)] d([ h c a)]
 		g'2 r4 h, %30
@@ -99,8 +99,8 @@ KyrieSopranoNotes = {
 		d cis4. cis8 %105
 		d2 r
 		R1
-		r4 g fis e
-		d d, fis a
+		r4 g fis( e)
+		d d, fis( a)
 		d d, fis( a) %110
 		d r r2
 		R1
@@ -134,9 +134,9 @@ KyrieSopranoNotes = {
 		a gis a ais %140
 		h2 c!4 ais
 		h2 r
-		r4 c!-! h( ais)
+		r4 c! h( ais)
 		h2 r
-		r4 c!-! h( ais) %145
+		r4 c! h( ais) %145
 		h2 r4 \mvTr h\pE^\solo
 		a!2 gis8([ h)] d([ f)]
 		f?2 e8([ d)] c([ h)]
@@ -296,10 +296,10 @@ KyrieSopranoLyrics = \lyricmode {
 	e, Ky -- ri -- %105
 	e
 
-	e -- lei -- _
-	_ _ _ _
+	e -- lei --
+	[son, e -- lei] --
 	son, e -- lei -- %110
-	son
+	son,
 
 	e -- lei --
 	son, e --
@@ -356,7 +356,7 @@ KyrieSopranoLyrics = \lyricmode {
 	e -- lei --
 	son, e --
 	lei -- son, e --
-	lei -- son, e 1-- %170
+	lei -- son, e -- %170
 	lei -- son, e --
 	lei -- son, e --
 	lei -- _
