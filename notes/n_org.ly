@@ -144,7 +144,7 @@ KyrieOrgano = {
 		r4 c!-! h-! ais-! %145
 		h h, h r
 		\clef "treble_8" r \mvTr e\p-\vlcE e e
-		r gis gis gfis
+		r gis gis fis
 		a2 r
 		r4 d, d d %150
 		r fis fis fis
@@ -217,8 +217,7 @@ KyrieOrgano = {
 		g,-\tasto g g g
 		g g g g
 		g g g g %225
-		g g g g
-		g2 r\fermata \bar "|." %227 FINIS
+		g2 r\fermata \bar "|." %226 FINIS
 	}
 }
 
@@ -432,8 +431,7 @@ KyrieBassFigures = \figuremode {
 	r1
 	r
 	r %225
-	r
-	r %227 FINIS
+	r %226 FINIS
 }
 
 % Organo = {
