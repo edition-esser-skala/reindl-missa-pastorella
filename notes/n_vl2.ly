@@ -8,6 +8,6 @@ KyrieViolinoII = {
 	\relative c' {
 		\clef treble
 		\key g \major \time 2/2 \tempoKyrie
-
+		
 	}
 }

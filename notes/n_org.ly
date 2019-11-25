@@ -243,7 +243,7 @@ KyrieBassFigures = \figuremode {
 	<9 4>4 <[7 5]> <9 4> <7 5>
 	<6 4> <5 3> r2
 	<9 4>4 <[7 5]> <9 4> <7 5>
-	<6 4> <5 3> r2 %25
+	<6 4>2 <5 3> %25
 	r4 <3> q q
 	r1
 	r4 <3> q q
@@ -341,8 +341,8 @@ KyrieBassFigures = \figuremode {
 	<8 3> \bassFigureExtendersOn <8 3\!> q q \bassFigureExtendersOff
 	r1
 	r4 <3> q q %130
-	r1
-	<7 _+>
+	r2 <8 6>
+	<7 _+>1
 	<_!>
 	<7!>
 	r %135
