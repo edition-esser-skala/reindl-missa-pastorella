@@ -42,7 +42,7 @@ KyrieViolinoI = {
 		\appoggiatura a g4 h8( g) d4 h'
 		a2 c8( a g fis)
 		\appoggiatura a g4 h8( g) d4 d
-		g2 d4( h') %35
+		g2 d4 h' %35
 		g2 r4 g'8(\p h,)
 		a( c h d) \appoggiatura d c4 \once \slurDashed h8( a)
 		h2 r4 d,\f

@@ -21,6 +21,7 @@ Kyrie
 126  vl 2  grace notes missing in Ms
 128 vl 2  2nd quarter in Ms: g′–e′
 150 vl 2  1st half of bar in Ms: fis′2
+168 vla 1st quarter in Ms: a4
 186  vl 1  grace note missing in Ms
 189  vl 1, 2  grace note missing in Ms
 189 A grace note missing in Ms
