@@ -18,11 +18,11 @@ KyrieViolinoI = {
 		a a a a
 		g2 r
 		d' h8( c d e) %10
-		d4 \tuplet 3/2 4 { e8 d c } h4 g'8 h,
+		d4 \tuplet 3/2 4 { e8 d c } h4 \once \slurDashed g'8( h,)
 		a( c h d) \appoggiatura d c4 h8 a
 		a2( h4)^\critnote r
 		d2 \once \slurDashed h8( c d e)
-		d4 \tuplet 3/2 4 { e8 d c } h4 g'8 h, %15
+		d4 \tuplet 3/2 4 { e8 d c } h4 \once \slurDashed g'8( h,) %15
 		a( c h d) \appoggiatura d c4 h8 a
 		a2( h4) r
 		e e e e
@@ -73,14 +73,14 @@ KyrieViolinoI = {
 		e'4 e2 g8( fis)^\critnote
 		e2 r4 g8( e)
 		\appoggiatura d4 cis2^\critnote d4 fis8 a, %65
-		a2 g4. fis16( g)
+		a2 g4.\trillE fis16( g)
 		fis4 d\fE fis a
 		d d, fis a
 		d a8 fis a4 fis8 d
 		r4 \once \slurDashed c'!8( d) c4 c %70
-		g d8 h d4 h8 g
+		h^\critnote d,8 h d4 h8 g
 		r4 d''8( e) d4 d
-		a e8 cis e4 cis8 a
+		cis^\critnote e,8 cis e4 cis8 a
 		r4 \once \slurDashed g'8( a) g4 g
 		fis8 a fis' d a'4 fis8( d) %75
 		r4 a8( h) a4 a
@@ -106,7 +106,7 @@ KyrieViolinoI = {
 		h h h h
 		a a a fis'8 a,
 		a g e' g, g fis d' fis,
-		fis4 e r2
+		fis4\trillE e r2
 		g'4\f g2 g4 %100
 		fis fis2 fis4
 		g g2 g4
@@ -167,7 +167,7 @@ KyrieViolinoI = {
 		r c c c
 		r h h h
 		r h h h
-		a a' a( g) %160
+		a a'-\parenthesize-! a( g) %160
 		g( fis) fis( e)
 		e( d) d( c)
 		c( h) h( a)
@@ -192,7 +192,7 @@ KyrieViolinoI = {
 		fis8 a, a' a, fis' a, a' a,
 		<fis' a, d,>2 r
 		d\p h8( c d e)
-		d4 \appoggiatura fis16 e8^\critnote d16 c h4 h %185
+		d4 \tuplet 3/2 4 { e8 d c } h4 h %185
 		a8( c h d) \appoggiatura d c4^\critnote h8( a)
 		a2( h4) r
 		d2 h8( c d e)
@@ -232,7 +232,7 @@ KyrieViolinoI = {
 		d4 \appoggiatura fis16 e8 d16 c h4 \appoggiatura d16 c8 h16 a
 		g2 d4 h'
 		g8 d h' d, g d h' d,
-		g d h' d, g d <h' d> d, %225
+		g d h' d, g d d' d, %225
 		<g, d' h' g'>2 r\fermata \bar "|." %226 FINIS
 	}
 }
