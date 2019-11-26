@@ -19,11 +19,11 @@ KyrieViolinoII = {
 		g2 r
 		h \once \slurDashed g8( a h c) %10
 		h4 \tuplet 3/2 4 { c8 h a } g4 h8( g)
-		fis( a g h) \appoggiatura h a4 g8 fis
-		fis2( g4)^\critnote r
-		h2 g8( a h c)
+		fis( a) g( h) \appoggiatura h a4 \once \slurDashed g8( fis)
+		fis2( g)
+		h g8( a h c)
 		h4 \tuplet 3/2 4 { c8 h a } g4 \once \slurDashed h8( g) %15
-		\once \slurDashed fis( a g h) \appoggiatura h a4 g8 fis
+		\slurDashed fis( a) g( h) \slurSolid \appoggiatura h a4 \once \slurDashed g8( fis)
 		fis2( g4) r
 		c c c c
 		h h h h
@@ -31,7 +31,7 @@ KyrieViolinoII = {
 		h h h h
 		h a2 g4
 		g fis r h
-		h8( a c a) a( g h g)
+		h8( a) c( a) a( g) h( g)
 		g2( fis) %25
 		g,1~\f
 		g4 c h a
@@ -44,19 +44,19 @@ KyrieViolinoII = {
 		g2 r4 d
 		g2 d4 h' %35
 		g2 r4 \once \slurDashed h8(\p g)
-		fis( a g h) \appoggiatura h a4^\critnote \once \slurDashed g8( fis)
+		fis( a) g( h) \appoggiatura h a4^\critnote \once \slurDashed g8( fis)
 		g2 r4 d\f
 		g2 d4 h'
 		g2 r4 \once \slurDashed h8(\p g) %40
-		\once \slurDashed fis( a g h) \appoggiatura h a4 \once \slurDashed g8( fis)
+		\slurDashed fis( a) g( h) \slurSolid \appoggiatura h a4 \once \slurDashed g8( fis)
 		g4 g\f h d
 		g g, h d
 		g h,\p h h
 		c c c c %45
 		h h h h
 		c c c c
-		h h h h\f
-		h h2 h4
+		h h h h
+		h\f h2 h4
 		c c2 c4 %50
 		h h2 h4
 		c c2 c4
@@ -93,21 +93,21 @@ KyrieViolinoII = {
 		h h a a
 		d, fis8 d a'4 fis8 d
 		<a e' a>4 q q2 %85
-		fis''2\p d8 e fis g
+		fis''2\p \once \slurDashed d8( e fis g)
 		fis4 \tuplet 3/2 4 { g8 fis e } d4 \once \slurDashed fis8( d)
-		\once \slurDashed	 cis( e d fis) \appoggiatura fis e4 d8 cis
+		\slurDashed	cis( e) d( fis) \slurSolid \appoggiatura fis e4 \once \slurDashed d8( cis)
 		\once \slurDashed cis2( d4) r
-		fis,2 d8 e fis g %90
+		fis,2 \once \slurDashed d8( e fis g) %90
 		fis4 \tuplet 3/2 4 { g8 fis e } d4 d
-		\once \slurDashed cis8( e d fis) \appoggiatura fis e4 d8 cis
+		\slurDashed cis8( e) d( fis) \slurSolid \appoggiatura fis e4 \once \slurDashed d8( cis)
 		d4 fis fis fis
 		g g g g
 		fis fis fis fis %95
 		g g g g
-		fis fis fis a8 fis
-		fis e g e e d fis d
-		d4\trill cis r2
-		e'4 e2 e4 %100
+		fis fis fis \slurDashed a8( fis)
+		fis( e) g( e) e( d) fis( d)
+		d4(\trill cis) \slurSolid r2
+		e'4\f e2 e4 %100
 		d d2 d4
 		e e2 e4
 		d d2 d4
@@ -135,9 +135,9 @@ KyrieViolinoII = {
 		R1 %125
 		fis4 \appoggiatura cis'16 h8-\critnote a16 g fis4 \appoggiatura cis'16 h8-\critnote a16 g
 		fis4 \appoggiatura a16 g8 fis16 e d4 \appoggiatura fis16 e8 d16 cis
-		d4 h'8(-\critnote g) a( fis g e)
+		d4 h'8(-\critnote g) a( fis) g( e)
 		\once \tieDashed d'1~
-		d4 h8( g) a( fis g e) %130
+		d4 h8( g) a( fis) g( e) %130
 		d'4 d2 d4
 		d d2 d4
 		c! c2 c4
@@ -149,9 +149,9 @@ KyrieViolinoII = {
 		g g fis fis g g gis gis
 		a a gis gis a a ais ais %140
 		h2 c!4 ais
-		h \slurDashed fis'8( a) a( g g fis) \slurSolid
-		g4 c,! h ais
-		h dis8( fis) fis( e e dis)
+		h \slurDashed dis8(^\critnote fis) fis( e) e( dis) \slurSolid
+		e4 c! h ais
+		h dis8( fis) fis( e) e( dis)
 		e4 c! h ais %145
 		h dis, dis r
 		r e\p e d'!
@@ -167,7 +167,7 @@ KyrieViolinoII = {
 		r a a a
 		r g g g
 		r g g g
-		fis fis'-! fis( e) %160
+		fis fis' fis( e) %160
 		e( d) d( c)
 		c( h) h( a)
 		a( g) g( fis)
@@ -193,27 +193,27 @@ KyrieViolinoII = {
 		q2 r
 		h'\p \once \slurDashed g8( a h c)
 		h4 \tuplet 3/2 4 { c8 h a } g4 g %185
-		fis8( a g h) \appoggiatura h a4 \once \slurDashed g8( fis)
+		fis8( a) g( h) \appoggiatura h a4 \once \slurDashed g8( fis)
 		fis2( g4)^\critnote r
 		h2 \once \slurDashed g8( a h c)
-		h4 \appoggiatura d16 c8^\critnote h16 a g4 h8 g
-		fis8( a g h) \appoggiatura h a4 g8 fis %190
-		\once \slurDashed fis2( g4) r
+		h4 \appoggiatura d16 c8^\critnote h16 a g4 \once \slurDashed h8( g)
+		fis8( a) g( h) \appoggiatura h a4 \slurDashed g8( fis) %190
+		fis2( g4) \slurSolid r
 		r c c c
 		r h h h
 		r c c c
-		r h h h\f %195
-		h h2 h4
+		r h h h %195
+		h\f h2 h4
 		c c2 c4
 		h h2 h4
 		c c2 c4
 		h f\p f f %200
-		e\f e'2 d8 c
+		e\f e'2 \once \slurDashed d8( c)
 		h4 \appoggiatura d16 c8 h16 a g4 \appoggiatura h16 a8 g16 fis
 		g2 h4 d
 		g g, h d
 		g f,\p f f %205
-		e\f e'2 d8 c
+		e\f e'2 \once \slurDashed d8( c)
 		h4 \appoggiatura d16 c8 h16 a g4 \appoggiatura h16 a8 g16 fis
 		g2 r4 h
 		g2 d4 h'

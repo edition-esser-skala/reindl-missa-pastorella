@@ -55,8 +55,8 @@ KyrieViola = {
 		g g g g %45
 		g g g g
 		g g g g
-		g g g g\f
-		g g2 g4
+		g g g g
+		g\f g2 g4
 		a a2 a4 %50
 		g g2 g4
 		a a2 a4
@@ -121,10 +121,10 @@ KyrieViola = {
 		d a\pE a a
 		g\fE g g g
 		a g a a,
-		<fis' a>1
-		q %115
-		q
-		q
+		\tieDashed <fis' a>1~
+		q~ %115
+		q~
+		q \tieSolid
 		d4 d d d
 		d g a a,
 		d d g g %120
@@ -202,8 +202,8 @@ KyrieViola = {
 		g g g g
 		g g g g
 		g g g g
-		g g g g\f %195
-		g g2 g4
+		g g g g %195
+		g\f g2 g4
 		a a2 a4
 		g g2 g4
 		a a2 a4
@@ -230,9 +230,9 @@ KyrieViola = {
 		d d d d %220
 		g, g g g
 		g c d2
-		<h d>1
-		q
-		q %225
+		\once \tieDashed <h d>1~
+		q~
+		q~ %225
 		q2 r \bar "|." %226 FINIS
 	}
 }

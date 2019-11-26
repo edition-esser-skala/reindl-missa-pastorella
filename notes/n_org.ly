@@ -52,8 +52,8 @@ KyrieOrgano = {
 		g g g g %45
 		g g g g
 		g g g g
-		g g g \mvTr g\f-\tuttiE
-		g h8 g d'4 h8 g
+		g g g g
+		\mvTr g\f-\tuttiE h8 g d'4 h8 g
 		d4 fis8 d a'4 fis8 d %50
 		g4 h8 g d'4 h8 g
 		d4 fis8 d a'4 fis8 d
@@ -143,7 +143,7 @@ KyrieOrgano = {
 		h2-! r
 		r4 c!-! h-! ais-! %145
 		h h, h r
-		\clef "treble_8" r \mvTr e\p-\vlcE-\soloE e e
+		\clef "treble_8" r \mvTr e\p-\org-\soloE e e
 		r gis gis gis
 		a2 r
 		r4 d, d d %150
@@ -186,8 +186,8 @@ KyrieOrgano = {
 		g g g g
 		g g g g
 		g g g g
-		g g g \mvTr g\f-\tuttiE %195
-		g h8 g d'4 h8 g
+		g g g g %195
+		\mvTr g\f-\tuttiE h8 g d'4 h8 g
 		d4 fis8 d a'4 fis8 d
 		g4 h8 g d'4 h8 g
 		d4 fis8 d a'4 fis8 d
