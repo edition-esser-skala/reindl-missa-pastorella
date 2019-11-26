@@ -21,15 +21,21 @@ Kyrie
 93  fl 1  bar in Ms: r1
 93  fl 2  bar in Ms: r1
 101 A last quarter in Ms: b′4
+104 cor 1 bar in Ms: d″1
+109 cor 1 1st half of bar in Ms: g″4–r4
 113 vl 1  grace note missing in Ms
 118 fl 1, vl 1, 2  grace notes missing in Ms
 119 vl 1  grace note missing in Ms
+122 cor 1   1st half of bar in Ms: g′4–r4
 126 fl 1, vl 2  grace notes missing in Ms
 128 vl 2  2nd quarter in Ms: g′–e′
 142 vl 2  in Ms unison with vl 1
 150 vl 2  1st half of bar in Ms: fis′2
+164 cor 2 bar in Ms: c′2–c′2
 168 vla 1st quarter in Ms: a4
 186 fl 1, vl 1  grace note missing in Ms
 189 fl 1, 2, vl 1, 2, A  grace note missing in Ms
+209 cor 2 bar in Ms: c′2–c′2
+211 cor 1 bar in Ms: g′2–g′2
 215 vl 1  1st quarter in Ms: g′4
 219 T last quarter in Ms: c′4
