@@ -29,7 +29,7 @@ KyrieAltoNotes = {
 		h8([ a c a)] a([ g)] h([ g)]
 		g4 fis r2
 		R1*2 %25
-		\mvTr h,4(\fE^\tuttiE e8[ c] d[ h)] c([ a)]
+		\mvDll h,4(\fE^\tuttiE e8[ c] d[ h)] c([ a)]
 		\once \tieDashed g'1~
 		g4 e8([ c)] d([ h c a)]
 		g'2 r
@@ -49,7 +49,7 @@ KyrieAltoNotes = {
 		g g, h( d)
 		g2 r
 		R1*3 %47
-		r2 r4 g
+		r2 r4 \mvTr g\fE^\tuttiE
 		g1
 		fis %50
 		g
@@ -58,7 +58,7 @@ KyrieAltoNotes = {
 		g
 		fis2 r %55
 		R1*11 %66
-		r4 d fis( a)
+		r4 \mvTr d\fE^\tuttiE fis( a)
 		d d, fis( a)
 		d2 r4 fis,
 		a1 %70
@@ -136,7 +136,7 @@ KyrieAltoNotes = {
 		r4 c! h( ais) %145
 		h2 r
 		R1*17 %163
-		\mvTr h,4(\fE^\tuttiE e) d( c)
+		\mvDll h,4(\fE^\tuttiE e) d( c)
 		h r r2 %165
 		r4 e d( c)
 		h r r2

@@ -31,7 +31,7 @@ KyrieSopranoNotes = {
 		R1*4 %13
 		d'4. d8 h([ c)] d([ e)]
 		d4( \tuplet 3/2 4 { e8[ d c]) } h4 g'8([ h,)] %15
-		a([ c)] h d \appoggiatura d8 c4( h8[ a)]
+		a([ c)] h d \appoggiatura d8\once \stemUp c4( h8[ a)]
 		a2( h4) r8 d^\critnote
 		\stemUp \tuplet 3/2 4 { c8([ g c] e[ c e]) } \stemNeutral g4 r8 c,
 		\stemUp \tuplet 3/2 4 { h([ g h] d[ h d]) } \stemNeutral g4 r8 d^\critnote
@@ -40,7 +40,7 @@ KyrieSopranoNotes = {
 		d8([ c e c)] c([ h)] g'([ h,)]
 		h4 a r2
 		R1*2 %25
-		\mvTr g1~\fE^\tutti
+		\mvDll g1~\fE^\tutti
 		g4 e'8[ c] d[ h] c([ a)]
 		g'1~
 		g4 e8([ c)] d([ h c a)]
@@ -71,7 +71,7 @@ KyrieSopranoNotes = {
 		h
 		a2 r %55
 		R1*11 %66
-		r4 d, fis( a)
+		r4 \mvTr d,\fE^\tuttiE fis( a)
 		d d, fis( a)
 		d2 r4 d
 		c!1 %70
@@ -91,7 +91,7 @@ KyrieSopranoNotes = {
 		d1
 		cis2 r %85
 		R1*14 %99
-		g'2. g4 %100
+		\mvTr g'2.\fE^\tuttiE g4 %100
 		fis2 r4 fis
 		g1
 		fis2 r
@@ -153,7 +153,7 @@ KyrieSopranoNotes = {
 		c a' \tuplet 3/2 4 { a8[ g fis] e[ d c] }
 		\appoggiatura h4 a2 r %160
 		R1*3
-		\once \tieDashed \mvTr g1~\fE^\tutti
+		\once \tieDashed \mvDll g1~\fE^\tutti
 		g4 e'8[ c] d[ h] c([ a)] %165
 		g'1~
 		g4 e8([ c)] d([ h c a)]

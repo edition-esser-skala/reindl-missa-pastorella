@@ -30,7 +30,7 @@ KyrieFlautoI = {
 		a( c) h( d) \slurSolid \appoggiatura d c4 \once \slurDashed h8( a)
 		h2^\critnote r
 		R1
-		r2 r4 \slurDashed g'8( h,) %40
+		r2 r4 \slurDashed g'8(\pE h,) %40
 		a( c) h( d) \slurSolid \appoggiatura d c4 \once \slurDashed h8( a)
 		h4 g\fE h d
 		g g, h d
@@ -55,7 +55,7 @@ KyrieFlautoI = {
 		a2 g4.\trillE fis16 g
 		fis4 r r2
 		R1*2
-		r4 \once \slurDashed c'8( d) c4 c %70
+		r4 \once \slurDashed c'8(\fE d) c4 c %70
 		h2 r
 		r4 \once \slurDashed d8( e) d4 d
 		cis2 r
@@ -71,7 +71,7 @@ KyrieFlautoI = {
 		a,2 \once \slurDashed fis8( g a h) %90
 		a4 \tuplet 3/2 4 { h8 a g } fis4 fis
 		\slurDashed e8( g) fis( a) \slurSolid \appoggiatura a g4 \once \slurDashed fis8( e)
-		fis4^\critnote r r2
+		fis4-\critnote r r2
 		r d''8( c!) c( h)
 		r2 a8( g) g( fis) %95
 		r2 d8( c!) c( h)

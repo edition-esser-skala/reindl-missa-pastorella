@@ -128,7 +128,7 @@ KyrieTenoreNotes = {
 		r4 c! h( ais) %145
 		h2 r
 		R1*17 %163
-		\once \tieDashed g1~
+		\once \tieDashed \mvDll g1~\fE^\tuttiE
 		g4 c h a %165
 		g1~
 		g4 c h( a)

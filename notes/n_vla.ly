@@ -6,7 +6,7 @@
 
 KyrieViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key g \major \time 2/2 \tempoKyrie
 		h4\p e d c
 		h r r2
@@ -233,6 +233,6 @@ KyrieViola = {
 		\once \tieDashed <h d>1~
 		q~
 		q~ %225
-		q2 r \bar "|." %226 FINIS
+		q2 r\fermata \bar "|." %226 FINIS
 	}
 }

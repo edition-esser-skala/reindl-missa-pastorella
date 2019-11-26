@@ -30,7 +30,7 @@ KyrieFlautoII = {
 		fis( a) g( h) \appoggiatura h a4 \once \slurDashed g8( fis)
 		g2 r
 		R1
-		r2 r4 \slurDashed h8( g) %40
+		r2 r4 \slurDashed h8(\pE g) %40
 		fis( a) g( h) \slurSolid \appoggiatura h a4 \once \slurDashed g8( fis)
 		g4 g\fE h d
 		g g, h d
@@ -55,7 +55,7 @@ KyrieFlautoII = {
 		fis2 e4.\trill d16 e
 		d4 r r2
 		R1*2
-		r4 a'8(-\critnote h) a4 a %70
+		r4 a'8(^\critnote\fE h) a4 a %70
 		g2 r
 		r4 \once \slurDashed h8( cis) h4 h
 		a2 r

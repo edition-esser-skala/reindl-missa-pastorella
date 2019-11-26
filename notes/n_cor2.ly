@@ -21,11 +21,11 @@ KyrieCornoII = {
 		c2 g4 e' %35
 		c2 r
 		R1
-		r2 r4 g
+		r2 r4 g\fE
 		c2 g4 e'
 		c2 r %40
 		R1
-		r4 c e g
+		r4 c\fE e g
 		c c, e g
 		c r r2
 		R1*2 %46
@@ -59,7 +59,7 @@ KyrieCornoII = {
 		g'2 r4 g
 		d' d8 d d2 %85
 		R1*14 %99
-		d1 %100
+		d1\fE %100
 		g,
 		g
 		g,

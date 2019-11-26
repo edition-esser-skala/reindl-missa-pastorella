@@ -29,7 +29,7 @@ KyrieBassoNotes = {
 		g g, h( d)
 		g2 r
 		R1*3 %47
-		r2 r4 g
+		r2 r4 \mvTr g\fE^\tuttiE
 		g1
 		d %50
 		g
@@ -111,7 +111,7 @@ KyrieBassoNotes = {
 		r4 c! h( ais) %145
 		h2 r
 		R1*17 %163
-		g4( c) h( a)
+		\mvDll g4(\fE^\tuttiE c) h( a)
 		g1~ %165
 		g4 c h( a)
 		g2 r
@@ -130,7 +130,7 @@ KyrieBassoNotes = {
 		c h a g
 		d'2 r
 		R1*12 %194
-		r2 r4 g %195
+		r2 r4 \mvTr g\fE^\tuttiE %195
 		g1
 		d
 		g
