@@ -3,3 +3,11 @@
 % To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/.
 
 \version "2.18.0"
+
+GloriaTrombaI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 6/8 \tempoGloria
+		
+	}
+}

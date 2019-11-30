@@ -341,6 +341,18 @@ KyrieTenoreLyrics = \lyricmode {
 	son. %226 FINIS
 }
 
+GloriaTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key d \major \time 6/8 \autoBeamOff \tempoGloria
+		
+	}
+}
+
+GloriaTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

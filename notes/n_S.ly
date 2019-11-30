@@ -410,6 +410,18 @@ KyrieSopranoLyrics = \lyricmode {
 	son. %226 FINIS
 }
 
+GloriaSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 6/8 \autoBeamOff \tempoGloria
+		
+	}
+}
+
+GloriaSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

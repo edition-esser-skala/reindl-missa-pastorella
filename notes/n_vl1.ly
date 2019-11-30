@@ -236,11 +236,19 @@ KyrieViolinoI = {
 		<g, d' h' g'>2 r\fermata \bar "|." %226 FINIS
 	}
 }
-% \tuplet 3/2 4 { }
+
+GloriaViolinoI = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 6/8 \tempoGloria
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble
-%
-%
+%		
+%		
 % 	}
 % }

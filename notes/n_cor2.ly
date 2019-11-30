@@ -160,3 +160,11 @@ KyrieCornoII = {
 		c2-\critnote r\fermata \bar "|." %226 finis
 	}
 }
+
+GloriaCornoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 6/8 \tempoGloria
+		
+	}
+}

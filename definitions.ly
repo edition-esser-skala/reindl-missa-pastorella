@@ -226,6 +226,7 @@ tempoMarkup =
 %
 
 tempoKyrie = \tempoMarkup "Allegro"
+tempoGloria = \tempoMarkup "Allegro"
 
 
 

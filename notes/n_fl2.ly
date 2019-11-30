@@ -158,3 +158,11 @@ KyrieFlautoII = {
 		g2 r\fermata \bar "|." %226 finis
 	}
 }
+
+GloriaFlautoII = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 6/8 \tempoGloria
+		
+	}
+}
