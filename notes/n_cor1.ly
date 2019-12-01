@@ -165,7 +165,7 @@ GloriaCornoI = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 6/8 \tempoGloria
-		c'2.~\pE
+		c'2.~\p
 		\tieDashed c~
 		c~
 		c4 \tieSolid r8 r4 r8
@@ -173,7 +173,7 @@ GloriaCornoI = {
 		c4 r8 r4 r8
 		g g g g g g
 		c c e g e g
-		c4.\fE g
+		c4.\f g
 		e c %10
 		d4 e8 f e d
 		e4 f8 g4 r8
@@ -181,7 +181,7 @@ GloriaCornoI = {
 		c~
 		c~ %15
 		c
-		c'4.\fE g
+		c'4.\f g
 		e c
 		d4 e8 f e d
 		e4 f8 g4 r8 %20
@@ -227,15 +227,15 @@ GloriaCornoI = {
 		g
 		g
 		R %70
-		g4. fis
+		g8 g g fis fis fis
 		g2.
 		g4 r8 r4 r8
-		g,2.
+		\once \tieDashed g,2.~
 		g %75
 		R2.*2
 		g'4. fis
 		R2.*2 %80
-		d4. fis
+		\pao d4. fis
 		g2.
 		d
 		d
