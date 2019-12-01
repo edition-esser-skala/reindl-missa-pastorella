@@ -293,9 +293,9 @@ GloriaViolinoI = {
 		<a a'>4. <a fis'>4 a'8 %50
 		<a, g'>4. <a e'>4 g'8
 		fis4 d8 cis4 d8
-		e4 a8 a,4 a'8
+		e4 a8 a,4 a'8\pE
 		gis( a) fis-! e( cis) a'-!
-		gis( a) fis-! e( cis) a'-! %55
+		gis( a) fis-! e( cis) a'-!\fE %55
 		gis( a) e-! eis( fis) d-!
 		fis4. e4 r8
 		e8\p e e fis fis fis

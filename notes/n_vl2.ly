@@ -294,8 +294,8 @@ GloriaViolinoII = {
 		e4 cis8 a cis e
 		d fis a a a a
 		cis4 a'8 a,4 r8
-		r4 d8-! cis( a) r
-		r4 d,8-! cis([ a)] a'' %55
+		r4 d8-!\pE cis( a) r
+		r4 d,8-! cis([ a)] a''\fE %55
 		gis( a) e-! eis( fis) d-!
 		d4. cis4 r8
 		cis\p cis cis d d d
