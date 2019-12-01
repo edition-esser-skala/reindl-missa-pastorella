@@ -373,12 +373,274 @@ GloriaAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key d \major \time 6/8 \autoBeamOff \tempoGloria
-		
+		\mvTr d4.\pE^\solo cis
+		d e
+		fis g4 e8
+		fis4. fis4 a8
+		a([ fis)] a g([ e g)] %5
+		fis4. fis4 a8
+		a([ fis)] a g([ e g)]
+		fis4 r8 r4 r8
+		\mvTr d'4\fE^\tuttiE d8 a4.
+		fis4 fis8 d4 r8 %10
+		a'4 a8 h4^\critnote a8
+		a4. a4 r8
+		fis4. g
+		a( h8[ g)] e
+		fis4. g %15
+		a( h8[ g)] e
+		d'4 d8 a4.
+		fis4 fis8 d4 r8
+		a'8. a16 a8 a4 a8
+		a4. a4 r8 %20
+		\mvTr g4.~\pE^\soloE g8[ h] g
+		\once \tieDashed fis4.~ fis8[ a] fis
+		fis4.( e)
+		d4 r8 r4 r8
+		g4.~ g8[ h] g %25
+		\once \tieDashed fis4.~ fis8[ a] fis
+		fis4.( e)
+		d4 r8 r4 r8
+		R2.
+		r4 r8 r r \mvTr d'(\fE^\tuttiE %30
+		cis4 h8) a4( g8)
+		fis4 e8 d4 a'8
+		a4 a8 a4 a8
+		a4 a8 a4 \once \tieDashed a8~
+		a4 a8 a4 a8 %35
+		a4. a4 r8
+		fis4( a8) a4.
+		a4 a8 a4.
+		a a
+		a4 a8 a4. %40
+		a2.
+		h
+		a4. a
+		h4 h8 a4 a8
+		a4. fis4 r8 %45
+		R2.
+		r4 r8 r r a
+		\once \tieDashed a4.~ a4 a8
+		a4 r8 r4 r8
+		R2. %50
+		r4 r8 r r cis16 cis
+		\once \tieDashed a4.~ a8. a16 a8
+		a4 r8 r4 r8
+		R2.*2 %55
+		r4 r8 a4 a8
+		a4 a8 a4 r8
+		a4.\p a
+		a a
+		a\f h4 h8 %60
+		h8[ e, gis] \once \tieDashed a4.~
+		a8[ d, fis] gis4 gis8
+		a4 e8 e4 e8
+		\tieDashed e2.~
+		e~ \tieSolid %65
+		e
+		e4 a8 a4 a8
+		\tieDashed a2.~
+		a~
+		a~ %70
+		a4. \tieSolid gis4 gis8
+		e4 r8 r4 r8
+		R2.*13 %85
+		cis4. d
+		e fis8. d16 h8
+		cis4. d
+		e fis8. d16 h8
+		a'2.~ %90
+		a4 a8 a4.
+		ais4 ais8 ais4.
+		fis fis4 r8
+		d4. e
+		fis g8. e16 cis8 %95
+		d4. e
+		fis g8. e16 cis8
+		d4( e8) fis4 r8
+		R2.
+		r4 r8 r r fis~ %100
+		fis4 fis8 fis4 h8
+		ais4 h8 ais4 r8
+		R2.
+		r4 r8 r r fis~
+		\once \tieDashed fis4.~ fis4 h16 h %105
+		ais4( h8) ais4 r8
+		fis4 fis8 g!4 g8
+		e4 e8 fis4 a8
+		h2.
+		a %110
+		g
+		fis4 a8 g[ e g]
+		fis4 a8 g[ e g]
+		\tieDashed fis2.~
+		fis4.~ fis8. \tieSolid fis16 fis8 %115
+		fis4. e4 r8
+		R2.*4 %120
+		fis4 fis8 g4.
+		a( h8[ g)] e
+		fis4. g
+		a( h8[ g)] e
+		d'4. a %125
+		fis d
+		a'4. h4 a8
+		a4 a8 a4 r8
+		R2.
+		r4 r8 r r a~ %130
+		a4. a4 a8
+		a4. a4 r8
+		R2.
+		r4 r8 r r a~
+		a4 a8 a4 a8 %135
+		a8([ h)] a a4 r8
+		a4.~ a4 a8
+		a4. a4 r8
+		a4 a8 a4.
+		a4 a8 a4 a8 %140
+		a4. a
+		a4 a8 a4.
+		a2.
+		h
+		a %145
+		h
+		a
+		fis4 r8 r4 r8
+		R2.*10 %158
+		R2.\fermataMarkup \bar "||" %159 finis
 	}
 }
 
 GloriaAltoLyrics = \lyricmode {
+	Glo -- _
+	_ _
+	_ _ ri --
+	a in ex --
+	cel -- sis De -- %5
+	o, in ex --
+	cel -- sis De --
+	o,
+	glo -- ri -- a,
+	glo -- ri -- a %10
+	in ex -- cel -- sis
+	De -- o,
+	in ex --
+	cel -- sis,
+	in ex -- %15
+	cel -- sis,
+	glo -- ri -- a,
+	glo -- ri -- a,
+	glo -- ri -- a in ex --
+	cel -- sis, %20
+	in __ ex --
+	cel -- sis
+	De --
+	o,
+	in __ ex -- %25
+	cel -- sis
+	De --
+	o.
 	
+	Et __ %30
+	in __
+	ter -- ra pax, in
+	ter -- ra pax ho --
+	mi -- ni -- bus bo --
+	nae vo -- lun -- %35
+	ta -- tis,
+	pax __ ho --
+	mi -- ni -- bus,
+	pax ho --
+	mi -- ni -- bus %40
+	bo --
+	_
+	_ nae,
+	bo -- nae vo -- lun --
+	ta -- tis. %45
+	
+	Lau --
+	da -- mus
+	te,
+	%50
+	be -- ne --
+	di -- ci -- mus
+	te,
+	
+	ad -- o -- %56
+	ra -- mus te,
+	ad -- o --
+	ra -- mus,
+	glo -- ri -- fi -- %60
+	ca -- _
+	_ mus
+	te, glo -- ri -- fi --
+	ca --
+	
+	mus, glo -- ri -- fi -- %67
+	ca --
+	
+	_ mus %71
+	te.
+	
+	Gra -- _ %86
+	_ _ ti -- as
+	a -- _
+	_ _ gi -- mus,
+	gra -- %90
+	ti -- as
+	a -- gi -- mus
+	ti -- bi,
+	gra -- _
+	_ _ ti -- as %95
+	a -- _
+	_ _ gi -- mus
+	ti -- bi
+	
+	pro -- %100
+	pter ma -- gnam
+	glo -- ri -- am,
+	
+	glo --
+	ri -- am %105
+	tu -- am,
+	pro -- pter ma -- gnam
+	glo -- ri -- am, glo --
+	_
+	_ %110
+	_
+	_ _ _
+	_ _ _
+	_
+	ri -- am %115
+	tu -- am.
+	
+	Do -- mi -- ne %121
+	De -- us,
+	Rex coe --
+	le -- stis,
+	De -- us %125
+	Pa -- ter,
+	Pa -- ter o --
+	mni -- po -- tens,
+	
+	Do -- %130
+	mi -- ne
+	Fi -- li,
+	
+	Fi --
+	li u -- ni -- %135
+	ge -- ni -- te,
+	Je -- su
+	Chri -- ste,
+	Do -- mi -- ne
+	De -- us, A -- gnus %140
+	De -- i,
+	Fi -- li -- us
+	Pa --
+	_
+	_
+	_
+	_
+	tris. %148 finis
 }
 
 % AltoNotes = {

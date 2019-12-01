@@ -539,7 +539,7 @@ GloriaSopranoNotes = {
 		fis4( d8) cis4 e8
 		d4 fis8 e4 g8 %140
 		fis4( d8) cis4( e8)
-		d4( fis8) e4 g8
+		d4 fis8 e4( g8)
 		\once \tieDashed fis2.~
 		\once \tieDashed fis~
 		fis %145
@@ -677,7 +677,7 @@ GloriaSopranoLyrics = \lyricmode {
 	Do -- mi -- ne
 	De -- us, A -- gnus %140
 	De -- i, __
-	Fi -- li -- us
+	Fi -- li -- us __
 	Pa --
 	
 	_ %146
