@@ -14,7 +14,7 @@ GloriaTrombaII = {
 		g'4 c8 d c g
 		c4 d8 e4 r8
 		R2.*4 %16
-		c4. g
+		c4.\fE g
 		e c
 		g'4 c8 d c g
 		c4 d8 e4 r8 %20
