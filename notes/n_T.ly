@@ -351,7 +351,7 @@ GloriaTenoreNotes = {
 		cis'4 d8 e([ d)] cis
 		d4( e8) fis4 r8
 		R2.*4 %16
-		d4 d8 a4.
+		d4\fE d8 a4.
 		fis4 fis8 d4.
 		cis'8. cis16 d8 e([ d)] cis
 		d4( e8) fis4 r8 %20

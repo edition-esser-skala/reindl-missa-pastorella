@@ -310,7 +310,7 @@ GloriaViolinoII = {
 		cis cis cis cis cis cis
 		cis cis cis cis cis cis
 		cis cis cis cis cis cis
-		cis cis cis cis cis cis %70
+		h^\critnote h h h h h %70
 		cis cis cis h h h
 		cis16( h cis d) cis8-! d16( cis d e) d8-!
 		e16( d e fis) e8-! fis d h

@@ -136,7 +136,7 @@
 % 	}
 	\bookpart {
 		\header {
-			movement = "2.1 KYRIE"
+			movement = "2.1 GLORIA"
 		}
 		\score {
 			<<
@@ -149,11 +149,11 @@
 						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "ex D" } }
 						\partcombine \GloriaCornoI \GloriaCornoII
 					>>
-					\new Staff {
+				>>
+				\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "Timpani" "ex d–A" } }
 						\GloriaTimpani
 					}
-				>>
 				\new StaffGroup <<
 					\new GrandStaff \with { \violinGroupDistance } <<
 						\new Staff {
@@ -175,25 +175,25 @@
 						\set Staff.instrumentName = "Soprano"
 						\new Voice = "Soprano" { \dynamicUp \GloriaSopranoNotes }
 					}
-% 					\new Lyrics \lyricsto Soprano \GloriaSopranoLyrics
-
+					\new Lyrics \lyricsto Soprano \GloriaSopranoLyrics
+					
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
 						\new Voice = "Alto" { \dynamicUp \GloriaAltoNotes }
 					}
-% 					\new Lyrics \lyricsto Alto \GloriaAltoLyrics
-
+					\new Lyrics \lyricsto Alto \GloriaAltoLyrics
+					
 					\new Staff {
 						\set Staff.instrumentName = "Tenore"
 						\new Voice = "Tenore" { \dynamicUp \GloriaTenoreNotes }
 					}
-% 					\new Lyrics \lyricsto Tenore \GloriaTenoreLyrics
-
+					\new Lyrics \lyricsto Tenore \GloriaTenoreLyrics
+					
 					\new Staff {
 						\set Staff.instrumentName = "Basso"
 						\new Voice = "Basso" { \dynamicUp \GloriaBassoNotes }
 					}
-% 					\new Lyrics \lyricsto Basso \GloriaBassoLyrics
+					\new Lyrics \lyricsto Basso \GloriaBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {

@@ -239,7 +239,7 @@ KyrieViola = {
 
 GloriaViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key d \major \time 6/8 \tempoGloria
 		d,8\p d d d d d
 		d d d d d d

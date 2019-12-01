@@ -330,7 +330,7 @@ GloriaBassoNotes = {
 		a'4 fis8 e4 a8
 		d4. d,4 r8
 		R2.*4 %16
-		d'4 d8 a4.
+		d'4\fE d8 a4.
 		fis4 fis8 d4 r8
 		a'8 a fis e4 a8
 		d4( a8) d,4 r8 %20
