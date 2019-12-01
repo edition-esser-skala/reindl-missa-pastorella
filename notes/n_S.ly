@@ -694,7 +694,7 @@ QuiTollisSopranoNotes = {
 		r4 r8\fermata d \bar "|.|" %185
 		g8.([ h32 a)] g8 d
 		g8.([ h32 a)] g8 d
-		d16[ g g h] h([ d)] g([ d)]
+		d16[( g) g( h)] h([ d)] g([ d)]
 		d([ c a c)] \appoggiatura c8 h4
 		R2*2 %191
 		d8 d4 d32([ c h c)]
@@ -709,19 +709,19 @@ QuiTollisSopranoNotes = {
 		d,4( cis16[ a)] cis([ a)]
 		e'8.([ fis16)] d4
 		h8([ g')] a,([ fis')]
-		a,16([ g e' g,)] \appoggiatura g8 fis4 %205
+		a,16([ g) e'( g,)] \appoggiatura g8 fis4 %205
 		\appoggiatura cis'16 h8 g'16([ h,)] h([ a)] fis'([ a,)]
-		a([ g e' g,)] \appoggiatura g8 fis4
+		a([ g) e'( g,)] \appoggiatura g8 fis4
 		d'8. a16 a([ fis)] fis([ d)]
 		d'8. a16 a([ fis)] fis([ d)]
 		d'([ a)] a([ c!)] c([ h)] g'([ e)] %210
 		d8.[ a16] e'4\trill
 		d r
 		R2
-		d16([ fis,)] fis([ a)] a[ d d a]
-		a[ g g e] e[ cis cis e] %215
-		d8 d'16 g, g([ fis fis e)]
-		d8 d'16 h h([ a a g)]
+		d16([ fis,)] fis([ a)] a[( d) d( a)]
+		a[( g) g( e)] e[( cis) cis( e)] %215
+		d8 d'16 g, g([ fis) fis( e)]
+		d8 d'16 h h([ a) a( g)]
 		fis8 d'16 a \tuplet 3/2 8 { h[( cis d)] e([ fis g)] }
 		fis8.([ e32 d)] e4\trill
 		d r %220
@@ -729,7 +729,7 @@ QuiTollisSopranoNotes = {
 		r4 r8 a
 		d8.([ fis32 e)] d8 a
 		d8.([ fis32 e)] d8 a
-		d,16[ fis fis a] a[ d] d([ a)]
+		d,16[( fis) fis( a)] a[( d]) d([ a)]
 		a([ g e g)] \appoggiatura g8 fis4^\critnote %240
 		a4. \appoggiatura a32 g16([ fis32 g)]
 		fis8 fis4 e8
@@ -737,7 +737,7 @@ QuiTollisSopranoNotes = {
 		\appoggiatura c32 h16([ a32 h)] a8 r d,
 		g8.([ h32 a)] g8 d %245
 		g8.([ h32 a)] g8 d
-		d16[ g g h] h[ d] g([ d)]
+		d16[( g) g( h)] h[( d]) g([ d)]
 		d([ c a c)] \appoggiatura c8 h4
 		d4. \appoggiatura d32 c16([ h32 c)]
 		h8 h4 a8 %250
@@ -745,11 +745,11 @@ QuiTollisSopranoNotes = {
 		h8 a r4
 		R2*2
 		r8 h16([ d)] d([ g)] g d %255
-		d([ c c a)] a([ fis)] fis([ a)]
+		d([ c) c( a)] a([ fis)] fis([ a)]
 		\tuplet 3/2 8 { h([ c d)] } d8 r d
-		g,4 fis!16[ a] a([ c)]
+		g,4 fis!16[( a]) a([ c)]
 		b8.([ a32 b)] a8 r16 d
-		g,4 fis!16[ a] a([ c)] %260
+		g,4 fis!16[( a]) a([ c)] %260
 		b8.([ a32 b)] a4
 		g'8. d16 d([ b)] b([ g)]
 		g'8. d16 d([ b)] b([ g)]
@@ -757,10 +757,10 @@ QuiTollisSopranoNotes = {
 		cis?16([ d)] d,8 r4 %265
 		R2*2
 		r4 r8 d'
-		c16([ h! h d)] d([ c)] c([ e)]
+		c!16([ h!) h( d)] d([ c)] c([ e)]
 		e([ d)] d([ f)] e8 e %270
-		d16([ cis cis e)] e([ d)] d([ fis)]
-		fis([ e e g)] \appoggiatura g8 fis4^\critnote
+		d16([ cis) cis( e)] e([ d)] d([ fis)]
+		fis([ e) e( g)] \appoggiatura g8 fis4^\critnote
 		r8 g([ e)] c!
 		r fis([ d)] h
 		r e([ c)] a %275
@@ -771,7 +771,7 @@ QuiTollisSopranoNotes = {
 		\tuplet 3/2 8 { h16([ c d)] e([ fis g)] } a,8.([ h32 c)]
 		\tuplet 3/2 8 { h16[ c d] e[ fis g] } a,8.([ h32 c)]
 		h8 g'16([ c,)] c([ h)] h([ a)]
-		g8 g'16 e e([ d d c)]
+		g8 g'16 e e([ d) d( c)]
 		h8 g'16 d dis([ e)] c([ a)] %285
 		g8.[ d16] a'4\trill
 		\appoggiatura a8 g4 r \bar "||" %287 finis

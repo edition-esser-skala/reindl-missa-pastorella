@@ -751,9 +751,9 @@ QuiTollisOrganoR = {
 		\slurDashed d16( g) g( h) h( d) d( g) 
 		d( c a c) \slurSolid \appoggiatura c8 h4
 		R2*2
-		\voiceOne d8 d4 d32 c h c %155
-		h8 h4 h32 a g a \oneVoice
-		g16( h d g) d( c) g'( h,)
+		\voiceOne d8 d4 \once \slurDashed d32( c h c) %155
+		h8 h4 \once \slurDashed h32( a g a) \oneVoice
+		g16( h) d( g) d( c) g'( h,)
 		<< { h8[\trillE a] } \\ { g[ fis] } >> r4
 		R2
 		r4 r8 a' %160
@@ -782,10 +782,10 @@ QuiTollisOrganoR = {
 		R2*2
 		R2\fermataMarkup \bar "|.|" %185
 		R2*3
-		<< { d'16 c a c \appoggiatura c8 h4 } \\ { h16 a fis a \appoggiatura a8 g4 } >>
+		<< { \once \slurDashed d'16( c a c) \appoggiatura c8 h4 } \\ { \once \slurDashed h16( a fis a) \appoggiatura a8 g4 } >>
 		R2*2 %191
-		\voiceOne d'8 d4 d32 c h c
-		h8 h4 h32 a g a \oneVoice
+		\voiceOne d'8 d4 \once \slurDashed d32( c h c)
+		h8 h4 \once \slurDashed h32( a g a) \oneVoice
 		g8 r r4
 		r32 d e fis g a h cis d4 %195
 		R2
@@ -794,7 +794,7 @@ QuiTollisOrganoR = {
 		d4 cis16( a) cis( a)
 		\once \slurDashed e'8.( fis16) d4
 		\voiceOne h8 g' a, fis' \oneVoice
-		\once \slurDashed a,16( g e' g,) \appoggiatura g8 fis4 %205
+		\slurDashed a,16( g) e'( g,) \slurSolid \appoggiatura g8 fis4 %205
 		\voiceOne h8 g' a, fis' \oneVoice
 		a, g fis4
 		<< {
@@ -821,13 +821,13 @@ QuiTollisOrganoR = {
 		cis32[ d a fis] ais' h g e fis[ a? fis d] e g e cis
 		\appoggiatura cis8 d4 r
 		R2*7 %240
-		a8 a4 a32 g fis g
-		fis8 fis4 fis32 e d e
+		a8 a4 \once \slurDashed a32( g fis g)
+		fis8 fis4 \once \slurDashed fis32( e d e)
 		d4 r
 		r32 g, a h c! d e fis g4
 		R2*4 %248
-		\voiceOne d'8 d4 d32 c h c
-		h8 h4 h32 a g a \oneVoice %250
+		\voiceOne d'8 d4 \once \slurDashed d32( c h c)
+		h8 h4 \once \slurDashed h32( a g a) \oneVoice %250
 		g4 r
 		r32 d e fis g a h cis d4
 		R2*5 %257
@@ -847,7 +847,7 @@ QuiTollisOrganoR = {
 		g32[ fis a fis] d16 c' c32[ h d h] g8
 		R2*2
 		d'8 \noBeam \appoggiatura a'32 g16 fis32 e d8 \noBeam \appoggiatura a'32 g16 fis32 e
-		d16 e c h a8 r %280
+		\once \slurDashed d16( e c h) a8 r %280
 		R2*6 %286
 		r4 r8 fis \markDaCapo \bar "||" %287 finis
 	}
@@ -999,7 +999,65 @@ QuiTollisOrganoL = {
 }
 
 QuiTollisBassFigures = \figuremode {
-
+	r2*10 %158
+	<6>2
+	<6 4>8 <5 3>4. %160
+	r2
+	<7>
+	r
+	<6 4>
+	r %165
+	<7>
+	r2*17 %183
+	r4 <6 4>8 <5 3>
+	r2*11 %195
+	<6>2
+	r
+	r8 <7 _+>4.
+	r2
+	r8 <7 _+>4. %200
+	r2*9 %209
+	r8 <6 5!> r4 %210
+	<6 4> <5 _+>
+	r8 <6> r q
+	<6\\> <6> <_+> <6>
+	r <6> r q
+	<6\\> <6> <_+> <6> %215
+	r <6> <6 4> <6 5>
+	<6> r <6> <7>
+	r <6> r4
+	<6 4> <5 _+>
+	r2*15 %234
+	r4 <6 4>8 <5 _+> %235
+	r2*4
+	<6>8 <_+>4. %240
+	r2*7 %247
+	<6>2
+	r2*4 %252
+	r8 <6> r q
+	q q r q
+	r q r q %255
+	q q r q
+	r2*5 %261
+	<_->2
+	q
+	r8 <8 5-> \bassFigureExtendersOn <7 5-> <6\\ 5-> \bassFigureExtendersOff
+	<_+>2 %265
+	r
+	r4. <7->8
+	<6- 4> <5 _+>4.
+	<_!>8 <2> <6>4
+	<6 4>8 <5 3> r4 %270
+	<_+>8 <\t> <6>4
+	<6 4>8 <5 _+> <9 4> <8 3>
+	r2*8 %280
+	r4. <7>8
+	r4. q8
+	r <6> <6 4> <6 5>
+	<6> r <6> <7>
+	r <6>4.
+	<6 4>4 <5 3>
+	r2
 }
 
 QuiTollisViolone = {
@@ -1037,30 +1095,30 @@ QuiTollisViolone = {
 		g g g g
 		g4 r
 		d g,
-		d' r %190
+		d'\fE r %190
 		d8 d g,4
 		R2*2
-		h'8 g fis g
+		h'8\pE g fis g
 		r16 d-! fis-! a-! d4 %195
-		fis,8 r g r
+		fis,8\fE r g r
 		r16 d fis a d4
-		r8 a a a
+		r8 a\pE a a
 		r d, d d
 		r a' a a %200
 		r d, d d
 		R2*8 %209
 		d8 fis g e %210
 		a4 a,
-		d8 fis d fis
+		d8\fE fis d fis
 		e cis a cis
-		d fis d fis
+		d\pE fis d fis
 		e cis a cis %215
 		d h' a g
 		fis g fis e
 		d fis g e
 		a4 a,
 		R2*9 %228
-		d8 g a a,
+		d8\fE g a a,
 		d2 %230
 		d
 		d8 g a a,
@@ -1068,7 +1126,7 @@ QuiTollisViolone = {
 		d
 		d8 g a a, %235
 		d a d4
-		d8 d d d
+		d8\pE d d d
 		d d d d
 		d4 r
 		cis8 a d4 %240
@@ -1082,9 +1140,9 @@ QuiTollisViolone = {
 		R2*2 %250
 		h8 g fis g
 		r16 d fis a d,4
-		g8 h g h
+		g8\fE h g h
 		a fis d fis
-		g h g h %255
+		g\pE h g h %255
 		a fis d fis
 		g g, r4
 		R2*4 %261
@@ -1092,10 +1150,10 @@ QuiTollisViolone = {
 		g
 		r8 es es es
 		d4 r %265
-		r8 fis! g4
+		r8 fis!\fE g4
 		r8 fis! g cis,
 		d d r4
-		g8 f e c
+		g8\pE f e c
 		g' g, c4 %270
 		a'8 g fis! d
 		a' a, d4
