@@ -407,7 +407,152 @@ QuiTollisViolinoI = {
 	\relative c' {
 		\clef treble
 		\twofourtime \key g \major \time 2/4 \tempoQuiTollis
-		
+			\set Score.currentBarNumber = #149
+		g'8.(\fE h32 a) g8 d
+		g8.( h32 a) g8 d %150
+		d16( g) g( h) h( d) d( g)
+		d( c a c) \appoggiatura c8 h4^\critnote
+		\appoggiatura h16 a8. c16 \appoggiatura c h8. d16
+		d( c a c) h4
+		d8 d4 d32( c h c) %155
+		h8 h4 h32( a g a)
+		g16( h d g) d( c) g'( h,)
+		h8\trill a r g'16.( h32)
+		d,8([ c16) r32 a'-!] c,8([ h16) r32 g'-!]
+		h,8 a r4 %160
+		r8 fis'-!\pE r fis-!
+		a-!\fE c,( h a)
+		r g'-\parenthesize-!\pE r g-\parenthesize-!
+		h-\parenthesize-!\fE d,( c h)
+		r fis'-\parenthesize-!\pE r fis-\parenthesize-! %165
+		a-\parenthesize-!\fE c,( h a)
+		h \noBeam \appoggiatura a'32 g16 fis32 e d8 \noBeam \appoggiatura a'32 g16 fis32 e
+		\once \slurDashed d16( e c h) a8 r
+		h \noBeam \appoggiatura a'32 g16 fis32 e d8 \noBeam \appoggiatura a'32 g16 fis32 e
+		d16( e c h) a8 r %170
+		h4 r8 \appoggiatura d32 c16 h32 c
+		h4 r8 \appoggiatura h'32 a16 g32 a
+		g4 r
+		h,16 d c h a fis g a
+		h d c h a fis g a %175
+		h2
+		g'
+		r8 c, h a
+		g4 a8 a
+		g g a a %180
+		g4 r
+		g'8 h16. d32 d,8 fis16. a32
+		g8 h16. d32 d,8 fis16. a32
+		g16( d) d( c) c( h) h( a)
+		a4 g8 r\fermata \bar "|.|" %185
+		g16\p g g g g g g g
+		g g g g g g g g
+		g4 r8 d'
+		d16( c a c) \appoggiatura c8 h4
+		\appoggiatura h16 a8. c16 \appoggiatura c h8. d16 %190
+		d( c a c) \appoggiatura c8 h4^\critnote
+		d8 d4 \appoggiatura d32 c16 h32 c
+		h8 h4 \appoggiatura h32 a16 g32 a
+		g4 r8 h
+		h a r h' %195
+		d,8([ c16) r32 a'-!] c,8([ h16) r32 g'-!]
+		h,8 a r4
+		r8 g' g g
+		r fis fis fis
+		r g g g %200
+		r fis fis fis
+		d4( cis8) r
+		e4( d8) r
+		r g r fis
+		a,16( g e' g,) \appoggiatura g8 fis4 %205
+		r8 g' r fis
+		a,16( g e' g,) \appoggiatura g8 fis4
+		<< {
+			\oneVoice d''2~
+			d
+			R2*2 %211
+		} \\ {
+			\oneVoice s2\startTrillSpan
+			s
+			s\stopTrillSpan %210
+			s
+		} >>
+		r16 fis,-! fis( a) a( d) d( a)
+		a( g) g( e) e( cis) cis( g')
+		fis( fis,) fis( a) a( d) d( a)
+		a( g) g( e) e( cis) cis( e) %215
+		d8 d'16( g,) g( fis) fis( e)
+		d8 d'16( h) h( a) a( g)
+		fis8 d' h g'
+		fis fis e e
+		d a a a %220
+		r a a a
+		a' \noBeam \appoggiatura e'32 d16^\critnote cis32 h a8 \appoggiatura e'32 d16^\critnote cis32 h
+		a16 h g fis e8 r
+		fis4 r8 g16 fis32 g
+		fis4 r8 g16 fis32 g %225
+		fis4 r
+		fis16 a g fis e cis d e
+		fis a g fis e cis d e
+		d8 e d cis
+		d d cis cis %230
+		d d cis cis
+		d r r4
+		d8 fis16. a32 a,8 cis16. e32
+		d8 fis16. a32 a,8 cis16. e32
+		d'16( a) a( g) g( fis) fis( e) %235
+		e4( d8) r
+		d16\pE d d d d d d d
+		d d d d d d d d
+		d4 r8 a
+		a16( g e g) \appoggiatura g8 fis4 %240
+		a8 a4 a32( g fis g)
+		fis8 fis4 \once \slurDashed fis32( e d e)
+		d8 d' d16( c! h c)
+		\appoggiatura c32 h16[^\critnote a32 h] a8 r4
+		g16 g g g g g g g %245
+		g g g g g g g g
+		g4 r8 g'16 d
+		d( c a c) \appoggiatura c8 h4
+		d8 d4 d32( c h c)
+		h8 h4 h32( a g a) %250
+		g16( h) d( g) d( c) g'( h,)
+		h8 a r d
+		c16( h) h( d) d( g) g( d)
+		d( c) c( a) a( fis) fis( a)
+		r h-! h( d) d( g) g( d) %255
+		d( c) c( a) a( fis) fis( a)
+		h[ c32 d] d8 r4
+		d16 d d d d d d d
+		d d d d d d d d
+		d d d d d d d d %260
+		d d d d d d d d
+		b d b d b d b d
+		b g' b, g' b, g' b, g'
+		r8 g g g
+		fis!4 r %265
+		r8 a g r
+		r a16( c,) \slurDashed c( b) g'( b,) \slurSolid
+		b8 a r4
+		c16( h!) h( d) d( c) c( e)
+		e( d) d( f) e4 %270
+		r8 e r fis
+		fis16( e) e( g) \appoggiatura g8 fis4
+		r8 g e g
+		g( fis) d( fis)
+		fis( e) c( e) %275
+		e d h4
+		d8 \noBeam \appoggiatura a'32 g16 fis32 e d8 \noBeam \appoggiatura a'32 g16 fis32 e
+		d16( e c h) a8 r
+		h d d d
+		r d d d %280
+		r4 a8.( h32 c)
+		h8 r a8.( h32 c)
+		h8 g'16( c,) c( h) h( a)
+		g8 g'16( e) e( d) d( c)
+		h8 g'16( d) dis( e) c( a) %285
+		h8 h a a
+		h r r4 \markDaCapo \bar "||" %287 finis
 	}
 }
 

@@ -691,7 +691,7 @@ QuiTollisSopranoNotes = {
 		\twofourtime \key g \major \time 2/4 \autoBeamOff \tempoQuiTollis
 			\set Score.currentBarNumber = #149
 		R2*36 %184
-		r4 r8\fermata d\pE^\soloE \bar "|.|" %185
+		r4 r8\fermata d \bar "|.|" %185
 		g8.([ h32 a)] g8 d
 		g8.([ h32 a)] g8 d
 		d16[ g g h] h([ d)] g([ d)]
@@ -760,7 +760,7 @@ QuiTollisSopranoNotes = {
 		c16([ h! h d)] d([ c)] c([ e)]
 		e([ d)] d([ f)] e8 e %270
 		d16([ cis cis e)] e([ d)] d([ fis)]
-		fis([ e e g)] fis4
+		fis([ e e g)] \appoggiatura g8 fis4^\critnote
 		r8 g([ e)] c!
 		r fis([ d)] h
 		r e([ c)] a %275

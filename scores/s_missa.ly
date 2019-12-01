@@ -244,13 +244,13 @@
 					}
 				>>
 				\new Staff {
-					\set Staff.instrumentName = "Soprano"
+					\set Staff.instrumentName = \markup { \center-column { "Soprano" "solo" } }
 					\new Voice = "Soprano" { \dynamicUp \QuiTollisSopranoNotes }
 				}
 				\new Lyrics \lyricsto Soprano \QuiTollisSopranoLyrics
 				\new StaffGroup <<
 					\new PianoStaff <<
-						\set PianoStaff.instrumentName = "Organo"
+						\set PianoStaff.instrumentName = \markup { \center-column { "Organo" "solo" } }
 						\new Staff = "RH" { \QuiTollisOrganoR }
 						\new Staff = "LH" { \QuiTollisOrganoL }
 					>>
@@ -266,7 +266,7 @@
 				>>
 			>>
 			\layout { }
-			\midi { \tempo 4 = 80 }
+			\midi { \tempo 4 = 60 }
 		}
 	}
 }

@@ -748,13 +748,13 @@ QuiTollisOrganoR = {
 			\set Score.currentBarNumber = #149
 		g'8.(\fE h32 a) g8 d
 		g8.( h32 a) g8 d %150
-		d16 g g h h d d g
-		d c a c \appoggiatura c8 h4
+		\slurDashed d16( g) g( h) h( d) d( g) 
+		d( c a c) \slurSolid \appoggiatura c8 h4
 		R2*2
 		\voiceOne d8 d4 d32 c h c %155
 		h8 h4 h32 a g a \oneVoice
 		g16( h d g) d( c) g'( h,)
-		<< { h8[ a] } \\ { g[ fis] } >> r4
+		<< { h8[\trillE a] } \\ { g[ fis] } >> r4
 		R2
 		r4 r8 a' %160
 		\voiceOne g32[ fis a fis] d8 g32[ fis a fis] d8 \oneVoice
@@ -764,9 +764,9 @@ QuiTollisOrganoR = {
 		\voiceOne g32[ fis a fis] d8 g32[ fis a fis] d8 \oneVoice %165
 		R2
 		h8 \noBeam \appoggiatura a'32 g16 fis32 e d8 \noBeam \appoggiatura a'32 g16 fis32 e
-		d16( e) c( h) a8 r
+		d16( e c h) a8 r
 		h \noBeam \appoggiatura a'32 g16 fis32 e d8 \noBeam \appoggiatura a'32 g16 fis32 e
-		d16( e) c( h) a8 r %170
+		d16( e c h) a8 r %170
 		c32[ h d h] g16 d' d32[ c e c] a16 c
 		c32[ h d h] g16 d' d32[ c e c] a16 c
 		g32 h g d a'[ c a d,] h' d h g c[ e c a]
@@ -792,9 +792,9 @@ QuiTollisOrganoR = {
 		r32 d, e fis g a h cis d4
 		R2*4 %201
 		d4 cis16( a) cis( a)
-		e'8. fis16 d4
+		\once \slurDashed e'8.( fis16) d4
 		\voiceOne h8 g' a, fis' \oneVoice
-		a,16 g e' g, \appoggiatura g8 fis4 %205
+		\once \slurDashed a,16( g e' g,) \appoggiatura g8 fis4 %205
 		\voiceOne h8 g' a, fis' \oneVoice
 		a, g fis4
 		<< {
@@ -1029,11 +1029,11 @@ QuiTollisViolone = {
 		g,2
 		g %180
 		g8 c d d
-		g,2
+		\once \tieDashed g,2~
 		g
 		g8 c d d
 		g d g,4\fermata \bar "|.|" %185
-		g'8 g g g
+		g'8\pE g g g
 		g g g g
 		g4 r
 		d g,

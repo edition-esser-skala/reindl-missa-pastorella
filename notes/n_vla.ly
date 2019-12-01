@@ -407,6 +407,7 @@ QuiTollisViola = {
 	\relative c' {
 		\clef treble
 		\twofourtime \key g \major \time 2/4 \tempoQuiTollis
+			\set Score.currentBarNumber = #149
 		
 	}
 }
