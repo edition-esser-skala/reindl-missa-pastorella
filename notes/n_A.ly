@@ -383,7 +383,7 @@ GloriaAltoNotes = {
 		fis4 r8 r4 r8
 		\mvTr d'4\fE^\tuttiE d8 a4.
 		fis4 fis8 d4 r8 %10
-		a'4 a8 h4^\critnote a8
+		a'4 a8 a4 a8
 		a4. a4 r8
 		fis4. g
 		a( h8[ g)] e
@@ -453,13 +453,13 @@ GloriaAltoNotes = {
 		a4 a8 a4.
 		ais4 ais8 ais4.
 		fis fis4 r8
-		d4. e
+		d4.\pE e
 		fis g8. e16 cis8 %95
 		d4. e
 		fis g8. e16 cis8
 		d4( e8) fis4 r8
 		R2.
-		r4 r8 r r fis~ %100
+		r4 r8 r r fis~\fE %100
 		fis4 fis8 fis4 h8
 		ais4 h8 ais4 r8
 		R2.
@@ -483,7 +483,7 @@ GloriaAltoNotes = {
 		a( h8[ g)] e
 		d'4. a %125
 		fis d
-		a'4. h4 a8
+		a'4. a4^\critnote a8
 		a4 a8 a4 r8
 		R2.
 		r4 r8 r r a~ %130
@@ -637,7 +637,7 @@ GloriaAltoLyrics = \lyricmode {
 	Fi -- li -- us
 	Pa --
 	_
-	_
+	_ %145
 	_
 	_
 	tris. %148 finis

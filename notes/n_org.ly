@@ -531,7 +531,7 @@ GloriaOrgano = {
 		h~ %95
 		h~
 		h
-		h8 h h h4 h'8
+		h8 h h h4 h'8\fE
 		eis,4.-! fis-!
 		g!-! fis4-! ais8 %100
 		h4 ais8 h4 g!8
@@ -623,7 +623,7 @@ GloriaBassFigures = \figuremode {
 	<8 3>2. \bassFigureExtendersOn
 	q2 q8 q \bassFigureExtendersOff
 	<8 6>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff
-	<6 5>4. <[5 3]>8 <[6 4]> <[7 5]>
+	<6 5>4. <[5]>8 <[6]> <[7 5]>
 	r2. %45
 	r
 	r

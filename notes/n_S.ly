@@ -494,13 +494,13 @@ GloriaSopranoNotes = {
 		cis4 cis8 cis4.
 		cis4 cis8 cis4.
 		cis h4 r8
-		h4. cis
+		h4.\pE cis
 		d e8. cis16 ais8 %95
 		h4. cis
 		d e8. cis16 ais8
 		h4( cis8) d4 r8
 		R2.
-		r4 r8 r r fis( %100
+		r4 r8 r r fis(\fE %100
 		d4) fis8 d4 e8
 		fis4 eis8 fis4 r8
 		R2.
