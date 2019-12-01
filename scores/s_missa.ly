@@ -251,8 +251,8 @@
 				\new StaffGroup <<
 					\new PianoStaff <<
 						\set PianoStaff.instrumentName = "Organo"
-						\new Staff { \QuiTollisOrganoR }
-						\new Staff { \QuiTollisOrganoL }
+						\new Staff = "RH" { \QuiTollisOrganoR }
+						\new Staff = "LH" { \QuiTollisOrganoL }
 					>>
 				>>
 				\new FiguredBass {
@@ -261,11 +261,11 @@
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Bassi"
-						\QuiTollisViolone
+						\transpose c c, \QuiTollisViolone
 					}
 				>>
 			>>
-			\layout { }
+% 			\layout { }
 			\midi { \tempo 4 = 80 }
 		}
 	}

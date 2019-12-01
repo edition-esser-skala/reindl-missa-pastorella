@@ -213,8 +213,16 @@ mvDll = \once \override DynamicText.X-offset = #-3
 pao = \partcombineApartOnce
 pa = \partcombineApart
 pd = \partcombineAutomatic
+lh = \change Staff = "LH"
+rh = \change Staff = "RH"
 
 scriptOut = \once \override Script.avoid-slur = #'outside
+
+markDaCapo = {
+	\once \override Score.RehearsalMark.self-alignment-X = #RIGHT
+	\mark \markup { \remark "da capo" }
+}
+
 
 tempoMarkup =
 	#(define-music-function

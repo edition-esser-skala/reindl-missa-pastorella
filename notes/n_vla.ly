@@ -406,7 +406,7 @@ GloriaViola = {
 QuiTollisViola = {
 	\relative c' {
 		\clef treble
-		\key g \major \time 2/4 \tempoQuiTollis
+		\twofourtime \key g \major \time 2/4 \tempoQuiTollis
 		
 	}
 }
