@@ -261,11 +261,11 @@
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Bassi"
-						\transpose c c, \QuiTollisViolone
+						\QuiTollisViolone
 					}
 				>>
 			>>
-% 			\layout { }
+			\layout { }
 			\midi { \tempo 4 = 80 }
 		}
 	}

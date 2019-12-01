@@ -745,110 +745,111 @@ QuiTollisOrganoR = {
 	\relative c' {
 		\clef treble
 		\key g \major \time 2/4 \tempoQuiTollis
+			\set Score.currentBarNumber = #149
 		g'8.(\fE h32 a) g8 d
-		g8.( h32 a) g8 d
+		g8.( h32 a) g8 d %150
 		d16 g g h h d d g
 		d c a c \appoggiatura c8 h4
-		R2*2 %6
-		\voiceOne d8 d4 d32 c h c
+		R2*2
+		\voiceOne d8 d4 d32 c h c %155
 		h8 h4 h32 a g a \oneVoice
 		g16( h d g) d( c) g'( h,)
-		<< { h8[ a] } \\ { g[ fis] } >> r4 %10
+		<< { h8[ a] } \\ { g[ fis] } >> r4
 		R2
-		r4 r8 a'
+		r4 r8 a' %160
 		\voiceOne g32[ fis a fis] d8 g32[ fis a fis] d8 \oneVoice
 		R2
-		\voiceOne a'32[ g h g] d8 a'32[ g h g] d8 \oneVoice %15
+		\voiceOne a'32[ g h g] d8 a'32[ g h g] d8 \oneVoice
 		R2
-		\voiceOne g32[ fis a fis] d8 g32[ fis a fis] d8 \oneVoice
+		\voiceOne g32[ fis a fis] d8 g32[ fis a fis] d8 \oneVoice %165
 		R2
 		h8 \noBeam \appoggiatura a'32 g16 fis32 e d8 \noBeam \appoggiatura a'32 g16 fis32 e
-		d16( e) c( h) a8 r %20
-		h \noBeam \appoggiatura a'32 g16 fis32 e d8 \noBeam \appoggiatura a'32 g16 fis32 e
 		d16( e) c( h) a8 r
+		h \noBeam \appoggiatura a'32 g16 fis32 e d8 \noBeam \appoggiatura a'32 g16 fis32 e
+		d16( e) c( h) a8 r %170
 		c32[ h d h] g16 d' d32[ c e c] a16 c
 		c32[ h d h] g16 d' d32[ c e c] a16 c
-		g32 h g d a'[ c a d,] h' d h g c[ e c a] %25
+		g32 h g d a'[ c a d,] h' d h g c[ e c a]
 		d2\startTrillSpan
-		d
+		d %175
 		d32[\stopTrillSpan g d h] h d h g g[ h g d] d8
 		d'32[ g d h] h d h g g[ h g d] d8
-		fis'32[ g d h] dis e c a h[ d? h g] a c a fis %30
+		fis'32[ g d h] dis e c a h[ d? h g] a c a fis
 		g8 h16. d32 d,8 fis16. a32
-		g8 h16. d32 d,8 fis16. a32
+		g8 h16. d32 d,8 fis16. a32 %180
 		fis'32[ g d h] dis e c a h[ d? h g] a c a fis
 		\appoggiatura a8 g4 r
 		R2*2
-		R2\fermataMarkup \bar "|.|" %37
-		R2*3 %40
+		R2\fermataMarkup \bar "|.|" %185
+		R2*3
 		<< { d'16 c a c \appoggiatura c8 h4 } \\ { h16 a fis a \appoggiatura a8 g4 } >>
-		R2*2
+		R2*2 %191
 		\voiceOne d'8 d4 d32 c h c
-		h8 h4 h32 a g a \oneVoice %45
+		h8 h4 h32 a g a \oneVoice
 		g8 r r4
-		r32 d e fis g a h cis d4
+		r32 d e fis g a h cis d4 %195
 		R2
 		r32 d, e fis g a h cis d4
-		R2*4 %53
+		R2*4 %201
 		d4 cis16( a) cis( a)
-		e'8. fis16 d4 %55
+		e'8. fis16 d4
 		\voiceOne h8 g' a, fis' \oneVoice
-		a,16 g e' g, \appoggiatura g8 fis4
+		a,16 g e' g, \appoggiatura g8 fis4 %205
 		\voiceOne h8 g' a, fis' \oneVoice
 		a, g fis4
 		<< {
-			\oneVoice d'2~ %60
+			\oneVoice d'2~
 			d
-			R
+			R %210
 		} \\ {
-			\oneVoice s2\startTrillSpan %60
+			\oneVoice s2\startTrillSpan
 			s
-			s\stopTrillSpan
+			s\stopTrillSpan %210
 		} >>
-		R2*9 %71
-		a8 \noBeam \appoggiatura e'32 d16 cis32 h a8 \noBeam \appoggiatura e'32 d16 cis32 h
+		R2*9 %219
+		a8 \noBeam \appoggiatura e'32 d16 cis32 h a8 \noBeam \appoggiatura e'32 d16 cis32 h %220
 		a16 h g fis e8 r
-		R2*2 %75
+		R2*2
 		\voiceOne g'32[ fis a fis] a,16 d d32[ cis e cis] a16 g'
-		g32[ fis a fis] a,16 d d32[ cis e cis] a16 g' \oneVoice
+		g32[ fis a fis] a,16 d d32[ cis e cis] a16 g' \oneVoice %225
 		d32[ fis d a] e' g e a, fis'[ a fis d] g h g e
 		a2\startTrillSpan
-		a %80
+		a
 		cis,32[\stopTrillSpan d a fis] ais' h g e fis[ a? fis d] e g e cis
-		\voiceOne d8 fis16. a32 a,8 cis16. e32
+		\voiceOne d8 fis16. a32 a,8 cis16. e32 %230
 		d8 fis16. a32 a,8 cis16. e32 \oneVoice
 		cis32[ d a fis] ais' h g e fis[ a? fis d] e g e cis
-		\appoggiatura cis8 d4 r %85
-		R2*7 %92
+		\appoggiatura cis8 d4 r
+		R2*7 %240
 		a8 a4 a32 g fis g
 		fis8 fis4 fis32 e d e
-		d4 r %95
+		d4 r
 		r32 g, a h c! d e fis g4
-		R2*4 %100
+		R2*4 %248
 		\voiceOne d'8 d4 d32 c h c
-		h8 h4 h32 a g a \oneVoice
+		h8 h4 h32 a g a \oneVoice %250
 		g4 r
 		r32 d e fis g a h cis d4
-		R2*5 %109
-		g,8( d') fis,!4 %110
+		R2*5 %257
+		g,8( d') fis,!4
 		b8( d) a4
-		g8([ d')] fis,! r
+		g8([ d')] fis,! r %260
 		b([ d)] a r
-		R2*3 %116
-		r4 r8 cis32( d cis d)
+		R2*3
+		r4 r8 cis32( d cis d) %265
 		d,4 r8 cis'32( d cis d)
 		d,4 r
-		R2*4 %123
+		R2*4 %271
 		r4 r8 d'
-		c!32[ h d h] g16 g' f32[ e g e] c16 h %125
+		c!32[ h d h] g16 g' f32[ e g e] c16 h
 		h32[ a c a] fis!16 fis' e32[ d fis d] h16 a
-		a32[ g h g] e16 e' d32[ c e c] a16 g
+		a32[ g h g] e16 e' d32[ c e c] a16 g %275
 		g32[ fis a fis] d16 c' c32[ h d h] g8
-		R2*2 %130
+		R2*2
 		d'8 \noBeam \appoggiatura a'32 g16 fis32 e d8 \noBeam \appoggiatura a'32 g16 fis32 e
-		d16 e c h a8 r
-		R2*6 %138
-		r4 r8 fis \markDaCapo \bar "||" %139 finis
+		d16 e c h a8 r %280
+		R2*6 %286
+		r4 r8 fis \markDaCapo \bar "||" %287 finis
 	}
 }
 
@@ -856,143 +857,144 @@ QuiTollisOrganoL = {
 	\relative c {
 		\clef bass
 		\twofourtime \key g \major \time 2/4 \tempoQuiTollis
+			\set Score.currentBarNumber = #149
 		g'16\fE h g h g h g h
-		g h g h g h g h
+		g h g h g h g h %150
 		g4 r8 g
 		fis d g4
-		d r %5
+		d r
 		d g,
-		\rh \voiceTwo h'16 g' h, g' h, g' a, g'
+		\rh \voiceTwo h'16 g' h, g' h, g' a, g' %155
 		g, g' d g d g c, fis \lh \oneVoice
 		h,8 g fis g
-		d d, r4 %10
-		fis'8 r g r
 		d d, r4
+		fis'8 r g r
+		d d, r4 %160
 		\rh \voiceTwo d''16 a' fis a d, a' fis a \lh \oneVoice
 		d,,8 d d d
-		\rh \voiceTwo d'16 h' g h d, h' g h \lh \oneVoice %15
+		\rh \voiceTwo d'16 h' g h d, h' g h \lh \oneVoice
 		d,,8 d d d
-		\rh \voiceTwo d'16 a' fis a d, a' fis a \lh \oneVoice
+		\rh \voiceTwo d'16 a' fis a d, a' fis a \lh \oneVoice %165
 		d,,8 d d d
 		g16 d' h d g, d' h d
-		fis, d' a d fis, d' a d %20
-		g, d' h d g, d' h d
 		fis, d' a d fis, d' a d
+		g, d' h d g, d' h d
+		fis, d' a d fis, d' a d %170
 		g, d' h d a d fis, a
 		g d' h d a d fis, d'
-		<g, g,>4 r %25
-		R2*2
+		<g, g,>4 r
+		R2*2 %175
 		g,16 g' g, g' g, g' g, g'
 		g, g' g, g' g, g' g, g'
-		g8 c d d, %30
+		g8 c d d,
 		g16 h g h g c g c
-		g h g h g c g c
+		g h g h g c g c %180
 		g8 c, d d,
 		g2~
-		g %35
+		g
 		g8 c d d,
-		g d g4\fermata \bar "|.|"
+		g d g4\fermata \bar "|.|" %185
 		g'8 g g g
 		g g g g
-		g4 r %40
+		g4 r
 		d g,
-		d' r
+		d' r %190
 		d8 d, g4
 		\rh \voiceTwo h'16 g' h, g' h, g' a, g'
-		g, g' d g d g c, fis \lh \oneVoice %45
-		h,8 g fis g
-		r32 d e fis g a h cis d4
-		fis,8 r g r
-		r32 d e fis g a h cis d4
-		r8 a a a %50
-		r d, d d
-		r a' a a
-		r d, d d
-		fis16 a fis a e a e a
-		g a g a fis d fis d %55
-		\rh \voiceTwo g' d g d fis d fis d \lh \oneVoice
-		a cis a cis d a fis d
-		\rh \voiceTwo g' d g d fis d fis d \lh \oneVoice
-		a cis a cis d a fis d
-		d4 r %60
-		d2\startTrillSpan
-		d8\stopTrillSpan fis g e
-		a4 a,
-		d8 fis d fis
-		e cis a cis %65
-		d fis d fis
-		e cis a cis
-		d h' a g
-		fis g fis e
-		d fis g e %70
-		a4 a,
-		d16 a' fis a d, a' fis a
-		cis, a' e a cis, a' e a
-		d, a' fis a d, a' fis a
-		cis, a' e a cis, a' e a %75
-		\rh \voiceTwo d a' fis a e a cis, a'
-		d, a' fis a e a cis, a' \lh \oneVoice
-		d,,4 r
-		R2*2 %80
-		d8 g a a,
-		\rh \voiceTwo d'16 fis d fis d g d g
-		d fis d fis d g d g \lh \oneVoice
-		d,8 g a a,
-		d2 %85
-		d
-		d8 g a a,
-		d a d,4
-		d'8 d d d
-		d d d d %90
-		d4 r
-		cis8 a d4
-		fis16 d' fis, d' fis, d' e, cis'
-		d, d' a d a d g, cis
-		fis,8 d e fis %95
-		r32 g,32 a h c! d e fis g4
-		g8 g g g
-		g g g g
-		g4 r8 g
-		fis d g4 %100
-		\rh \voiceTwo h16 g' h, g' h, g' a, fis'
 		g, g' d g d g c, fis \lh \oneVoice
 		h,8 g fis g
+		r32 d e fis g a h cis d4 %195
+		fis,8 r g r
 		r32 d e fis g a h cis d4
-		g,8 h g h %105
+		r8 a a a
+		r d, d d
+		r a' a a %200
+		r d, d d
+		fis16 a fis a e a e a
+		g a g a fis d fis d
+		\rh \voiceTwo g' d g d fis d fis d \lh \oneVoice
+		a cis a cis d a fis d %205
+		\rh \voiceTwo g' d g d fis d fis d \lh \oneVoice
+		a cis a cis d a fis d
+		d4 r
+		d2\startTrillSpan
+		d8\stopTrillSpan fis g e %210
+		a4 a,
+		d8 fis d fis
+		e cis a cis
+		d fis d fis
+		e cis a cis %215
+		d h' a g
+		fis g fis e
+		d fis g e
+		a4 a,
+		d16 a' fis a d, a' fis a %220
+		cis, a' e a cis, a' e a
+		d, a' fis a d, a' fis a
+		cis, a' e a cis, a' e a
+		\rh \voiceTwo d a' fis a e a cis, a'
+		d, a' fis a e a cis, a' \lh \oneVoice %225
+		d,,4 r
+		R2*2
+		d8 g a a,
+		\rh \voiceTwo d'16 fis d fis d g d g %230
+		d fis d fis d g d g \lh \oneVoice
+		d,8 g a a,
+		d2
+		d
+		d8 g a a, %235
+		d a d,4
+		d'8 d d d
+		d d d d
+		d4 r
+		cis8 a d4 %240
+		fis16 d' fis, d' fis, d' e, cis'
+		d, d' a d a d g, cis
+		fis,8 d e fis
+		r32 g,32 a h c! d e fis g4
+		g8 g g g %245
+		g g g g
+		g4 r8 g
+		fis d g4 
+		\rh \voiceTwo h16 g' h, g' h, g' a, fis'
+		g, g' d g d g c, fis \lh \oneVoice %250
+		h,8 g fis g
+		r32 d e fis g a h cis d4
+		g,8 h g h
 		a fis d fis
-		g h g h
+		g h g h %255
 		a fis d fis
 		g g, r4
-		b'16 d b d a d a d %110
+		b'16 d b d a d a d
 		g, d' g, d' fis,! d' fis, d'
-		b d b d a d a d
+		b d b d a d a d %260
 		g, d' g, d' fis,! d' fis, d'
 		g,2
-		g %115
+		g
 		r8 es es es
-		d4 r
+		d4 r %265
 		r8 fis! g4
 		r8 fis! g cis,
-		d d, r4 %120
+		d d, r4
 		g'8 f e c
-		g' g, c r
+		g' g, c r %270
 		a' g fis! d
 		a' a, d4
-		g8 h, c e %125
+		g8 h, c e
 		fis a, h d
-		e g, a c
+		e g, a c %275
 		d fis, g4
 		g'16 d' h d g, d' h d
-		fis, d' a d fis, d' a d %130
-		g, d' h d g, d' h d
 		fis, d' a d fis, d' a d
+		g, d' h d g, d' h d
+		fis, d' a d fis, d' a d %280
 		g,4 r8 d
 		g4 r8 d
-		g e d c %135
+		g e d c
 		h c h a
-		g h c a
+		g h c a %285
 		d4 d,
-		g4 r \markDaCapo \bar "||" %139 finis
+		g4 r \markDaCapo \bar "||" %287 finis
 	}
 }
 
@@ -1004,110 +1006,111 @@ QuiTollisViolone = {
 	\relative c {
 		\clef bass
 		\twofourtime \key g \major \time 2/4 \tempoQuiTollis
+			\set Score.currentBarNumber = #149
 		g2\fE
-		g
+		g %150
 		g4 r8 g'
 		fis d g4
-		d r %5
+		d r
 		d g,
-		R2*2
+		R2*2 %156
 		h'8 g fis g
-		d d r4 %10
-		fis8 r g r
 		d d r4
+		fis8 r g r
+		d d r4 %160
 		d8-!\p r d-! r
 		d-!\f d-! d-! d-!
-		R2 %15
-		d8-! d-! d-! d-!
 		R2
 		d8-! d-! d-! d-!
-		R2*11 %29
-		g8 c d d, %30
+		R2 %165
+		d8-! d-! d-! d-!
+		R2*11 %177
+		g8 c d d,
+		g,2
+		g %180
+		g8 c d d
 		g,2
 		g
 		g8 c d d
-		g,2
-		g %35
-		g8 c d d
-		g d g,4\fermata \bar "|.|"
+		g d g,4\fermata \bar "|.|" %185
 		g'8 g g g
 		g g g g
-		g4 r %40
+		g4 r
 		d g,
-		d' r
+		d' r %190
 		d8 d g,4
-		R2*2 %45
+		R2*2
 		h'8 g fis g
-		r16 d-! fis-! a-! d4
+		r16 d-! fis-! a-! d4 %195
 		fis,8 r g r
 		r16 d fis a d4
-		r8 a a a %50
+		r8 a a a
 		r d, d d
-		r a' a a
+		r a' a a %200
 		r d, d d
-		R2*8 %61
-		d8 fis g e
+		R2*8 %209
+		d8 fis g e %210
 		a4 a,
 		d8 fis d fis
-		e cis a cis %65
-		d fis d fis
 		e cis a cis
+		d fis d fis
+		e cis a cis %215
 		d h' a g
 		fis g fis e
-		d fis g e %70
+		d fis g e
 		a4 a,
-		R2*9 %80
+		R2*9 %228
+		d8 g a a,
+		d2 %230
+		d
 		d8 g a a,
 		d2
 		d
-		d8 g a a,
-		d2 %85
-		d
-		d8 g a a,
+		d8 g a a, %235
 		d a d4
 		d8 d d d
-		d d d d %90
+		d d d d
 		d4 r
-		cis8 a d4
+		cis8 a d4 %240
 		R2*2
-		fis8 d e fis %95
+		fis8 d e fis
 		g16 g, h d g4
-		g8 g g g
+		g8 g g g %245
 		g g g g
 		g4 r8 g
-		fis d g4 %100
-		R2*2
+		fis d g4
+		R2*2 %250
 		h8 g fis g
 		r16 d fis a d,4
-		g8 h g h %105
+		g8 h g h
 		a fis d fis
-		g h g h
+		g h g h %255
 		a fis d fis
 		g g, r4
-		R2*4 %113
+		R2*4 %261
 		g'2
-		g %115
+		g
 		r8 es es es
-		d4 r
+		d4 r %265
 		r8 fis! g4
 		r8 fis! g cis,
-		d d r4 %120
+		d d r4
 		g8 f e c
-		g' g, c4
+		g' g, c4 %270
 		a'8 g fis! d
 		a' a, d4
-		g8 h, c e %125
+		g8 h, c e
 		fis a, h d
-		e g, a c
+		e g, a c %275
 		d fis g4
-		R2*4 %132
+		R2*4 %280
 		g4 r8 d
 		g4 r8 d
-		g e d c %135
+		g e d c
 		h c h a
-		g h c a
+		g h c a %285
 		d4 d
-		g, r \markDaCapo \bar "||" %139 finis
+		g, r \markDaCapo \bar "||" %287 finis
 	}
 }
 
