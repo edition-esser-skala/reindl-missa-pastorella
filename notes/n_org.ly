@@ -531,11 +531,11 @@ GloriaOrgano = {
 		h~ %95
 		h~
 		h
-		h8 h h h4 h'8\fE
+		h8 h h h4 h'8-\parenthesize-!\fE
 		eis,4.-! fis-!
 		g!-! fis4-! ais8 %100
 		h4 ais8 h4 g!8
-		fis4 g!8 fis4 h8
+		fis4 g!8 fis4 h8-\parenthesize-!
 		eis,4.-! fis-!
 		g!-! fis4-! ais8
 		h4 ais8 h4 g!8 %105
@@ -558,8 +558,8 @@ GloriaOrgano = {
 		d~
 		d~
 		d
-		d'4.\fE a %125
-		fis d
+		d'4.\fE-\parenthesize-! a-\parenthesize-! %125
+		fis-\parenthesize-! d-\parenthesize-!
 		a'4 fis8 e4 a8
 		d4 a8 d,4 r8
 		R2.
@@ -581,16 +581,16 @@ GloriaOrgano = {
 		fis,4 fis'8 a4 fis8 %145
 		g,4 g'8 h4 g8
 		a a a a, a a
-		d2.~
+		d2.~-\tastoE
 		d
 		d'4.-! h-! %150
 		g-! e-!
 		a8 a a a, a a
-		d'4. h
-		g e
+		d'4.-\parenthesize-! h-\parenthesize-!
+		g-\parenthesize-! e-\parenthesize-!
 		a8 a a a, a a %155
-		d2.
-		d
+		\tieDashed d2.~-\tastoE
+		d~
 		d
 		d4 d8 d4 r8\fermata \bar "||" %159 finis
 	}
@@ -617,16 +617,16 @@ GloriaBassFigures = \figuremode {
 	<6 [5]> <[6]>4 q8 %35
 	<4 2>4. <6>
 	r4 <6>8 q4 <4 2>8
-	<6>4. <[6]>
+	<6>4. <[6]>4 q8
 	r4 <6>8 q4 <4 2>8
-	<6>4. <[6]> %40
+	<6>4. <[6]>4 q8 %40
 	<8 3>2. \bassFigureExtendersOn
 	q2 q8 q \bassFigureExtendersOff
 	<8 6>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff
 	<6 5>4. <[5]>8 <[6]> <[7 5]>
 	r2. %45
 	r
-	r
+	r2 r8 <[7]>
 	r4 <6>8 q4.
 	r2.
 	r %50
@@ -635,8 +635,8 @@ GloriaBassFigures = \figuremode {
 	r2.
 	r
 	r %55
-	r
-	<6 4>4. <5 3>
+	r4. <[6]>
+	<6 4> <5 3>
 	<4 2> <6>
 	<6 5>2.
 	<5>4. <6> %60
@@ -697,10 +697,10 @@ GloriaBassFigures = \figuremode {
 	q2 q8 q \bassFigureExtendersOff %115
 	<6 4>4. <5 3>
 	<6\\ [5!]>2.
-	r
-	<[6\\ 5!]>
-	r %120
-	<[_+]>
+	<[5 3]>
+	<6\\ [5!]>
+	<[4]>4. <[3]> %120
+	r2.
 	r
 	r
 	r
@@ -709,11 +709,11 @@ GloriaBassFigures = \figuremode {
 	r4 <6>8 <7>4 q8
 	r4 <[7]>8 r4.
 	r2.
-	r %130
+	r2 r8 <[7]> %130
 	r4 <6>8 q4.
 	<6 4> <5 3>
 	r2.
-	r
+	r2 r8 <[7]>
 	r4 <6>8 q4. %135
 	<6 4> <5 3>
 	<6>4. <[6]>4 q8
@@ -731,11 +731,11 @@ GloriaBassFigures = \figuremode {
 	r
 	r %150
 	r
+	<[6 4]>4. <[5 3]>
+	r2.
 	r
-	r
-	r
-	r %155
-	r
+	<[6 4]>4. <[5 3]> %155
+	r2.
 	r
 	r
 	<8 3> %159 finis
