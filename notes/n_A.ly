@@ -385,11 +385,11 @@ GloriaAltoNotes = {
 		fis4 fis8 d4 r8 %10
 		a'4 a8 a4 a8
 		a4. a4 r8
-		fis4. g
+		fis4.\pE g
 		a( h8[ g)] e
 		fis4. g %15
 		a( h8[ g)] e
-		d'4 d8 a4.
+		d'4\fE d8 a4.
 		fis4 fis8 d4 r8
 		a'8. a16 a8 a4 a8
 		a4. a4 r8 %20
@@ -402,7 +402,7 @@ GloriaAltoNotes = {
 		fis4.( e)
 		d4 r8 r4 r8
 		R2.
-		r4 r8 r r \mvTr d'(\fE^\tuttiE %30
+		r4 r8 r4 \mvTr d'8(\fE^\tuttiE %30
 		cis4 h8) a4( g8)
 		fis4 e8 d4 a'8
 		a4 a8 a4 a8
@@ -419,18 +419,18 @@ GloriaAltoNotes = {
 		h4 h8 a4 a8
 		a4. fis4 r8 %45
 		R2.
-		r4 r8 r r a
+		r4 r8 r4 a8
 		\once \tieDashed a4.~ a4 a8
 		a4 r8 r4 r8
 		R2. %50
-		r4 r8 r r cis16 cis
+		r4 r8 r4 cis16 cis
 		\once \tieDashed a4.~ a8. a16 a8
 		a4 r8 r4 r8
 		R2.*2 %55
 		r4 r8 a4 a8
 		a4 a8 a4 r8
-		a4.\p a
-		a a
+		a4.\p a4 r8
+		a4. a
 		a\f h4 h8 %60
 		h8[ e, gis] \once \tieDashed a4.~
 		a8[ d, fis] gis4 gis8
@@ -445,11 +445,11 @@ GloriaAltoNotes = {
 		a4. \tieSolid gis4 gis8
 		e4 r8 r4 r8
 		R2.*13 %85
-		cis4. d
+		cis4.\pE d
 		e fis8. d16 h8
 		cis4. d
 		e fis8. d16 h8
-		a'2.~ %90
+		a'2.~\fE %90
 		a4 a8 a4.
 		ais4 ais8 ais4.
 		fis fis4 r8
@@ -459,11 +459,11 @@ GloriaAltoNotes = {
 		fis g8. e16 cis8
 		d4( e8) fis4 r8
 		R2.
-		r4 r8 r r fis~\fE %100
+		r4 r8 r4 fis8~\fE %100
 		fis4 fis8 fis4 h8
 		ais4 h8 ais4 r8
 		R2.
-		r4 r8 r r fis~
+		r4 r8 r4 fis8~
 		\once \tieDashed fis4.~ fis4 h16 h %105
 		ais4( h8) ais4 r8
 		fis4 fis8 g!4 g8
@@ -477,20 +477,20 @@ GloriaAltoNotes = {
 		fis4.~ fis8. \tieSolid fis16 fis8 %115
 		fis4. e4 r8
 		R2.*4 %120
-		fis4 fis8 g4.
+		fis4\pE fis8 g4.
 		a( h8[ g)] e
 		fis4. g
 		a( h8[ g)] e
-		d'4. a %125
+		d'4.\fE a %125
 		fis d
 		a'4. a4^\critnote a8
 		a4 a8 a4 r8
 		R2.
-		r4 r8 r r a~ %130
+		r4 r8 r4 a8~ %130
 		a4. a4 a8
 		a4. a4 r8
 		R2.
-		r4 r8 r r a~
+		r4 r8 r4 a8~
 		a4 a8 a4 a8 %135
 		a8([ h)] a a4 r8
 		a4.~ a4 a8

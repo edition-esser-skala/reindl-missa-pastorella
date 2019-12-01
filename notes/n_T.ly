@@ -356,7 +356,7 @@ GloriaTenoreNotes = {
 		cis'8. cis16 d8 e([ d)] cis
 		d4( e8) fis4 r8 %20
 		R2.*9 %29
-		r4 r8 r r \mvTr d(\fE^\tuttiE %30
+		r4 r8 r4 \mvTr d8(\fE^\tuttiE %30
 		cis4 h8) a4( g8)
 		fis4 e8 d4 d'8
 		e4 d8 a4 a8
@@ -399,11 +399,11 @@ GloriaTenoreNotes = {
 		\once \tieDashed e4.~ e4 e8
 		cis4 r8 r4 r8
 		R2.*13 %85
-		a2.~
+		a2.~\pE
 		\once \tieDashed a4.~ a8. a16 a8
 		a2.~
 		\once \tieDashed a4.~ a8. a16 a8
-		e'2.~ %90
+		e'2.~\fE %90
 		e4 e8 e4.
 		e4 e8 e4.
 		e d4 r8
@@ -431,16 +431,16 @@ GloriaTenoreNotes = {
 		\once \tieDashed a4.~ a8. a16 a8 %115
 		a4. a4 r8
 		R2.*4 %120
-		d4 d8 d4.
+		d4\pE d8 d4.
 		d4.~ d4 d8
 		d4. d
 		d~ d4 d8
-		d4. a %125
+		d4.\fE a %125
 		fis d
 		cis'4( d8) e([ d)] cis
 		d4 e8 fis4 r8
 		R2.
-		r4 r8 r r cis( %130
+		r4 r8 r4 cis8( %130
 		a4.) cis4 d8
 		d4. cis4 r8
 		R2.

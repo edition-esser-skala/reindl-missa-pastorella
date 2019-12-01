@@ -426,11 +426,11 @@ GloriaSopranoNotes = {
 		fis4 fis8 d4 r8 %10
 		e'4 fis8 g([ fis)] e
 		fis4( g8) a4 r8
-		d,4. e
+		d,4.\pE e
 		fis( g8[ e)] cis
 		d4. e %15
 		fis( g8[ e)] cis
-		d4 d8 a4.
+		d4\fE d8 a4.
 		fis4 fis8 d4 r8
 		e'8. e16 fis8 g([ fis)] e
 		fis4( g8) a4 r8 %20
@@ -443,7 +443,7 @@ GloriaSopranoNotes = {
 		a4.( g)
 		fis4 r8 r4 r8
 		R2.
-		r4 r8 r r \mvTr d'(\fE^\tutti %30
+		r4 r8 r4 \mvTr d'8(\fE^\tutti %30
 		cis4 h8) a4( g8)
 		fis4 e8 d4 fis'8
 		g4 fis8 e4 d8
@@ -460,11 +460,11 @@ GloriaSopranoNotes = {
 		e4 e8 e8([ fis)] g
 		fis4( e8) d4 r8 %45
 		R2.
-		r4 r8 r r e
+		r4 r8 r4 e8
 		fis4( d8 e4) fis8
 		e4 r8 r4 r8
 		R2. %50
-		r4 r8 r r g16 g
+		r4 r8 r4 g16 g
 		fis4( d8) e4 fis8
 		e4 r8 r4 r8
 		R2.*2 %55
@@ -486,11 +486,11 @@ GloriaSopranoNotes = {
 		cis4. h4 a8
 		a4 r8 r4 r8
 		R2.*13 %85
-		a4. h
+		a4.\pE h
 		cis d8. h16 gis8
 		a4. h
 		cis d8. h16 gis8
-		cis2.~ %90
+		cis2.~\fE %90
 		cis4 cis8 cis4.
 		cis4 cis8 cis4.
 		cis h4 r8
@@ -500,11 +500,11 @@ GloriaSopranoNotes = {
 		d e8. cis16 ais8
 		h4( cis8) d4 r8
 		R2.
-		r4 r8 r r fis(\fE %100
+		r4 r8 r4 fis8(\fE %100
 		d4) fis8 d4 e8
 		fis4 eis8 fis4 r8
 		R2.
-		r4 r8 r r fis(
+		r4 r8 r4 fis8(
 		d4 fis8 d4) e16 e %105
 		fis4( eis8) fis4 r8
 		d4 d8 e4 e8
@@ -518,20 +518,20 @@ GloriaSopranoNotes = {
 		\once \tieDashed d4.~ d8. d16 d8 %115
 		d4. cis4 r8
 		R2.*4 %120
-		d4 d8 e4.
+		d4\pE d8 e4.
 		fis( g8[ e)] cis
 		d4. e
 		fis( g8[ e)] cis
-		d4. a %125
+		d4.\fE a %125
 		fis d
 		e'4( fis8) g([ fis)] e
 		fis4 g8 a4 r8
 		R2.
-		r4 r8 r r e( %130
+		r4 r8 r4 e8( %130
 		fis4 d8) e4 fis8
 		fis4. e4 r8
 		R2.
-		r4 r8 r r e(
+		r4 r8 r4 e8(
 		fis4) d8 e4 fis8 %135
 		fis4 fis8 e4 a,8(
 		g'4 fis8) e4( d8)
@@ -539,7 +539,7 @@ GloriaSopranoNotes = {
 		fis4( d8) cis4 e8
 		d4 fis8 e4 g8 %140
 		fis4( d8) cis4( e8)
-		d4 fis8 e4( g8)
+		d4( fis8) e4 g8
 		\once \tieDashed fis2.~
 		\once \tieDashed fis~
 		fis %145
@@ -677,7 +677,7 @@ GloriaSopranoLyrics = \lyricmode {
 	Do -- mi -- ne
 	De -- us, A -- gnus %140
 	De -- i, __
-	Fi -- li -- us __
+	Fi -- li -- us
 	Pa --
 	
 	_ %146

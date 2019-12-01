@@ -324,12 +324,239 @@ GloriaBassoNotes = {
 	\relative c {
 		\clef bass
 		\key d \major \time 6/8 \autoBeamOff \tempoGloria
-		
+		R2.*8 %8
+		\mvTr d'4\fE^\tuttiE d8 a4.
+		fis4 fis8 d4 r8 %10
+		a'4 fis8 e4 a8
+		d4. d,4 r8
+		R2.*4 %16
+		d'4 d8 a4.
+		fis4 fis8 d4 r8
+		a'8 a fis e4 a8
+		d4( a8) d,4 r8 %20
+		R2.*9 %29
+		r4 r8 r4 \mvTr d'8(\fE^\tuttiE %30
+		cis4 h8) a4( g8)
+		fis4 e8 d4 d8
+		cis4 d8 e4 fis8
+		g4 g8 fis4 d8(
+		cis4) d8 e4 fis8 %35
+		g4. fis4 r8
+		d4( fis8) e4( g8)
+		fis4 d8 cis4( e8)
+		d4( fis8) e4( g8)
+		fis4 d8 cis4( e8) %40
+		d4( d'8) fis4( d8)
+		h,4( h'8) d4( h8)
+		fis4.( a4) fis8
+		g4 g8 a4 a8
+		d4( a8) d,4 r8 %45
+		R2.
+		r4 r8 r4 a'8
+		d4( fis,8 e4) d8
+		a'4 r8 r4 r8
+		R2. %50
+		r4 r8 r4 a16 a
+		d4( fis,8) e4 d8
+		a'4 r8 r4 r8
+		R2.*2 %55
+		r4 r8 fis4 d8
+		a'([ gis)] a a,4 r8
+		g'4.\p fis
+		cis d4 r8
+		d'4.\f d8([ cis)] h %60
+		\once \tieDashed cis4.~ cis8[ h a]
+		h4.~ h8[ gis] e
+		a4 cis8 h4 d8
+		cis4 a8 gis4 h8
+		a4 cis8 h4 d8 %65
+		cis4 a8 gis4 h8
+		a4 a8 cis4 a8
+		fis4. a4 fis8
+		cis'4 cis,8 e4 cis8
+		d4. fis4 d8 %70
+		e4.~ e4 e8
+		a,4 r8 r4 r8
+		R2.*13 %85
+		a'2.~\p
+		a4.~ a8. a16 a8
+		a2.~
+		\once \tieDashed a4.~ a8. a16 a8
+		a,4\f h8 cis4 d8 %90
+		e4 fis8 g!4( fis8)
+		e4( d8) cis4 h8
+		ais4. h4 r8
+		h2.~\pE
+		\once \tieDashed h4.~ h8. h16 h8 %95
+		\once \tieDashed h2.~
+		\once \tieDashed h4.~ h8. h16 h8
+		h4. h4 r8
+		R2.
+		r4 r8 r4 ais'8(\fE %100
+		h4) ais8 h4 g!8
+		fis4 g!8 fis4 r8
+		R2.
+		r4 r8 r4 ais8(
+		h4 ais8) h4 g!8 %105
+		fis4( g!8) fis4 r8
+		h4 a!8 g!([ fis)] e
+		a4 g8 fis([ e)] d
+		g2.
+		fis %110
+		e4.~ e4 e8
+		d4 r8 r4 r8
+		r4 r8 r4 a'8
+		d[ d, fis] a[ fis a]
+		d[ a g] fis8. e16 d8 %115
+		a'([ gis a)] a,4 r8
+		R2.*4 %120
+		d4\p d8 d4.
+		d4.~ d4 d8
+		d4. d
+		d~ d4 d8
+		d'4.\f a %125
+		fis d
+		a'4( fis8) e4 a8
+		d4 a8 d,4 r8
+		R2.
+		r4 r8 r4 a'8( %130
+		d4 fis,8) e4 d8
+		a'([ gis a)] a,4 r8
+		R2.
+		r4 r8 r4 a'8(
+		d4) fis,8 e4 d8 %135
+		a'([ gis)] a a,4 r8
+		cis4( d8) e4( fis8)
+		g4. fis4 r8
+		d4( fis8) e4 g8
+		fis4 d8 cis4 e8 %140
+		d4( fis8) e4( g8)
+		fis4( d8) cis4 e8
+		d4 d'8 fis4 d8
+		h2.
+		fis %145
+		g4. h4 g8
+		a4. a,
+		d4 r8 r4 r8
+		R2.*10 %158
+		R2.\fermataMarkup \bar "||" %159 finis
 	}
 }
 
 GloriaBassoLyrics = \lyricmode {
+	Glo -- ri -- a, %9
+	glo -- ri -- a %10
+	in ex -- cel -- sis
+	De -- o,
 	
+	glo -- ri -- a, %17
+	glo -- ri -- a,
+	glo -- ri -- a in ex --
+	cel -- sis. %20
+	
+	Et __ %30
+	in __
+	ter -- ra pax, in
+	ter -- ra pax ho --
+	mi -- ni -- bus bo --
+	nae vo -- lun -- %35
+	ta -- tis,
+	pax __ ho --
+	mi -- ni -- bus, __
+	pax __ ho --
+	mi -- ni -- bus __ %40
+	bo -- nae, __
+	bo -- nae, __
+	bo -- nae,
+	bo -- nae vo -- lun --
+	ta -- tis. %45
+	
+	Lau --
+	da -- mus
+	te,
+	%50
+	be -- ne --
+	di -- ci -- mus
+	te,
+	
+	ad -- o -- %56
+	ra -- mus te,
+	ad -- o --
+	ra -- mus,
+	glo -- ri -- fi -- %60
+	ca --
+	_ mus
+	te, glo -- ri -- fi --
+	ca -- _ _ _
+	_ _ _ _ %65
+	_ _ _ _
+	mus, glo -- ri -- fi --
+	ca -- _ _
+	_ _ _ _
+	_ _ _ %70
+	_ mus
+	te.
+	
+	Gra -- %86
+	ti -- as
+	a --
+	gi -- mus,
+	gra -- _ _ _ %90
+	_ ti -- as __
+	a -- gi -- mus
+	ti -- bi,
+	gra --
+	ti -- as %95
+	a --
+	gi -- mus
+	ti -- bi
+	
+	pro -- %100
+	pter ma -- gnam
+	glo -- ri -- am,
+	
+	glo --
+	ri -- am %105
+	tu -- am,
+	pro -- pter ma -- gnam
+	glo -- ri -- am, glo --
+	_
+	_ %110
+	_ ri --
+	am,
+	glo --
+	_ _
+	_ _ ri -- am %115
+	tu -- am.
+	
+	Do -- mi -- ne %121
+	De -- us,
+	Rex coe --
+	le -- stis,
+	De -- us %125
+	Pa -- ter,
+	Pa -- ter o --
+	mni -- po -- tens,
+	
+	Do -- %130
+	mi -- ne
+	Fi -- li,
+	
+	Fi --
+	li u -- ni -- %135
+	ge -- ni -- te,
+	Je -- su __
+	Chri -- ste,
+	Do -- mi -- ne
+	De -- us, A -- gnus %140
+	De -- i, __
+	Fi -- li -- us
+	Pa -- _ _ _
+	_
+	_ %145
+	_ _ _
+	_ _
+	tris. %148 finis
 }
 
 % BassoNotes = {

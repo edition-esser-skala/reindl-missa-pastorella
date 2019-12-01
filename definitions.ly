@@ -344,8 +344,8 @@ tempoGloria = \tempoMarkup "Allegro"
          (padding . -100)
          (stretchability . 0))
 		\override StaffGrouper.staff-staff-spacing =
-		  #'((basic-distance . 12)
-         (minimum-distance . 12)
+		  #'((basic-distance . 13)
+         (minimum-distance . 13)
          (padding . -100)
          (stretchability . 0))
 		\override StaffGrouper.nonstaff-nonstaff-spacing =

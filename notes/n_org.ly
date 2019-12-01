@@ -450,20 +450,20 @@ GloriaOrgano = {
 		fis-! d-! %10
 		a'4 fis8 e4 a8
 		d4. d,4 r8
-		d4 r8 r4 r8
+		d4\pE r8 r4 r8
 		R2.
 		d4 r8 r4 r8 %15
 		R2.
-		d'4.-! a-!
+		d'4.-!\fE a-!
 		fis-! d-!
 		a'4 fis8 e4 a8
 		d4 a8 d,4 r8 %20
 		R2.*3
-		\mvTr d'8-!\pE-\soloE a-! fis-! d4 r8
+		d'8-! a-! fis-! d4 r8
 		R2.*3 %27
 		d'8 a fis d4 r8
 		d4 r8 r4 r8
-		d4 r8 r4 \mvTr d'8-!\fE-\tuttiE %30
+		d4 r8 r4 d'8-! %30
 		cis4-! h8-! a4-! g8-!
 		fis4-! e8-! d4-! d8
 		cis4 d8 e4 fis8
@@ -519,11 +519,11 @@ GloriaOrgano = {
 		a~
 		a
 		a4 a8 a4 r8 %85
-		a'-\tasto a a a a a
+		\mvTr a'\pE-\tasto a a a a a
 		a a a a a a
 		a a a a a a
 		a a a a a a
-		a,4 h8 cis4 d8 %90
+		a,4\fE h8 cis4 d8 %90
 		e4 fis8 g!4 fis8
 		e4 d8 cis4 h8
 		ais4. h4 r8
@@ -535,11 +535,11 @@ GloriaOrgano = {
 		eis,4.-! fis-!
 		g!-! fis4-! ais8 %100
 		h4 ais8 h4 g!8
-		fis4 g8 fis4 h8
+		fis4 g!8 fis4 h8
 		eis,4.-! fis-!
 		g!-! fis4-! ais8
 		h4 ais8 h4 g!8 %105
-		fis4 g8 fis4 r8
+		fis4 g!8 fis4 r8
 		h4 a!8 g! fis e
 		a4 g8 fis e d
 		g g g g g g
@@ -550,7 +550,7 @@ GloriaOrgano = {
 		d d, fis a fis a
 		d a g fis e d %115
 		a' gis a a,4 r8
-		b2.
+		b2.\pE
 		a4 r8 r4 r8
 		b2.
 		a4 r8 r4 r8 %120
@@ -558,7 +558,7 @@ GloriaOrgano = {
 		d~
 		d~
 		d
-		d'4. a %125
+		d'4.\fE a %125
 		fis d
 		a'4 fis8 e4 a8
 		d4 a8 d,4 r8
@@ -696,11 +696,11 @@ GloriaBassFigures = \figuremode {
 	<8 3>2. \bassFigureExtendersOn
 	q2 q8 q \bassFigureExtendersOff %115
 	<6 4>4. <5 3>
-	<6\\>2.
+	<6\\ [5!]>2.
 	r
-	<[6\\]>
+	<[6\\ 5!]>
 	r %120
-	r
+	<[_+]>
 	r
 	r
 	r
