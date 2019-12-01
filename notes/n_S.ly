@@ -414,12 +414,275 @@ GloriaSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key d \major \time 6/8 \autoBeamOff \tempoGloria
-		
+		\mvTr d4.\pE^\solo e
+		fis g
+		a h4 cis8
+		d4. d4 fis8
+		fis([ d)] fis e([ cis e)] %5
+		d4. d4 fis8
+		fis([ d)] fis e([ cis e)]
+		d4 r8 r4 r8
+		\mvTr d4\fE^\tutti d8 a4.
+		fis4 fis8 d4 r8 %10
+		e'4 fis8 g([ fis)] e
+		fis4( g8) a4 r8
+		d,4. e
+		fis( g8[ e)] cis
+		d4. e %15
+		fis( g8[ e)] cis
+		d4 d8 a4.
+		fis4 fis8 d4 r8
+		e'8. e16 fis8 g([ fis)] e
+		fis4( g8) a4 r8 %20
+		\mvTr \once \tieDashed h,4.~\pE^\solo h8[ g'] h,
+		a4.~ a8[ fis'] a,
+		a4.( g)
+		fis4 r8 r4 r8
+		h4.~ h8[ g'] h, %25
+		\once \tieDashed a4.~ a8[ fis'] a,
+		a4.( g)
+		fis4 r8 r4 r8
+		R2.
+		r4 r8 r r \mvTr d'(\fE^\tutti %30
+		cis4 h8) a4( g8)
+		fis4 e8 d4 fis'8
+		g4 fis8 e4 d8
+		cis4 cis8 d4 fis8(
+		g4) fis8 e4 d8 %35
+		cis4. d4 r8
+		fis4( d8) cis4( e8)
+		d4 fis8 e4( g8)
+		fis4( d8) cis4( e8)
+		d4 fis8 e4( g8) %40
+		fis2.~
+		fis~
+		fis4. fis
+		e4 e8 e8([ fis)] g
+		fis4( e8) d4 r8 %45
+		R2.
+		r4 r8 r r e
+		fis4( d8 e4) fis8
+		e4 r8 r4 r8
+		R2. %50
+		r4 r8 r r g16 g
+		fis4( d8) e4 fis8
+		e4 r8 r4 r8
+		R2.*2 %55
+		r4 r8 d4 fis8
+		fis4 fis8 e4 r8
+		e4.\p fis
+		g fis4 r8
+		fis4.\f fis8([ e)] d %60
+		\once \tieDashed e4.~ e8[ d cis]
+		\once \tieDashed d4.~ d8[ e] d
+		cis4 a8 gis4 h8
+		a4 cis8 h4 d8
+		cis4 a8 gis4 h8 %65
+		a4 cis8 h4 d8
+		cis4 cis8 cis4 cis8
+		cis2.~
+		cis
+		h %70
+		cis4. h4 a8
+		a4 r8 r4 r8
+		R2.*13 %85
+		a4. h
+		cis d8. h16 gis8
+		a4. h
+		cis d8. h16 gis8
+		cis2.~ %90
+		cis4 cis8 cis4.
+		cis4 cis8 cis4.
+		cis h4 r8
+		h4. cis
+		d e8. cis16 ais8 %95
+		h4. cis
+		d e8. cis16 ais8
+		h4( cis8) d4 r8
+		R2.
+		r4 r8 r r fis( %100
+		d4) fis8 d4 e8
+		fis4 eis8 fis4 r8
+		R2.
+		r4 r8 r r fis(
+		d4 fis8 d4) e16 e %105
+		fis4( eis8) fis4 r8
+		d4 d8 e4 e8
+		cis4 cis8 d4 fis8~
+		fis4. \once \tieDashed e~
+		e \once \tieDashed d~ %110
+		d cis
+		d4 fis8 e[ cis e]
+		d4 fis8 e[ cis e]
+		\once \tieDashed d2.~
+		\once \tieDashed d4.~ d8. d16 d8 %115
+		d4. cis4 r8
+		R2.*4 %120
+		d4 d8 e4.
+		fis( g8[ e)] cis
+		d4. e
+		fis( g8[ e)] cis
+		d4. a %125
+		fis d
+		e'4( fis8) g([ fis)] e
+		fis4 g8 a4 r8
+		R2.
+		r4 r8 r r e( %130
+		fis4 d8) e4 fis8
+		fis4. e4 r8
+		R2.
+		r4 r8 r r e(
+		fis4) d8 e4 fis8 %135
+		fis4 fis8 e4 a,8(
+		g'4 fis8) e4( d8)
+		cis4. d4 r8
+		fis4( d8) cis4 e8
+		d4 fis8 e4 g8 %140
+		fis4( d8) cis4( e8)
+		d4( fis8) e4 g8
+		\once \tieDashed fis2.~
+		\once \tieDashed fis~
+		fis %145
+		e
+		fis4. e
+		d4 r8 r4 r8
+		R2.*10 %158
+		R2.\fermataMarkup \bar "||" %159 finis
 	}
 }
 
 GloriaSopranoLyrics = \lyricmode {
+	Glo -- _
+	_ _
+	_ _ ri --
+	a in ex --
+	cel -- sis De -- %5
+	o, in ex --
+	cel -- sis De --
+	o,
+	glo -- ri -- a,
+	glo -- ri -- a %10
+	in ex -- cel -- sis
+	De -- o,
+	in ex --
+	cel -- sis,
+	in ex -- %15
+	cel -- sis,
+	glo -- ri -- a,
+	glo -- ri -- a,
+	glo -- ri -- a in __ ex --
+	cel -- sis, %20
+	in __ ex --
+	cel -- sis
+	De --
+	o,
+	in __ ex -- %25
+	cel -- sis
+	De --
+	o.
 	
+	Et __ %30
+	in __
+	ter -- ra pax, in
+	ter -- ra pax ho --
+	mi -- ni -- bus bo --
+	nae vo -- lun -- %35
+	ta -- tis,
+	pax __ ho --
+	mi -- ni -- bus, __
+	pax __ ho --
+	mi -- ni -- bus __ %40
+	bo --
+	
+	nae,
+	bo -- nae vo -- lun --
+	ta -- tis. %45
+	
+	Lau --
+	da -- mus
+	te,
+	%50
+	be -- ne --
+	di -- ci -- mus
+	te,
+	
+	ad -- o -- %56
+	ra -- mus te,
+	ad -- o --
+	ra -- mus,
+	glo -- ri -- fi -- %60
+	ca --
+	_ mus
+	te, glo -- ri -- fi --
+	ca -- _ _ _
+	_ _ _ _ %65
+	_ _ _ _
+	mus, glo -- ri -- fi --
+	ca --
+	
+	_ %70
+	_ _ mus
+	te.
+	
+	Gra -- _ %86
+	_ _ ti -- as
+	a -- _
+	_ _ gi -- mus,
+	gra -- %90
+	ti -- as
+	a -- gi -- mus
+	ti -- bi,
+	gra -- _
+	_ _ ti -- as %95
+	a -- _
+	_ _ gi -- mus
+	ti -- bi
+	
+	pro -- %100
+	pter ma -- gnam
+	glo -- ri -- am,
+	
+	glo --
+	ri -- am %105
+	tu -- am,
+	pro -- pter ma -- gnam
+	glo -- ri -- am, glo --
+	_
+	_ %110
+	_
+	_ _ _
+	_ _ _
+	_
+	ri -- am %115
+	tu -- am.
+	
+	Do -- mi -- ne %121
+	De -- us,
+	Rex coe --
+	le -- stis,
+	De -- us %125
+	Pa -- ter,
+	Pa -- ter o --
+	mni -- po -- tens,
+	
+	Do -- %130
+	mi -- ne
+	Fi -- li,
+	
+	Fi --
+	li u -- ni -- %135
+	ge -- ni -- te, Je --
+	su __
+	Chri -- ste,
+	Do -- mi -- ne
+	De -- us, A -- gnus %140
+	De -- i, __
+	Fi -- li -- us
+	Pa --
+	
+	_ %146
+	_ _
+	tris. %148 finis
 }
 
 % SopranoNotes = {
