@@ -390,15 +390,15 @@ GloriaViola = {
 		a a a a a a
 		d, d d d d d
 		d d d d d d
-		d'4. h
+		d'4. h %150
 		g e
 		a8 a a a, a a
 		d'4. h
 		g e
-		a8 a a a, a a
+		a8 a a a, a a %155
 		d <fis a> q q q q
 		q q q q q q
 		q q q q q q
-		q4 q8 q4 r8\fermata \bar "||"
+		q4 q8 q4 r8\fermata \bar "||" %159 finis
 	}
 }

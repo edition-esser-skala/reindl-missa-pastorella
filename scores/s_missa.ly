@@ -141,20 +141,8 @@
 		\score {
 			<<
 				\new StaffGroup <<
-					\new GrandStaff <<
-						\new Staff {
-							\set Staff.instrumentName = "Flauto I"
-							\GloriaFlautoI
-						}
-						\new Staff {
-							\set Staff.instrumentName = "Flauto II"
-							\GloriaFlautoII
-						}
-					>>
-				>>
-				\new StaffGroup <<
 					\new Staff <<
-						\set Staff.instrumentName = \markup { \center-column { "Tromba I, II" "ex G" } }
+						\set Staff.instrumentName = \markup { \center-column { "Tromba I, II" "ex D" } }
 						\partcombine \GloriaTrombaI \GloriaTrombaII
 					>>
 					\new Staff <<
@@ -187,25 +175,25 @@
 						\set Staff.instrumentName = "Soprano"
 						\new Voice = "Soprano" { \dynamicUp \GloriaSopranoNotes }
 					}
-					\new Lyrics \lyricsto Soprano \GloriaSopranoLyrics
+% 					\new Lyrics \lyricsto Soprano \GloriaSopranoLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "Alto"
 						\new Voice = "Alto" { \dynamicUp \GloriaAltoNotes }
 					}
-					\new Lyrics \lyricsto Alto \GloriaAltoLyrics
+% 					\new Lyrics \lyricsto Alto \GloriaAltoLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "Tenore"
 						\new Voice = "Tenore" { \dynamicUp \GloriaTenoreNotes }
 					}
-					\new Lyrics \lyricsto Tenore \GloriaTenoreLyrics
+% 					\new Lyrics \lyricsto Tenore \GloriaTenoreLyrics
 
 					\new Staff {
 						\set Staff.instrumentName = "Basso"
 						\new Voice = "Basso" { \dynamicUp \GloriaBassoNotes }
 					}
-					\new Lyrics \lyricsto Basso \GloriaBassoLyrics
+% 					\new Lyrics \lyricsto Basso \GloriaBassoLyrics
 				>>
 				\new StaffGroup <<
 					\new Staff {
