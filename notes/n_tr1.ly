@@ -23,9 +23,9 @@ GloriaTrombaI = {
 		R2.*3 %27
 		e8 e e e4 r8
 		R2.*5 %33
-		d4 r8 e4 r8
+		d4. e4 r8
 		R2. %35
-		d4 r8 e4 r8
+		d4. e4 r8
 		g,4 r8 r4 r8
 		R2.
 		g4 r8 r4 r8
@@ -52,12 +52,12 @@ GloriaTrombaI = {
 		g,4 r8 r4 r8
 		g4 r8 r4 r8
 		R2.*2 %70
-		d'4. fis
+		\pao d'4. fis
 		g4 r8 r4 r8
 		R2.*5 %77
-		g4. fis4 r8
+		g4. fis
 		R2.*2 %80
-		g4. fis4 r8
+		g4. fis
 		g4 r8 r4 r8
 		R2.*2
 		g4 g8 g4 r8 %85
