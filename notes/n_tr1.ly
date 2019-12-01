@@ -85,7 +85,7 @@ GloriaTrombaI = {
 		e4. d4 r8
 		R2.*4 %136
 		f4 e8 d4 c8
-		d d d c4 r8
+		d d d \pao c4 r8
 		R2.*4 %142
 		e2.
 		e

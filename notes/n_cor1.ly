@@ -165,6 +165,130 @@ GloriaCornoI = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 6/8 \tempoGloria
-		
+		c'2.~\pE
+		\tieDashed c~
+		c~
+		c4 \tieSolid r8 r4 r8
+		g4. g %5
+		c4 r8 r4 r8
+		g g g g g g
+		c c e g e g
+		c4.\fE g
+		e c %10
+		d4 e8 f e d
+		e4 f8 g4 r8
+		c,2.~\p
+		c~
+		c~ %15
+		c
+		c'4.\fE g
+		e c
+		d4 e8 f e d
+		e4 f8 g4 r8 %20
+		c,\p c c c c c
+		c c c c c c
+		g g g g g g
+		c\f c c c4 r8
+		c4\p r8 r4 r8 %25
+		c4 r8 r4 r8
+		g'4. f
+		e8\f c c c4 r8
+		R2.*4 %32
+		g'2.
+		g
+		g %35
+		g4. c,4 r8
+		g'2.
+		g
+		g
+		g %40
+		c,
+		c
+		c
+		r4 r8 d4 f8
+		e4 f8 e4 r8 %45
+		R2.*2
+		r4 g8 g4 g8
+		g g g g4 r8
+		R2.*2 %51
+		r4 c,8 d4 e8
+		d d d d4 r8
+		R2.*2 %55
+		r4 r8 r4 c8
+		g g g g4 r8
+		g4.\p c
+		d c
+		R2.*3 %62
+		d2.\fE
+		d
+		d %65
+		d
+		g
+		g
+		g
+		R %70
+		g4. fis
+		g2.
+		g4 r8 r4 r8
+		g,2.
+		g %75
+		R2.*2
+		g'4. fis
+		R2.*2 %80
+		d4. fis
+		g2.
+		d
+		d
+		d4 d8 d4 r8 %85
+		g,2.\pE
+		g
+		g
+		g
+		g4\fE r8 r4 r8 %90
+		R2.*16 %106
+		e'4.\fE f
+		d e
+		R2.*3 %111
+		c4 r8 r4 d8
+		c4 r8 r4 d8
+		c c, e g e g
+		c e e e e e %115
+		e4. d4 r8
+		R2.*4 %120
+		c2.\pE
+		c
+		c
+		c
+		c'4.\fE g %125
+		e c
+		d4 e8 f e d
+		e4 f8 g4 r8
+		R2.*2 %130
+		r4 c,8 d4 e8
+		e4. d4 r8
+		R2.*2
+		r4 c8 d4 e8 %135
+		e4. d4 r8
+		R2.*2
+		g2.
+		g %140
+		g
+		g
+		c,
+		c
+		c %145
+		c4 r8 r4 r8
+		c4. d
+		c2.
+		c
+		c4 r8 r4 r8 %150
+		R2.
+		e4. d
+		R2.*2
+		e4. d %155
+		\once \tieDashed c2.~
+		c~
+		c
+		c4 c8 c4 r8\fermata \bar "||" %159 finis
 	}
 }

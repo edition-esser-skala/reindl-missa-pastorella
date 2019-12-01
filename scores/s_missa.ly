@@ -146,7 +146,7 @@
 						\partcombine \GloriaTrombaI \GloriaTrombaII
 					>>
 					\new Staff <<
-						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "ex G" } }
+						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "ex D" } }
 						\partcombine \GloriaCornoI \GloriaCornoII
 					>>
 					\new Staff {
