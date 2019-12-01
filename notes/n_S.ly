@@ -685,11 +685,23 @@ GloriaSopranoLyrics = \lyricmode {
 	tris. %148 finis
 }
 
+QuiTollisSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 2/4 \autoBeamOff \tempoQuiTollis
+		
+	}
+}
+
+QuiTollisSopranoLyrics = \lyricmode {
+
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble
-%
-%
+% 		
+% 		
 % 	}
 % }
 %

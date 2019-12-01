@@ -402,3 +402,11 @@ GloriaViolinoII = {
 		d,4 <d, a' fis'>8 q4 r8\fermata \bar "||" %159 finis
 	}
 }
+
+QuiTollisViolinoII = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 2/4 \tempoQuiTollis
+		
+	}
+}

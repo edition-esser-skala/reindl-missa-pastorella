@@ -159,10 +159,10 @@ KyrieFlautoI = {
 	}
 }
 
-GloriaFlautoI = {
+QuiTollisFlautoI = {
 	\relative c' {
 		\clef treble
-		\key d \major \time 6/8 \tempoGloria
+		\key g \major \time 2/4 \tempoQuiTollis
 		
 	}
 }

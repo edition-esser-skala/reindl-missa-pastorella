@@ -227,6 +227,7 @@ tempoMarkup =
 
 tempoKyrie = \tempoMarkup "Allegro"
 tempoGloria = \tempoMarkup "Allegro"
+	tempoQuiTollis = \tempoMarkup "Andante"
 
 
 

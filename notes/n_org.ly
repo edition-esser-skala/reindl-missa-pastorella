@@ -741,11 +741,39 @@ GloriaBassFigures = \figuremode {
 	<8 3> %159 finis
 }
 
+QuiTollisOrganoR = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 2/4 \tempoQuiTollis
+		g'8.(\fE h32 a) g8 d
+	}
+}
+
+QuiTollisOrganoL = {
+	\relative c {
+		\clef bass
+		\key g \major \time 2/4 \tempoQuiTollis
+		g'16\fE h g h g h g h
+	}
+}
+
+QuiTollisBassFigures = \figuremode {
+
+}
+
+QuiTollisViolone = {
+	\relative c {
+		\clef bass
+		\key g \major \time 2/4 \tempoQuiTollis
+		
+	}
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
-%
-%
+% 		
+% 		
 % 	}
 % }
 %
