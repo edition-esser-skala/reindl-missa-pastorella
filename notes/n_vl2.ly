@@ -545,6 +545,6 @@ QuiTollisViolinoII = {
 		g8 g'16( e) e( d) d( c)
 		h8 r r4 %285
 		g8 g fis fis
-		g r r4 \markDaCapo \bar "||" %287 finis
+		g4-\critnote r \markDaCapo \bar "||" %287 finis
 	}
 }

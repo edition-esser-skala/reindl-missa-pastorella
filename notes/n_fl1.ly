@@ -180,13 +180,13 @@ QuiTollisFlautoI = {
 		a'8-! c,( h a)
 		R2*2
 		h8 \noBeam \appoggiatura a'32 g16 fis32 e d8 \noBeam \appoggiatura a'32 g16 fis32 e
-		d16( e c h) a8 r %170
+		d16( e) c( h) a8 r %170
 		d'2~\startTrillSpan
 		d\stopTrillSpan
 		R2
 		h,16 d c h a fis g a
 		h d c h a fis g a %175
-		h2
+		h2\trillE
 		g'\trill
 		r8 c, h a
 		\once \tieDashed g'2~\startTrillSpan
@@ -218,9 +218,9 @@ QuiTollisFlautoI = {
 		R2*2 %211
 		r16 fis,-!\fE fis( a) a( d) d( a)
 		a( g) g( e) e( cis) cis( e)
-		fis8\pE a \once \tieDashed a4~\startTrillSpan
-		a2\stopTrillSpan %215
-		fis8 r r4
+		fis8\pE a a4
+		a2\startTrillSpan %215
+		fis8\stopTrillSpan r r4
 		r8 d'16( h) h( a) a( g)
 		fis8 r r4
 		R2*3 %221
@@ -274,12 +274,12 @@ QuiTollisFlautoI = {
 		d8\fE \noBeam \appoggiatura a'32 g16 fis32 e d8 \noBeam \appoggiatura a'32 g16 fis32 e
 		d16( e) c( h) a8 r
 		R2*2 %280
-		r4 a'8.( h32 c)
+		r4 a'8.(\pE h32 c)
 		h8 r a,8.( h32 c)
 		h8 r r4
 		r8 g'16( e) e( d) d( c)
 		h8 r r4 %285
 		h4 a\trill
-		g8 r r4 \markDaCapo \bar "||" %287 finis
+		g4-\¢ritnote r \markDaCapo \bar "||" %287 finis
 	}
 }

@@ -429,7 +429,7 @@ QuiTollisViolinoI = {
 		h \noBeam \appoggiatura a'32 g16 fis32 e d8 \noBeam \appoggiatura a'32 g16 fis32 e
 		\once \slurDashed d16( e c h) a8 r
 		h \noBeam \appoggiatura a'32 g16 fis32 e d8 \noBeam \appoggiatura a'32 g16 fis32 e
-		d16( e c h) a8 r %170
+		d16( e) c( h) a8 r %170
 		h4 r8 \appoggiatura d32 c16 h32 c
 		h4 r8 \appoggiatura h'32 a16 g32 a
 		g4 r
@@ -545,7 +545,7 @@ QuiTollisViolinoI = {
 		g8 g'16( e) e( d) d( c)
 		h8 g'16( d) dis( e) c( a) %285
 		h8 h a a
-		g r r4 \markDaCapo \bar "||" %287 finis
+		g4-\critnote r \markDaCapo \bar "||" %287 finis
 	}
 }
 
