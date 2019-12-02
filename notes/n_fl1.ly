@@ -164,6 +164,122 @@ QuiTollisFlautoI = {
 		\clef treble
 		\twofourtime \key g \major \time 2/4 \tempoQuiTollis
 			\set Score.currentBarNumber = #149
-		
+		R2*3 %151
+		r4 r8 h''\fE
+		\appoggiatura h16 a8. c16 \appoggiatura c h8. d16
+		d( c a c) \appoggiatura c8 h4
+		R2*3 %157
+		r4 r8 \once \slurDashed g16.( h32)
+		d,8([ c16) r32 a'-!] c,8([ h16) r32 g'-!]
+		h,8 a r4 %160
+		R2
+		a'8-! c,( h a)
+		R2
+		h'8-! d,( c h)
+		R2 %165
+		a'8-! c,( h a)
+		R2*2
+		h8 \noBeam \appoggiatura a'32 g16 fis32 e d8 \noBeam \appoggiatura a'32 g16 fis32 e
+		d16( e c h) a8 r %170
+		d'2~\startTrillSpan
+		d\stopTrillSpan
+		R2
+		h,16 d c h a fis g a
+		h d c h a fis g a %175
+		h2
+		g'\trill
+		r8 c, h a
+		\once \tieDashed g'2~\startTrillSpan
+		g\stopTrillSpan %180
+		g8 r r4
+		g8 h16. d32 d,8 fis16. a32
+		g8 h16. d32 d,8 fis16. a32
+		g16( d) d( c) c( h) h( a) \noBreak
+		a4( g8) r\fermata \bar "|.|" %185
+		R2*3
+		r4 r8 h'\fE
+		\appoggiatura h16 a8. c16 \appoggiatura c h8. d16 %190
+		d( c a c) \appoggiatura c8 h4
+		R2*3
+		r4 r8 h\fE %195
+		d,8([ c16) r32 a'-!] c,8([ h16) r32 g'-!]
+		\appoggiatura c,32 h16( a) a8-! r4
+		R2
+		r4 a'8(\pE fis)
+		R2 %200
+		r4 a8( fis)
+		\once \tieDashed a2~\startTrillSpan
+		a\stopTrillSpan
+		R2*2 %205
+		r8 h r a
+		a16( g) h( g) \appoggiatura g8 fis4
+		\once \tieDashed d'2~\startTrillSpan
+		d\stopTrillSpan
+		R2*2 %211
+		r16 fis,-!\fE fis( a) a( d) d( a)
+		a( g) g( e) e( cis) cis( e)
+		fis8\pE a \once \tieDashed a4~\startTrillSpan
+		a2\stopTrillSpan %215
+		fis8 r r4
+		r8 d'16( h) h( a) a( g)
+		fis8 r r4
+		R2*3 %221
+		a8\fE \noBeam \appoggiatura e'32 d16^\critnote cis32 h a8\noBeam \appoggiatura e'32 d16^\critnote cis32 h
+		a16( h) g( fis) e8 r
+		\once \tieDashed a2~\startTrillSpan
+		a\stopTrillSpan %225
+		R
+		fis16 a g fis e cis d e
+		fis a g fis e cis d e
+		fis8 g16 e d8 cis
+		\appoggiatura cis8 d4 r %230
+		R2*2
+		d8 fis16. a32 a,8 cis16. e32
+		d8 fis16. a32 a,8 cis16. e32
+		d'16( a) a( g) g( fis) fis( e) %235
+		e4( d8) r
+		R2*2
+		r4 r8 a'\pE
+		a16( g e g) \appoggiatura g8 fis4 %240
+		R2*2
+		r8 d' d16( c! h c)
+		\appoggiatura c8 h4^\critnote r
+		\once \tieDashed g2~\startTrillSpan %245
+		g\stopTrillSpan
+		R2*2
+		\tieDashed d'2~\startTrillSpan
+		d~ %250
+		d8\stopTrillSpan \tieSolid r d,16( c) g'( h,)
+		h8 a r d\fE
+		c16( h) h( d) d( g) g( d)
+		d( c) c( a) a( fis) fis( a)
+		h8 r r4 %255
+		R2
+		r8 h'16(\pE g) \slurDashed fis( g) a( g) \slurSolid
+		\tieDashed d'2~\startTrillSpan
+		d~
+		d~ %260
+		d4\stopTrillSpan \tieSolid r
+		g, r
+		g2
+		R2*2 %265
+		r8 \once \slurDashed a(\fE g) r
+		r a16( c,) c( b) g'( b,)
+		b?8 a r4
+		r r8 e'\pE
+		e16( d) d( f) e8 r %270
+		r4 r8 d16( fis)
+		fis( e) e( g) \appoggiatura g8 fis4
+		R2*4 %276
+		d8\fE \noBeam \appoggiatura a'32 g16 fis32 e d8 \noBeam \appoggiatura a'32 g16 fis32 e
+		d16( e) c( h) a8 r
+		R2*2 %280
+		r4 a'8.( h32 c)
+		h8 r a,8.( h32 c)
+		h8 r r4
+		r8 g'16( e) e( d) d( c)
+		h8 r r4 %285
+		h4 a\trill
+		g8 r r4 \markDaCapo \bar "||" %287 finis
 	}
 }

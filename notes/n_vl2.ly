@@ -472,7 +472,7 @@ QuiTollisViolinoII = {
 		R2*2 %211
 		r16 fis'-!\fE fis( a) a( d) d( a)
 		a( g) g( e) e( cis) cis( e)
-		d(\pE^\critnote fis,) fis( a) a( d) d( a)
+		fis(\pE fis,) fis( a) a( d) d( a)
 		a( g) g( e) e( cis) cis( e) %215
 		d8 d'16( g,) g( fis) fis( e)
 		d8 d'16( h) h( a) a( g)

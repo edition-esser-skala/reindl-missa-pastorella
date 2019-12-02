@@ -467,18 +467,11 @@ QuiTollisViolinoI = {
 		a,16( g) e'( g,) \appoggiatura g8 fis4 %205
 		r8 g' r fis
 		a,16( g) e'( g,) \appoggiatura g8 fis4
-		<< {
-			\oneVoice d''2~
-			d
-			R2*2 %211
-		} \\ {
-			\oneVoice s2\startTrillSpan
-			s
-			s\stopTrillSpan %210
-			s
-		} >>
+		d''2~\startTrillSpan
+		d\stopTrillSpan
+		R2*2 %211
 		r16 fis,-!\fE fis( a) a( d) d( a)
-		a( g) g( e) e( cis) cis( g')
+		a( g) g( e) e( cis) cis( e)^\critnote
 		fis(\pE fis,) fis( a) a( d) d( a)
 		a( g) g( e) e( cis) cis( e) %215
 		d8 d'16( g,) g( fis) fis( e)
@@ -488,7 +481,7 @@ QuiTollisViolinoI = {
 		d a\fE a a %220
 		r a a a
 		a' \noBeam \appoggiatura e'32 d16^\critnote cis32 h a8 \noBeam \appoggiatura e'32 d16^\critnote cis32 h
-		a16 h g fis e8 r
+		\slurDashed a16( h) g( fis) \slurSolid e8 r
 		fis4 r8 \appoggiatura a32 g16^\critnote fis32 g
 		fis4 r8 \appoggiatura a32 g16^\critnote fis32 g %225
 		fis4 r
@@ -543,7 +536,7 @@ QuiTollisViolinoI = {
 		fis( e) c( e) %275
 		e d h4
 		d8\fE \noBeam \appoggiatura a'32 g16 fis32 e d8 \noBeam \appoggiatura a'32 g16 fis32 e
-		d16( e c h) a8 r
+		d16( e) c( h) a8 r
 		h\pE d d d
 		r d d d %280
 		r4 a8.( h32 c)

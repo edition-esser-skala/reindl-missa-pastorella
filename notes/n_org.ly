@@ -770,9 +770,9 @@ QuiTollisOrganoR = {
 		c32[ h d h] g16 d' d32[ c e c] a16 c
 		c32[ h d h] g16 d' d32[ c e c] a16 c
 		g32 h g d a'[ c a d,] h' d h g c[ e c a]
-		d2\startTrillSpan
-		d %175
-		d32[\stopTrillSpan g d h] h d h g g[ h g d] d8
+		\once \tieDashed d2~\startTrillSpan
+		d\stopTrillSpan %175
+		d32[ g d h] h d h g g[ h g d] d8
 		d'32[ g d h] h d h g g[ h g d] d8
 		fis'32[ g d h] dis e c a h[ d? h g] a c a fis
 		g8 h16. d32 d,8 fis16. a32
@@ -797,25 +797,18 @@ QuiTollisOrganoR = {
 		\slurDashed a,16( g) e'( g,) \slurSolid \appoggiatura g8 fis4 %205
 		\voiceOne h8 g' a, fis' \oneVoice
 		a, g fis4
-		<< {
-			\oneVoice d'2~
-			d
-			R %210
-		} \\ {
-			\oneVoice s2\startTrillSpan
-			s
-			s\stopTrillSpan %210
-		} >>
-		R2*9 %219
+		d'2~\startTrillSpan
+		d\stopTrillSpan
+		R2*10 %219
 		a8 \noBeam \appoggiatura e'32 d16 cis32 h a8 \noBeam \appoggiatura e'32 d16 cis32 h %220
 		a16 h g fis e8 r
 		R2*2
 		\voiceOne g'32[ fis a fis] a,16 d d32[ cis e cis] a16 g'
 		g32[ fis a fis] a,16 d d32[ cis e cis] a16 g' \oneVoice %225
 		d32[ fis d a] e' g e a, fis'[ a fis d] g h g e
-		a2\startTrillSpan
-		a
-		cis,32[\stopTrillSpan d a fis] ais' h g e fis[ a? fis d] e g e cis
+		\once \tieDashed a2~\startTrillSpan
+		a\stopTrillSpan
+		cis,32[ d a fis] ais' h g e fis[ a? fis d] e g e cis
 		\voiceOne d8 fis16. a32 a,8 cis16. e32 %230
 		d8 fis16. a32 a,8 cis16. e32 \oneVoice
 		cis32[ d a fis] ais' h g e fis[ a? fis d] e g e cis
@@ -917,8 +910,8 @@ QuiTollisOrganoL = {
 		\rh \voiceTwo g' d g d fis d fis d \lh \oneVoice
 		a cis a cis d a fis d
 		d4 r
-		d2\startTrillSpan
-		d8\stopTrillSpan fis g e %210
+		d2\trill
+		d8 fis g e %210
 		a4 a,
 		d8 fis d fis
 		e cis a cis
