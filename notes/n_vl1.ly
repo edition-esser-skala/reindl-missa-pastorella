@@ -413,18 +413,18 @@ QuiTollisViolinoI = {
 		d16( g) g( h) h( d) d( g)
 		d( c a c) \appoggiatura c8 h4^\critnote
 		\appoggiatura h16 a8. c16 \appoggiatura c h8. d16
-		d( c a c) h4
+		d( c a c) \appoggiatura c8 h4^\critnote
 		d8 d4 d32( c h c) %155
 		h8 h4 h32( a g a)
 		g16( h) d( g) d( c) g'( h,)
 		h8\trill a r g'16.( h32)
 		d,8([ c16) r32 a'-!] c,8([ h16) r32 g'-!]
 		h,8 a r4 %160
-		r8 fis'-!\pE r fis-!
+		r8 fis'\pE r fis
 		a-!\fE c,( h a)
-		r g'-\parenthesize-!\pE r g-\parenthesize-!
+		r g'\pE r g
 		h-\parenthesize-!\fE d,( c h)
-		r fis'-\parenthesize-!\pE r fis-\parenthesize-! %165
+		r fis'\pE r fis %165
 		a-\parenthesize-!\fE c,( h a)
 		h \noBeam \appoggiatura a'32 g16 fis32 e d8 \noBeam \appoggiatura a'32 g16 fis32 e
 		\once \slurDashed d16( e c h) a8 r
@@ -443,9 +443,9 @@ QuiTollisViolinoI = {
 		g4 r
 		g'8 h16. d32 d,8 fis16. a32
 		g8 h16. d32 d,8 fis16. a32
-		g16( d) d( c) c( h) h( a)
-		a4 g8 r\fermata \bar "|.|" %185
-		g16\p g g g g g g g
+		g16( d) d( c) c( h) h( a) \noBreak
+		\once \slurDashed a4( g8) r\fermata \bar "|.|" %185
+		g16\p g g g g g g g \noBreak
 		g g g g g g g g
 		g4 r8 d'
 		d16( c a c) \appoggiatura c8 h4
@@ -453,7 +453,7 @@ QuiTollisViolinoI = {
 		d( c a c) \appoggiatura c8 h4^\critnote
 		d8\pE d4 \appoggiatura d32 c16 h32 c
 		h8 h4 \appoggiatura h32 a16 g32 a
-		g4 r8 h
+		g4 r8 \once \tieDashed h~
 		h a r h'\fE %195
 		d,8([ c16) r32 a'-!] c,8([ h16) r32 g'-!]
 		h,8 a r4
@@ -487,10 +487,10 @@ QuiTollisViolinoI = {
 		fis fis e e
 		d a\fE a a %220
 		r a a a
-		a' \noBeam \appoggiatura e'32 d16^\critnote cis32 h a8 \appoggiatura e'32 d16^\critnote cis32 h
+		a' \noBeam \appoggiatura e'32 d16^\critnote cis32 h a8 \noBeam \appoggiatura e'32 d16^\critnote cis32 h
 		a16 h g fis e8 r
-		fis4 r8 g16 fis32 g
-		fis4 r8 g16 fis32 g %225
+		fis4 r8 \appoggiatura a32 g16^\critnote fis32 g
+		fis4 r8 \appoggiatura a32 g16^\critnote fis32 g %225
 		fis4 r
 		fis16 a g fis e cis d e
 		fis a g fis e cis d e
@@ -509,10 +509,10 @@ QuiTollisViolinoI = {
 		a8 a4 a32( g fis g)
 		fis8 fis4 \once \slurDashed fis32( e) d( e)
 		d8 d' d16( c!) h( c)
-		\appoggiatura c32 h16[^\critnote a32 h] a8 r4
+		\appoggiatura c8 h4 r
 		g16 g g g g g g g %245
 		g g g g g g g g
-		g4 r8 g'16 d
+		g4 r8 \once \slurDashed g'16( d)
 		d( c a c) \appoggiatura c8 h4
 		d8 d4 d32( c h c)
 		h8 h4 h32( a g a) %250
@@ -531,7 +531,7 @@ QuiTollisViolinoI = {
 		b g' b, g' b, g' b, g'
 		r8 g g g
 		fis!4 r %265
-		r8 a\fE g r
+		r8 \once \slurDashed a(\fE g) r
 		r a16( c,) \slurDashed c( b) g'( b,) \slurSolid
 		b8 a r4
 		c!16(\pE h!) h( d) d( c) c( e)

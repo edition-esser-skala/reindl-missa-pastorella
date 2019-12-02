@@ -734,7 +734,7 @@ QuiTollisSopranoNotes = {
 		a4. \appoggiatura a32 g16([ fis32 g)]
 		fis8 fis4 e8
 		d8. d'16 d([ c!)] h([ c)]
-		\appoggiatura c32 h16([ a32 h)] a8 r d,
+		\appoggiatura d32 c16([ h32 c)] h8 r d,
 		g8.([ h32 a)] g8 d %245
 		g8.([ h32 a)] g8 d
 		d16[( g) g( h)] h[( d]) g([ d)]

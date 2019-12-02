@@ -1041,7 +1041,7 @@ QuiTollisBassFigures = \figuremode {
 	r2*5 %261
 	<_->2
 	q
-	r8 <8 5-> \bassFigureExtendersOn <7 5-> <6\\ 5-> \bassFigureExtendersOff
+	r8 <6\\ 5->4.
 	<_+>2 %265
 	r
 	r4. <7->8
@@ -1055,9 +1055,9 @@ QuiTollisBassFigures = \figuremode {
 	r4. q8
 	r <6> <6 4> <6 5>
 	<6> r <6> <7>
-	r <6>4.
+	r <6>4. %285
 	<6 4>4 <5 3>
-	r2
+	r2 %287 finis
 }
 
 QuiTollisViolone = {
@@ -1089,9 +1089,9 @@ QuiTollisViolone = {
 		g8 c d d
 		\once \tieDashed g,2~
 		g
-		g8 c d d
+		g8 c d d \noBreak
 		g d g,4\fermata \bar "|.|" %185
-		g'8\pE g g g
+		g'8\pE g g g \noBreak
 		g g g g
 		g4 r
 		d g,

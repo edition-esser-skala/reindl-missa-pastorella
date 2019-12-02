@@ -408,6 +408,143 @@ QuiTollisViolinoII = {
 		\clef treble
 		\twofourtime \key g \major \time 2/4 \tempoQuiTollis
 			\set Score.currentBarNumber = #149
-		
+		d16\fE d d d d d d d
+		d d d d d d d d %150
+		d( g) g( h) h( d) d( g)
+		d( c a c) \appoggiatura c8 h4
+		\appoggiatura g16 fis8.-\critnote a16 \appoggiatura a g8.-\critnote h16
+		\once \slurDashed h( a fis a) \appoggiatura a8 g4
+		d8 d4 fis8 %155
+		g g4 fis8
+		g16( h) d( g) h,( a) h( g)
+		g8 fis r \once \slurDashed h16.( d32)
+		h8([ a16) r32 c]-! a8[( g16) r32 h]-!
+		g8 fis r4 %160
+		r8 d'\pE r d
+		fis-!\fE a,( g fis)
+		r h\pE r h
+		g'-!\fE h,( a g)
+		r d'\pE r d %165
+		fis-!\fE a,( g fis)
+		h r h r
+		r c c c
+		r h r h
+		r c c c %170
+		h4 r8 \appoggiatura h32 a16-\critnote g32 a
+		g4 r8 \appoggiatura d'32 c16-\critnote h32 c
+		h4 r
+		g16 h a g fis d e fis
+		g h a g fis d e fis %175
+		g2
+		h
+		r8 a g fis
+		g4 c,8 c
+		h h c c %180
+		h4 r
+		h16 h h h c c c c
+		h h h h c c c c
+		h( h') h( a) a( g) g( fis) \noBreak
+		fis4( g8) r\fermata \bar "|.|" %185
+		h,16\pE h h h h h h h \noBreak
+		h h h h h h h h
+		h4 r8 h'
+		\once \slurDashed h16( a fis a) \appoggiatura a8 g4-\critnote
+		\appoggiatura g16 fis8.\fE a16 \appoggiatura a g8. h16 %190
+		\once \slurDashed h( a fis a) \appoggiatura a8 g4
+		d8\pE d4 fis8
+		g g4 fis8
+		d4 r8 g~
+		g fis r d'\fE %195
+		h8([ a16) r32 c]-! a8[( g16) r32 h]-!
+		g8 fis r4
+		r8 e'\pE e e
+		r d d d
+		r e e e %200
+		r d d d
+		a2
+		cis4( a8) r
+		r h r a
+		fis16( e) g( e) \appoggiatura e8 d4 %205
+		r8 h' r a
+		fis16( e) g( e) \appoggiatura e8 d4
+		fis16 a fis a fis a fis a
+		fis a fis a fis a fis a
+		R2*2 %211
+		r16 fis'-!\fE fis( a) a( d) d( a)
+		a( g) g( e) e( cis) cis( e)
+		d(\pE^\critnote fis,) fis( a) a( d) d( a)
+		a( g) g( e) e( cis) cis( e) %215
+		d8 d'16( g,) g( fis) fis( e)
+		d8 d'16( h) h( a) a( g)
+		fis8 a h e
+		d d cis cis
+		d fis,\fE fis fis %220
+		r g g g
+		r a a a
+		r a a a
+		a4 r8 \appoggiatura fis'32 e16 d32 e
+		d4 r8 \appoggiatura fis32 e16 d32 e %225
+		d4 r
+		d16 fis e d cis a h cis
+		d fis e d cis a h cis
+		d8 h16 g fis8 e
+		fis fis e e %230
+		fis fis e e
+		fis-\critnote r r4
+		d'8 d cis cis
+		d d cis cis
+		d16( fis) fis( e) e( d) d( cis) %235
+		cis4( d8) r
+		fis,16\pE fis fis fis fis fis fis fis
+		fis fis fis fis fis fis fis fis
+		fis4 r8 a
+		a16( g e g) \appoggiatura g8 fis4-\critnote %240
+		a,8 a4 cis8
+		d d4 cis8
+		d8 d' d16( c!) h( c)
+		\appoggiatura c8 h4 r
+		h,16 h h h h h h h %245
+		h h h h h h h h
+		h4 r8 g''16( d)
+		d( c a c) \appoggiatura c8 h4^\critnote
+		d,8 d4 fis8
+		g g4 fis8 %250
+		g4 h16( a) h( g)
+		g8 fis r d'\fE
+		c16( h) h( d) d( g) g( d)
+		d( c) c( a) a( fis) fis( a)
+		r h-!\pE h( d) d( g) g( d) %255
+		d( c) c( a) a( fis) fis( a)
+		\tuplet 3/2 8 { g[ a h] } h8 r4
+		g4( fis!8) r
+		b4( a8) r
+		g4( fis!8) r %260
+		b4( a8) r
+		g16 b g b g b g b
+		g b g b g b g b
+		r8 cis cis cis
+		d4 r %265
+		r8 c(\fE b) r
+		r \slurDashed c16( a) a( g) b( g) \slurSolid
+		g8 fis! r4
+		r r8 g16(\pE c)
+		c( h!) h( d) c4 %270
+		r8 cis r d
+		d16( cis) cis) e \appoggiatura e8 d4
+		h8 d4 c8
+		a c4 h8
+		g h4 a8 %275
+		fis a4 g8
+		r h\fE h h
+		r c c c
+		r h\pE h h
+		r c c c %280
+		r4 fis,8.( g32 a)
+		g8 r fis8.( g32 a)
+		g8 g'16( c,) c( h) h( a)
+		g8 g'16( e) e( d) d( c)
+		h8 r r4 %285
+		g8 g fis fis
+		g r r4 \markDaCapo \bar "||" %287 finis
 	}
 }
