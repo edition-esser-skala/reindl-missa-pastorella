@@ -428,7 +428,7 @@ QuiTollisViolinoII = {
 		fis-!\fE a,( g fis)
 		h r h r
 		r c c c
-		r h r h
+		h^\critnote r h r
 		r c c c %170
 		h4 r8 \appoggiatura h32 a16-\critnote g32 a
 		g4 r8 \appoggiatura d'32 c16-\critnote h32 c
@@ -530,7 +530,7 @@ QuiTollisViolinoII = {
 		r r8 g16(\pE c)
 		c( h!) h( d) c4 %270
 		r8 cis r d
-		d16( cis) cis) e \appoggiatura e8 d4
+		d16( cis) cis( e) \appoggiatura e8 d4
 		h8 d4 c8
 		a c4 h8
 		g h4 a8 %275

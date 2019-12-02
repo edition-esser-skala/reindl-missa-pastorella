@@ -408,6 +408,142 @@ QuiTollisViola = {
 		\clef treble
 		\twofourtime \key g \major \time 2/4 \tempoQuiTollis
 			\set Score.currentBarNumber = #149
-		
+		h16\fE h h h h h h h
+		h h h h h h h h %150
+		h4 r8 h'
+		a fis g4
+		d8 d d d
+		d d g,4
+		h8 h4 a8 %155
+		g d'4 c8
+		h g' fis g
+		d d, r4
+		fis'8 r g r
+		d d, r4 %160
+		d8\pE r d r
+		d16\fE d d d d d d d
+		d8\pE r d r
+		d16\fE d d d d d d d
+		d8\pE r d r %165
+		d16\fE d d d d d d d
+		g8 r g' r
+		r a a a
+		g r g r
+		r a a a %170
+		g4 r8 fis
+		d4 r8 fis
+		d4 r
+		R2*2 %175
+		<h d>2~
+		q
+		r8 e d c
+		h4 d8 d
+		d2 %180
+		d4 r
+		g,16 g g g g g g g
+		g g g g g g g g
+		g8 e' d c \noBreak
+		c4( h8) r\fermata \bar "|.|" %185
+		d16\pE d d d d d d d \noBreak
+		d d d d d d d d
+		d4 r8 g
+		d4 g,
+		d'8\fE d d d %190
+		d d, g4
+		g'8\pE g4 d8
+		d d4 d8
+		d4 r8 g
+		d d, r4 %195
+		fis'8\fE r g r
+		d d, r4
+		r8 cis''\pE cis cis
+		r a a a
+		r cis cis cis %200
+		r a a a
+		fis4( e8) r
+		g4( fis8) r
+		d8 r d r
+		a4 d %205
+		d2
+		cis4 a
+		d16 fis d fis d fis d fis
+		d fis d fis d fis d fis
+		fis8 a r h %210
+		fis8. g16 g8.(\trill fis32 g)
+		d8\fE fis d fis
+		e cis a cis
+		d\pE fis d fis
+		e cis a cis %215
+		d d d d
+		d d d d
+		d fis g e
+		a a g g
+		fis d\fE d d %220
+		r e e e
+		r fis fis fis
+		r g g g
+		fis4 r8 a
+		a4 r8 a %225
+		a4 r
+		R2*2
+		r8 h a a
+		a a a a %230
+		a a a a
+		a r r4
+		fis8 fis e e
+		fis fis e e
+		fis h a g %235
+		g4( fis8) r
+		a16\p a a a a a a a
+		a a a a a a a a
+		a4 r8 fis
+		e cis d4 %240
+		d8 d4 a8
+		a a4 a8
+		a fis' g a
+		d,4 r
+		d16 d d d d d d d %245
+		d d d d d d d d
+		d4 r8 h'
+		a fis g4
+		g8 g4 d8
+		d d4 d8 %250
+		d4 d8 d
+		d d, r4
+		g'8\fE h g h
+		a fis d fis
+		g\pE h g h %255
+		a fis d fis
+		g g, r4
+		d'4~ d8 r
+		d4~ d8 r
+		d4~ d8 r %260
+		d4~ d8 r
+		<b d>2~
+		q
+		r8 es es es
+		a,4 r %265
+		r8 d\fE d r
+		r d d e!
+		d d r4
+		r8 g\pE g g
+		g g, c4 %270
+		r8 a' a a
+		a a, d4
+		g8 h, c e
+		fis a, h d
+		e g, a c %275
+		d d r4
+		r8 g\fE g g
+		r a a a
+		r g\pE g g
+		r a a a %280
+		g4 r8 d
+		g4 r8 d
+		g g g g
+		g g g g
+		g4 r8 e %285
+		d d c c
+		h4 r \markDaCapo \bar "||" %287 finis
 	}
 }
