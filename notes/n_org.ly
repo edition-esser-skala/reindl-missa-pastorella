@@ -1173,11 +1173,261 @@ QuoniamOrgano = {
 		\key d \major \time 3/4 \tempoQuoniam
 			\set Score.currentBarNumber = #288
 		\mvTr d8\fE-\tuttiE d d d d d
+		d d d d d d
+		d d d d d d %290
+		a'4 d, r
+		d fis a
+		d2 a4
+		a, cis e
+		a2 d,4 %295
+		r r g
+		fis cis d
+		a' a, g'
+		fis cis d
+		a' a, r %300
+		d8 e fis4 fis
+		g fis r
+		R2.*3 %305
+		d8 e fis4 fis
+		g fis d
+		g2 e4
+		a2 fis4
+		h2 g4 %310
+		cis2 a4
+		d a r
+		d8\p d d d d d
+		d d d d d d
+		d r cis r h r %315
+		a4 r cis,
+		d8 r cis r h r
+		a4 r r
+		r gis' a
+		h d cis %320
+		r gis, a
+		h d cis
+		r r d'
+		cis a h
+		gis e d' %325
+		cis a h
+		gis e r
+		R2.*4 %331
+		a,4 r r
+		R2.
+		a4\f cis8 a cis a
+		e'4 cis8 a cis a %335
+		e'4 cis8 a cis a
+		a'4 gis8 fis e d
+		cis fis d4 e
+		a, r r
+		R2.*3 %342
+		a'4\p e e'8 cis
+		d4 e, d'8 h
+		a4 e e'8 cis %345
+		d4 e, d'8 h
+		a4 r r
+		a,\f cis8 a cis a
+		e'4 cis8 a cis a
+		e'4 cis8 a cis a %350
+		a'4 gis8 fis e d
+		cis fis d4 e
+		a, cis' a
+		h gis e
+		a fis cis %355
+		d8 r e r e, r
+		a\p a' a a a a
+		r a a a a a
+		a a a a a a
+		d4 d, fis %360
+		g8 r fis r e r
+		d4 r fis
+		g8 r fis r e r
+		d4 r r
+		r cis d %365
+		e g fis
+		r cis d
+		e g fis
+		r r g
+		fis d e %370
+		cis a g'
+		fis d e
+		cis a8 g' fis e
+		d4 r r
+		R2. %375
+		d4\f fis8-! d-! fis-! d-!
+		a'4 fis8-! d-! fis-! d-!
+		a'4 fis8-! d-! fis-! d-!
+		d'4 cis8 h a g
+		fis4 e d %380
+		a' a, r
+		R2.*3
+		d4\p a a'8 fis %385
+		g4 a, g'8 e
+		d4 a a'8 fis
+		g4 a, g'8 e
+		d4\f cis d
+		a' a, r %390
+		R2.*3
+		d8-!\p e-! f4-! g-!
+		a8-! b-! a4-! r %395
+		d,\f fis! a
+		d d, a'
+		a, cis e
+		a2 d,4
+		r r g %400
+		fis d e
+		cis a g'
+		fis d e
+		cis a fis'
+		g8 r fis r e r %405
+		d2 fis4
+		g8 r fis r e r
+		d4 r r
+		\once \tieDashed d'2.~
+		d4 g, h %410
+		cis2.~
+		cis4 fis, a
+		\once \tieDashed h2.~
+		h4 e, g
+		g fis r %415
+		r cis\p d
+		e g fis
+		r cis d
+		e g fis
+		d r r %420
+		R2.
+		d4\f fis8 d fis d
+		a'4 fis8 d fis d
+		a'4 fis8 d fis d
+		d'4 cis8 h a g %425
+		fis h g4 a
+		d, r r
+		R2.*3 %430
+		h'8 r g r a r
+		d,2 a4
+		d,4 r r\fermata \bar "|." %433 FINIS
 	}
 }
 
 QuoniamBassFigures = \figuremode {
-
+	r2.*3 %290
+	<7>2.
+	<8 3> \bassFigureExtendersOn
+	q2 \bassFigureExtendersOff <5 3>4
+	<8 3>2. \bassFigureExtendersOn
+	q2 \bassFigureExtendersOff <5 3>4 %295
+	r2 <4 2>4
+	<6> <6 5> r
+	<6 4> <5 3> <4 2>
+	<6> <6 5> r
+	<6 4> <5 3> r %300
+	r <6>2
+	<4 2>4 <6>2
+	r2.*3 %305
+	r4 <6>2
+	<4 2>4 <6>2
+	<5>4 <6> r
+	<5> <6> r
+	<5> <6> r %310
+	<5> <6>  <7>
+	r2.*3
+	<4\+ 2>4 <6> <6\\> %315
+	r2 <6>4
+	<4\+ 2>4 <6> <6\\>
+	r2.
+	r4 <6> r
+	<6\\> <4\+ 2> <6> %320
+	r <6> r
+	<6\\> <4\+ 2> <6>
+	r2 <4\+ 2>4
+	<6>2 <[7]>4
+	<6> <[_+]> <4\+ 2> %325
+	<6>2 <7>4
+	<6> <[_+]>2
+	r2.*6 %333
+	<8 3>2. \bassFigureExtendersOn
+	q %335
+	q
+	q2 q8 q \bassFigureExtendersOff
+	<6> <5> <6 5>4 <_+>
+	r2.*4 %342
+	<8 3>2 \bassFigureExtendersOn q8 q
+	<4\+ 2>2 q8 q
+	<8 3>2 q8 q %345
+	<4\+ 2>2 q8 q \bassFigureExtendersOff
+	r2.
+	<8 3>2. \bassFigureExtendersOn
+	q
+	q %350
+	q2 q8 q \bassFigureExtendersOff
+	<6>8 <5> <6 5>4 <_+>
+	r <6>2
+	<6\\>2 <[_+]>4
+	r <5> <6> %355
+	<6> <6 4> <5 _+>
+	r2.
+	r8 <7+ 4 2> r2
+	<7!>2.
+	<4 2>4 <[\t \t]> <6> %360
+	<4 2> <6> q
+	r2 q4
+	<4 2> <6> q
+	r2.
+	r4 <6>2 %365
+	q4 <4 2> <6>
+	r q2
+	q4 <4 2> <6>
+	r2 <4 2>4
+	<6>2 q4 %370
+	q2 <4 2>4
+	<6>2 q4
+	q2.
+	r2.*5 %378
+	<8 3>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff
+	<6>4 q r %380
+	<6 4> <5 3>2
+	r2.*3
+	<8 3>2 \bassFigureExtendersOn q8 q %385
+	<4 2>2 q8 q
+	<8 3>2 q8 q
+	<4 2>2 q8 q \bassFigureExtendersOff
+	r4 <5> r
+	<6 4> <5 3>2 %390
+	r2.*5 %395
+	<8 3>2. \bassFigureExtendersOn
+	q4 q \bassFigureExtendersOff <_+>
+	<8 3>2. \bassFigureExtendersOn
+	q2 \bassFigureExtendersOff <8 3>4
+	r2 <4 2>4 %400
+	<6>2 q4
+	q2 <4 2>4
+	<6>2 q4
+	q2 q4
+	<4 2> <6> q %405
+	r2 q4
+	<4 2> <6> q
+	r2.
+	<5>4 <8> <7>
+	<6> <\t> r %410
+	<7> <8> <7>
+	<6> <\t> r
+	<7> <8> <7>
+	<6> <7> r
+	<4 2> <6>2 %415
+	r4 <6>2
+	q4 <4 2> <6>
+	r <6>2
+	q4 <4 2> <6>
+	r2. %420
+	r
+	<8 3>2. \bassFigureExtendersOn
+	q
+	q
+	q2 q8 q \bassFigureExtendersOff %425
+	<6>8 <5> <6 5>2
+	r2.*4 %430
+	<5>4 <6>2
+	r2.
+	r %433 FINIS
 }
 
 % Organo = {
@@ -1189,5 +1439,5 @@ QuoniamBassFigures = \figuremode {
 % }
 %
 % BassFigures = \figuremode {
-%
+%	
 % }
