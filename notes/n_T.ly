@@ -577,11 +577,24 @@ GloriaTenoreLyrics = \lyricmode {
 	tris. %148 finis
 }
 
+QuoniamTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key d \major \time 3/4 \autoBeamOff \tempoQuoniam
+			\set Score.currentBarNumber = #288
+		
+	}
+}
+
+QuoniamTenoreLyrics = \lyricmode {
+
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"
-%
-%
+% 		
+% 		
 % 	}
 % }
 %

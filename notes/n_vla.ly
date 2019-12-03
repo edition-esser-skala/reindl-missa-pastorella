@@ -405,7 +405,7 @@ GloriaViola = {
 
 QuiTollisViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\twofourtime \key g \major \time 2/4 \tempoQuiTollis
 			\set Score.currentBarNumber = #149
 		h16\fE h h h h h h h
@@ -545,5 +545,14 @@ QuiTollisViola = {
 		g4 r8 e %285
 		d d c c
 		h4 r \markDaCapo \bar "||" %287 finis
+	}
+}
+
+QuoniamViola = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 3/4 \tempoQuoniam
+			\set Score.currentBarNumber = #288
+		
 	}
 }

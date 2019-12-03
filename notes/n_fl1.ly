@@ -280,6 +280,6 @@ QuiTollisFlautoI = {
 		r8 g'16( e) e( d) d( c)
 		h8 r r4 %285
 		h4 a\trill
-		g4-\¢ritnote r \markDaCapo \bar "||" %287 finis
+		g4-\critnote r \markDaCapo \bar "||" %287 finis
 	}
 }

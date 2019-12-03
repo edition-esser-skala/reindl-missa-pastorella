@@ -643,11 +643,24 @@ GloriaAltoLyrics = \lyricmode {
 	tris. %148 finis
 }
 
+QuoniamAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 3/4 \autoBeamOff \tempoQuoniam
+			\set Score.currentBarNumber = #288
+	
+	}
+}
+
+QuoniamAltoLyrics = \lyricmode {
+
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble
-%
-%
+% 	
+% 		
 % 	}
 % }
 %

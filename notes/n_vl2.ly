@@ -548,3 +548,12 @@ QuiTollisViolinoII = {
 		g4-\critnote r \markDaCapo \bar "||" %287 finis
 	}
 }
+
+QuoniamViolinoII = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 3/4 \tempoQuoniam
+			\set Score.currentBarNumber = #288
+		
+	}
+}

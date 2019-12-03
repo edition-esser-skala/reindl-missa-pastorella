@@ -427,7 +427,7 @@ QuiTollisViolinoI = {
 		r fis'\pE r fis %165
 		a-\parenthesize-!\fE c,( h a)
 		h \noBeam \appoggiatura a'32 g16 fis32 e d8 \noBeam \appoggiatura a'32 g16 fis32 e
-		\once \slurDashed d16( e c h) a8 r
+		\slurDashed d16( e) c( h) \slurSolid a8 r
 		h \noBeam \appoggiatura a'32 g16 fis32 e d8 \noBeam \appoggiatura a'32 g16 fis32 e
 		d16( e) c( h) a8 r %170
 		h4 r8 \appoggiatura d32 c16 h32 c
@@ -546,6 +546,15 @@ QuiTollisViolinoI = {
 		h8 g'16( d) dis( e) c( a) %285
 		h8 h a a
 		g4-\critnote r \markDaCapo \bar "||" %287 finis
+	}
+}
+
+QuoniamViolinoI = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 3/4 \tempoQuoniam
+			\set Score.currentBarNumber = #288
+		
 	}
 }
 

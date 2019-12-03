@@ -86,3 +86,12 @@ GloriaTimpani = {
 		c8 c c c4 r8\fermata \bar "||" %159 finis
 	}
 }
+
+QuoniamTimpani = {
+	\relative c {
+		\clef bass
+		\key c \major \time 3/4 \tempoQuoniam
+			\set Score.currentBarNumber = #288
+		
+	}
+}

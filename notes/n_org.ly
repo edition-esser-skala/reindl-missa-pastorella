@@ -764,9 +764,9 @@ QuiTollisOrganoR = {
 		\voiceOne g32[ fis a fis] d8 g32[ fis a fis] d8 \oneVoice %165
 		R2
 		h8 \noBeam \appoggiatura a'32 g16 fis32 e d8 \noBeam \appoggiatura a'32 g16 fis32 e
-		d16( e c h) a8 r
+		d16( e) c( h) a8 r
 		h \noBeam \appoggiatura a'32 g16 fis32 e d8 \noBeam \appoggiatura a'32 g16 fis32 e
-		d16( e c h) a8 r %170
+		d16( e) c( h) a8 r %170
 		c32[ h d h] g16 d' d32[ c e c] a16 c
 		c32[ h d h] g16 d' d32[ c e c] a16 c
 		g32 h g d a'[ c a d,] h' d h g c[ e c a]
@@ -1165,6 +1165,19 @@ QuiTollisViolone = {
 		d4 d
 		g, r \markDaCapo \bar "||" %287 finis
 	}
+}
+
+QuoniamOrgano = {
+	\relative c {
+		\clef bass
+		\key d \major \time 3/4 \tempoQuoniam
+			\set Score.currentBarNumber = #288
+		\mvTr d8\fE-\tuttiE d d d d d
+	}
+}
+
+QuoniamBassFigures = \figuremode {
+
 }
 
 % Organo = {

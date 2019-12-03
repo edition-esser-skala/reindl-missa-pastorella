@@ -559,11 +559,24 @@ GloriaBassoLyrics = \lyricmode {
 	tris. %148 finis
 }
 
+QuoniamBassoNotes = {
+	\relative c {
+		\clef bass
+		\key d \major \time 3/4 \autoBeamOff \tempoQuoniam
+			\set Score.currentBarNumber = #288
+		
+	}
+}
+
+QuoniamBassoLyrics = \lyricmode {
+
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass
-%
-%
+% 		
+% 		
 % 	}
 % }
 %
