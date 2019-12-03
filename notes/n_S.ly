@@ -870,12 +870,218 @@ QuoniamSopranoNotes = {
 		\clef treble
 		\key d \major \time 3/4 \autoBeamOff \tempoQuoniam
 			\set Score.currentBarNumber = #288
-		
+		\mvTr d'2\fE^\tuttiE fis8([ a,)]
+		d2 fis8([ a,)]
+		d2 d8([ fis)] %290
+		e([ d16 e)] d4 r
+		d d d
+		d4.( e16[ fis)] e4
+		e e e
+		e4. fis16([ g)] fis4 %295
+		r r e
+		d( g) fis
+		fis8. e16 e4 e
+		d g fis
+		fis8. e16 e4 r %300
+		d d d
+		cis8. e16 d4 r
+		R2.*3 %305
+		d4 d d
+		cis8. e16 d4 d~
+		d \tieDashed e2~
+		e4 fis2~
+		fis4 g2~ %310
+		g4 a g \tieSolid
+		fis e r
+		\mvTr d2\pE^\soloE fis8([ a,)]
+		d2 fis8([ a,)]
+		gis r a r h r %315
+		\tuplet 3/2 4 { cis([ d e)] } e4 r8 a,
+		gis4( a) h
+		cis16([ h)] cis([ d)] e4 r
+		e2 cis8([ a)]
+		gis([ e h' gis)] a4 %320
+		e'2 cis8([ a)]
+		gis([ e h' gis)] a4
+		r r gis
+		a( cis) d
+		h8. e16 e4 gis, %325
+		a cis d
+		h8. e16 e4 r
+		d2 fis8([ d)]
+		d([ cis)] cis4 r
+		fis2 a8([ fis)] %330
+		fis([ e)] e4 r
+		\mvTr a,\fE^\tuttiE cis8[ a cis a]
+		e'4 cis8[ a cis a]
+		a'2.~
+		a~ %335
+		a~
+		\once \tieDashed a~
+		a8. cis,16 d4( h)
+		a r r
+		R2.*3 %342
+		cis2.\p
+		d
+		cis %345
+		d
+		cis4 r r
+		\tieDashed cis2.~\f
+		cis~
+		cis~ %350
+		\tieSolid cis~
+		cis8 h h4( gis)
+		a r r
+		R2.*22 %375
+		\tieDashed \mvTr fis'2.~\fE^\tuttiE
+		fis~
+		fis~
+		fis~
+		fis4 g fis \tieSolid %380
+		fis e r
+		R2.*3
+		d2.\p %385
+		cis
+		d
+		cis
+		d4\fE e d
+		d cis r %390
+		R2.*5 %395
+		d4\fE d d
+		d4. e16[( fis)] e4
+		e e e
+		e4. fis16([ g)] fis4
+		r r cis %400
+		d( fis) g8 g
+		e4 cis e8 e
+		d4( fis) g
+		e cis d
+		cis( d) e8 e %405
+		\tuplet 3/2 4 { fis([ g a)] } a4 d,8 d
+		cis4( d) e
+		\tuplet 3/2 4 { fis8([ g a)] } a4 r
+		\once \tieDashed fis2.~
+		fis8[ d g fis e d] %410
+		\once \tieDashed e2.~
+		e8[ cis fis e d cis]
+		\once \tieDashed d2.~
+		d8[ h e d cis h]
+		cis4 d r %415
+		R2.*6 %421
+		\tieDashed fis2.~
+		fis~
+		fis~
+		fis~ %425
+		fis8 d e4( cis) \tieSolid
+		d r r
+		R2.*3 %430
+		d8 r e r cis r
+		d2 e4
+		fis4 r r\fermata \bar "|." %433 FINIS
 	}
 }
 
 QuoniamSopranoLyrics = \lyricmode {
-
+	Quo -- ni -- %288
+	am tu
+	so -- lus %290
+	san -- ctus,
+	tu so -- lus
+	san -- ctus,
+	tu so -- lus
+	Do -- mi -- nus, %295
+	tu
+	so -- lus
+	Do -- mi -- nus, tu
+	so -- lus al --
+	tis -- si -- mus, %300
+	tu so -- lus
+	Do -- mi -- nus,
+	
+	so -- lus al -- %306
+	tis -- si -- mus, Je --
+	_
+	_
+	_ %310
+	_ su
+	Chri -- ste.
+	Quo -- ni --
+	am tu
+	so -- _ lus %315
+	san -- ctus, tu
+	so -- lus
+	Do -- mi -- nus,
+	tu, tu
+	so -- lus, %320
+	so -- lus
+	san -- ctus,
+	tu
+	so -- lus
+	Do -- mi -- nus, tu %325
+	so -- lus al --
+	tis -- si -- mus,
+	Je -- su
+	Chri -- ste,
+	Je -- su %330
+	Chri -- ste,
+	Je -- _
+	_ _
+	_
+	
+	su Chri -- %338
+	ste,
+	
+	Je -- %343
+	_
+	_ %345
+	_
+	su,
+	Je --
+	
+	su Chri -- %352
+	ste.
+	
+	Je -- %376
+	
+	_ su %380
+	Chri -- ste,
+	
+	Je -- %385
+	_
+	_
+	_
+	_ _ su
+	Chri -- ste. %390
+	
+	Cum San -- cto %396
+	Spi -- ri -- tu,
+	cum San -- cto
+	Spi -- ri -- tu,
+	in %400
+	glo -- ri -- a
+	De -- i, De -- i
+	Pa -- tris,
+	a -- men, in
+	glo -- ri -- a %405
+	De -- i, De -- i
+	Pa -- tris,
+	a -- men,
+	a --
+	%410
+	_
+	
+	_
+	
+	_ men, %415
+	
+	a -- %422
+	
+	men, a -- %426
+	men,
+	
+	a -- _ _ %431
+	men, a --
+	men. %433 FINIS
 }
 
 % SopranoNotes = {

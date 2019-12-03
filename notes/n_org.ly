@@ -1195,7 +1195,7 @@ QuoniamOrgano = {
 		h2 g4 %310
 		cis2 a4
 		d a r
-		d8\p d d d d d
+		\mvTr d8\p-\soloE d d d d d
 		d d d d d d
 		d r cis r h r %315
 		a4 r cis,
@@ -1211,9 +1211,9 @@ QuoniamOrgano = {
 		cis a h
 		gis e r
 		R2.*4 %331
-		a,4 r r
+		\mvTr a,4\f-\tuttiE r r
 		R2.
-		a4\f cis8 a cis a
+		a4 cis8 a cis a
 		e'4 cis8 a cis a %335
 		e'4 cis8 a cis a
 		a'4 gis8 fis e d
@@ -1234,7 +1234,7 @@ QuoniamOrgano = {
 		h gis e
 		a fis cis %355
 		d8 r e r e, r
-		a\p a' a a a a
+		\mvTr a\p-\soloE a' a a a a
 		r a a a a a
 		a a a a a a
 		d4 d, fis %360
@@ -1253,7 +1253,7 @@ QuoniamOrgano = {
 		cis a8 g' fis e
 		d4 r r
 		R2. %375
-		d4\f fis8-! d-! fis-! d-!
+		\mvTr d4\f-\tuttiE fis8-! d-! fis-! d-!
 		a'4 fis8-! d-! fis-! d-!
 		a'4 fis8-! d-! fis-! d-!
 		d'4 cis8 h a g
@@ -1407,9 +1407,9 @@ QuoniamBassFigures = \figuremode {
 	<4 2> <6> q
 	r2.
 	<5>4 <8> <7>
-	<6> <\t> r %410
+	<6> r <\t> %410
 	<7> <8> <7>
-	<6> <\t> r
+	<6> r <\t>
 	<7> <8> <7>
 	<6> <7> r
 	<4 2> <6>2 %415
