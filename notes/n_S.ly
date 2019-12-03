@@ -873,7 +873,7 @@ QuoniamSopranoNotes = {
 		\mvTr d'2\fE^\tuttiE fis8([ a,)]
 		d2 fis8([ a,)]
 		d2 d8([ fis)] %290
-		e([ d16 e)] d4 r
+		\appoggiatura fis16 e8([^\critnote d16 e)] d4 r
 		d d d
 		d4.( e16[ fis)] e4
 		e e e
@@ -894,8 +894,8 @@ QuoniamSopranoNotes = {
 		g4 a g \tieSolid
 		fis e r
 		\mvTr d2\pE^\soloE fis8([ a,)]
-		d2 fis8([ a,)]
-		gis r a r h r %315
+		d2 fis8([ a,)] %315
+		gis r a r h r
 		\tuplet 3/2 4 { cis([ d e)] } e4 r8 a,
 		gis4( a) h
 		cis16([ h)] cis([ d)] e4 r
@@ -930,7 +930,7 @@ QuoniamSopranoNotes = {
 		cis~
 		cis~ %350
 		\tieSolid cis~
-		cis8 h h4( gis)
+		cis8 cis h4( gis)
 		a r r
 		R2.*22 %375
 		\tieDashed \mvTr fis'2.~\fE^\tuttiE
@@ -968,7 +968,7 @@ QuoniamSopranoNotes = {
 		d8[ h e d cis h]
 		cis4 d r %415
 		R2.*6 %421
-		\tieDashed fis2.~
+		\tieDashed \mvTr fis2.~\fE^\tuttiE
 		fis~
 		fis~
 		fis~ %425

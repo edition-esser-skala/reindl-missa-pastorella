@@ -1211,9 +1211,9 @@ QuoniamOrgano = {
 		cis a h
 		gis e r
 		R2.*4 %331
-		\mvTr a,4\f-\tuttiE r r
+		a,4 r r
 		R2.
-		a4 cis8 a cis a
+		\mvTr a4\f-\tuttiE cis8 a cis a
 		e'4 cis8 a cis a %335
 		e'4 cis8 a cis a
 		a'4 gis8 fis e d
@@ -1289,13 +1289,13 @@ QuoniamOrgano = {
 		\once \tieDashed h2.~
 		h4 e, g
 		g fis r %415
-		r cis\p d
+		r \mvTr cis\p-\soloE d
 		e g fis
 		r cis d
 		e g fis
 		d r r %420
 		R2.
-		d4\f fis8 d fis d
+		\mvTr d4\f-\tuttiE fis8 d fis d
 		a'4 fis8 d fis d
 		a'4 fis8 d fis d
 		d'4 cis8 h a g %425
