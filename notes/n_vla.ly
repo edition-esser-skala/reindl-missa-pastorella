@@ -553,6 +553,140 @@ QuoniamViola = {
 		\clef treble
 		\key d \major \time 3/4 \tempoQuoniam
 			\set Score.currentBarNumber = #288
-		
+		d8\fE fis d fis d fis
+		d fis d fis d fis
+		d fis d fis d fis %290
+		cis4 a r
+		d fis a
+		a4. d8 cis4
+		a, cis e
+		a2 d,4 %295
+		r r g
+		fis cis d
+		a' a, g'
+		fis cis d
+		a' a, r %300
+		d8 e fis4 fis
+		e fis r
+		R2.*3 %305
+		d8 e fis4 fis
+		e fis a
+		h h h
+		cis, cis cis
+		d d d %310
+		e2 cis4
+		a a r
+		d8\p d d d d d
+		d d d d d d
+		d r cis r h r %315
+		a4 r cis
+		d8 r cis r h r
+		a4 r r
+		r gis' e
+		r e e %320
+		r gis e
+		r e e
+		r r d
+		cis a h
+		gis e d' %325
+		cis a h
+		gis e r
+		fis'8 fis fis fis fis fis
+		e e e e e e
+		d d d d d d %330
+		cis cis cis cis cis cis
+		a4 r r
+		R2.
+		a4\f cis8 a cis a
+		e'4 cis8 a cis a %335
+		e'4 cis8 a cis a
+		a'4 gis8 fis e d
+		cis fis d4 e
+		a, r r
+		R2.*3 %342
+		a'8\p a4 a a8
+		gis gis4 gis gis8
+		a2. %345
+		gis
+		e4 r r
+		a,\f cis8 a cis a
+		e'4 cis8 a cis a
+		e'4 cis8 a cis a %350
+		a'4 gis8 fis e d
+		cis8. fis16 fis4 e
+		cis r cis'
+		h gis d
+		e r a %355
+		d,8 r e r e r
+		r e\p e e e e
+		r d d d d d
+		r e e e e e
+		e4 d fis %360
+		g8 r fis r e r
+		d4 r fis
+		g8 r fis r e r
+		d4 r r
+		r cis' a %365
+		r e fis
+		r cis' a
+		r e fis
+		r r g
+		fis d e %370
+		cis a g'
+		fis d e
+		cis a r
+		R2.*2 %375
+		d4\f fis8 d fis d
+		a'4 fis8 d fis d
+		a'4 fis8 d fis d
+		d'4 cis8 h a g
+		fis4 e d %380
+		a' a, r
+		R2.*3
+		d4\p a a'8 fis %385
+		g4 a, g'8 e
+		d4 a a'8 fis
+		g4 a, g'8 e
+		d4\fE a a
+		a a r %390
+		R2.*3
+		d8\p e f4 g
+		\once \slurDashed a8( b) a4 r %395
+		d,\f fis! a
+		d2 a4
+		a, cis e
+		a2 a4
+		r r g %400
+		fis d e
+		cis a g'
+		fis d e
+		cis a fis'
+		g8 r fis r e r %405
+		d4 r fis
+		g8 r fis r e r
+		d4 r r
+		d'2.~
+		d4 g, h %410
+		cis2.~
+		cis4 fis, a
+		h2.~
+		h4 e, g
+		e fis r %415
+		r a\p a
+		r e fis
+		r a a
+		r e fis
+		d r r %420
+		R2.
+		d4\f fis8 d fis d
+		a'4 fis8 d fis d
+		a'4 fis8 d fis d
+		d'4 cis8 h a g %425
+		fis h g4 a
+		d, r r
+		R2.*3 %430
+		h'8 r g r a r
+		d,2 a4
+		d, r r\fermata \bar "|." %433 finis
 	}
 }
