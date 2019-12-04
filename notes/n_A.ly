@@ -721,7 +721,7 @@ QuoniamAltoNotes = {
 		e
 		fis
 		e
-		fis4 g fis
+		fis4\fE g fis
 		fis e r %390
 		R2.*5 %395
 		fis!4\f fis fis

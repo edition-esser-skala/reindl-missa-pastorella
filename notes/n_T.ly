@@ -582,12 +582,174 @@ QuoniamTenoreNotes = {
 		\clef "treble_8"
 		\key d \major \time 3/4 \autoBeamOff \tempoQuoniam
 			\set Score.currentBarNumber = #288
-		
+		\mvTr a2\fE^\tuttiE a4
+		a2 a4
+		a2 a8([ d)] %290
+		cis4 a r
+		a a a
+		a4.( d8) cis4
+		cis cis cis
+		cis4. d16([ e)] d4 %295
+		r r cis
+		d( e)^\critnote d
+		d8. cis16 cis4 cis
+		d e d
+		d8. cis16 cis4 r %300
+		d d d
+		e8. cis16 a4 r
+		R2.*3 %305
+		d4 d d
+		a8. a16 a4 a
+		h2.
+		cis
+		d %310
+		e2 e4
+		d cis r
+		R2.*21 %333
+		\mvTr e2.~\fE^\tuttiE
+		e~ %335
+		e~
+		e~
+		e8 cis fis4( e)
+		cis r r
+		R2.*3 %342
+		e2.~\p
+		e~
+		e~ %345
+		\once \tieDashed e~
+		e4 cis8[ a] cis([ a)]
+		e'2.~\f
+		e~
+		e~ %350
+		e~
+		e8 cis d4( h)
+		cis r r
+		R2.*22 %375
+		\mvTr d2.~\fE^\tuttiE
+		d~
+		d~
+		\once \tieDashed d~
+		d4 cis d %380
+		d cis r
+		R2.*3
+		a2.~\p %385
+		a~
+		a~
+		\once \tieDashed a~
+		a2\fE a4
+		a a r %390
+		R2.*5 %395
+		a4\f a a
+		a4. d8 cis4
+		cis cis cis
+		cis4. d16([ e)] d4
+		r r e %400
+		d2 cis8 cis
+		a4 a cis8 cis
+		d4( a) a
+		a a a
+		a2 cis8 cis %405
+		\tuplet 3/2 4 { d([ e fis)] } fis4 fis8 fis
+		e4( a,) cis
+		\tuplet 3/2 4 { d8([ e fis)] } fis4 r
+		d2.~
+		d4 h d %410
+		cis2.~
+		cis4 a cis
+		\once \tieDashed h2.~
+		h4 g e'
+		e a, r %415
+		R2.*6 %421
+		\tieDashed \mvTr d2.~\fE^\tuttiE
+		d~
+		d~
+		d~ %425
+		\tieSolid d8 d h4( a)
+		a r r
+		R2.*3 %430
+		r4 h( a)
+		a2 cis4
+		d r r\fermata \bar "|." %433 FINIS
 	}
 }
 
 QuoniamTenoreLyrics = \lyricmode {
-
+	Quo -- ni -- %288
+	am tu
+	so -- lus %290
+	san -- ctus,
+	tu so -- lus
+	san -- ctus,
+	tu so -- lus
+	Do -- mi -- nus, %295
+	tu
+	so -- lus
+	Do -- mi -- nus, tu
+	so -- lus al --
+	tis -- si -- mus, %300
+	tu so -- lus
+	Do -- mi -- nus,
+	
+	so -- lus al -- %306
+	tis -- si -- mus, Je --
+	_
+	_
+	_ %310
+	_ su
+	Chri -- ste.
+	
+	Je -- %334
+	
+	su Chri -- %338
+	ste,
+	
+	Je -- %343
+	
+	_ su, %347
+	Je --
+	
+	su Chri -- %352
+	ste.
+	
+	Je -- %376
+	
+	_ su %380
+	Chri -- ste,
+	
+	Je -- %385
+	
+	su %389
+	Chri -- ste. %390
+	
+	Cum San -- cto %396
+	Spi -- ri -- tu,
+	cum San -- cto
+	Spi -- ri -- tu,
+	in %400
+	glo -- ri -- a
+	De -- i, De -- i
+	Pa -- tris,
+	a -- men, in
+	glo -- ri -- a %405
+	De -- i, De -- i
+	Pa -- tris,
+	a -- men,
+	a --
+	_ _ %410
+	_
+	_ _
+	_
+	_ _
+	_ men, %415
+	
+	a -- %422
+	
+	men, a -- %426
+	men,
+	
+	a -- %431
+	men, a --
+	men. %433 FINIS
 }
 
 % TenoreNotes = {
