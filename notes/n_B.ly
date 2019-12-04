@@ -564,12 +564,183 @@ QuoniamBassoNotes = {
 		\clef bass
 		\key d \major \time 3/4 \autoBeamOff \tempoQuoniam
 			\set Score.currentBarNumber = #288
-		
+		\mvTr d'2\fE^\tuttiE d4
+		d2 d4
+		d2 d,4 %290
+		a' d, r
+		d fis a
+		d( d,) a'
+		a, cis e
+		a4. a,8 d4 %295
+		r r g
+		fis( cis) d
+		a'8. a,16 a4 g'
+		fis cis d
+		a'8. a,16 a4 r %300
+		d8([ e)] fis4 fis
+		g8. g16 fis4 r
+		R2.*3 %305
+		d8([ e)] fis4 fis
+		g8. g16 fis4 d
+		g2 e4
+		a2 fis4
+		h2 g4 %310
+		cis2 a4
+		d a r
+		R2.*21 %333
+		\tieDashed \mvTr a2.~\fE^\tuttiE
+		a~ %335
+		a~
+		\tieSolid a4 gis8[ fis e d]
+		cis fis d4( e)
+		a, r r
+		R2.*3 %342
+		a'4\p e e'8[ cis]
+		d4 e, d'8[ h]
+		a4 e e'8[ cis] %345
+		d4 e, d'8[ h]
+		a4 r r
+		a2.~\f
+		a~
+		\once \tieDashed a~ %350
+		a4 gis8[ fis e d]
+		cis fis d4( e)
+		a, r r
+		R2.*22 %375
+		\once \tieDashed \mvTr d'2.~\fE^\tuttiE
+		d
+		d,
+		d'4 cis8[ h a g]
+		fis4 e d %380
+		a' a, r
+		R2.*3
+		d4\p a a'8[ fis] %385
+		g4 a, g'8[ e]
+		d4 a a'8[ fis]
+		g4 a, g'8[ e]
+		d4\fE cis d
+		a' a, r %390
+		R2.*5 %395
+		d4\fE fis a
+		d4. d,8 a'4
+		a, cis e
+		a4. a,8 d4
+		r r g %400
+		fis( d) e8 e
+		cis4 a g'8 g
+		fis4( d) e
+		cis a fis'
+		g( fis) e8 e %405
+		d4 d fis8 fis
+		g4( fis) e
+		d d r
+		d'2.~
+		d4 g, h %410
+		cis2.~
+		cis4 fis, a
+		h2.~
+		h4 e, g
+		g fis r %415
+		R2.*6 %421
+		\tieDashed \mvTr d2.~\fE^\tuttiE
+		d~
+		d \tieSolid
+		d'4 cis8[ h a g] %425
+		fis h g4( a)
+		d, r r
+		R2.*3 %430
+		h'8 r g r a r
+		d,2 a4
+		d r r\fermata \bar "|." %433 FINIS
 	}
 }
 
 QuoniamBassoLyrics = \lyricmode {
-
+	Quo -- ni -- %288
+	am tu
+	so -- lus %290
+	san -- ctus,
+	tu so -- lus
+	san -- ctus,
+	tu so -- lus
+	Do -- mi -- nus, %295
+	tu
+	so -- lus
+	Do -- mi -- nus, tu
+	so -- lus al --
+	tis -- si -- mus, %300
+	tu so -- lus
+	Do -- mi -- nus,
+	
+	so -- lus al -- %306
+	tis -- si -- mus, Je --
+	_ _
+	_ _
+	_ _ %310
+	_ su
+	Chri -- ste.
+	
+	Je -- %334
+	
+	_ %337
+	_ su Chri --
+	ste,
+	
+	Je -- _ _ %343
+	_ _ _
+	_ _ _ %345
+	_ _ _
+	su,
+	Je --
+	
+	_ %351
+	_ su Chri --
+	ste.
+	
+	Je -- %376
+	
+	_
+	_ _
+	_ _ su %380
+	Chri -- ste,
+	
+	Je -- _ _ %385
+	_ _ _
+	_ _ _
+	_ _ _
+	_ _ su
+	Chri -- ste. %390
+	
+	Cum San -- cto %396
+	Spi -- ri -- tu,
+	cum San -- cto
+	Spi -- ri -- tu,
+	in %400
+	glo -- ri -- a
+	De -- i, De -- i
+	Pa -- tris,
+	a -- men, in
+	glo -- ri -- a %405
+	De -- i, De -- i
+	Pa -- tris,
+	a -- men,
+	a --
+	_ _ %410
+	_
+	_ _
+	_
+	_ _
+	_ men, %415
+	
+	a -- %422
+	
+	_ _ %425
+	_ men, a --
+	men,
+	
+	a -- _ _ %431
+	men, a --
+	men. %433 FINIS
 }
 
 % BassoNotes = {
@@ -581,5 +752,5 @@ QuoniamBassoLyrics = \lyricmode {
 % }
 %
 % BassoLyrics = \lyricmode {
-%
+%	
 % }
