@@ -298,6 +298,109 @@ QuoniamCornoII = {
 		\clef treble
 		\key c \major \time 3/4 \tempoQuoniam
 			\set Score.currentBarNumber = #288
-		
+		c2.\fE
+		c
+		c2 e'4 %290
+		d c r
+		e, e e
+		e4. c'8 g4
+		R2.
+		r4 g, c %295
+		R2.
+		r4 d' c
+		c g r
+		g2.
+		g4 g r %300
+		c, c c
+		g' c, r
+		R2.*16 %318
+		d'2.\p
+		d %320
+		d
+		d
+		R2.*3 %325
+		d2.
+		d
+		R2.*6 %333
+		g,2.\fE
+		g %335
+		g
+		g
+		g4 e' d
+		g, r r
+		R2.*5 %344
+		d'2.\pE %345
+		d
+		g,4 r r
+		g2.
+		g
+		g %350
+		g4 r r
+		r e' d
+		g, r r
+		R2.*2 %355
+		r4 d' d
+		g, r r
+		R2.
+		g2\p d'4
+		d c r %360
+		R2.*2
+		r4 r g
+		\tuplet 3/2 4 { c8( d e) } e4 r
+		R2. %365
+		r4 g, c,
+		R2.
+		r4 g' c,
+		g'2.
+		g %370
+		g
+		g
+		g4 r r
+		c, r r
+		R2. %375
+		c\fE
+		c
+		c
+		c4 r r
+		r g' c, %380
+		g' g, r
+		R2.*5 %386
+		g'2.\pE
+		g
+		r4 d'\fE c
+		c g r %390
+		R2.*5 %395
+		e4\fE e e
+		e c' g
+		g r r
+		g,2 c4
+		g'2. %400
+		g
+		g
+		g
+		R
+		r4 r g %405
+		\tuplet 3/2 4 { c8( d e) } e4 r
+		g,2.
+		c,4 r r
+		R2.*5 %413
+		r4 r d'
+		g, c, r %415
+		g'2.\pE
+		g
+		g
+		g
+		c,4 r r %420
+		R2.
+		e'\fE
+		e
+		e
+		e4 r r %425
+		c d g,
+		c, c8 c c4
+		R2.*3 %430
+		c'8 r d r g, r
+		e4 c g'
+		c, r r\fermata \bar "|." %433 FINIS
 	}
 }
