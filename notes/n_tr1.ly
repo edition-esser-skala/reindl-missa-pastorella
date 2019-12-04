@@ -107,6 +107,71 @@ QuoniamTrombaI = {
 		\clef treble
 		\key c \major \time 3/4 \tempoQuoniam
 			\set Score.currentBarNumber = #288
-		
+		c'4\fE r r
+		c r r
+		r r e %290
+		d c r
+		R2.*2
+		d4 d d
+		d4. e16 f e4 %295
+		R2.*3
+		r4 f e
+		e d r %300
+		R2.*5 %305
+		c4 r r
+		d e r
+		R2.*3 %310
+		r4 r f
+		e d r
+		R2.*24 %336
+		g4\fE r r
+		r g fis
+		g r r
+		R2.*8 %347
+		d2.
+		d
+		d %350
+		g4 r r
+		r g fis
+		g r r
+		R2.*2 %355
+		r4^\critnote d d
+		d r r
+		R2.*18 %375
+		g,2.\fE
+		g
+		g
+		c4 r r
+		e f e %380
+		e d r
+		R2.*7 %388
+		r4 f\fE e
+		e d r %390
+		R2.*7 %397
+		d4\fE d d
+		d4. e16 f e4
+		R2.*3 %402
+		g2.
+		g4 r r
+		R2.*2 %406
+		r4 r d
+		\tuplet 3/2 4 { e8( f g) } g4 r
+		R2.*5 %413
+		r4 r f
+		d e r %415
+		R2.*3
+		r4 d\pE c
+		c r r %420
+		R2.
+		g2.\fE
+		g
+		g
+		c4 r r %425
+		e f d
+		c c8 c c4
+		R2.*3 %430
+		e8 r f r d r
+		c2 d4
+		c r r\fermata \bar "|." %433 FINIS
 	}
 }
