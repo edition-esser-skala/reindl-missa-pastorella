@@ -554,7 +554,152 @@ QuoniamViolinoI = {
 		\clef treble
 		\key d \major \time 3/4 \tempoQuoniam
 			\set Score.currentBarNumber = #288
-		
+		d'2\fE fis8( a,)
+		d2 fis8( a,)
+		d d' d( a) a( fis) %290
+		\appoggiatura fis16 e8 d16 e d4 r
+		<d fis,> q q
+		d4. e16 fis e4
+		<e a,> q q
+		q4. fis16 g fis4 %295
+		r r cis8( a)
+		d( a g' a, fis' a,)
+		fis'4 e cis8( a)
+		fis'( a, g' a, fis' a,)
+		fis'4 e r %300
+		d d d
+		cis8( e) d4 r
+		fis8\p g a4 a
+		ais8( h) g4 r
+		\once \slurDashed gis8( a) fis4 r %305
+		d\f d d
+		cis8 e d4 d
+		d d'16 cis h a g fis e d
+		cis4 cis'16 h a g fis e d cis
+		d4 d'16 cis h a g fis e d %310
+		e4 a16 g fis e d cis h a
+		fis'4 e r
+		d2\p fis8( a,)
+		d2 fis8( a,)
+		gis r a r h r %315
+		\tuplet 3/2 4 { cis( d e) } e4 a,
+		gis8 r a r h r
+		\tuplet 3/2 4 { cis( d e) } e4 r
+		e2 cis8( a)
+		gis( e h' gis) a4 %320
+		e'2 cis8( a)
+		\once \slurDashed gis( e h' gis) a4
+		r r gis8 fis16 gis
+		a4 cis8 h16 cis d8 cis16 d
+		h4 gis gis8 e %325
+		a e cis' e, d' e,
+		h'4( gis) r
+		d'8 d d d d d
+		cis cis cis cis cis cis
+		fis fis fis fis fis fis %330
+		e e e e e e
+		a,4 r r
+		R2.
+		a4\f cis8 a cis a
+		e'4 cis8 a cis a %335
+		e'4 cis8 a cis a
+		a' a4 a a8
+		a cis, d4 h
+		a r e\p
+		cis'8 d e4 e %340
+		eis8( fis) d4 r
+		\once \slurDashed dis8( e) cis4 r
+		e8 e4 e \once \tieDashed e8~
+		e e4 e e8
+		e2.~ %345
+		e
+		cis4 r r
+		a\f cis8 a cis a
+		e'4 cis8 a cis a
+		e'4 cis8 a cis a %350
+		a' a4 a a8
+		a8. cis,16 d4 h
+		a16 h cis d e fis gis a e4
+		d16 h cis d e fis gis a h gis e d
+		cis a h cis d e fis gis a e d cis %355
+		fis-! d( cis h) e-! cis( h a) d-! h( a gis)
+		a8 a'\p a a a a
+		r gis gis gis gis gis
+		r g g g g g
+		g4 fis r %360
+		cis8 r d r e r
+		\tuplet 3/2 4 { fis( g a) } a4 d,
+		cis8 r d r e r
+		\tuplet 3/2 4 { fis( g a) } a4 r
+		a2 fis8( d) %365
+		cis( a e' cis) d4
+		a'2 fis8( d)
+		cis( a e' cis) d4
+		r r cis
+		d \appoggiatura g16 fis8 e16 fis \appoggiatura a g8 fis16 g %370
+		e8( a) a4 cis,8( a)
+		d( a fis' a, g' a,)
+		e'4( cis) r
+		d r r
+		R2. %375
+		d,4\f fis8 d fis d
+		a'4 fis8 d fis d
+		a'4 fis8 d fis d
+		d'd'4 d d8
+		d a g4 fis %380
+		fis\trill e r
+		fis8\p g a4 a
+		\once \slurDashed ais8( h) g4 r
+		\once \slurDashed gis8(\f a) fis4 r
+		d,\p a a'8 fis %385
+		g4 a, g'8 e
+		d4 a a'8 fis
+		g4 a, g'8 e
+		d\f d' e g, fis d'
+		d4 cis r %390
+		f8\p g a4 a
+		\once \slurDashed a8( b) g4 r
+		\once \slurDashed gis8( a) f4 r
+		d,8 e f4 g
+		a8( b) a4 r %395
+		<fis! d'>\f <fis d'> q
+		d'4. e16( fis) e4
+		<e a,> q q
+		q4. fis16( g) fis4
+		r r cis %400
+		d \appoggiatura g16 fis8 e16 fis \appoggiatura a g8 fis16 g
+		e4 a cis,8( a)
+		d( a fis' a, g' a,)
+		e'4 a d,
+		cis8 r d r e r %405
+		\tuplet 3/2 4 { fis( g a) } a4 d,
+		cis8 r d r e r
+		\tuplet 3/2 4 { fis( g a) } a4 r
+		fis2.~
+		fis8 d g( fis e d) %410
+		e2.~
+		e8 cis fis( e d cis)
+		\once \tieDashed d2.~
+		d8 h e( d cis h)
+		cis4 d r %415
+		a'2\p fis8( d)
+		cis( a e' cis) d4
+		a'2 fis8( d)
+		cis( a e' cis) d4
+		<fis a, d,> r r %420
+		R2.
+		d,4\f fis8 d fis d
+		a'4 fis8 d fis d
+		a'4 fis8 d fis d
+		fis' d'4 d d8 %425
+		d fis, g4 e
+		d r r
+		fis8\p g a4 a
+		ais8( h) g4 r
+		gis8( a) fis4 r
+		d8\f r e r cis r
+		d2 cis'4
+		d r r\fermata \bar "|."
 	}
 }
 

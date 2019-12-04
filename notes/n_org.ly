@@ -1234,7 +1234,7 @@ QuoniamOrgano = {
 		h gis e
 		a fis cis %355
 		d8 r e r e, r
-		\mvTr a\p-\soloE a' a a a a
+		a \mvTr a'\p-\soloE a a a a
 		r a a a a a
 		a a a a a a
 		d4 d, fis %360
