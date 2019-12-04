@@ -92,6 +92,64 @@ QuoniamTimpani = {
 		\clef bass
 		\key c \major \time 3/4 \tempoQuoniam
 			\set Score.currentBarNumber = #288
-		
+		c4\fE r r
+		c r r
+		r r c %290
+		g c r
+		R2.*2
+		g4 r r
+		g g8 g c4 %295
+		R2.*3
+		r4 r c
+		g g r %300
+		R2.*5 %305
+		c4 r r
+		g c r
+		R2.*3 %310
+		r4 r g
+		c g r
+		R2.*24 %336
+		g4\fE r r
+		R2.
+		g4 r r
+		R2.*8 %347
+		g4 r r
+		g r r
+		R2. %350
+		g4 r r
+		R2.
+		g4 g r
+		R2.*3 %356
+		g4 r r
+		R2.*18 %375
+		c4\fE r r
+		R2.
+		c4 r r
+		c r r
+		r r c %380
+		g g r
+		R2.*7 %388
+		r4 r c
+		g g r %390
+		R2.*7 %397
+		g4 r r
+		g g8 g c4
+		R2.*7 %406
+		r4 r g
+		c r r
+		R2.*6 %414
+		g4 c r %415
+		R2.*4
+		c4\pE r r %420
+		R2.
+		c4\fE r r
+		R2.*2
+		c4 r r %425
+		r r g
+		c c8 c c4
+		R2.*3 %430
+		r4 r g
+		c c8 c g g
+		c4 r r\fermata \bar "|." %433 FINIS
 	}
 }
