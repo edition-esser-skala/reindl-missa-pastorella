@@ -554,6 +554,151 @@ QuoniamViolinoII = {
 		\clef treble
 		\key d \major \time 3/4 \tempoQuoniam
 			\set Score.currentBarNumber = #288
-		
+		fis8\fE a fis a fis a
+		fis a fis a fis a
+		fis a fis a fis a %290
+		\appoggiatura a16 g8-\critnote fis16 g fis4 r
+		<fis d'> q q
+		q4. e'16 fis e4
+		cis cis cis
+		cis4. d16 e d4 %295
+		a8 a a a a a
+		a4 e'8 a, d a
+		d4 cis \once \slurDashed cis8( a)
+		\once \slurDashed d( a e' a, d a)
+		d4 cis r %300
+		fis,8 g a4 a
+		a a r
+		d,8\p e fis4 fis
+		fis8( g) e4 r
+		e8( fis) d4 r %305
+		fis8\f g a4 a
+		a a d~
+		d e2~
+		e4 fis2~
+		fis4 \once \tieDashed g2~ %310
+		g4 a e
+		d cis r
+		fis,8\p fis fis fis fis fis
+		fis fis fis fis fis fis
+		e r e r gis r %315
+		\tuplet 3/2 4 { a8( h cis) } cis4 e,
+		e8 r e r gis r
+		\tuplet 3/2 4 { a8( h cis) } cis4 r
+		r h a
+		r gis a %320
+		r h a
+		r gis a
+		e8 e e e e e
+		e e e e e e
+		e e e e e e %325
+		e e e e e e
+		e4 e r
+		a8 a a a a a
+		a a a a a a
+		a a a a a a %330
+		a a a a a a
+		cis,4 r r
+		R2.
+		a4\f cis8 a cis a
+		e'4 cis8 a cis a %335
+		e'4 cis8 a cis a
+		cis' cis4 cis cis8
+		cis a h4 gis
+		a r r
+		a,8\p h cis4 cis %340
+		cis8( d) h4 r
+		\once \slurDashed h8( cis) a4 r
+		cis'8 cis4 cis cis8
+		h h4 h h8
+		cis2. %345
+		h
+		a4 r r
+		a,\f cis8 a cis a
+		e'4 cis8 a cis a
+		e'4 cis8 a cis a %350
+		cis' cis4 cis cis8
+		cis8. a16 h4 gis
+		a16 h cis d e fis gis a e4
+		d16 h cis d e fis gis a h gis e d
+		cis a h cis d e fis gis a e d cis %355
+		fis-! d( cis h) e-! cis( h a) d-! h( a gis)
+		a8 cis\p cis cis cis cis
+		r h h h h h
+		r cis cis cis cis cis
+		cis4 d r %360
+		a8 r a r cis r
+		\tuplet 3/2 4 { d( e fis) } fis4 r
+		a,8 r a r cis r
+		\tuplet 3/2 4 { d( e fis) } fis4 r
+		r e d %365
+		r a a
+		r e' d
+		r a a
+		a8 a a a a a
+		a a a a a a %370
+		a a a a a a
+		a a a a a a
+		a a a a a a
+		fis4 r r
+		R2. %375
+		d4\f fis8 d fis d
+		a'4 fis8 d fis d
+		a'4 fis8 d fis d
+		d' fis4 fis fis8
+		fis4 cis d %380
+		d cis r
+		d,8\p e fis4 fis
+		fis8( g) e4 r
+		e8( fis) d4 r
+		d-\critnote a a'8 fis %385
+		g4 a, g'8 e
+		d4 a a'8 fis
+		g4 a, g'8 e
+		d\f fis g e d fis
+		fis4 e r %390
+		d8\p e f4 f
+		f8( g) e4 r
+		e8( f) d4 r
+		d8 e f4 g
+		\once \slurDashed a8( b) a4 r %395
+		<fis! d'>\f <fis d'> q
+		d'4. e16 fis e4
+		cis cis cis
+		cis4. d16 e d4
+		a8 a a a a a %400
+		a a a a a a
+		a a a a a a
+		a4 r a
+		a r a
+		a8 r a r cis r %405
+		\tuplet 3/2 4 { d( e fis) } fis4 r
+		a,8 r a r a r
+		\tuplet 3/2 4 { d( e fis) } fis4 r
+		d8 a \once \slurDashed d( cis h a)
+		h2.~ %410
+		h8 g \once \slurDashed cis( h a g)
+		\once \tieDashed a2.~
+		a8 fis h( a g fis)
+		g4 r r
+		a a r %415
+		r e'\p d
+		r a a
+		r e' d
+		r a a
+		<d, a' fis'> r r %420
+		R2.
+		d4\f fis8 d fis d
+		a'4 fis8 d fis d
+		a'4 fis8 d fis d
+		d' fis4 fis fis8 %425
+		fis d e4 cis
+		d r r
+		d,8\p e fis4 fis
+		\once \slurDashed fis8( g) e4 r
+		\once \slurDashed e8( fis) d4 r %430
+		fis8\f r g r e r
+		fis2 e'4
+		<fis a, d,> r r\fermata \bar "|." %433 FINIS
 	}
 }

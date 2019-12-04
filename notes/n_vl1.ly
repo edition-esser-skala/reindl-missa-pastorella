@@ -650,8 +650,8 @@ QuoniamViolinoI = {
 		fis\trill e r
 		fis8\p g a4 a
 		\once \slurDashed ais8( h) g4 r
-		\once \slurDashed gis8(\f a) fis4 r
-		d,\p a a'8 fis %385
+		\once \slurDashed gis8( a) fis4 r
+		d, a a'8 fis %385
 		g4 a, g'8 e
 		d4 a a'8 fis
 		g4 a, g'8 e
@@ -663,9 +663,9 @@ QuoniamViolinoI = {
 		d,8 e f4 g
 		a8( b) a4 r %395
 		<fis! d'>\f <fis d'> q
-		d'4. e16( fis) e4
+		d'4. e16 fis e4
 		<e a,> q q
-		q4. fis16( g) fis4
+		q4. fis16 g fis4
 		r r cis %400
 		d \appoggiatura g16 fis8 e16 fis \appoggiatura a g8 fis16 g
 		e4 a cis,8( a)
@@ -696,10 +696,10 @@ QuoniamViolinoI = {
 		d r r
 		fis8\p g a4 a
 		ais8( h) g4 r
-		gis8( a) fis4 r
+		gis8( a) fis4 r %430
 		d8\f r e r cis r
 		d2 cis'4
-		d r r\fermata \bar "|."
+		d r r\fermata \bar "|." %433 FINIS
 	}
 }
 
