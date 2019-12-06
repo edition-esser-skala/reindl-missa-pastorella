@@ -852,7 +852,7 @@ CredoBassoNotes = {
 CredoBassoLyrics = \lyricmode {
 	Cre -- do, __ %14
 	cre -- do __ %15
-	in u -- num
+	in __ u -- num
 	De -- um,
 	cre -- do,
 	cre -- do,
@@ -873,7 +873,7 @@ CredoBassoLyrics = \lyricmode {
 	um, Pa -- trem o --
 	mni -- po -- %35
 	ten -- tem, fa -- cto -- rem
-	coe -- li et
+	coe -- li __ et __
 	ter -- rae,
 	
 	vi -- si -- bi -- li -- um %43
@@ -913,15 +913,15 @@ CredoBassoLyrics = \lyricmode {
 	ge -- ni -- tum non %84
 	fa -- ctum, con -- sub -- %85
 	stan -- ti -- a -- lem
-	Pa -- tri,
+	Pa -- tri, __
 	per __ quem
-	o -- mni -- a
+	o -- mni -- a __
 	fa -- cta %90
 	sunt.
 	
 	Qui, qui __ %95
 	pro -- pter nos __
-	ho -- mi -- nes et
+	ho -- mi -- nes et __
 	pro -- pter
 	no -- stram sa --
 	lu -- tem, %100
@@ -930,8 +930,8 @@ CredoBassoLyrics = \lyricmode {
 	lu -- tem,
 	
 	qui %107
-	pro -- pter
-	no -- stram,
+	pro -- pter __
+	no -- stram, __
 	no -- stram sa -- %110
 	lu -- tem de --
 	scen -- dit, de --
@@ -940,7 +940,7 @@ CredoBassoLyrics = \lyricmode {
 	coe -- lis, %115
 	pro -- pter nos
 	ho -- mi -- nes
-	et pro -- pter
+	et pro -- pter __
 	no -- stram sa -- lu --
 	tem de -- scen -- %120
 	dit, de -- scen --

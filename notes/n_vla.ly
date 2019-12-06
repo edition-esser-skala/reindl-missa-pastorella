@@ -693,7 +693,7 @@ QuoniamViola = {
 
 CredoViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key d \major \time 3/4 \tempoCredo
 		d4\fE a8 d \appoggiatura g16 fis8 e16 d
 		e4 a,8 e' \appoggiatura  a16 g8 fis16 e
