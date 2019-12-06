@@ -1701,7 +1701,106 @@ EtIncarnatusOrganoR = {
 		\clef treble
 		\key g \major \time 3/4 \tempoEtIncarnatus
 			\set Score.currentBarNumber = #129
-		
+		R2.*3 %131
+		r8 g'16 fis32 g h16[ a32 h] d16 cis32 d g4
+		r4 r8 << { d16 e d8 d } \\ { <fis, a>8 <g h> <fis a> } >>
+		r4 r8 << { d'16 e d8 d } \\ { <g, h>8 <a c> <g h> } >>
+		r4 r8 << { d'16 e d8 d } \\ { <fis, a>8 <g h> <fis a> } >> %135
+		d'8 g16. d32 \appoggiatura d16 c8 a'16. c,32 c16 h g' h,
+		<g h>4 <fis a>8 <c' fis> <h g'>[ <g h>]
+		q4 <fis a> r
+		R2.
+		r8 << { d'16 e d8 d g h } \\ { <g, h> q q q q } >> %140
+		R2.
+		r8 << { d'16 e d8 d g h } \\ { <g, h> q q q-\critnote q } >>
+		R2.*3 %145
+		g8 h d h d16 h d h
+		d8 r r4 r
+		g,16 a h c d8 h d16 h d h
+		d4 r r
+		r r8 d16( h) d( h) d( h) %150
+		\once \slurDashed g'4( d8) d16([ h)] d( h) d( h)
+		\once \slurDashed g'4( d8) d16([ h)] \slurDashed d( h) d( h) \slurSolid
+		<h g'>4 d8 \slurDashed d32( h16.) c32( a16.) a32( fis16.) \slurSolid
+		\appoggiatura fis8 g4 r r
+		R2.*3 %157
+		g4 h8 d, d' d,
+		g4 h8 d, d' d,
+		g4 h8 d, d' d, %160
+		g4 h8 d, d' d,
+		g' r r d16( h) d( h) d( h)
+		g'4 d8 d32( h16.) c32( a16.) a32( fis16.)
+		g4 h8 d, d' d,
+		g4 h8 d, d' d, %165
+		g4 h8 d, d' d,
+		g r r4 r
+		R2.*5 %172
+		d'8. g16 \appoggiatura g4 fis2
+		d8. g16 \appoggiatura g4 fis2
+		R2.*25 %199
+		r4 r8 << { a,16 h a8 a } \\ { <cis, e> <d fis> <cis e> } >> %200
+		r4 r8 << { a'16 h a8 a } \\ { <d, fis> <e g> <d fis> } >>
+		R2.
+		r8-\critnote << { a'16 h a8 a d fis } \\ { <d, fis> q q q q } >>
+		R2.
+		r8 << { a'16 h a8 a d fis } \\ { <d, fis> q q q q } >> %205
+		R2.*2
+		r4 r gis'16( a) gis( a)
+		<d, fis,>4 <cis e,>8 r gis'16( a) gis( a)
+		<e g,>4 <d fis,>8 r r4 %210
+		R2.*6 %216
+		a8. d16 \appoggiatura d4 cis2
+		a8. d16 \appoggiatura d4 cis2
+		d4 fis8 a, a' a,
+		d4 fis8 a, a' a, %220
+		d a fis' a, a' a,
+		R2.*7 %228
+		d8 fis a fis a16 fis a fis
+		a4 r r %230
+		d,16 e fis g a8 fis a16 fis a fis
+		a4 r r
+		R2.*8 %240
+		r8 << {
+			fis, fis g g a
+			a h h c! \appoggiatura d16 c8 h16 a
+			\appoggiatura a8 h4
+		} \\ {
+			d,8 d e e fis
+			fis g g a \appoggiatura h16 a8 g16 fis
+			\appoggiatura fis8 g4
+		} >> r4 r
+		R2.*2 %245
+		r8-\critnote << { d'16 e d8 d g h } \\ { <g, h> q q q q } >>
+		d'8. g16 \appoggiatura g4 fis2
+		d8. g16 \appoggiatura g4 fis2
+		g,2.\startTrillSpan
+		g %250
+		g
+		g
+		g4\stopTrillSpan r r
+		R2.*10 %263
+		r4 r8 << { d'16 e d8 d } \\ { <fis, a>8 <g h> <fis a> } >>
+		r4 r8 << { d'16 e d8 d } \\ { <g, h>8 <a c> <g h> } >> %265
+		R2.*6 %271
+		g16 a h c d8 h d16 h d h
+		d4 r r
+		R2.*7 %280
+		r4 r cis16( d cis d)
+		<g, h,>4 <fis a,>8 r \once \slurDashed cis'16( d cis d)
+		<a c,!>4 <g h,>8 r r4
+		g h8 d, d' d,
+		g4 h8 d, d' d, %285
+		g d h' d, d' d,
+		R2.
+		r4 r8 d'16( h) d( h) d( h)
+		g'4( d8) d16([ h)] d( h) d( h)
+		g'4( d8) d16([ h)] d( h) d( h) %290
+		<< { g'4 d8 d d16 c c a } \\ { h4 h8 h h16 a a fis } >>
+		g4 h8 d, d' d,
+		g4 h8 d, d' d,
+		g d h' d, d' d,
+		g4 r r %295
+		R2.\fermataMarkup \bar "||" %2096 finis
 	}
 }
 
@@ -1711,6 +1810,173 @@ EtIncarnatusOrganoL = {
 		\key g \major \time 3/4 \tempoEtIncarnatus
 			\set Score.currentBarNumber = #129
 		g'8 g g g g g
+		g g g g g g %130
+		c4 d d,
+		r8 g, h d g4
+		d8 fis16 a d,8 r r4
+		d8 g16 h d,8 r r4
+		d8 fis16 a d,8 r r4 %135
+		h'8 h, a[ a'] g, g'
+		d4 d, r8 cis'
+		d4 d, r
+		d'8 fis16 a d,8 g16 h d,8 a'16 c
+		g8 r r4 r %140
+		d8 fis16 a d,8 g16 h d,8 a'16 c
+		g8 r r4 r
+		c8 c c c c c
+		h4 a g
+		c d d, %145
+		g8 r r4 r
+		d8 fis a fis a16 fis a fis
+		g4 r r
+		d16 e fis g a8 fis a16 fis a fis
+		g8 g g g g g %150
+		g g g g g g
+		g g g g g g
+		d4 r8 d d d
+		g,2.
+		<g g'> %155
+		q
+		d'4 r8 d d d
+		g,16 g' h g g, g' h g g, g' h g
+		g, g' h g g, g' h g g, g' h g
+		g, g' h g g, g' h g g, g' h g %160
+		g,4 h d
+		g r r
+		d r8 d d d
+		g,16 g' h g g, g' h g g, g' h g
+		g, g' h g g, g' h g g, g' h g %165
+		g,4 h d
+		g,8 r g r g r
+		g2 r4
+		g8 g g g g g
+		g2. %170
+		c4 d d,
+		r8 g h d g4
+		\tuplet 3/2 4 { g8 h d a c d d, a' d }
+		\tuplet 3/2 4 { g, h d a c d d, a' d }
+		<g, g,>2. %175
+		q
+		q
+		q
+		g,4 r r
+		h' a d, %180
+		g fis d
+		h' a d,
+		g fis d
+		\slurDashed h'( g) d8 c'
+		h4( g) d8 c' %185
+		h4( g) d8 c' \slurSolid
+		h4 g r8 d
+		g4 g, r
+		d'( d,8) r r4
+		d'4( g,8) r r4 %190
+		d'4( d,8) r r4
+		d4( g8) r r4
+		r g' e
+		a g fis
+		d2.~ %195
+		d~
+		\once \tieDashed d~
+		d
+		d4 d, r
+		a'8 cis16 e a,8 r r4 %200
+		a8 d16 fis a,8 r r4
+		a8 cis16 e a,8 d16 fis a,8 e'16 g
+		d8 r r4 r
+		a8 cis16 e a,8 d16 fis a,8 e'16 g
+		d4 r r %205
+		a d r
+		a' a, r
+		a d r
+		a'( a,8) r r4
+		a4( d8) r r4 %210
+		fis4( d) a8 g'
+		fis4( d) a8 g'
+		fis4( d) a8 g'
+		fis4 d a
+		d r r %215
+		g a a,
+		\tuplet 3/2 4 { d8 fis a e g a a, e' a }
+		\tuplet 3/2 4 { d, fis a e g a a, e' a }
+		d,,16 d' fis d d, d' fis d d, d' fis d
+		d, d' fis d d, d' fis d d, d' fis d %220
+		d d' fis d d, d' fis d d, d' fis d
+		a2 a,4
+		d2.
+		d
+		d4 r8 d d d %225
+		d4 r8 d d d
+		d4 r8 d d d
+		a'2 a,4
+		d r r
+		a'8 cis e cis e16 cis e cis %230
+		d4 r r
+		a16 h cis d e8 cis e16 cis e cis
+		d4r8 d, d d
+		d4 r8 d d d
+		d4 r r %235
+		a' r8 a, a a
+		d4 a d,
+		d' r r
+		d fis d
+		g a a, %240
+		d r r
+		d d d
+		g, r r
+		g' h g
+		c d d, %245
+		g r r
+		\tuplet 3/2 4 { g8 h d a c d d, a' d }
+		\tuplet 3/2 4 { g, h d a c d d, a' d }
+		<g, g,>2.
+		q %250
+		q
+		q
+		g,4 r r
+		h' a d,
+		g fis d %255
+		h' a d,
+		g fis d
+		g8 g g g g g
+		g g g g g g
+		g g g g g g %260
+		g g g g g g
+		g r fis r g r
+		d4 d, r
+		d'8 fis16 a d,4 r
+		d8 g16 h d,4 r %265
+		d8 fis16 a d,8 g16 h d,8 a'16 c
+		g4 r r
+		d8 fis16 a d,8 g16 h d,8 a'16 c
+		g4 r r
+		g r r %270
+		d8 fis a fis a16 fis a fis
+		g4 r r
+		d16 e fis g a8 fis a16 fis a fis
+		g4 r r
+		h( g) d8 c' %275
+		h4( g) d8 c'
+		\once \slurDashed h4( g) d8 c'
+		h4 g d
+		g g, r
+		d'( d,8) r r4 %280
+		d'4( g8) r r4
+		\once \slurDashed d( d,8) r r4
+		\once \slurDashed d4( g8) r r4
+		g16 g' h g g, g' h g g, g' h g
+		g, g' h g g, g' h g g, g' h g %285
+		g, g' h g g, g' h g g, g' h g
+		d4 r d,
+		g r8 g' g g
+		g4 r8 g g g
+		g4 r8 g g g %290
+		d4 r8 d d d
+		g,16 g' h g g, g' h g g, g' h g
+		g, g' h g g, g' h g g, g' h g
+		g,4 h d
+		g,8 r g r g r %295
+		g2 r4\fermata \bar "||" %296 finis
 	}
 }
 
@@ -1723,6 +1989,173 @@ EtIncarnatusViolone = {
 		\clef bass
 		\key g \major \time 3/4 \tempoEtIncarnatus
 			\set Score.currentBarNumber = #129
-		
+		g'8\fE g g g g g
+		g g g g g g %130
+		c4 d d,
+		r8 g, h d g4
+		d8 fis16 a d,8 r r4
+		d8 g16 h d,8 r r4
+		d8 fis16 a d,8 r r4 %135
+		h'4 a g
+		d4\p d r8 cis
+		d4 d r
+		d8\f fis16 a d,8 g16 h d,8 a'16 c
+		g8 r r4 r %140
+		d8 fis16 a d,8 g16 h d,8 a'16 c
+		g8 r r4 r
+		c8 c c c c c
+		h4 a g
+		c d d, %145
+		g8 r r4 r
+		d8 fis a fis a16 fis a fis
+		g4 r r
+		d16 e fis g a8 fis a16 fis a fis
+		g,2.~ %150
+		g~
+		g
+		d'4 r8 d d d
+		\once \tieDashed g,2.~
+		\once \tieDashed g~ %155
+		g
+		d'4 r8 d d d
+		g,16\p g' h g g, g' h g g, g' h g
+		g,2.
+		g %160
+		g4 h d
+		g r r
+		d r8 d d d
+		g,2.
+		g %165
+		g4 h d
+		g,8 r g r g r
+		g2 r4
+		g8\pE g g g g g
+		g2. %170
+		c4 d d
+		g,4 h8 d g4
+		g a d,
+		g8 r a r d, r
+		g,2.~ %175
+		g~
+		g~
+		g
+		g4 r r
+		h' a d, %180
+		g fis d
+		h' a d,
+		g fis d
+		\slurDashed h'( g) d8 c'
+		h4( g) d8 c' %185
+		h4( g) d8 c' \slurSolid
+		h4 g r8 d
+		g4 g, r
+		d' d r
+		d( g,8) r r4 %190
+		d' d r
+		d( g,8) r r4
+		r g' e
+		a g fis
+		d2.~ %195
+		d~
+		\once \tieDashed d~
+		d
+		d4 d r
+		a8 cis16 e a,8 r r4 %200
+		a8 d16 fis a,8 r r4
+		a8 cis16 e a,8 d16 fis a,8 e'16 g
+		d8 r r4 r
+		a8 cis16 e a,8 d16 fis a,8 e'16 g
+		d4 r r %205
+		a d r
+		a' a, r
+		a d r
+		a'( a,8) r r4
+		a4( d8) r r4 %210
+		fis4( d) a8 g'
+		fis4( d) a8 g'
+		fis4( d) a8 g'
+		fis4 d a
+		d r r %215
+		g a a,
+		\tuplet 3/2 4 { d8 fis a e g a a, e' a }
+		d,4 e a,
+		d2.
+		d %220
+		d
+		a'2 a,4
+		d2.
+		d
+		d4 r8 d d d %225
+		d4 r8 d d d
+		d4 r8 d d d
+		a'2 a,4
+		d r r
+		a8 cis e cis e16 cis e cis %230
+		d4 r r
+		a16 h cis d e8 cis e16 cis e cis
+		d4 r8 d d d
+		d4 r8 d d d
+		d4 r r %235
+		a' r8 a, a a
+		d4 a d
+		d r r
+		d fis d
+		g a a, %240
+		d\p r r
+		d d d
+		g, r r
+		g' h g
+		c d d, %245
+		g r r
+		g8 r a r d, r
+		g4 a d,
+		g,2.
+		g %250
+		g
+		g
+		g4 r r
+		h' a d,
+		g fis^\critnote d %255
+		h' a d,
+		g fis d
+		g8 g g g g g
+		g g g g g g
+		g g g g g g %260
+		g g g g g g
+		g r fis r g r
+		d4 d r
+		d8 fis16 a d,4 r
+		d8 g16 h d,4 r %265
+		d8 fis16 a d,8 g16 h d,8 a'16 c
+		g4 r r
+		d8 fis16 a d,8 g16 h d,8 a'16 c
+		g4 r r
+		g r r %270
+		d8 fis a fis a16 fis a fis
+		g4 r r
+		d16 e fis g a8 fis a16 fis a fis
+		g4 r r
+		h( g) d8 c' %275
+		h4( g) d8 c'
+		\once \slurDashed h4( g) d8 c'
+		h4 g d
+		g g, r
+		d'( d8) r r4 %280
+		d4( g8) r r4
+		d( d8) r r4
+		\once \slurDashed d4( g,8)-\critnote r r4
+		g2.
+		g %285
+		g
+		d'4 r d
+		g, r8 g' g g
+		g4 r8 g g g
+		g4 r8 g g g %290
+		d4 r8 d d d
+		g2.
+		g
+		g,4 h d
+		g,8 r g r g r %295
+		g2 r4\fermata \bar "||" %296 finis
 	}
 }
