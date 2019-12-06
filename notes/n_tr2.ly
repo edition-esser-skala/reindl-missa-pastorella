@@ -180,6 +180,69 @@ CredoTrombaII = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 3/4 \tempoCredo
-		
+		R2.*5 %5
+		e'4\fE d c
+		g r r
+		g r r
+		R2.
+		g4 r r %10
+		R2.*2
+		r4 c g
+		e r r
+		R2.*2 %16
+		g4 d' c
+		c, r r
+		g' r r
+		c, c c %20
+		c r r
+		R2.*12 %33
+		c'4 c8 c c c
+		c4 r r %35
+		r r g
+		c c c
+		g d' c
+		R2.*2 %40
+		r4 r r8 d
+		c g g4 r
+		R2.*8 %50
+		d'8 d4 d d8
+		d4 d r
+		R2.*3 %55
+		d4 d r
+		R2.*4 %60
+		r4 e d
+		d r r
+		R2.*2
+		r4 c d %65
+		d r r
+		d r r
+		d r r
+		R2.*2 %70
+		r4 d d
+		d r r
+		R2.*2
+		r4 d d %75
+		d r r
+		R2.*24 %100
+		d2 d4
+		c c c
+		c g r
+		R2.*4 %107
+		g4 r r
+		g r r
+		r c c %110
+		g4. c16 d c4
+		R2.*3
+		g4 g r %115
+		d' c r
+		R2.*3
+		c,4 r r %120
+		c r r
+		r8 c' d4 g,
+		e r r
+		R2.*2 %125
+		r4 c' g
+		e e e
+		e r r\fermata \bar "||" %128 finis
 	}
 }
