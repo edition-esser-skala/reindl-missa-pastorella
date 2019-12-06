@@ -788,8 +788,8 @@ CredoViolinoII = {
 		fis4 h,8 fis' \appoggiatura h16 a8 g16 fis
 		e8-! fis-! g-! a-! h-! c-!
 		\once \slurDashed e,( dis) dis4 r
-		g16 g g g g g g g g g g g
-		fis fis fis fis fis fis fis fis fis fis fis fis %85
+		h'16-\critnote h h h h h h h h h h h
+		h h h h h h h h h h h h %85
 		g8 fis g a h g
 		c h c d e c
 		fis, e fis g a fis

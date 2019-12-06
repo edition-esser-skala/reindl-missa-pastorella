@@ -695,6 +695,131 @@ CredoViola = {
 	\relative c' {
 		\clef treble
 		\key d \major \time 3/4 \tempoCredo
-		
+		d4\fE a8 d \appoggiatura g16 fis8 e16 d
+		e4 a,8 e' \appoggiatura  a16 g8 fis16 e
+		d8-! cis-! d-! e-! fis-! g-!
+		a4 a, d
+		d8-! cis-! d-! e-! fis-! g-! %5
+		a4 a, d
+		fis( d8) r r4
+		e4( cis8) r r4
+		d cis h
+		a r8 a'-\parenthesize-! a-\parenthesize-! a-\parenthesize-! %10
+		a4 r8 a a a
+		fis4( d8) a'[ a a]
+		g4 a a,
+		d a8 d \appoggiatura g16 fis8 e16 d
+		e4 a,8 e' \appoggiatura a16 g8 fis16 e %15
+		d8-\parenthesize-! cis-\parenthesize-! d-\parenthesize-! e-\parenthesize-! fis-\parenthesize-! g-\parenthesize-!
+		a4 a, d
+		R2.*3 %20
+		d8 cis d e fis d
+		g fis g a h cis
+		d h a g fis e
+		d cis d e fis d
+		g fis g a h cis %25
+		d a g fis e d
+		g a h cis d g,
+		fis a h cis d fis,
+		e d cis h a cis
+		d e fis g a d, %30
+		g a h cis d g,
+		fis a h cis d fis,
+		e d cis h a cis
+		d4 r r
+		d'16 d d d d d d d cis cis cis cis %35
+		d d d d d d d d cis cis cis cis
+		d,8-! cis-! d-! e-! fis-! g-!
+		a4 a a
+		d, a8 d \appoggiatura g16 fis8 e16 d
+		e4 a,8 e' \appoggiatura a16 g8 fis16 e %40
+		d8-\parenthesize-! cis-\parenthesize-! d-\parenthesize-! e-\parenthesize-! fis-\parenthesize-! g-\parenthesize-!
+		a4 a, d
+		fis8 fis fis fis fis fis
+		e e e e e e
+		e e e e e e %45
+		d d' d d d d
+		d d d d d d
+		cis cis cis cis cis cis
+		cis cis cis cis cis cis
+		h h h h h h %50
+		h e,4 e e8
+		e4 e, r
+		a' e8 a \appoggiatura d16 cis8 h16 a
+		h4 e,8 h' \appoggiatura e16 d8 cis16 h
+		a,8-! gis-! a-! h-! cis-! d-! %55
+		e4 e,8 a'[-! a-! a-!]
+		a4 r8 a a a
+		a4 r r
+		d,( h8) h[-! h-! h-!]
+		cis4( a8) a[-! a-! a-!] %60
+		h h h h h h
+		a4 r r
+		d( h8) h[-\parenthesize-! h-\parenthesize-! h-\parenthesize-!]
+		cis4( a8) a[-\parenthesize-! a-\parenthesize-! a-\parenthesize-!]
+		h h h h h h %65
+		a4 r r
+		a'16 a a a a a a a gis gis gis gis
+		a a a a a a a a gis gis gis gis
+		a8 a gis fis e d
+		e4 r r %70
+		d e e,
+		a r8 e' e e
+		e4 r8 e e e
+		e4 r8 e e e
+		fis4 e e %75
+		e8 e e e e e
+		fis fis fis fis fis fis
+		dis h h h h h
+		h4 h r
+		e h8 e \appoggiatura a16 g8^\missgrace fis16 e %80
+		fis4 h,8 fis' \appoggiatura h16 a8^\missgrace g16 fis
+		e8 dis e fis g a
+		h4 h, r
+		g'16 g g g g g g g g g g g
+		fis fis fis fis fis fis fis fis fis fis fis fis %85
+		e8 dis e fis g e
+		a gis a h c a
+		d,! cis! d e fis d
+		g fis g a h g
+		c,4 d d, %90
+		g' d8 g \appoggiatura c16 h8^\missgrace a16 g
+		a4 d,8 a' \appoggiatura d16 c8^\missgrace h16 a
+		g8-\parenthesize-! fis-\parenthesize-! g-\parenthesize-! a-\parenthesize-! h-\parenthesize-! c-\parenthesize-!
+		d4 d, r
+		d16 d d d d d d d d d d d %95
+		d d d d d d d d d d d d
+		g8 fis g a h c
+		d2 c4
+		h8 c h a g fis
+		e dis e fis g e %100
+		a h a g fis e
+		d cis d e fis g
+		a4 a, r
+		d a8 d \appoggiatura g16 fis8 e16 d
+		e4 a,8 e' \appoggiatura a16 g8 fis16 e %105
+		d8-\parenthesize-! cis-\parenthesize-! d-\parenthesize-! e-\parenthesize-! fis-\parenthesize-! g-\parenthesize-!
+		a4 a, d
+		d'16 d d d d d d d d d d d
+		cis cis cis cis cis cis cis cis cis cis cis cis
+		a8 a4 a a8 %110
+		a4 a, d
+		\once \slurDashed a'( a8) r r4
+		a4( a8) r r4
+		a a a
+		a r r %115
+		cis,( d8) r r4
+		g4( fis8) r r4
+		d'16 d d d d d d d cis cis cis cis
+		d d d d d d d d cis cis cis cis
+		d8 h a g fis e %120
+		d h' a g fis e
+		d h' g4 a
+		d, r8 d-\parenthesize-! d-\parenthesize-! d-\parenthesize-!
+		fis4( d8) d[-! d-! d-!]
+		fis4( d8) a'[-\parenthesize-! a-\parenthesize-! a-\parenthesize-!] %125
+		g4 a a
+		fis d d
+		d r r\fermata \bar "||" %128 finis
 	}
 }
