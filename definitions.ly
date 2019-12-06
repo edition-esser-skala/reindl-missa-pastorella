@@ -138,6 +138,7 @@ t = \markup { \combine \fontsize #-2 \transparent \number 5 \raise #.6 \draw-lin
 l = \markup { \fontsize #-2 \transparent \number 5 }
 fermataMarkdown = \markup { \musicglyph #'"scripts.dfermata" }
 critnote = \markup { \musicglyph #'"pedal.*" }
+missgrace = \markup { \musicglyph #'"noteheads.s2xcircle" }
 trillE = \tweak self-alignment-X #CENTER ^\markup { \hspace #1.5 [ \musicglyph #'"scripts.trill" ] }
 extraNat = \once \override Accidental.restore-first = ##t
 kneeBeam = \once \override Beam.auto-knee-gap = #0

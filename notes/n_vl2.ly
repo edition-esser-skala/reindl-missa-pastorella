@@ -707,6 +707,131 @@ CredoViolinoII = {
 	\relative c' {
 		\clef treble
 		\key d \major \time 3/4 \tempoCredo
-		
+		d4\fE a8 d \appoggiatura g16 fis8-\missgrace e16 d
+		e4 a,8 e' \appoggiatura a16 g8-\missgrace fis16 e
+		d8-! e-! fis-! g-! a-! h-!
+		fis e \appoggiatura fis16 e8-\missgrace d16 e d4
+		d'8-! e-! fis-! g-! a-! h-! %5
+		fis e \appoggiatura fis16 e8^\missgrace d16 e d4
+		a'( fis8) gis,16([ a)] gis( a) gis( a)
+		g'!4( e8) gis,16([ a)] gis( a) gis( a)
+		a8( fis') fis( e) e( d)
+		gis([ a)] a,8 fis'-! fis-! fis-! %10
+		a4( fis8) eis16([ fis)] eis( fis) eis( fis)
+		a4( fis8) cis'16([ d)] cis( d) cis( d)
+		\appoggiatura a16 g8 fis16 e d4 cis
+		d, a8 d \appoggiatura g16 fis8-\missgrace e16 d
+		e4 a,8 e' \appoggiatura a16 g8-\missgrace fis16 e %15
+		d'8-! e-! fis-! g-! a-! h-!
+		e,,4. \once \slurDashed fis16( g) fis4
+		R2.*3 %20
+		d8-\pizz cis d e fis d
+		g fis g a h cis
+		d h a g fis e
+		d cis d e fis d
+		g fis g a h cis %25
+		d a g fis e d
+		g a h cis d g,
+		fis a h cis d fis,
+		e d cis h a cis
+		d e fis g a d, %30
+		g a h cis d g,
+		fis a h cis d fis,
+		e d cis h a cis
+		d4 r r
+		fis'16^\arco fis fis fis fis fis fis fis e e e e %35
+		fis fis fis fis fis fis fis fis e e e e
+		fis8-! e-! fis-! g-! a-! h-!
+		cis,4. d16( e) d4
+		d, a8 d \appoggiatura g16 fis8 e16 d
+		e4 a,8 e' \appoggiatura a16 g8 fis16 e %40
+		d'8-! e-! fis-! g-! a-! h-!
+		d,( cis) cis4 r
+		r8 fis16 e d8 cis h a
+		gis4 r r
+		r8 e'16 d cis8 h a gis %45
+		fis4 r r
+		r8 d'16 cis h8 a gis fis
+		e4 r r
+		r8 cis'16 h a8 gis fis e
+		d4 r r %50
+		h'8 gis a gis a h
+		a4 gis r
+		a e8 a \appoggiatura d16 cis8 h16 a
+		h4 e,8 h' \appoggiatura e16 d8 cis16 h
+		a8-! h-! cis-! d-! e-! fis-! %55
+		a,([ gis)] gis cis[-! cis-! cis-!]
+		e4( cis8) his16([ cis)] his( cis) his( cis)
+		e4( cis8) r r4
+		a16 a a a a a a a a a a a
+		a a a a a a a a a a a a %60
+		a a a a a a a a gis8 gis
+		a4 r r
+		a16 a a a a a a a a a a a
+		a a a a a a a a a a a a
+		a a a a a a a a gis8 gis %65
+		a4 r r
+		cis16 cis cis cis cis cis cis cis h h h h
+		cis cis cis cis cis cis cis cis h h h h
+		cis8 cis4 cis cis8
+		cis8. e16 a8. e16 a8. e16 %70
+		\appoggiatura e16 d8 cis16 h a4 gis
+		a r8 cis cis cis
+		e4( cis8) his16([ cis)] his( cis) his( cis)
+		e4( cis8) gis'16([ a)] gis( a) gis( a)
+		\appoggiatura e d8 cis16 h a4 gis %75
+		a16 cis a cis a cis a cis a cis a cis
+		a cis a cis a cis a cis a cis a cis
+		a8( dis) dis([ a)] a( fis)
+		e4 dis r
+		e h8 e \appoggiatura a16 g8 fis16 e %80
+		fis4 h,8 fis' \appoggiatura h16 a8 g16 fis
+		e8-! fis-! g-! a-! h-! c-!
+		\once \slurDashed e,( dis) dis4 r
+		g16 g g g g g g g g g g g
+		fis fis fis fis fis fis fis fis fis fis fis fis %85
+		g8 fis g a h g
+		c h c d e c
+		fis, e fis g a fis
+		h a h c d h
+		\appoggiatura d16 c8 h16 a g4 fis %90
+		g d8 g \appoggiatura c16 h8 a16 g
+		a4 d,8 a' \appoggiatura d16 c8 h16 a
+		g8-!^\critnote a-! h-! c-! d-! e-!
+		h( a) a4 r
+		h16 h h h h h h h h h h h %95
+		c c c c c c c c c c c c
+		h8 h4 h h8
+		a a4 a a8
+		fis fis4 fis fis8
+		h h4 h h8 %100
+		a e4 e e8
+		fis a4 a a8
+		fis4 e r
+		d a8 d \appoggiatura g16 fis8 e16 d
+		e4 a,8 e' \appoggiatura a16 g8 fis16 e %105
+		d8-! e-! fis-! g-! a-! h-!
+		fis e \appoggiatura fis16 e8-\missgrace d16 e d4
+		fis'16 fis fis fis fis fis fis fis fis fis fis fis
+		e e e e e e e e e e e e
+		d8 fis4 fis fis8 %110
+		cis4. d16 e d4
+		a'( fis8) gis,16([ a)] gis( a) gis( a)
+		g'!4( e8) gis,16([ a)] gis( a) gis( a)
+		\once \slurDashed a8( fis') fis( e) e( d)
+		cis( e) a, gis16( a) gis( a) gis( a) %115
+		e'4( d8) gis,16([ a)] gis( a) gis( a)
+		e4( fis8) a[-! a-! a-!]
+		fis'16 fis fis fis fis fis fis fis e e e e
+		fis fis fis fis fis fis fis fis e e e e
+		d8 d4 d d8 %120
+		d d4 d d8
+		d4 e cis
+		d r8 fis-\parenthesize-! fis-\parenthesize-! fis-\parenthesize-!
+		a4( fis8) eis16([ fis)] eis( fis) eis( fis)
+		a4( fis8) cis'16([ d)] cis( d) cis( d) %125
+		\appoggiatura a g8 fis16 e d4 cis
+		d <fis a, d,> q
+		q r r\fermata \bar "||" %128 finis
 	}
 }

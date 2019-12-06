@@ -1486,8 +1486,8 @@ CredoOrgano = {
 		a a a a a a %50
 		gis e fis e fis gis
 		a4 e r
-		a-! e8-! a-! \appoggiatura d16 cis8-!^\critnote h16-! a-!
-		h4-! e,8-! h'-! \appoggiatura e16 d8-!^\critnote cis16-! h-!
+		a-! e8-! a-! \appoggiatura d16 cis8-!^\missgrace h16-! a-!
+		h4-! e,8-! h'-! \appoggiatura e16 d8-!^\missgrace cis16-! h-!
 		a8 gis a h cis d %55
 		e4 e,8 a[-! a-! a-!]
 		cis4( a8) a[-! a-! a-!]
@@ -1517,19 +1517,19 @@ CredoOrgano = {
 		fis4-! h,8-! fis'-! \appoggiatura h16 a8-! g16-! fis-!
 		e8 dis? e fis g a
 		h4 h, r
-		e h8 e \appoggiatura a16 g8^\critnote fis16 e
-		fis4 h,8 fis' \appoggiatura h16 a8^\critnote g16 fis %85
+		e h8 e \appoggiatura a16 g8^\missgrace fis16 e
+		fis4 h,8 fis' \appoggiatura h16 a8^\missgrace g16 fis %85
 		e8 dis e fis g e
 		a gis a h c a
 		d,! cis! d e fis d
 		g fis g a h g
 		c4 d d, %90
 		g-! d8-! g-! \appoggiatura c16 h8-! a16-! g-!
-		a4-! d,8-! a'-! \appoggiatura d16 c8-!^\critnote h16-! a-!
+		a4-! d,8-! a'-! \appoggiatura d16 c8-!^\missgrace h16-! a-!
 		g8 fis g a h c
 		d4 d, r
-		g d8 g \appoggiatura c16 h8^\critnote a16 g %95
-		a4 d,8 a' \appoggiatura d16 c8^\critnote h16 a
+		g d8 g \appoggiatura c16 h8^\missgrace a16 g %95
+		a4 d,8 a' \appoggiatura d16 c8^\missgrace h16 a
 		g8 fis g a h c
 		d2 c4
 		h8 c h a g fis
@@ -1551,7 +1551,7 @@ CredoOrgano = {
 		a a, r %115
 		cis4( d8) r r4
 		g4( fis8) r r4
-		d a8 fis' \appoggiatura a16 g8^\critnote fis16 e
+		d a8 fis' \appoggiatura a16 g8^\missgrace fis16 e
 		d4 a8 fis' \appoggiatura a16 g8 fis16 e
 		d8 h' a g fis e %120
 		d h' a g fis e

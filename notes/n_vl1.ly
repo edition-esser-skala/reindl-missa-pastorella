@@ -710,12 +710,12 @@ CredoViolinoI = {
 		d4\fE a8 d \appoggiatura g16 fis8 e16 d
 		e4 a,8 e' \appoggiatura a16 g8 fis16 e
 		d8-! e-! fis-! g-! a-! h-!
-		a g \appoggiatura a16 g8-\critnote fis16 g fis4
+		a g \appoggiatura a16 g8-\missgrace fis16 g fis4
 		d'8-! e-! fis-! g-! a-! h-! %5
 		a g \appoggiatura a16 g8 fis16 g fis4
 		a( fis8) gis,16([ a)] gis( a) gis( a)
-		g'4( e8) gis,16([ a)] gis( a) gis( a)
-		a8 fis' fis( e) e( d)
+		g'!4( e8) gis,16([ a)] gis( a) gis( a)
+		\once \slurDashed a8( fis') fis( e) e( d)
 		gis([ a)] a,8 fis'-! fis-! fis-! %10
 		a4( fis8) eis16([ fis)] eis( fis) eis( fis)
 		a4( fis8) cis16([ d)] cis( d) cis( d)
@@ -744,9 +744,9 @@ CredoViolinoI = {
 		fis8-! e-! fis-! g-! a-! h-!
 		e,4. fis16( g) fis4
 		d, a8 d \appoggiatura g16 fis8 e16 d
-		e4 a,8 e' \appoggiatura a16 g8-\critnote fis16 e %40
+		e4 a,8 e' \appoggiatura a16 g8-\missgrace fis16 e %40
 		d'8-! e-! fis-! g-! a-! h-!
-		fis e e4 r
+		\once \slurDashed fis( e) e4 r
 		<fis a, d,> r r
 		r8 e16 fis gis8 a h gis
 		a4 r r %45
@@ -757,7 +757,7 @@ CredoViolinoI = {
 		r8 h,16 cis d8 e fis d %50
 		e e4 e d8
 		cis4 h r
-		a e8 a \appoggiatura d16 cis8^\critnote h16 a
+		a e8 a \appoggiatura d16 cis8^\missgrace h16 a
 		h4 e,8 h' \appoggiatura e16 d8 cis16 h
 		a8-! h-! cis-! d-! e-! fis-! %55
 		cis([ h)] h cis[-! cis-! cis-!]
@@ -784,8 +784,8 @@ CredoViolinoI = {
 		cis, a' cis, a' cis, a' cis, a' cis, a' cis, a'
 		a8( fis) fis([ dis)] dis( a)
 		g!4 fis r
-		e h8 e \appoggiatura a16 g8-\critnote fis16 e %80
-		fis4 h,8 fis' \appoggiatura h16 a8-\critnote g16 fis
+		e h8 e \appoggiatura a16 g8-\missgrace fis16 e %80
+		fis4 h,8 fis' \appoggiatura h16 a8-\missgrace g16 fis
 		e8-! fis-! g-! a-! h-! c-!
 		g( fis) fis4 r
 		e'16 e e e e e e e e e e e
@@ -795,8 +795,8 @@ CredoViolinoI = {
 		fis8 a, d4 d16( c h a)
 		h8 d g4 g
 		\appoggiatura fis16 e8 d16 c? h4 a %90
-		g d8 g \appoggiatura c16 h8-\critnote a16 g
-		a4 d,8 a' \appoggiatura d16 c8^\critnote h16 a
+		g d8 g \appoggiatura c16 h8-\missgrace a16 g
+		a4 d,8 a' \appoggiatura d16 c8^\missgrace h16 a
 		g8-! a-! h-! c-! d-! e-!
 		h( a) a4 r
 		g'16 g g g g g g g g g g g %95
@@ -808,16 +808,16 @@ CredoViolinoI = {
 		cis!8 cis4 cis cis8
 		d!16( e) e( fis) fis( g) g( a) a( h) h( d,)
 		d4 cis r
-		d, a8 d \appoggiatura g16 fis8-\critnote e16 d
-		e4 a,8 e' \appoggiatura e16 g8-\critnote fis16 e %105
+		d, a8 d \appoggiatura g16 fis8-\missgrace e16 d
+		e4 a,8 e' \appoggiatura a16 g8-\missgrace fis16 e %105
 		d8-! e-! fis-! g-! a-! h-!
-		a g \appoggiatura a16 g8-\critnote fis16 g fis4
+		a g \appoggiatura a16 g8-\missgrace fis16 g fis4
 		a'16 a a a a a a a a a a a
 		a a a a a a a a a a a a
 		fis8 d'4 d d8 %110
 		e,4. fis16 g fis4
 		\once \slurDashed a( fis8) gis,16([ a)] gis( a) gis( a)
-		g'4( e8) gis,16([ a)] gis( a) gis( a)
+		g'!4( e8) gis,16([ a)] gis( a) gis( a)
 		\once \slurDashed a8( fis') fis( e) e( d)
 		cis( e) a, gis16( a) gis( a) gis( a) %115
 		g'!4( fis8) gis,16([ a)] gis( a) gis( a)
@@ -828,7 +828,7 @@ CredoViolinoI = {
 		d) g,([ fis)] h([ a)] cis(
 		d) \noBeam fis, g4 e
 		d r8 fis-! fis-! fis-!
-		a4( fis8) cis'16([ d)] cis( d) cis( d)
+		a4( fis8) eis16([^\critnote fis)] eis( fis) eis( fis)
 		a4( fis8) cis'16([ d)] cis( d) cis( d) %125
 		\appoggiatura cis h8 a16 g fis4 e
 		d <fis a, d,> q
