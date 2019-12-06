@@ -1434,12 +1434,266 @@ CredoOrgano = {
 	\relative c {
 		\clef bass
 		\key d \major \time 3/4 \tempoCredo
-		\mvTr d4-!\fE^\tuttiE a8-! d-! \appoggiatura g16 fis8-! e16-! d-!
+		\mvTr d4-!\fE-\tuttiE a8-! d-! \appoggiatura g16 fis8-! e16-! d-!
+		e4-! a,8-! e'-! \appoggiatura a16 g8-! fis16-! e-!
+		d8 cis d e fis g
+		a4 a, d
+		d8 cis d e fis g %5
+		a4 a, d
+		fis( d8) r r4
+		e( cis8) r r4
+		d cis h
+		a r8 d-! d-! d-! %10
+		fis4( d8) d[-! d-! d-!]
+		fis4( d8) fis[-! fis-! fis-!]
+		g4 a a,
+		d a8 d \appoggiatura g16 fis8 e16 d
+		e4 a,8 e' \appoggiatura a16 g8 fis16 e %15
+		d8 cis d e fis g
+		a4 a, d
+		d2 fis8-! e16-! d-!
+		a'2-! cis8-! h16-! a-!
+		d8-! h-! a-! g-! fis-! e-! %20
+		d cis d e fis d
+		g fis g a h cis
+		d h a g fis e
+		d cis d e fis d
+		g fis g a h cis %25
+		d a g fis e d
+		g a h cis d g,
+		fis a h cis d fis,
+		e d cis h a cis
+		d e fis g a d, %30
+		g a h cis d g,
+		fis a h cis d fis,
+		e d cis h a cis
+		d4 r r
+		d a8 fis' \appoggiatura a16 g8 fis16 e %35
+		d4 a8 fis' \appoggiatura a16 g8 fis16 e
+		d8 cis d e fis g
+		a4 a, d
+		d-! a8-! d-! \appoggiatura g16 fis8-! e16-! d-!
+		e4-! a,8-! e'-! \appoggiatura a16 g8-! fis16-! e-! %40
+		d8 cis d e fis g
+		a4 a, r
+		d'8 d d d d d
+		d d d d d d
+		cis cis cis cis cis cis %45
+		cis cis cis cis cis cis
+		h h h h h h
+		h h h h h h
+		a a a a a a
+		a a a a a a %50
+		gis e fis e fis gis
+		a4 e r
+		a-! e8-! a-! cis-! h16-! a-!
+		h4-! e,8-! h'-! d-! cis16-! h-!
+		a8 gis a h cis d %55
+		e4 e,8 a[-! a-! a-!]
+		cis4( a8) a[-! a-! a-!]
+		cis4( a8) r r4
+		d( h8) h[-! h-! h]-!
+		cis4( a8) a[-! a-! a]-! %60
+		h h h h e, e
+		a4 a, r
+		d'( h8) h[-! h-! h]-!
+		cis4( a8) a[-! a-! a]-!
+		h h h h e, e %65
+		a,4 r r
+		a' e8 cis' d cis16 h
+		a4 e8 cis' d cis16 h
+		a8 a gis fis e d
+		cis4 r r8 r16 cis %70
+		d4 e e,
+		a r8 a' a a
+		cis4( a8) a-![ a-! a-!]
+		cis4( a8) cis,[ cis cis]
+		d4 e e, %75
+		a8 a' a a a a
+		fis fis fis fis fis fis
+		h, h h h h h
+		e4 h r
+		e-! h8-! e-! \appoggiatura a16 g8-! fis16-! e-! %80
+		fis4-! h,8-! fis'-! \appoggiatura h16 a8-! g16-! fis-!
+		e8 dis? e fis g a
+		h4 h, r
+		e h8 e g fis16 e
+		fis4 h,8 fis' a g16 fis %85
+		e8 dis e fis g e
+		a gis a h c a
+		d,! cis! d e fis d
+		g fis g a h g
+		c4 d d, %90
+		g-! d8-! g-! \appoggiatura c16 h8-! a16-! g-!
+		a4-! d,8-! a'-! \appoggiatura d16 c8-!^\critnote h16-! a-!
+		g8 fis g a h c
+		d4 d, r
+		g d8 g h a16 g %95
+		a4 d,8 a' c h16 a
+		g8 fis g a h c
+		d2 c4
+		h8 c h a g fis
+		e dis e fis g e %100
+		a h a g fis e
+		d! cis d e fis g
+		a4 a, r
+		d-! a8-! d-! \appoggiatura g16 fis8-! e16-! d-!
+		e4-! a,8-! e'-! \appoggiatura a16 g8-! fis16-! e-! %105
+		d8 cis d e fis g
+		a4 a, r
+		d a8 d \appoggiatura g16 fis8 e16 d
+		e4 a,8 e' \appoggiatura a16 g8 fis16 e
+		d8 cis d e fis g %110
+		a4 a, r
+		fis'( d8) r r d
+		e4( cis8) r r cis'
+		d4 cis h
+		a a, r %115
+		cis4( d8) r r4
+		g4( fis8) r r4
+		d a8 fis' \appoggiatura a16 g8^\critnote fis16 e
+		d4 a8 fis' \appoggiatura a16 g8 fis16 e
+		d8 h' a g fis e %120
+		d h' a g fis e
+		d h' g4 a
+		d, r8 d-! d-! d-!
+		fis4( d8) d[-! d-! d-!]
+		fis4( d8) fis[-! fis-! fis]-! %125
+		g4 a a,
+		d8 d' a d fis, a
+		d,4 r r\fermata \bar "||" %128 finis
 	}
 }
 
 CredoBassFigures = \figuremode {
-	
+	r2.
+	r
+	<3>8 q q q q q
+	<8 6>4 <7 5> r
+	<3>8 q q q q q %5
+	<8 6>4 <7 5> r
+	<[6]>2.
+	<6>
+	<5 3>4 <\t \t> <7>8 <6\\>
+	r4. <3>8 q q %10
+	q4 q8 q q q
+	q4 q8 <6>4.
+	q4 <4> <3>
+	<8 3>2 \bassFigureExtendersOn q8. q16
+	<6 3\!>2 <6 3>8. q16 \bassFigureExtendersOff %15
+	<8 3>2.
+	r
+	r
+	r
+	r %20
+	r
+	r
+	r
+	r
+	r %25
+	r
+	r
+	r
+	r
+	r %30
+	r
+	r
+	r
+	r
+	r2 <4 2>4 %35
+	r2 q4
+	<8 3>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff
+	r2.
+	r
+	r %40
+	<3>8 q q q q q
+	<6 4>4 <5 3> r
+	r2.
+	<4 2>
+	<6> %45
+	<4\+ 2>
+	<6\\>
+	<4 2>
+	<6>
+	<4 2> %50
+	<6>
+	r4 <_+>2
+	r2.
+	r
+	<3>8 q q q q q %55
+	<6 4>4 <5 _+>2
+	<6>2.
+	q
+	r4 <7>2
+	<6>2. %60
+	<7>2 <7 _+>4
+	r2.
+	r4 <7>2
+	<6>2.
+	<7>2 <7 _+>4 %65
+	r2.
+	r2 <4\+ 2>4
+	r2 q4
+	<3>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff
+	<6>2. %70
+	<6>4 <6 4> <5 _+>
+	r2.
+	<6>
+	q4. q
+	q4 <4> <_+> %75
+	r2.
+	r
+	<7 _+>
+	<_!>4 <_+>2
+	r2. %80
+	r
+	<3>8 q q q q q
+	<6 4>4 <5 _+>2
+	<8 _!>2 \bassFigureExtendersOn q8. q16 \bassFigureExtendersOff
+	<6\\>2 <4\+ 2>4 %85
+	<_!>2 <6>4
+	<_!>2 <[6]>4
+	<_+>2 <5!>4
+	r2 <[6]>4
+	<6> <4> <_+> %90
+	r2.
+	r
+	<3>8 q q <[_!]> <3> q
+	<6 4>4 <5 3> r
+	<8 3>2 \bassFigureExtendersOn q8. q16 \bassFigureExtendersOff %95
+	<6 [_!]>2 <4 2>4
+	r2.
+	<4>4 <3> <6>
+	<_+>2.
+	<_!> %100
+	<_+>
+	r
+	<6 4>4 <5 3>2
+	r2.
+	r %105
+	<3>8 q q q q q
+	<6 4>4 <5 3>2
+	<8 3>2 \bassFigureExtendersOn q8. q16 \bassFigureExtendersOff
+	<6>2 <4 2>4
+	r2. %110
+	<6 4>4 <5 3>2
+	<6>2.
+	q
+	<5>4 <6> <6\\>
+	r2. %115
+	<5!>
+	<4 2>4 <6>2
+	<8 3>4. \bassFigureExtendersOn q8 \bassFigureExtendersOff <4 2>4
+	<8 3>2 <4 2>4
+	<8 3>2. \bassFigureExtendersOn %120
+	q2.
+	q8 \bassFigureExtendersOff <5> <6 5>4 <4>8 <3>
+	r2.
+	<6>2.
+	q4. q %125
+	q4 <4> <3>
+	<8 3>2. \bassFigureExtendersOn
+	q4 \bassFigureExtendersOff r2 %128 finis
 }
 
 % Organo = {
