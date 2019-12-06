@@ -756,12 +756,205 @@ CredoTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key d \major \time 3/4 \autoBeamOff \tempoCredo
-		
+		R2.*13 %13
+		\mvTr a2\fE^\tuttiE a4
+		a2 a4 %15
+		a a a
+		a2 a4
+		d,2 fis8([ d)]
+		a'2 cis8([ a)]
+		d4 d, r %20
+		a'2 a4
+		h2.
+		a4 r r
+		d2 a4
+		h2. %25
+		a4 r r
+		h2.
+		a2 a4
+		g2.
+		fis4 r r %30
+		h2.
+		a2 a4
+		g2.
+		fis4 a a8 a
+		a2 a4 %35
+		a a8 a a a
+		a4 a a8([ h)]
+		a2 a4
+		R2.*4 %42
+		d8 d d4 d8 d
+		h h h4 r
+		cis8 cis cis4 cis %45
+		a8 a a4 r
+		h8 h h4 h
+		gis8. gis16 gis4 r
+		a2 a4
+		fis fis d'8 d16 d %50
+		e8 e e4. e8
+		e8. e16 e4 r
+		R2.*3 %55
+		r4 r e8 e
+		e4 e8 e e e
+		e4 e r
+		r fis, h
+		e,4. a8 a4 %60
+		d( h8[ e)] e4
+		e r r
+		fis, h r8 h
+		e,4 a r
+		h e8 e e e %65
+		e4 r r
+		e2 e4
+		e2.
+		e4 r r
+		r r r8 r16 e %70
+		d8 fis e2
+		cis4 r r
+		R2.*3 %75
+		cis8 cis cis4 cis
+		cis cis cis8 cis
+		dis dis dis4 dis
+		h h r
+		R2.*4 %83
+		h4. h8 h h
+		h4. h8 h h %85
+		e4. e8 e e
+		e2 e4
+		d!2 d4
+		d4. d8 d4
+		e( d4.) d8 %90
+		h4 r r
+		R2.*3
+		h2. %95
+		a4 a a
+		h8. c16 d4 d
+		d2 a4
+		h h h
+		h h r %100
+		a2 a4
+		a a a
+		a a r
+		R2.*3 %106
+		r4 r a
+		a2 a4
+		a2 a4
+		a a a %110
+		a2 a8 d
+		d4 d r8 d
+		a4 a r8 e'
+		a,4 a h
+		cis cis r %115
+		e d r8 a
+		a8. a16 a4 r
+		fis' fis e^\critnote
+		fis fis8 fis e4
+		fis8 d d2 %120
+		d8 d d2
+		d8 d h4( a)
+		a r r
+		R2.*4
+		R2.\fermataMarkup \bar "||"
 	}
 }
 
 CredoTenoreLyrics = \lyricmode {
-
+	Cre -- do, %14
+	cre -- do %15
+	in u -- num
+	De -- um,
+	cre -- do,
+	cre -- do,
+	cre -- do, %20
+	cre -- do,
+	cre --
+	do,
+	cre -- do,
+	cre -- %25
+	do
+	in
+	u -- num
+	De --
+	um, %30
+	in
+	u -- num
+	De --
+	um, Pa -- trem o --
+	mni -- po -- %35
+	ten -- tem, fa -- cto -- rem
+	coe -- li et
+	ter -- rae,
+	
+	vi -- si -- bi -- li -- um %43
+	o -- mni -- um
+	et in -- vi -- si -- %45
+	bi -- li -- um.
+	Et in u -- num
+	Do -- mi -- num
+	Je -- sum
+	Chri -- stum, Fi -- li -- um %50
+	De -- i u -- ni --
+	ge -- ni -- tum.
+	
+	Et ex %56
+	Pa -- tre, ex Pa -- tre
+	na -- tum
+	an -- te
+	o -- mni -- a %60
+	sae -- cu --
+	la.
+	De -- um de
+	De -- o,
+	lu -- men de lu -- mi -- %65
+	ne,
+	De -- um
+	ve --
+	rum
+	de %70
+	De -- o ve --
+	ro.
+	
+	Ge -- ni -- tum non %76
+	fa -- ctum, con -- sub --
+	stan -- ti -- a -- lem
+	Pa -- tri,
+	
+	ge -- ni -- tum non %84
+	fa -- ctum, con -- sub -- %85
+	stan -- ti -- a -- lem
+	Pa -- tri,
+	per quem
+	o -- mni -- a
+	fa -- cta %90
+	sunt.
+	
+	Qui %95
+	pro -- pter nos
+	ho -- mi -- nes et
+	pro -- pter
+	no -- stram sa --
+	lu -- tem, %100
+	pro -- pter
+	no -- stram sa --
+	lu -- tem,
+	
+	qui %107
+	pro -- pter
+	no -- stram,
+	no -- stram sa -- %110
+	lu -- tem de --
+	scen -- dit, de --
+	scen -- dit, de --
+	scen -- dit de
+	coe -- lis, %115
+	pro -- pter nos
+	ho -- mi -- nes
+	et pro -- pter
+	no -- stram sa -- lu --
+	tem de -- scen -- %120
+	dit, de -- scen --
+	dit de coe --
+	lis. %123 finis
 }
 
 % TenoreNotes = {
@@ -773,5 +966,5 @@ CredoTenoreLyrics = \lyricmode {
 % }
 %
 % TenoreLyrics = \lyricmode {
-%
+%	
 % }

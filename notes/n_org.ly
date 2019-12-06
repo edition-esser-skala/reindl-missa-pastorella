@@ -1544,8 +1544,8 @@ CredoOrgano = {
 		d a8 d \appoggiatura g16 fis8 e16 d
 		e4 a,8 e' \appoggiatura a16 g8 fis16 e
 		d8 cis d e fis g %110
-		a4 a, r
-		fis'( d8) r r d
+		a4 a, d
+		fis( d8) r r d
 		e4( cis8) r r cis'
 		d4 cis h
 		a a, r %115
@@ -1609,11 +1609,11 @@ CredoBassFigures = \figuremode {
 	<3>8 q q q q q
 	<6 4>4 <5 3> r
 	r2.
-	<4 2>
+	<[4+] 2>
 	<6> %45
 	<4 2>
 	<6\\>
-	<4 2>
+	<[6+] 4 2>
 	<6>
 	<4 2> %50
 	<6>

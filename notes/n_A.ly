@@ -946,7 +946,7 @@ CredoAltoNotes = {
 		R2.*3
 		g2. %95
 		fis4 fis fis
-		g8. h16 h4 h
+		g8. a16^\critnote h4 h
 		a2 a4
 		fis fis fis
 		g g r %100
