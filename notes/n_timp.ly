@@ -158,6 +158,53 @@ CredoTimpani = {
 	\relative c {
 		\clef bass
 		\key c \major \time 3/4 \tempoCredo
-		
+		R2.*5 %5
+		c4\f g c
+		R2.*3
+		g4 r r %10
+		R2.*2
+		r4 g g
+		c r r
+		R2.*2 %16
+		r4 g c
+		c r r
+		g r r
+		c c8 c c c %20
+		c4 r r
+		R2.*12 %33
+		c4 c8 c c c
+		c4 r r %35
+		r r g
+		c c c
+		g g8 g c4
+		R2.*2 %40
+		r4 r r8 c
+		g4 g r
+		R2.*19 %61
+		g4 g8 g g4
+		R2.*3 %65
+		g4 r r
+		R2.*5 %71
+		g4 r r
+		R2.*3 %75
+		g4 g8 g g4
+		R2.*24 %100
+		g4 r g
+		c c8 c c c
+		g4 g r
+		R2.*6 %109
+		r4 c c %110
+		g g8 g c4
+		R2.*3
+		g4 g r %115
+		R2.*4
+		c4 r r %120
+		R2.
+		r4 r g
+		c r r
+		R2.*2 %125
+		r4 r g
+		c c8 c c c
+		c4 r r\fermata \bar "||" %128 finis
 	}
 }
