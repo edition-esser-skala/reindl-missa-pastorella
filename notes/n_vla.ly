@@ -550,7 +550,7 @@ QuiTollisViola = {
 
 QuoniamViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key d \major \time 3/4 \tempoQuoniam
 			\set Score.currentBarNumber = #288
 		d8\fE fis d fis d fis
@@ -688,5 +688,13 @@ QuoniamViola = {
 		h'8 r g r a r
 		d,2 a4
 		d, r r\fermata \bar "|." %433 finis
+	}
+}
+
+CredoViola = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 3/4 \tempoCredo
+		
 	}
 }

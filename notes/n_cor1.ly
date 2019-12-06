@@ -404,3 +404,11 @@ QuoniamCornoI = {
 		c r r\fermata \bar "|." %433 FINIS
 	}
 }
+
+CredoCornoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoCredo
+		
+	}
+}

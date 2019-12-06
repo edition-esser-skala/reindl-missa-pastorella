@@ -743,6 +743,18 @@ QuoniamBassoLyrics = \lyricmode {
 	men. %433 FINIS
 }
 
+CredoBassoNotes = {
+	\relative c {
+		\clef bass
+		\key d \major \time 3/4 \autoBeamOff \tempoCredo
+		
+	}
+}
+
+CredoBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

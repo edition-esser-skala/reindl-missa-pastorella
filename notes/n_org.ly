@@ -1430,6 +1430,18 @@ QuoniamBassFigures = \figuremode {
 	r %433 FINIS
 }
 
+CredoOrgano = {
+	\relative c {
+		\clef bass
+		\key d \major \time 3/4 \tempoCredo
+		\mvTr d4-!\fE^\tuttiE a8-! d-! \appoggiatura g16 fis8-! e16-! d-!
+	}
+}
+
+CredoBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

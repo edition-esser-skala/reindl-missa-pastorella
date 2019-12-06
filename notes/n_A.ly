@@ -870,10 +870,22 @@ QuoniamAltoLyrics = \lyricmode {
 	men. %433 FINIS
 }
 
+CredoAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 3/4 \autoBeamOff \tempoCredo
+		
+	}
+}
+
+CredoAltoLyrics = \lyricmode {
+
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble
-% 	
+% 		
 % 		
 % 	}
 % }

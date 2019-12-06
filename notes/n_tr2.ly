@@ -175,3 +175,11 @@ QuoniamTrombaII = {
 		e r r\fermata \bar "|." %433 FINIS
 	}
 }
+
+CredoTrombaII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoCredo
+		
+	}
+}

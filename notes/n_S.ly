@@ -1084,6 +1084,18 @@ QuoniamSopranoLyrics = \lyricmode {
 	men. %433 FINIS
 }
 
+CredoSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 3/4 \autoBeamOff \tempoCredo
+		
+	}
+}
+
+CredoSopranoLyrics = \lyricmode {
+
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble

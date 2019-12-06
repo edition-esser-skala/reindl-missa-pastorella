@@ -153,3 +153,11 @@ QuoniamTimpani = {
 		c4 r r\fermata \bar "|." %433 FINIS
 	}
 }
+
+CredoTimpani = {
+	\relative c {
+		\clef bass
+		\key c \major \time 3/4 \tempoCredo
+		
+	}
+}
