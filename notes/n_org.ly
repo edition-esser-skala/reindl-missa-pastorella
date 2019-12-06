@@ -1486,8 +1486,8 @@ CredoOrgano = {
 		a a a a a a %50
 		gis e fis e fis gis
 		a4 e r
-		a-! e8-! a-! cis-! h16-! a-!
-		h4-! e,8-! h'-! d-! cis16-! h-!
+		a-! e8-! a-! \appoggiatura d16 cis8-!^\critnote h16-! a-!
+		h4-! e,8-! h'-! \appoggiatura e16 d8-!^\critnote cis16-! h-!
 		a8 gis a h cis d %55
 		e4 e,8 a[-! a-! a-!]
 		cis4( a8) a[-! a-! a-!]
@@ -1517,8 +1517,8 @@ CredoOrgano = {
 		fis4-! h,8-! fis'-! \appoggiatura h16 a8-! g16-! fis-!
 		e8 dis? e fis g a
 		h4 h, r
-		e h8 e g fis16 e
-		fis4 h,8 fis' a g16 fis %85
+		e h8 e \appoggiatura a16 g8^\critnote fis16 e
+		fis4 h,8 fis' \appoggiatura h16 a8^\critnote g16 fis %85
 		e8 dis e fis g e
 		a gis a h c a
 		d,! cis! d e fis d
@@ -1528,8 +1528,8 @@ CredoOrgano = {
 		a4-! d,8-! a'-! \appoggiatura d16 c8-!^\critnote h16-! a-!
 		g8 fis g a h c
 		d4 d, r
-		g d8 g h a16 g %95
-		a4 d,8 a' c h16 a
+		g d8 g \appoggiatura c16 h8^\critnote a16 g %95
+		a4 d,8 a' \appoggiatura d16 c8^\critnote h16 a
 		g8 fis g a h c
 		d2 c4
 		h8 c h a g fis
@@ -1647,7 +1647,7 @@ CredoBassFigures = \figuremode {
 	<_!>4 <_+>2
 	r2. %80
 	r
-	<3>8 q q q q q
+	<3>8 q q q q <[_!]>
 	<6 4>4 <5 _+>2
 	<8 _!>2 \bassFigureExtendersOn q8. q16 \bassFigureExtendersOff
 	<6\\>2 <4\+ 2>4 %85
