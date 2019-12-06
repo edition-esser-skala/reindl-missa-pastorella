@@ -491,3 +491,12 @@ CredoCornoI = {
 		c r r\fermata \bar "||" %128 finis
 	}
 }
+
+EtIncarnatusCornoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoEtIncarnatus
+			\set Score.currentBarNumber = #129
+		
+	}
+}

@@ -283,3 +283,12 @@ QuiTollisFlautoI = {
 		g4-\critnote r \markDaCapo \bar "||" %287 finis
 	}
 }
+
+EtIncarnatusFlautoI = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 3/4 \tempoEtIncarnatus
+			\set Score.currentBarNumber = #129
+		
+	}
+}

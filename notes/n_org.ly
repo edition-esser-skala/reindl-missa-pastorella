@@ -1696,14 +1696,33 @@ CredoBassFigures = \figuremode {
 	q4 \bassFigureExtendersOff r2 %128 finis
 }
 
-% Organo = {
-% 	\relative c {
-% 		\clef bass
-% 		
-% 		
-% 	}
-% }
-%
-% BassFigures = \figuremode {
-%	
-% }
+EtIncarnatusOrganoR = {
+	\relative c' {
+		\clef treble
+		\key g \major \time 3/4 \tempoEtIncarnatus
+			\set Score.currentBarNumber = #129
+		
+	}
+}
+
+EtIncarnatusOrganoL = {
+	\relative c {
+		\clef bass
+		\key g \major \time 3/4 \tempoEtIncarnatus
+			\set Score.currentBarNumber = #129
+		g'8 g g g g g
+	}
+}
+
+EtIncarnatusBassFigures = \figuremode {
+	
+}
+
+EtIncarnatusViolone = {
+	\relative c {
+		\clef bass
+		\key g \major \time 3/4 \tempoEtIncarnatus
+			\set Score.currentBarNumber = #129
+		
+	}
+}
