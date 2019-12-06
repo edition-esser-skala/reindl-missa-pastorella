@@ -409,6 +409,85 @@ CredoCornoII = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 3/4 \tempoCredo
-		
+		R2.*3
+		e'4\fE d c
+		R2. %5
+		r4 g, c
+		g'2.
+		g
+		R
+		g4 r r %10
+		R2.*2
+		\appoggiatura g'16 f8 e16 d c4 g
+		c, r r
+		R2.*2 %16
+		g'2 c,4
+		c2 e8 c
+		g'2 r4
+		e e e %20
+		e r r
+		R2.*11 %32
+		r4 r d'
+		c r r
+		g2. %35
+		g
+		c4 c c
+		g d' c
+		R2.*3 %41
+		r4 r8 g c d
+		c4 r r
+		R2.*7 %50
+		d8 d4 d d8
+		d4 d r
+		R2.*3 %55
+		r4 r8 g, g g
+		g4 g r
+		g g r
+		g2.
+		g %60
+		r4 c d
+		g, r r
+		g2.
+		g
+		c2 d4 %65
+		g, r r
+		d'2.
+		d
+		d8 g,4 g g8
+		g4 r r %70
+		r d' d
+		g, r r
+		R2.*2
+		r4 d' d %75
+		g, r r
+		R2.*23 %99
+		r4 r d'-\critnote %100
+		g,2 g4
+		c c c
+		c g r
+		c g r
+		d' g, r %105
+		R2.
+		e'4 d c
+		g r r
+		g r r
+		r c c %110
+		g2 c,4
+		g'2.
+		g
+		R
+		g4 g r %115
+		R2.
+		g4 c r
+		g2.
+		g
+		c %120
+		c
+		c4 r d
+		c r r
+		R2.*2 %125
+		\appoggiatura  g'16 f8 e16 d c4 g
+		c, c c
+		c r r\fermata \bar "||" %128 finis
 	}
 }
