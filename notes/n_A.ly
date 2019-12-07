@@ -1080,7 +1080,7 @@ EtIncarnatusAltoNotes = {
 		\clef treble
 		\key g \major \time 3/4 \autoBeamOff \tempoEtIncarnatus
 			\set Score.currentBarNumber = #129
-		
+		R2.*42
 	}
 }
 

@@ -1294,12 +1294,229 @@ EtIncarnatusSopranoNotes = {
 		\clef treble
 		\key g \major \time 3/4 \autoBeamOff \tempoEtIncarnatus
 			\set Score.currentBarNumber = #129
-		
+		R2.*40 %168
+		d'4 h8([ g)] a([ d,)]
+		g8.([ g'16)] g8.([ fis32 e)] \appoggiatura e8 d4 %170
+		c8([ e)] e16([ d)] d([ c)] c([ h)] h([ a)]
+		\appoggiatura a8 h4 r r
+		d8.([ g16)] \appoggiatura g4 fis2
+		d8.([ g16)] \appoggiatura g4 fis2
+		d2 h8[ g] %175
+		d4 h8[ d g h]
+		d2 h8[ g]
+		d4 h8[ d g h]
+		d[ g] d4 r
+		R2.*2 %181
+		d8 g \tuplet 3/2 4 { fis[( e d]) c[( h a]) }
+		h16([ g)] d'([ h)] \appoggiatura h4 a2
+		g4.( a16[ h)] h([ c)] a([ fis)]
+		g4. a16[( h)] h([ c)] a([ fis)] %185
+		d'2.~
+		d2 d4
+		h8. c16 d4 r
+		R2.*2 %190
+		g,4 fis8 r r4
+		a g r
+		h2 g'8[( e)]
+		d([ cis)] e([ cis)] \appoggiatura cis d4
+		a'2 fis8[ d] %195
+		a4 fis8[ a d fis]
+		a2 fis8[ d]
+		a4 fis8[ a] d([ fis])
+		a[( fis]) d4 r
+		r r8 e,([ fis)] e %200
+		r4 r8 fis([ g)] fis
+		R2.
+		r8 a16([ h] a8[ a)] d([ fis)]
+		R2.
+		r8 a,16([ h] a8[ a)] d([ fis)] %205
+		\appoggiatura fis16 e8 d16([ e)] d4 r
+		R2.*2
+		d4 cis8 r r4
+		e8.([ d32 e)] d4 r8 a %210
+		d4. e16[ fis] fis[ g e cis]
+		d4. e16[ fis] fis[ g e cis]
+		\once \tieDashed a2.~
+		\once \tieDashed a~
+		a8[ d d fis] fis([ a)] %215
+		g fis16([ e)] d4 cis
+		a8.([ d16)] \appoggiatura d4 cis2
+		a8.([ d16)] \appoggiatura d4 cis2
+		a2.
+		\once \tieDashed d~ %220
+		d~
+		d4. a8 a16([ g)] g([ e)]
+		\appoggiatura e8 d4 r e'8.[( fis16)]
+		d4 r e8.([ fis16)]
+		d4 r r %225
+		R2.*2
+		d4. a8 a16([ g)] g([ e)]
+		\appoggiatura e8 d4 r r
+		R2.*10 %239
+		e'8([ g)] g16([ fis)] fis([ e)] e([ d)] d([ cis)] %240
+		\appoggiatura cis d4 r r
+		R2.
+		d4 h8([ g)] a([ d,)]
+		g([ g')] g8.([ fis32 e)] \appoggiatura e8 d4
+		c8([ e)] e16([ d)] d([ c)] c([ h)] h([ a)] %245
+		\appoggiatura a8 h4 r r
+		R2.
+		d8.([ g16)] \appoggiatura g4 fis2
+		d h8[ g]
+		d4 h8[ d g h] %250
+		d2 h8[ g]
+		d4 h8[ d g h]
+		d[ g] d4 r
+		d8([ g)] \tuplet 3/2 4 { fis([ e d)] c([ h)] a }
+		h16([ g d' h)] \appoggiatura h4 a2 %255
+		R2.*2
+		g4 r8 h16([ g)] c[ a d h]
+		e8 r d r c r
+		h4 r8 d16([ h)] e[ c fis d] %260
+		g4 fis e
+		d8[ g16 d] d[ c a' c,] c[( h g' h,])
+		h8. a32([ h)] a4 r
+		r r8 a([ h)] a
+		r4 r8 h([ c)] h %265
+		d2.~\trillE
+		d8.[ e16] d8 g16([ d)] d([ c)] c([ h)]
+		\once \tieDashed d2.~\trill
+		d8.[ e16] d8 g16([ d)] d([ c)] c([ h)]
+		g8[( h d h] d16[ h d h]) %270
+		d4 r r
+		g,16([ a)] h([ c)] d8 h d16([ h)] d([ h)]
+		d4 r r
+		r r r8 g,
+		g4. a16[ h] h[ c a fis] %275
+		g4. a16[ h] h[ c a fis]
+		\tieDashed d'2.~
+		d2~ d8. \tieSolid d16
+		d8([ g)] g4 r
+		R2.*2 %281
+		g,4 fis8 r r4
+		a8.([ h16)] g4 r
+		h2.
+		d %285
+		\once \tieDashed g~
+		g4. d8 d32([ c16.)] c32([ a16.)]
+		\appoggiatura a8 g4 r r
+		R2.*2 %290
+		g'4. d8 d16([ c)] c([ a)]
+		\appoggiatura a4 g2 r4
+		R2.*3 %295
+		R2.\fermataMarkup \bar "||" %296 finis
 	}
 }
 
 EtIncarnatusSopranoLyrics = \lyricmode {
-
+	Et in -- car -- %169
+	na -- _ tus, %170
+	et __ in -- car -- na -- tus
+	est,
+	na -- tus,
+	na -- tus,
+	na -- _ %175
+	_ _
+	_ _
+	_ _
+	_ tus
+	
+	ex Ma -- ri -- a __ %182
+	Vir -- gi -- ne,
+	et __ ho -- mo,
+	ho -- mo fa -- ctus, %185
+	ho --
+	mo
+	fa -- ctus est,
+	
+	ho -- mo, %191
+	ho -- mo,
+	ho -- mo __
+	fa -- ctus est,
+	ho -- _ %195
+	_ _
+	_ _
+	_ _ mo __
+	fa -- ctus,
+	ho -- mo, %200
+	ho -- mo,
+	
+	ho -- mo, __
+	
+	ho -- mo __ %205
+	fa -- ctus est,
+	
+	ho -- mo %209
+	fa -- ctus, et %210
+	ho -- _ _
+	_ _ _
+	_
+	
+	mo, __ %215
+	ho -- mo fa -- ctus,
+	na -- tus,
+	na -- tus,
+	et
+	ho -- %220
+	
+	mo fa -- ctus
+	est, na --
+	tus, na --
+	tus, %225
+	
+	ho -- mo fa -- ctus %228
+	est.
+	
+	Et in -- car -- na -- tus %240
+	est,
+	
+	et in -- car --
+	na -- _ tus,
+	et __ in -- car -- na -- tus %245
+	est,
+	
+	na -- tus,
+	na -- _
+	_ _ %250
+	_ _
+	_ _
+	_ tus
+	de __ Spi -- ri -- tu
+	San -- cto, %255
+	
+	et, et ho -- %258
+	_ _ _
+	mo, et ho -- %260
+	_ _ _
+	_ _ mo __
+	fa -- ctus est,
+	ho -- mo,
+	ho -- mo, %265
+	ho --
+	_ mo fa -- ctus,
+	ho --
+	_ mo fa -- ctus,
+	na -- %270
+	tus
+	ex Ma -- ri -- a Vir -- gi --
+	ne,
+	et
+	ho -- _ _ %275
+	_ _ _
+	_
+	mo
+	fa -- ctus,
+	
+	ho -- mo, %282
+	ho -- mo,
+	ho --
+	_ %285
+	_
+	mo fa -- ctus
+	est,
+	
+	ho -- mo fa -- ctus %291
+	est. %292 finis
 }
 
 % SopranoNotes = {
