@@ -845,13 +845,13 @@ EtIncarnatusViolinoII = {
 		h e' \appoggiatura fis16 e8.( d32 c) \appoggiatura c8 h4
 		r8 c h([ e)] e16( d) d( c)
 		\appoggiatura c8 h4 r r
-		d,8-\parenthesize-!\p fis16( a) d,4 r
+		d,8-\parenthesize-! fis16( a) d,4 r
 		d8-! g16( h) d,4 r
 		d8-! fis16( a) d,4 r %135
 		d'8 g16.( d32) \appoggiatura d16 c8 a'16.( c,32) \appoggiatura c16 h8 g'16.( h,32)
 		h4 a r
 		R2.
-		d,8-!\fE fis16( a) d,8-! g16( h) d,8-! a'16( c)
+		d,8-! fis16( a) d,8-! g16( h) d,8-! a'16( c)
 		g4 r r %140
 		d8-! fis16( a) d,8-! g16( h) d,8-! a'16( c)
 		g4 r r
@@ -957,7 +957,7 @@ EtIncarnatusViolinoII = {
 		g, r r
 		g'8 g' g8.( fis32 e) d4
 		\once \slurDashed a8( c) c16( h) h( a) a( g) g( fis) %245
-		\appoggiatura fis8 g4^\missgrace r r
+		\appoggiatura fis8 g4-\missgrace r r
 		h c a
 		h c a
 		g8 g g g g g
@@ -990,14 +990,14 @@ EtIncarnatusViolinoII = {
 		g,4. a16( h) h( c) a( fis)
 		g4. a16( h) h( c) a( fis)
 		h8( d) h4 r
-		h( a8) r r4 %280
+		h(\fE a8) r r4 %280
 		c( h8) r r4
-		h,( a8) r r4
+		h,(\pE a8) r r4
 		c( h8) r r4
 		\tieDashed <d h'>2.~
-		q~ %285
-		q~
-		q4. h'8 h16( a) a( fis)
+		q~ \tieSolid %285
+		q
+		h'4. h8 h16( a) a( fis)
 		g4 r8 h\fE h h
 		h4 r8 h h h
 		h4 r r %290

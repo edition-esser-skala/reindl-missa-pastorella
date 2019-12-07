@@ -1834,10 +1834,10 @@ EtIncarnatusOrganoL = {
 		g g g g g g
 		g g g g g g
 		d4 r8 d d d
-		g,2.
-		<g g'> %155
-		q
-		d'4 r8 d d d
+		\tieDashed g2.~
+		g~ \tieSolid %155
+		g
+		d4 r8 d d d
 		g,16 g' h g g, g' h g g, g' h g
 		g, g' h g g, g' h g g, g' h g
 		g, g' h g g, g' h g g, g' h g %160
@@ -1903,8 +1903,8 @@ EtIncarnatusOrganoL = {
 		d, d' fis d d, d' fis d d, d' fis d %220
 		d d' fis d d, d' fis d d, d' fis d
 		a2\pE a,4
-		\once \tieDashed d2.~
-		d
+		\tieDashed d2.~
+		d~ \tieSolid
 		d4 r8 d\fE d d %225
 		d4 r8 d d d
 		d4 r8 d d d
@@ -1993,13 +1993,13 @@ EtIncarnatusViolone = {
 		g g g g g g %130
 		c4 d d,
 		r8 g, h d g4
-		d8-\parenthesize-!\pE \once \slurDashed fis16( a) d,8 r r4
+		d8-\parenthesize-! \once \slurDashed fis16( a) d,8 r r4
 		d8-\parenthesize-! \once \slurDashed g16( h) d,8 r r4
 		d8-\parenthesize-! \once \slurDashed fis16( a) d,8 r r4 %135
 		h'4 a g
 		d4 d r8 cis
 		d4 d r
-		\slurDashed d8-\parenthesize-!\f fis16( a) d,8-\parenthesize-! g16( h) d,8-\parenthesize-! a'16( c)
+		\slurDashed d8-\parenthesize-! fis16( a) d,8-\parenthesize-! g16( h) d,8-\parenthesize-! a'16( c)
 		g8 r r4 r %140
 		d8-\parenthesize-! fis16( a) d,8-\parenthesize-! g16( h) d,8-\parenthesize-! a'16( c) \slurSolid
 		g8 r r4 r
@@ -2019,14 +2019,14 @@ EtIncarnatusViolone = {
 		g
 		d'4 r8 d d d
 		g,16 g' h g g, g' h g g, g' h g
-		\tieDashed g,2.~
-		g~ %160
-		g4 h d \tieSolid
+		\once \tieDashed g,2.~
+		g %160
+		g4 h d
 		g r r
 		d r8 d d d
-		\tieDashed g,2.~
-		g~ %165
-		g4 h d \tieSolid
+		\once \tieDashed g,2.~
+		g %165
+		g4 h d
 		g,8 r g r g r
 		g2 r4
 		g8\pE g g g g g
@@ -2083,8 +2083,8 @@ EtIncarnatusViolone = {
 		d~ \tieSolid %220
 		d
 		a'2 a,4
-		\once \tieDashed d2.~
-		d
+		\tieDashed d2.~
+		d~ \tieSolid
 		d4 r8 d\fE d d %225
 		d4 r8 d d d
 		d4 r8 d d d

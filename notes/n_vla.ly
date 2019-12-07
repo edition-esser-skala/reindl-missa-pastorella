@@ -829,6 +829,173 @@ EtIncarnatusViola = {
 		\clef treble
 		\key g \major \time 3/4 \tempoEtIncarnatus
 			\set Score.currentBarNumber = #129
-		
+		g8\fE g g g g g
+		g g g g g g
+		c4 d d,
+		g r r
+		d'8-\parenthesize-! \once \slurDashed fis16( a) d,8 r r4
+		d8-\parenthesize-! \once \slurDashed g16( h) d,8 r r4
+		d8-\parenthesize-! \once \slurDashed fis16( a) d,8 r r4 %135
+		h' a g
+		d d, r
+		d' d, r
+		R2.
+		g'8 g g g g g %140
+		d4 r r
+		r8 g g g g g
+		g g g g g g
+		g4 d d
+		c d d %145
+		h r r
+		\slurDashed d8( fis) a( fis) a16( fis) a( fis)
+		g4 r r
+		d16( e fis g) a8( fis) a16( fis) a( fis) \slurSolid
+		g8 g g g g g %150
+		g g g g g g
+		g g g g g g
+		d4 r8 d d d
+		d4 r8 g g g
+		g g g g g g %155
+		g g g g g g
+		d4 r8 d d d
+		<h d>2.~
+		q~
+		q %160
+		g4 h d
+		g r r
+		d r8 d d d
+		<h d>2.~
+		q %165
+		g4 h d
+		d8 r d r d r
+		<h d>2 r4
+		g8\p g g g g g
+		g g g g g g %170
+		c4 d d,
+		r8 g h d g4
+		h a d,
+		h' a d,
+		d8 d d d d d %175
+		d d d d d d
+		d d d d d d
+		d d d d d d
+		d4 g r
+		r8 d d d d d %180
+		d d d d d d
+		r d d d d d
+		d d d d d d
+		\once \slurDashed d4( h) r
+		h( g) d8 c' %185
+		h4( g) d8 c'
+		h'4( g) r8 d
+		g4 g, r
+		d'(\fE d,8) r r4
+		d'( g8) r r4 %190
+		d(\pE d,8) r r4
+		d( g8) r r4
+		r h' g
+		e2 a4 
+		a8 a a a a a %195
+		a a a a a a
+		a a a a a a
+		a a a a a a
+		a4 r r
+		\slurDashed a,8-\parenthesize-! cis16( e) a,8-! r r4 %200
+		a8-\parenthesize-! d16( fis) a,8 r r4
+		a8-\parenthesize-! cis16( e) a,8-\parenthesize-! d16( fis) a,8-\parenthesize-! e'16( g)
+		d8 r r4 r
+		a8-\parenthesize-! cis16( e) a,8-\parenthesize-! d16( fis) a,8-\parenthesize-! e'16( g) \slurSolid
+		d4 r r %205
+		R2.
+		a'4(\fE a,8) r r4
+		a( d8) r r4
+		a'(\pE a,8) r r4
+		a( d8) r r4 %210
+		r8 a' a a a a
+		a a a a a a
+		fis4( d) a8 g'
+		fis4( d) a8 g'
+		fis4( d) r %215
+		g a a,
+		d e a,
+		d e a,
+		\tieDashed a2.~
+		a~ %220
+		a~ \tieSolid
+		a4 r8 a a a
+		\tieDashed d2.~
+		d~ \tieSolid
+		d4 r8 d\fE d d %225
+		d4 r8 d d d
+		d4 r8 d d d
+		a2\pE a4
+		fis\fE r r
+		a8( cis) e( cis) e16( cis) e( cis) %230
+		d4 r r
+		a16( h cis d) e8( cis) e16( cis) e( cis)
+		d4 r8 d d d
+		d4 r8 d d d
+		d4 r r %235
+		a r8 a a a
+		a2 r4
+		d\pE r r
+		fis a fis
+		h a a %240
+		a r r
+		d, d d
+		g, r r
+		h' d h
+		r8 e, fis4 r8 d %245
+		d g g g g g
+		g4 a d,
+		g a d,
+		d8 d d d d d
+		d d d d d d %250
+		d d d d d d
+		d d d d d d
+		d4 r r
+		d8 d d d d d
+		d d d d d d %255
+		d d d d d d
+		d d d d d d
+		g g g g g g
+		g g g g g g
+		g g g g g g %260
+		g g g g g g
+		g4 fis g
+		d d, r
+		r r8 d''16 e d8 d
+		r4 r8 d16 e d8 d %265
+		R2.
+		g,8 g g g g g
+		R2.
+		g8 g g g g g
+		g4 r r %270
+		d8( fis) a( fis) a16( fis) a( fis)
+		g4 r r
+		d16( e fis g) a8( fis) a16( fis) a( fis)
+		g2 g4
+		d( h) r8 fis' %275
+		d4( h) r8 fis'
+		d4( h) r8 fis'
+		d4( h) r8 d
+		d4 r r
+		d(\fE d,8) r r4 %280
+		d'( g8) r r4
+		d(\pE d,8) r r4
+		d( g8) r r4
+		<g d'>2.~
+		q~ %285
+		q
+		d'4 r8 d d d
+		g,4 r8 g'\fE g g
+		g4 r8 g g g
+		g4 r r %290
+		d\pE r8 d d d
+		\once \tieDashed <h d>2.~\f
+		q
+		g4 h d
+		g,8-\critnote r g r g r %295
+		g2-\critnote r4\fermata \bar "||" %296 finis
 	}
 }

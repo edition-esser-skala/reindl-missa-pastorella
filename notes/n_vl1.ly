@@ -845,13 +845,13 @@ EtIncarnatusViolinoI = {
 		g g' \appoggiatura a16 g8.(^\missgrace fis32 e) \appoggiatura e8 d4 %130
 		r8 e \once \slurDashed d([ c')] c16( h) h( a)
 		\appoggiatura a8 g4^\missgrace r r
-		d,8-\parenthesize-!\p fis16( a) d,4 r
+		d,8-\parenthesize-! fis16( a) d,4 r
 		d8-! g16( h) d,4 r
 		d8-! fis16( a) d,4 r %135
 		d'8 g16.(^\critnote d32) \appoggiatura d16 c8 a'16.( c,32) \appoggiatura c16 h8 g'16.( h,32)
 		h4 a r
 		R2.
-		d,8-!\fE fis16( a) d,8-! g16( h) d,8-! a'16( c)
+		d,8-! fis16( a) d,8-! g16( h) d,8-! a'16( c)
 		g4 r r %140
 		d8-! fis16( a) d,8-! g16( h) d,8-! a'16( c)
 		g4 r r
@@ -871,13 +871,13 @@ EtIncarnatusViolinoI = {
 		g'4( d8) d16([ h)] d( h) d( h)
 		\once \slurDashed g'4( d8) d32([ h16.)] c32([ a16.)] a32([ fis16.)]
 		\tieDashed g2.~
-		g~
-		g~ \tieSolid %160
+		g~ \tieSolid
+		g %160
 		g4 h d
 		g8 r r d16( h) d( h) d( h)
 		g'4( d8) d32([ h16.)] c32([ a16.)] a32([ fis16.)]
-		\tieDashed g2.~
-		g~ \tieSolid %165
+		\once \tieDashed g2.~
+		g %165
 		g4 h d
 		g,8 r g r g r
 		g2 r4
@@ -998,14 +998,14 @@ EtIncarnatusViolinoI = {
 		a4( g8) d'16([ h)] d( h) d( h)
 		<h g'>2.~
 		q~ %285
-		q~
-		q4. d8 d16( c) c( a)
+		q
+		g'4. d8 d16( c) c( a)
 		g4 r8 d'16(\fE h) d( h) d( h)
 		g'4( d8) d16([ h)] d( h) d( h)
 		g'4( d8) d16([ h)] d( h) d( h) %290
 		\once \slurDashed g'4(\pE d8) d32([ h16.)] c32( a16.) a32([ fis16.)]
-		\tieDashed g2.~\fE
-		g~ \tieSolid
+		\once \tieDashed g2.~\fE
+		g
 		g4 h d
 		g,8 r g r g r %295
 		g2 r4\fermata \bar "||" %296 finis
