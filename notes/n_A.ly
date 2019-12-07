@@ -1080,12 +1080,215 @@ EtIncarnatusAltoNotes = {
 		\clef treble
 		\key g \major \time 3/4 \autoBeamOff \tempoEtIncarnatus
 			\set Score.currentBarNumber = #129
-		R2.*42
+		R2.*42 %170
+		a'8([ c)] c16([ h)] h([ a)] a([ g)] g([ fis)]
+		\appoggiatura fis8 g4 r r
+		r8 r16 h( c8[ a)] a4
+		r8 r16 h( c8[^\critnote a)] a4
+		\tieDashed h2.~ %175
+		h~
+		h~
+		h~
+		h4 h r \tieSolid
+		d,8([ g)] \tuplet 3/2 4 { fis([ e d)] a'([ h)] c } %180
+		h16([ g d' h)] \appoggiatura h4 a2
+		R2.*4 %185
+		g4.( a16[ h)] h([ c)] a([ fis)]
+		g4.( a16[ h] h^[ c]) a([ fis)]
+		g8. a16 h4 r
+		R2.*2 %190
+		h,4 a8 r r4
+		c4 h r
+		R2.*2
+		fis'2.~ %195
+		fis~
+		fis~
+		fis2 fis4
+		fis fis r
+		r r8 cis([ d)] cis %200
+		r4 r8 d([ e)] d
+		R2.
+		r8 fis16([^\critnote g]) fis8[-! fis]-! fis([ a)]^\critnote
+		R2.
+		r8 fis16([ g)] fis8[-! fis]-!  fis([ a)] %205
+		\appoggiatura a16 g8^\missgrace fis16([ g)] fis4 r
+		R2.*2
+		fis4 e8 r r4
+		g8.([ fis32 g)] fis4 r %210
+		R2.
+		r4 r r8 a
+		d,4. e16[ fis] fis[ g e cis]
+		d4. e16[ fis] fis[ g e cis]
+		d4 r r %215
+		h'8 a16([ g)] fis4 e
+		R2.
+		r8 r16 fis( g8[ e)] e4
+		fis2.
+		\tieDashed fis~ %220
+		fis~
+		fis4. \tieSolid fis8 fis16([ e)] e([ cis)]
+		\appoggiatura cis8 d4^\missgrace r g8.([ a16)]
+		fis4 r g8.([ a16)]
+		fis4 r r %225
+		R2.*2
+		fis4. fis8 fis16([ e)] e([ cis)]
+		\appoggiatura cis8 d4 r r
+		R2.*8 %237
+		a'4 fis8([ d)] e([ a,)]
+		d([ d')] d8.([ cis32 h)] a4
+		g8([ h)] h16([ a)] a([ g)] g([ fis)] fis([ e)] %240
+		\appoggiatura e8 fis4^\missgrace r r
+		R2.*3
+		a8([ c!)] c16([ h)] h([ a)] a([ g)] g([ fis)] %245
+		\appoggiatura fis8 g4 r r
+		R2.
+		r8 r16 h( c8[ a)] a4
+		\tieDashed h2.~
+		h~ %250
+		h~
+		h~
+		h4 h r \tieSolid
+		R2.*2 %255
+		d,8 g \tuplet 3/2 4 { fis([ e d)] c'([ h a)] }
+		h16([ g)] d'([ h)] \appoggiatura h8 a4 r
+		R2.
+		c8 r h r a r
+		g4 r r %260
+		e4 d c
+		h8[ h'] h16([ a) c( a)] a([ g)] h([ g)]
+		g8.([\trill fis32 g)] fis4 r
+		r r8 fis([ g)] fis
+		r4 r8 g([ a)] g %265
+		R2.
+		h8.([ c16] h8) d16([ h)] h([ a)] a([ g)]
+		R2.
+		h8.([ c16] h8) d16([ h)] h([ a)] a([ g)]
+		R2. %270
+		fis8[( a c a] c16[ a c a)]
+		h4 r r
+		fis16([ g)] a([ h)] c8 a c16([ a)] c([ a)]
+		h4 r r
+		R2.*2 %276
+		g4. a16[ h] h[ c a fis]
+		g4. a16[ h] h[ c] a([ fis])
+		g8([ h)] h4 r
+		R2.*2 %281
+		h,4 a8 r r4
+		c8.([ d16)] h4 r
+		g'2.
+		\tieDashed h~ %285
+		h~
+		h4. \tieSolid h8 h16([ a)] a([ fis)]
+		\appoggiatura fis8 g4^\missgrace r r
+		R2.*2 %290
+		h4. h8 h16([ a)] a([ fis)]
+		\appoggiatura fis4 g2 r4
+		R2.*3 %295
+		R2.\fermataMarkup \bar "||" %296 finis
 	}
 }
 
 EtIncarnatusAltoLyrics = \lyricmode {
+	Et __ in -- car -- na -- tus %171
+	est,
+	na -- tus,
+	na -- tus,
+	na -- %175
 	
+	tus %179
+	de __ Spi -- ri -- tu %180
+	San -- cto,
+	
+	et __ ho -- mo,
+	ho -- mo
+	fa -- ctus est,
+	
+	ho -- mo, %191
+	ho -- mo,
+	
+	ho -- %195
+	
+	mo %198
+	fa -- ctus,
+	ho -- mo, %200
+	ho -- mo,
+	
+	ho -- _ mo, __
+	
+	ho -- _ mo __ %205
+	fa -- ctus est,
+	
+	ho -- mo %209
+	fa -- ctus, %210
+	
+	et
+	ho -- _ _
+	_ _ _
+	mo, %215
+	ho -- mo fa -- ctus,
+	
+	na -- tus,
+	et
+	ho -- %220
+	
+	mo fa -- ctus
+	est, na --
+	tus, na --
+	tus, %225
+	
+	ho -- mo fa -- ctus %228
+	est.
+	
+	Et in -- car -- %238
+	na -- _ tus,
+	et __ in -- car -- na -- tus %240
+	est,
+	
+	et __ in -- car -- na -- tus %245
+	est,
+	
+	na -- tus,
+	na --
+	
+	tus, %253
+	
+	ex Ma -- ri -- a __ %255
+	Vir -- gi -- ne
+	
+	ho -- _ _
+	mo, %260
+	ho -- _ _
+	_ _ _ mo
+	fa -- ctus,
+	ho -- mo,
+	ho -- mo, %265
+	
+	ho -- mo fa -- ctus,
+	
+	ho -- mo fa -- ctus,
+	%270
+	na --
+	tus
+	ex Ma -- ri -- a Vir -- gi --
+	ne,
+	
+	ho -- _ _ %277
+	_ _ _ mo
+	fa -- ctus,
+	
+	ho -- mo, %282
+	ho -- mo,
+	ho --
+	_ %285
+	
+	mo fa -- ctus
+	est,
+	
+	ho -- mo fa -- ctus %291
+	est. %292 finis
+	
+% Et in -- car -- na -- tus est de Spi -- ri -- tu San -- cto
+% ex Ma -- ri -- a Vir -- gi -- ne, et ho -- mo fa -- ctus est.
 }
 
 % AltoNotes = {
