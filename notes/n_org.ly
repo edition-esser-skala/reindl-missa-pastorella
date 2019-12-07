@@ -1706,7 +1706,7 @@ EtIncarnatusOrganoR = {
 		r4 r8 << { d16 e d8 d } \\ { <fis, a>8 <g h> <fis a> } >>
 		r4 r8 << { d'16 e d8 d } \\ { <g, h>8 <a c> <g h> } >>
 		r4 r8 << { d'16 e d8 d } \\ { <fis, a>8 <g h> <fis a> } >> %135
-		d'8 g16. d32 \appoggiatura d16 c8 a'16. c,32 c16 h g' h,
+		d'8 \once \slurDashed g16.( d32) \appoggiatura d16 c8 \once \slurDashed a'16.( c,32) \appoggiatura c16 h8^\critnote \once \slurDashed g'16.( h,32)
 		<g h>4 <fis a>8 <c' fis> <h g'>[ <g h>]
 		q4 <fis a> r
 		R2.
@@ -1714,14 +1714,14 @@ EtIncarnatusOrganoR = {
 		R2.
 		r8 << { d'16 e d8 d g h } \\ { <g, h> q q q-\critnote q } >>
 		R2.*3 %145
-		g8 h d h d16 h d h
+		\slurDashed g8( h) d( h) d16( h) d( h)
 		d8 r r4 r
-		g,16 a h c d8 h d16 h d h
+		g,16( a h c) d8( h) d16( h) d( h) \slurSolid
 		d4 r r
 		r r8 d16( h) d( h) d( h) %150
 		\once \slurDashed g'4( d8) d16([ h)] d( h) d( h)
 		\once \slurDashed g'4( d8) d16([ h)] \slurDashed d( h) d( h) \slurSolid
-		<h g'>4 d8 \slurDashed d32( h16.) c32( a16.) a32( fis16.) \slurSolid
+		\slurDashed <h g'>4( d8) d32([ h16.)] c32([ a16.)] a32( fis16.) \slurSolid
 		\appoggiatura fis8 g4 r r
 		R2.*3 %157
 		g4 h8 d, d' d,
@@ -1729,7 +1729,7 @@ EtIncarnatusOrganoR = {
 		g4 h8 d, d' d, %160
 		g4 h8 d, d' d,
 		g' r r d16( h) d( h) d( h)
-		g'4 d8 d32( h16.) c32( a16.) a32( fis16.)
+		\once \slurDashed g'4( d8) d32([ h16.)] c32( a16.) a32([ fis16.)]
 		g4 h8 d, d' d,
 		g4 h8 d, d' d, %165
 		g4 h8 d, d' d,
@@ -1746,8 +1746,8 @@ EtIncarnatusOrganoR = {
 		r8 << { a'16 h a8 a d fis } \\ { <d, fis> q q q q } >> %205
 		R2.*2
 		r4 r gis'16( a) gis( a)
-		<d, fis,>4 <cis e,>8 r gis'16( a) gis( a)
-		<e g,>4 <d fis,>8 r r4 %210
+		\once \slurDashed <d, fis,>4( <cis e,>8) r gis'16( a) gis( a)
+		\once \slurDashed <e g,>4( <d fis,>8) r r4 %210
 		R2.*6 %216
 		a8. d16 \appoggiatura d4 cis2
 		a8. d16 \appoggiatura d4 cis2
@@ -1755,9 +1755,9 @@ EtIncarnatusOrganoR = {
 		d4 fis8 a, a' a, %220
 		d a fis' a, a' a,
 		R2.*7 %228
-		d8 fis a fis a16 fis a fis
+		\slurDashed d8( fis) a( fis) a16( fis) a( fis)
 		a4 r r %230
-		d,16 e fis g a8 fis a16 fis a fis
+		d,16( e fis g) a8( fis) a16( fis) a( fis) \slurSolid
 		a4 r r
 		R2.*8 %240
 		r8 << {
@@ -1785,9 +1785,9 @@ EtIncarnatusOrganoR = {
 		g16 a h c d8 h d16 h d h
 		d4 r r
 		R2.*7 %280
-		r4 r cis16( d cis d)
-		<g, h,>4 <fis a,>8 r \once \slurDashed cis'16( d cis d)
-		<a c,!>4 <g h,>8 r r4
+		r4 r cis16( d) cis( d)
+		\slurDashed <g, h,>4( <fis a,>8) r cis'16( d) cis( d)
+		<a c,!>4( <g h,>8) r r4 \slurSolid
 		g h8 d, d' d,
 		g4 h8 d, d' d, %285
 		g d h' d, d' d,
@@ -1809,27 +1809,27 @@ EtIncarnatusOrganoL = {
 		\clef bass
 		\key g \major \time 3/4 \tempoEtIncarnatus
 			\set Score.currentBarNumber = #129
-		g'8 g g g g g
+		g'8\fE g g g g g
 		g g g g g g %130
 		c4 d d,
 		r8 g, h d g4
-		d8 fis16 a d,8 r r4
-		d8 g16 h d,8 r r4
-		d8 fis16 a d,8 r r4 %135
+		d8-\parenthesize-! \once \slurDashed fis16( a) d,8 r r4
+		d8-\parenthesize-! \once \slurDashed g16( h) d,8 r r4
+		d8-\parenthesize-! \once \slurDashed fis16( a) d,8 r r4 %135
 		h'8 h, a[ a'] g, g'
 		d4 d, r8 cis'
 		d4 d, r
-		d'8 fis16 a d,8 g16 h d,8 a'16 c
+		\slurDashed d'8-\parenthesize-! fis16( a) d,8-\parenthesize-! g16( h) d,8-\parenthesize-! a'16( c)
 		g8 r r4 r %140
-		d8 fis16 a d,8 g16 h d,8 a'16 c
+		d8-\parenthesize-! fis16( a) d,8-\parenthesize-! g16( h) d,8-\parenthesize-! a'16( c) \slurSolid
 		g8 r r4 r
 		c8 c c c c c
 		h4 a g
 		c d d, %145
 		g8 r r4 r
-		d8 fis a fis a16 fis a fis
+		\slurDashed d8( fis) a( fis) a16( fis) a( fis)
 		g4 r r
-		d16 e fis g a8 fis a16 fis a fis
+		d16( e fis g) a8( fis) a16( fis) a( fis) \slurSolid
 		g8 g g g g g %150
 		g g g g g g
 		g g g g g g
@@ -1849,18 +1849,18 @@ EtIncarnatusOrganoL = {
 		g,4 h d
 		g,8 r g r g r
 		g2 r4
-		g8 g g g g g
+		g8\pE g g g g g
 		g2. %170
 		c4 d d,
 		r8 g h d g4
-		\tuplet 3/2 4 { g8 h d a c d d, a' d }
+		\tuplet 3/2 4 { g8\fE h d a c d d, a' d }
 		\tuplet 3/2 4 { g, h d a c d d, a' d }
-		<g, g,>2. %175
-		q
-		q
-		q
-		g,4 r r
-		h' a d, %180
+		\tieDashed <g, g,>2.~\pE %175
+		q~
+		q~
+		q~ \tieSolid
+		q4 r r
+		h a d, %180
 		g fis d
 		h' a d,
 		g fis d
@@ -1869,72 +1869,72 @@ EtIncarnatusOrganoL = {
 		h4( g) d8 c' \slurSolid
 		h4 g r8 d
 		g4 g, r
-		d'( d,8) r r4
+		d'(\fE d,8) r r4
 		d'4( g,8) r r4 %190
-		d'4( d,8) r r4
+		d'4(\pE d,8) r r4
 		d4( g8) r r4
 		r g' e
 		a g fis
 		d2.~ %195
 		d~
-		\once \tieDashed d~
-		d
+		\tieDashed d~
+		d~ \tieSolid
 		d4 d, r
-		a'8 cis16 e a,8 r r4 %200
-		a8 d16 fis a,8 r r4
-		a8 cis16 e a,8 d16 fis a,8 e'16 g
+		\slurDashed a'8-\parenthesize-!\fE cis16( e) a,8-! r r4 %200
+		a8-\parenthesize-! d16( fis) a,8 r r4
+		a8-\parenthesize-! cis16( e) a,8-\parenthesize-! d16( fis) a,8-\parenthesize-! e'16( g)
 		d8 r r4 r
-		a8 cis16 e a,8 d16 fis a,8 e'16 g
+		a8-\parenthesize-! cis16( e) a,8-\parenthesize-! d16( fis) a,8-\parenthesize-! e'16( g) \slurSolid
 		d4 r r %205
 		a d r
 		a' a, r
 		a d r
 		a'( a,8) r r4
 		a4( d8) r r4 %210
-		fis4( d) a8 g'
+		fis4(\pE d) a8 g'
 		fis4( d) a8 g'
 		fis4( d) a8 g'
 		fis4 d a
 		d r r %215
 		g a a,
-		\tuplet 3/2 4 { d8 fis a e g a a, e' a }
+		\tuplet 3/2 4 { d8\fE fis a e g a a, e' a }
 		\tuplet 3/2 4 { d, fis a e g a a, e' a }
 		d,,16 d' fis d d, d' fis d d, d' fis d
 		d, d' fis d d, d' fis d d, d' fis d %220
 		d d' fis d d, d' fis d d, d' fis d
-		a2 a,4
-		d2.
+		a2\pE a,4
+		\once \tieDashed d2.~
 		d
-		d4 r8 d d d %225
+		d4 r8 d\fE d d %225
 		d4 r8 d d d
 		d4 r8 d d d
-		a'2 a,4
-		d r r
-		a'8 cis e cis e16 cis e cis %230
+		a'2\pE a,4
+		d\fE r r
+		\slurDashed a'8( cis) e( cis) e16( cis) e( cis) %230
 		d4 r r
-		a16 h cis d e8 cis e16 cis e cis
-		d4r8 d, d d
+		a16( h cis d) e8( cis) e16( cis) e( cis) \slurSolid
+		d4 r8 d, d d
 		d4 r8 d d d
 		d4 r r %235
 		a' r8 a, a a
 		d4 a d,
-		d' r r
+		d'\pE r r
 		d fis d
 		g a a, %240
-		d r r
+		d\fE r r
 		d d d
 		g, r r
-		g' h g
+		g'\pE h g
 		c d d, %245
-		g r r
+		g\fE r r
 		\tuplet 3/2 4 { g8 h d a c d d, a' d }
 		\tuplet 3/2 4 { g, h d a c d d, a' d }
-		<g, g,>2.
-		q %250
-		q
-		q
-		g,4 r r
-		h' a d,
+		\tieDashed <g, g,>2.~
+		q~ %250
+		q~
+		q~ \tieSolid
+		q4 r r
+		h\pE a d,
 		g fis d %255
 		h' a d,
 		g fis d
@@ -1944,31 +1944,31 @@ EtIncarnatusOrganoL = {
 		g g g g g g
 		g r fis r g r
 		d4 d, r
-		d'8 fis16 a d,4 r
-		d8 g16 h d,4 r %265
-		d8 fis16 a d,8 g16 h d,8 a'16 c
+		\slurDashed d'8-\parenthesize-!\fE fis16( a) d,4 r
+		d8-\parenthesize-! g16( h) d,4 r %265
+		d8-\parenthesize-!\pE fis16( a) d,8-\parenthesize-! g16( h) d,8-\parenthesize-! a'16( c)
 		g4 r r
-		d8 fis16 a d,8 g16 h d,8 a'16 c
+		d8-\parenthesize-! fis16( a) d,8-\parenthesize-! g16( h) d,8-\parenthesize-! a'16( c) \slurSolid
 		g4 r r
 		g r r %270
-		d8 fis a fis a16 fis a fis
+		\slurDashed d8(\fE fis) a( fis) a16( fis) a( fis)
 		g4 r r
-		d16 e fis g a8 fis a16 fis a fis
+		d16( e fis g) a8( fis) a16( fis) a( fis) \slurSolid
 		g4 r r
-		h( g) d8 c' %275
+		h(\pE g) d8 c' %275
 		h4( g) d8 c'
 		\once \slurDashed h4( g) d8 c'
 		h4 g d
 		g g, r
-		d'( d,8) r r4 %280
+		d'(\fE d,8) r r4 %280
 		d'4( g8) r r4
 		\once \slurDashed d( d,8) r r4
 		\once \slurDashed d4( g8) r r4
 		g16 g' h g g, g' h g g, g' h g
 		g, g' h g g, g' h g g, g' h g %285
 		g, g' h g g, g' h g g, g' h g
-		d4 r d,
-		g r8 g' g g
+		d4\pE r d,
+		g\fE r8 g' g g
 		g4 r8 g g g
 		g4 r8 g g g %290
 		d4 r8 d d d
@@ -1993,23 +1993,23 @@ EtIncarnatusViolone = {
 		g g g g g g %130
 		c4 d d,
 		r8 g, h d g4
-		d8 fis16 a d,8 r r4
-		d8 g16 h d,8 r r4
-		d8 fis16 a d,8 r r4 %135
+		d8-\parenthesize-!\pE \once \slurDashed fis16( a) d,8 r r4
+		d8-\parenthesize-! \once \slurDashed g16( h) d,8 r r4
+		d8-\parenthesize-! \once \slurDashed fis16( a) d,8 r r4 %135
 		h'4 a g
-		d4\p d r8 cis
+		d4 d r8 cis
 		d4 d r
-		d8\f fis16 a d,8 g16 h d,8 a'16 c
+		\slurDashed d8-\parenthesize-!\f fis16( a) d,8-\parenthesize-! g16( h) d,8-\parenthesize-! a'16( c)
 		g8 r r4 r %140
-		d8 fis16 a d,8 g16 h d,8 a'16 c
+		d8-\parenthesize-! fis16( a) d,8-\parenthesize-! g16( h) d,8-\parenthesize-! a'16( c) \slurSolid
 		g8 r r4 r
 		c8 c c c c c
 		h4 a g
 		c d d, %145
 		g8 r r4 r
-		d8 fis a fis a16 fis a fis
+		\slurDashed d8( fis) a( fis) a16( fis) a( fis)
 		g4 r r
-		d16 e fis g a8 fis a16 fis a fis
+		d16( e fis g) a8( fis) a16( fis) a( fis) \slurSolid
 		g,2.~ %150
 		g~
 		g
@@ -2018,15 +2018,15 @@ EtIncarnatusViolone = {
 		\once \tieDashed g~ %155
 		g
 		d'4 r8 d d d
-		g,16\p g' h g g, g' h g g, g' h g
-		g,2.
-		g %160
-		g4 h d
+		g,16 g' h g g, g' h g g, g' h g
+		\tieDashed g,2.~
+		g~ %160
+		g4 h d \tieSolid
 		g r r
 		d r8 d d d
-		g,2.
-		g %165
-		g4 h d
+		\tieDashed g,2.~
+		g~ %165
+		g4 h d \tieSolid
 		g,8 r g r g r
 		g2 r4
 		g8\pE g g g g g
@@ -2038,7 +2038,7 @@ EtIncarnatusViolone = {
 		g,2.~ %175
 		g~
 		g~
-		g
+		\once \tieDashed g~
 		g4 r r
 		h' a d, %180
 		g fis d
@@ -2049,27 +2049,27 @@ EtIncarnatusViolone = {
 		h4( g) d8 c' \slurSolid
 		h4 g r8 d
 		g4 g, r
-		d' d r
+		\once \slurDashed d'4(\fE^\critnote d8) r r4
 		d( g,8) r r4 %190
-		d' d r
+		\once \slurDashed d'4(\pE^\critnote d8) r r4
 		d( g,8) r r4
 		r g' e
 		a g fis
 		d2.~ %195
 		d~
-		\once \tieDashed d~
-		d
+		\tieDashed d~
+		d~ \tieSolid
 		d4 d r
-		a8 cis16 e a,8 r r4 %200
-		a8 d16 fis a,8 r r4
-		a8 cis16 e a,8 d16 fis a,8 e'16 g
+		\slurDashed a8-\parenthesize-! cis16( e) a,8-! r r4 %200
+		a8-\parenthesize-! d16( fis) a,8 r r4
+		a8-\parenthesize-! cis16( e) a,8-\parenthesize-! d16( fis) a,8-\parenthesize-! e'16( g)
 		d8 r r4 r
-		a8 cis16 e a,8 d16 fis a,8 e'16 g
+		a8-\parenthesize-! cis16( e) a,8-\parenthesize-! d16( fis) a,8-\parenthesize-! e'16( g) \slurSolid
 		d4 r r %205
 		a d r
-		a' a, r
+		a'\fE a, r
 		a d r
-		a'( a,8) r r4
+		a'(\pE a,8) r r4
 		a4( d8) r r4 %210
 		fis4( d) a8 g'
 		fis4( d) a8 g'
@@ -2079,29 +2079,29 @@ EtIncarnatusViolone = {
 		g a a,
 		\tuplet 3/2 4 { d8 fis a e g a a, e' a }
 		d,4 e a,
-		d2.
-		d %220
+		\tieDashed d2.~
+		d~ \tieSolid %220
 		d
 		a'2 a,4
-		d2.
+		\once \tieDashed d2.~
 		d
-		d4 r8 d d d %225
+		d4 r8 d\fE d d %225
 		d4 r8 d d d
 		d4 r8 d d d
-		a'2 a,4
-		d r r
-		a8 cis e cis e16 cis e cis %230
+		a'2\pE a,4
+		d\fE r r
+		\slurDashed a8( cis) e( cis) e16( cis) e( cis) %230
 		d4 r r
-		a16 h cis d e8 cis e16 cis e cis
+		a16( h cis d) e8( cis) e16( cis) e( cis) \slurSolid
 		d4 r8 d d d
 		d4 r8 d d d
 		d4 r r %235
 		a' r8 a, a a
 		d4 a d
-		d r r
+		d\pE r r
 		d fis d
 		g a a, %240
-		d\p r r
+		d r r
 		d d d
 		g, r r
 		g' h g
@@ -2109,10 +2109,10 @@ EtIncarnatusViolone = {
 		g r r
 		g8 r a r d, r
 		g4 a d,
-		g,2.
-		g %250
-		g
-		g
+		\tieDashed g,2.~
+		g~ %250
+		g~
+		g~ \tieSolid
 		g4 r r
 		h' a d,
 		g fis^\critnote d %255
@@ -2124,35 +2124,35 @@ EtIncarnatusViolone = {
 		g g g g g g
 		g r fis r g r
 		d4 d r
-		d8 fis16 a d,4 r
-		d8 g16 h d,4 r %265
-		d8 fis16 a d,8 g16 h d,8 a'16 c
+		\slurDashed d8-\parenthesize-! fis16( a) d,4 r
+		d8-\parenthesize-! g16( h) d,4 r %265
+		d8-\parenthesize-! fis16( a) d,8-\parenthesize-! g16( h) d,8-\parenthesize-! a'16( c)
 		g4 r r
-		d8 fis16 a d,8 g16 h d,8 a'16 c
+		d8-\parenthesize-! fis16( a) d,8-\parenthesize-! g16( h) d,8-\parenthesize-! a'16( c) \slurSolid
 		g4 r r
 		g r r %270
-		d8 fis a fis a16 fis a fis
+		\slurDashed d8( fis) a( fis) a16( fis) a( fis)
 		g4 r r
-		d16 e fis g a8 fis a16 fis a fis
+		d16( e fis g) a8( fis) a16( fis) a( fis) \slurSolid
 		g4 r r
 		h( g) d8 c' %275
 		h4( g) d8 c'
 		\once \slurDashed h4( g) d8 c'
 		h4 g d
 		g g, r
-		d'( d8) r r4 %280
+		d'(\fE d8) r r4 %280
 		d4( g8) r r4
-		d( d8) r r4
+		d(\pE d8) r r4
 		\once \slurDashed d4( g,8)-\critnote r r4
-		g2.
-		g %285
+		\tieDashed g2.~
+		g~ \tieSolid %285
 		g
 		d'4 r d
-		g, r8 g' g g
+		g, r8 g'\fE g g
 		g4 r8 g g g
 		g4 r8 g g g %290
-		d4 r8 d d d
-		g2.
+		d4\pE r8 d d d
+		\once \tieDashed g2.~\fE
 		g
 		g,4 h d
 		g,8 r g r g r %295

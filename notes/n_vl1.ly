@@ -841,7 +841,174 @@ EtIncarnatusViolinoI = {
 		\clef treble
 		\key g \major \time 3/4 \tempoEtIncarnatus
 			\set Score.currentBarNumber = #129
-		
+		d'4\fE h8( g) a( d,)
+		g g' g8( fis16 e) \appoggiatura e8 d4 %130
+		r8 e d c' c16( h) h( a)
+		g4 r r
+		d,8-\parenthesize-!\p fis16( a) d,4 r
+		d8-! g16( h) d,4 r
+		d8-! fis16( a) d,4 r %135
+		d'8 g16.(^\critnote d32) \appoggiatura d16 c8 a'16.( c,32) \appoggiatura c16 h8 g'16.( h,32)
+		h4 a r
+		R2.
+		d,8-!\fE fis16( a) d,8-! g16( h) d,8-! a'16( c)
+		g4 r r %140
+		d8-! fis16( a) d,8-! g16( h) d,8-! a'16( c)
+		g4 r r
+		e'8 g r g16( fis) \appoggiatura a g8 fis16( e)
+		d8 g16.( d32) d16( c) a'( c,) \appoggiatura c8 h4
+		a8 e' e16( d) d( c) c( h) h( a) %145
+		g8( h) d( h) d16( h) d( h)
+		d4 r r
+		g,16( a h c) d8( h) d16( h) d( h)
+		d4 r r
+		g, r8 d'-\parenthesize-! d-\parenthesize-! d-\parenthesize-! %150
+		g4( d8) d[-! d-! d-!]
+		g4( d8) d[-! d-! d-!]
+		g4( d8) d32([ h16.)] c32([ a16.)] a32([ fis16.)]
+		\appoggiatura fis8 g4-\missgrace r8 d'16( h) d( h) d( h)
+		g'4( d8) d16([ h)] d( h) d( h) %155
+		g'4( d8) d16([ h)] d( h) d( h)
+		\once \slurDashed g'4( d8) d32([ h16.)] c32([ a16.)] a32([ fis16.)]
+		\tieDashed g2.~
+		g~
+		g~ \tieSolid %160
+		g4 h d
+		g8 r r d16( h) d( h) d( h)
+		g'4( d8) d32([ h16.)] c32([ a16.)] a32([ fis16.)]
+		\tieDashed g2.~
+		g~ \tieSolid %165
+		g4 h d
+		g,8 r g r g r
+		g2 r4
+		d'\p h8( g) a( d,)
+		g g' g8.( fis32 e) \appoggiatura e8 d4^\missgrace %170
+		\once \slurDashed c8( e) e16( d) d( c) c( h) h( a)
+		\appoggiatura a8 h4 r r
+		d8. g16 \appoggiatura g4 fis2
+		d8. g16 \appoggiatura g4 fis2
+		h,8 h h h h h %175
+		h h h h h h
+		h h h h h h
+		h h h h h h
+		d g d4 r
+		d8 g \tuplet 3/2 4 { fis e d c h a } %180
+		h16( g) d'( h) \appoggiatura h4 a2
+		h8 g' \tuplet 3/2 4 { fis e d c h a }
+		h16( g) d'( h) \appoggiatura h4 a2
+		g4. a16( h) h( c) a( fis)
+		g4. a16( h) h( c) a( fis) %185
+		d'4 r8 d d d
+		d4 r8 d d d
+		h8. c16 d4 cis'32(\fE d16.) cis32( d16.)
+		g,4( fis8) r \slurDashed cis'32( d16.) cis32( d16.) \slurSolid
+		a4( g8) r cis,16(\pE d) cis( d) %190
+		g,4( fis8) r cis'16( d) cis( d)
+		\once \slurDashed a4( g) r
+		h2 g'8( e)
+		d( cis) e( cis) \appoggiatura cis d4^\missgrace
+		d8 d d d d d %195
+		d d d d d d
+		d d d d d d
+		d d d d d d
+		d4 r r
+		a,8-! cis16( e) a,4 r %200
+		a8-\parenthesize-! \once \slurDashed d16( fis) a,4 r
+		a8-! cis16( e) a,8-! d16( fis) a,8-! e'16( g)
+		d4 r r
+		\slurDashed a8-\parenthesize-! cis16( e) a,8-\parenthesize-! d16( fis) a,8-\parenthesize-! e'16( g) \slurSolid
+		d4 r r %205
+		r r gis'16(\fE a) gis( a)
+		d,4( cis8) r gis'16( a) gis( a)
+		e4( d8) r gis16(\pE a) gis( a)
+		d,4( cis8) r gis'16( a) gis( a)
+		e4( d8) r r a %210
+		d4. e16( fis) fis( g) e( cis)
+		d4. e16( fis) fis( g) e( cis)
+		\once \tieDashed a'2.~
+		a
+		a,8 d d fis fis a %215
+		\appoggiatura a16 g8 fis16 e d4 cis
+		a8. d16 \appoggiatura d4 cis2
+		a8. d16 \appoggiatura d4 cis2
+		d2.\startTrillSpan
+		d %220
+		d
+		d4.\stopTrillSpan a8 a16( g) g( e)
+		d8 d' d d e e16( fis)
+		d8 d d d e e16( fis)
+		d4 r8 a'16(\fE fis) a( fis) a( fis) %225
+		d'4( a8) a16([ fis)] a( fis) a( fis)
+		\once \slurDashed d'4( a8) a16([ fis)] a( fis) a( fis)
+		d4.\pE a8 a16( g) g( e)
+		\slurDashed d'8(\fE fis) a( fis) \slurSolid a16( fis) a( fis)
+		a4 r r %230
+		\slurDashed d,16( e fis g) a8( fis) \slurSolid a16( fis) a( fis)
+		a4 r r
+		d,4 r8 a'16( fis) a( fis) a( fis)
+		d'4( a8) a16([ fis)] a( fis) a( fis)
+		d'4( a8) a16([ fis)] a( fis) a( fis) %235
+		d'4( a8) a32([ fis16.)] g32([ e16.)] e32([ cis16.)]
+		\appoggiatura cis4 d2 r4
+		<d, a'>\p r r
+		d'8 d' d8.( cis32 h) a4
+		\once \slurDashed g8( h) h16( a) a( g) g( fis) fis( e) %240
+		\appoggiatura e8 fis4^\missgrace r r
+		d, d d
+		g, r r
+		g'8 g' g8.( fis32 e) d4
+		\once \slurDashed c!8( e) e16( d) d( c) c( h) h( a) %245
+		\appoggiatura a8 h4^\missgrace r r
+		d8. g16 \appoggiatura g4 fis2
+		d8. g16 \appoggiatura g4 fis2
+		h,8 h h h h h
+		h h h h h h %250
+		h h h h h h
+		h h h h h h
+		h4 h r
+		d8 g \tuplet 3/2 4 { g8 fis e d c h }
+		h16( g) d'( h) \appoggiatura h4 a2 %255
+		d8 g \tuplet 3/2 4 { g8 fis e d c h }
+		h16( g) d'( h) \appoggiatura h4 a2
+		g4 r8 h c d
+		e r d r c r
+		h4 r8 d e fis %260
+		g r fis r e r
+		d4 r r
+		R2.
+		d,8-! fis16( a) d,4 r
+		d8-! g16( h) d,4 r %265
+		d8-! fis16( a) d,8-! g16( h) d,8-! a'16( c)
+		g4 r r
+		d8-! fis16( a) d,8-! g16( h) d,8-! a'16( c)
+		g4 r r
+		g8( h) d( h) d16( h) d( h) %270
+		d4 r r
+		g,16( a h c) d8( h) d16( h) d( h)
+		d4 r r
+		d8 g g16( fis) fis( e) d4
+		g,4. a16( h) h( c) a( fis) %275
+		g4. a16( h) h( c) a( fis)
+		\tieDashed d'2.~
+		d~ \tieSolid
+		d8 g g4 cis32(\fE d16.) cis32( d16.)
+		g,4( fis8) r cis'32( d16.) cis32( d16.) %280
+		a4( g8) r cis,16(\pE d) cis( d)
+		g,4( fis8) r cis'16( d) cis( d)
+		a4( g8) d'16([ h)] d( h) d( h)
+		<h g'>2.~
+		q~ %285
+		q~
+		q4. d8 d16( c) c( a)
+		g4 r8 d'16(\fE h) d( h) d( h)
+		g'4( d8) d16([ h)] d( h) d( h)
+		g'4( d8) d16([ h)] d( h) d( h) %290
+		\once \slurDashed g'4(\pE d8) d32([ h16.)] c32( a16.) a32([ fis16.)]
+		\tieDashed g2.~\fE
+		g~ \tieSolid
+		g4 h d
+		g,8 r g r g r %295
+		g2 r4\fermata \bar "||" %296 finis
 	}
 }
 

@@ -1091,7 +1091,7 @@ EtIncarnatusAltoNotes = {
 		h~
 		h4 h r \tieSolid
 		d,8([ g)] \tuplet 3/2 4 { fis([ e d)] a'([ h)] c } %180
-		h16([ g d' h)] \appoggiatura h4 a2
+		h16([ g) d'( h)] \appoggiatura h4 a2
 		R2.*4 %185
 		g4.( a16[ h)] h([ c)] a([ fis)]
 		g4.( a16[ h] h^[ c]) a([ fis)]
@@ -1117,10 +1117,10 @@ EtIncarnatusAltoNotes = {
 		g8.([ fis32 g)] fis4 r %210
 		R2.
 		r4 r r8 a
-		d,4. e16[ fis] fis[ g e cis]
-		d4. e16[ fis] fis[ g e cis]
+		d,4. e16[( fis]) fis[( g) e( cis])
+		d4. e16[( fis]) fis[( g) e( cis])
 		d4 r r %215
-		h'8 a16([ g)] fis4 e
+		\appoggiatura cis16 h'8^\missgrace a16([ g)] fis4 e
 		R2.
 		r8 r16 fis( g8[ e)] e4
 		fis2.
@@ -1164,13 +1164,13 @@ EtIncarnatusAltoNotes = {
 		R2.
 		h8.([ c16] h8) d16([ h)] h([ a)] a([ g)]
 		R2. %270
-		fis8[( a c a] c16[ a c a)]
+		fis8[( a) c( a]) c16[( a) c( a)]
 		h4 r r
 		fis16([ g)] a([ h)] c8 a c16([ a)] c([ a)]
 		h4 r r
 		R2.*2 %276
-		g4. a16[ h] h[ c a fis]
-		g4. a16[ h] h[ c] a([ fis])
+		g4. a16[( h]) h[( c) a( fis])
+		g4. a16[( h]) h[( c]) a([ fis])
 		g8([ h)] h4 r
 		R2.*2 %281
 		h,4 a8 r r4
@@ -1267,7 +1267,7 @@ EtIncarnatusAltoLyrics = \lyricmode {
 	
 	ho -- mo fa -- ctus,
 	%270
-	na --
+	na -- _
 	tus
 	ex Ma -- ri -- a Vir -- gi --
 	ne,
@@ -1285,10 +1285,7 @@ EtIncarnatusAltoLyrics = \lyricmode {
 	est,
 	
 	ho -- mo fa -- ctus %291
-	est. %292 finis
-	
-% Et in -- car -- na -- tus est de Spi -- ri -- tu San -- cto
-% ex Ma -- ri -- a Vir -- gi -- ne, et ho -- mo fa -- ctus est.
+	est. %292 finis.
 }
 
 % AltoNotes = {

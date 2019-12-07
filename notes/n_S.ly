@@ -1334,12 +1334,12 @@ EtIncarnatusSopranoNotes = {
 		R2.*2
 		d4 cis8 r r4
 		e8.([ d32 e)] d4 r8 a %210
-		d4. e16[ fis] fis[ g e cis]
-		d4. e16[ fis] fis[ g e cis]
+		d4. e16[( fis]) fis[( g) e( cis])
+		d4. e16[( fis]) fis[( g) e( cis])
 		\once \tieDashed a2.~
 		\once \tieDashed a~
 		a8[ d d fis] fis([ a)] %215
-		g fis16([ e)] d4 cis
+		\appoggiatura a16 g8^\missgrace fis16([ e)] d4 cis
 		a8.([ d16)] \appoggiatura d4 cis2
 		a8.([ d16)] \appoggiatura d4 cis2
 		a2.
@@ -1358,7 +1358,7 @@ EtIncarnatusSopranoNotes = {
 		R2.
 		d4 h8([ g)] a([ d,)]
 		g([ g')] g8.([ fis32 e)] \appoggiatura e8 d4
-		c8([ e)] e16([ d)] d([ c)] c([ h)] h([ a)] %245
+		c!8([ e)] e16([ d)] d([ c)] c([ h)] h([ a)] %245
 		\appoggiatura a8 h4 r r
 		R2.
 		d8.([ g16)] \appoggiatura g4 fis2
@@ -1368,7 +1368,7 @@ EtIncarnatusSopranoNotes = {
 		d4 h8[ d g h]
 		d[ g] d4 r
 		d8([ g)] \tuplet 3/2 4 { fis([ e d)] c([ h)] a }
-		h16([ g d' h)] \appoggiatura h4 a2 %255
+		h16([ g) d'( h)] \appoggiatura h4 a2 %255
 		R2.*2
 		g4 r8 h16([ g)] c[ a d h]
 		e8 r d r c r
@@ -1382,13 +1382,13 @@ EtIncarnatusSopranoNotes = {
 		d8.[ e16] d8 g16([ d)] d([ c)] c([ h)]
 		\once \tieDashed d2.~\trill
 		d8.[ e16] d8 g16([ d)] d([ c)] c([ h)]
-		g8[( h d h] d16[ h d h]) %270
+		g8[( h) d( h)] d16[( h) d( h]) %270
 		d4 r r
 		g,16([ a)] h([ c)] d8 h d16([ h)] d([ h)]
 		d4 r r
 		r r r8 g,
-		g4. a16[ h] h[ c a fis] %275
-		g4. a16[ h] h[ c a fis]
+		g4. a16[( h]) h[( c) a( fis]) %275
+		g4. a16[( h]) h[( c) a( fis])
 		\tieDashed d'2.~
 		d2~ d8. \tieSolid d16
 		d8([ g)] g4 r
@@ -1496,7 +1496,7 @@ EtIncarnatusSopranoLyrics = \lyricmode {
 	_ mo fa -- ctus,
 	ho --
 	_ mo fa -- ctus,
-	na -- %270
+	na -- _ %270
 	tus
 	ex Ma -- ri -- a Vir -- gi --
 	ne,
