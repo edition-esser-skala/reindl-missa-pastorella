@@ -841,6 +841,171 @@ EtIncarnatusViolinoII = {
 		\clef treble
 		\key g \major \time 3/4 \tempoEtIncarnatus
 			\set Score.currentBarNumber = #129
-		
+		h8\fE h h h c c
+		h e' \appoggiatura fis16 e8.( d32 c) \appoggiatura c8 h4
+		r8 c h([ e)] e16( d) d( c)
+		\appoggiatura c8 h4 r r
+		d,8-\parenthesize-!\p fis16( a) d,4 r
+		d8-! g16( h) d,4 r
+		d8-! fis16( a) d,4 r %135
+		d'8 g16.( d32) \appoggiatura d16 c8 a'16.( c,32) \appoggiatura c16 h8 g'16.( h,32)
+		h4 a r
+		R2.
+		d,8-!\fE fis16( a) d,8-! g16( h) d,8-! a'16( c)
+		g4 r r %140
+		d8-! fis16( a) d,8-! g16( h) d,8-! a'16( c)
+		g4 r r
+		e'8 g r g16( fis) \appoggiatura a g8 fis16( e)
+		d8 g16.( d32) d16(^\critnote c) a'( c,) \appoggiatura c8 h4
+		a8 c c16( h) h( a) a( g) g( fis) %145
+		g8 r r4 r
+		fis8( a) c( a) c16( a) c( a)
+		g4 r r
+		fis16( g a h) c8( a) c16( a) c( a)
+		h4 r8 h h h %150
+		h h h h h h
+		h h h h h h
+		h4 r8 h32([ g16.)] a32([ fis16.)] c32([ a16.)]
+		\appoggiatura a8 h4-\missgrace r8 h' h h
+		h h h h h h %155
+		h h h h h h
+		h4 r8 h32([ g16.)] a32([ fis16.)] c32([ a16.)]
+		\tieDashed h2.~
+		h~
+		h \tieSolid %160
+		g'4 h d
+		g r r
+		h,4 r8 h32([ g16.)] a32([ fis16.)] c32([ a16.)]
+		\once \tieDashed h2.~
+		h %165
+		g'4 h d
+		h,8 r h r h r
+		h2 r4
+		h8\p h h h c c
+		h e' e8.( d32 c) \appoggiatura c8 h4^\missgrace %170
+		\once \slurDashed a8( c) c16( h) h( a) a( g) g( fis)
+		\appoggiatura fis8 g4 r r
+		h c a
+		h c a
+		g8 g g g g g %175
+		g g g g g g
+		g g g g g g
+		g g g g g g
+		h d h4 r
+		d8 g \tuplet 3/2 4 { fis e d c h a } %180
+		h16( g) d'( h) \appoggiatura h4 a2
+		h8 g' \tuplet 3/2 4 { fis e d c h a }
+		h16( g) d'( h) \appoggiatura h4 a2
+		d,4( h8) r r4
+		d( h8) r r4 %185
+		g'4. a16( h) h( c) a( fis)
+		g4. a16( h) h( c) a( fis)
+		g8. a16 h4 r
+		h(\fE a8) r r4
+		c( h8) r r4 %190
+		h,(\pE a8) r r4
+		c( h) r
+		h'2 g'8( e)
+		d( cis) e( cis) \appoggiatura cis d4^\missgrace
+		fis,8 fis fis fis fis fis %195
+		fis fis fis fis fis fis
+		fis fis fis fis fis fis
+		fis fis fis fis fis fis
+		fis4 r r
+		a,8-! cis16( e) a,4 r %200
+		a8-\parenthesize-! \once \slurDashed d16( fis) a,4 r
+		a8-! cis16( e) a,8-! d16( fis) a,8-! e'16( g)
+		d4 r r
+		\slurDashed a8-\parenthesize-! cis16( e) a,8-\parenthesize-! d16( fis) a,8-\parenthesize-! e'16( g) \slurSolid
+		d4 r r %205
+		R2.
+		fis4(\fE e8) r r4
+		g( fis8) r r4
+		fis(\pE e8) r r4
+		g( fis8) r r4 %210
+		R2.*2
+		d4. e16( fis) fis( g) e( cis)
+		d4. e16( fis) fis( g) e( cis)
+		fis8 a a d d fis %215
+		\appoggiatura cis16 h8 a16 g fis4 e
+		fis4 g e
+		fis g e
+		\tieDashed fis2.~
+		fis~ %220
+		fis~ \tieSolid
+		fis2 fis16( e) e( d)
+		d8 fis fis fis g \once \slurDashed g16( a)
+		fis8 fis fis fis g \once \slurDashed g16( a)
+		fis4 r8 fis'\fE fis fis %225
+		fis4 r8 fis fis fis
+		fis4 r8 fis fis fis
+		fis,2\pE fis16( e) e( cis)
+		d4\fE r r
+		cis'8( e) g( e) g16( e) g( e) %230
+		d4 r r
+		cis16( d e fis) g8( e) g16( e) g( e)
+		d4 r8 fis fis fis
+		fis4 r8 fis fis fis
+		fis4 r r %235
+		fis4. fis32([ d16.)] e32([ cis16.)] g32([ e16.)]
+		\appoggiatura e4 fis2-\missgrace r4
+		<d a' fis'>\p r r
+		d'8 d' d8.( cis32 h) \appoggiatura h8 a4
+		\once \slurDashed e8( g) g16( fis) fis( e) e( d) d( cis) %240
+		\appoggiatura cis8 d4 r r
+		d, d d
+		g, r r
+		g'8 g' g8.( fis32 e) d4
+		\once \slurDashed a8( c) c16( h) h( a) a( g) g( fis) %245
+		\appoggiatura fis8 g4^\missgrace r r
+		h c a
+		h c a
+		g8 g g g g g
+		g g g g g g %250
+		g g g g g g
+		g g g g g g
+		g4 g r
+		d'8 g \tuplet 3/2 4 { g8 fis e d c h }
+		h16( g) d'( h) \appoggiatura h4 a2 %255
+		d8 g \tuplet 3/2 4 { g8 fis e d c h }
+		h16( g) d'( h) \appoggiatura h4 a2
+		g4 r8 g a h
+		c r h r a r
+		g4 r8 h c d %260
+		e r d r c r
+		h4 r r
+		R2.
+		d,8-! fis16( a) d,4 r
+		d8-! g16( h) d,4 r %265
+		d8-! fis16( a) d,8-! g16( h) d,8-! a'16( c)
+		g4 r r
+		d8-! fis16( a) d,8-! g16( h) d,8-! a'16( c)
+		g4-\critnote r r
+		R2. %270
+		fis8( a) c( a) c16( a) c( a)
+		h4 r r
+		fis16( g a h) c8( a) c16( a) c( a)
+		d8 g g16( fis) fis( e) d4
+		R2.*2 %276
+		g,4. a16( h) h( c) a( fis)
+		g4. a16( h) h( c) a( fis)
+		h8( d) h4 r
+		h( a8) r r4 %280
+		c( h8) r r4
+		h,( a8) r r4
+		c( h8) r r4
+		\tieDashed <d h'>2.~
+		q~ %285
+		q~
+		q4. h'8 h16( a) a( fis)
+		g4 r8 h\fE h h
+		h4 r8 h h h
+		h4 r r %290
+		h\pE r8 h32([ g16.)] a32( g16.) g32([ fis16.)]
+		\once \tieDashed d2.~\fE
+		d
+		g4 h d
+		h,8 r h r h r %295
+		h2 r4\fermata \bar "||" %296 finis
 	}
 }

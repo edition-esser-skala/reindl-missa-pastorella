@@ -842,9 +842,9 @@ EtIncarnatusViolinoI = {
 		\key g \major \time 3/4 \tempoEtIncarnatus
 			\set Score.currentBarNumber = #129
 		d'4\fE h8( g) a( d,)
-		g g' g8( fis16 e) \appoggiatura e8 d4 %130
-		r8 e d c' c16( h) h( a)
-		g4 r r
+		g g' \appoggiatura a16 g8.(^\missgrace fis32 e) \appoggiatura e8 d4 %130
+		r8 e \once \slurDashed d([ c')] c16( h) h( a)
+		\appoggiatura a8 g4^\missgrace r r
 		d,8-\parenthesize-!\p fis16( a) d,4 r
 		d8-! g16( h) d,4 r
 		d8-! fis16( a) d,4 r %135
@@ -951,7 +951,7 @@ EtIncarnatusViolinoI = {
 		d'4( a8) a32([ fis16.)] g32([ e16.)] e32([ cis16.)]
 		\appoggiatura cis4 d2 r4
 		<d, a'>\p r r
-		d'8 d' d8.( cis32 h) a4
+		d'8 d' d8.( cis32 h) \appoggiatura h8 a4^\missgrace
 		\once \slurDashed g8( h) h16( a) a( g) g( fis) fis( e) %240
 		\appoggiatura e8 fis4^\missgrace r r
 		d, d d
