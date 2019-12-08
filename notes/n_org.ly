@@ -2463,7 +2463,7 @@ SanctusOrgano = {
 		fis4( g!8) fis4( g!8) fis4( g!8) fis4( g!8) %25
 		fis fis fis fis fis fis h4 eis,8 fis fis fis
 		fis fis fis fis fis fis fis fis fis fis4 fis,8
-		h4-! e8-! d-! g!-! eis-! fis-! gis-! eis-! fis4-! r8
+		h4-! cis8-!-\critnote d-! g!-! eis-! fis-! gis-! eis-! fis4-! r8
 		a!4( h8) a4( h8) g! h a g fis e
 		\slurDashed g4( a8) g4( a8) \slurSolid fis a g fis e d %30
 		a a' g fis e d a'4. a,4 r8
@@ -2495,7 +2495,7 @@ SanctusBassFigures = \figuremode {
 	<8 _+>4. <8 6> <7 5> <6 4>
 	<5 3> <7> r2.
 	r4. <8 6> <7 5> <6 4> %10
-	<5 3> <7> r2.
+	<5 3> <7> r r4 <[6]>8
 	<4 2>4 <6>8 <4 2>4 <6>8 <4 2>4 <6>8 <4 2>4 <6>8
 	<5 3>1.
 	r
@@ -2505,13 +2505,13 @@ SanctusBassFigures = \figuremode {
 	<6>4. <6 5> <6 4> <5 _+>
 	r1.
 	r4. <8 6> <7+ 5> <6 4> %20
-	<5 3>4 <6>8 <4>4 <_+>8 r4. <8 6>
+	<5 3>4 <6>8 <[6] 4>4 <[5] _+>8 r4. <8 6>
 	<7+ 5> <6 4> <[5 3]>4 <8 6>8 <6 4>4 <5 _+>8
 	<8 3>2. \bassFigureExtendersOn q4. q4 q8
 	<6 4 2>2. q4. q4 q8
 	<7 5 _+>2. q4. q4 q8 \bassFigureExtendersOff %25
 	<7 _+>4. r <_!>4 <7 5 [_+]>8 <_+>4.
-	<7+>4. <8>4 <6 4>8 <\t \t>4. <5 _+>
+	<7+ [4]>4. <8 [_+]>4 <6 4>8 <\t \t>4. <5 _+>
 	r1.
 	<4\+ 2>4. <\t \t> <6> <\t>
 	<4 2> <\t \t> <6>2. %30

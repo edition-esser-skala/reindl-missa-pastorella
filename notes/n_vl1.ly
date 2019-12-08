@@ -1138,7 +1138,7 @@ SanctusViolinoI = {
 		a fis'! fis fis fis fis e e e e4 e8
 		e e e e e e e e e e e e
 		e e e d d d cis cis cis h h h
-		a cis e, fis fis gis a cis e, fis fis gis
+		a( cis) e,-! fis-! fis( gis) a( cis) e,-! fis-! fis( gis)
 		a4. a' gis fis %20
 		e8.( fis16) d8-! cis8.( d16) h8-! a4. a'
 		gis fis e8.( fis16) d8-! cis8.( d16) h8-!

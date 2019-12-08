@@ -1118,6 +1118,50 @@ SanctusViolinoII = {
 	\relative c' {
 		\clef treble
 		\key d \major \time 12/8 \tempoSanctus
-		
+		d4\fE fis8 fis4 a8 a4 fis8 fis4 d8
+		d4 g8 g4 h8 h4 g8 g4 d8
+		d4 fis8 fis4 a8 a4 fis8 fis4 d8
+		d'8 d d cis4 e8 \once \slurDashed d( e) cis-\parenthesize-! d4 r8
+		d,4 a'8 f-! f( d) b4 a'8 f-! f( d) %5
+		a4 a'8 f-! f( d) b4 a'8 f-! f( d)
+		a a' a a a a <a e a,>4 r8 r4 r8
+		d4.\p h' a g
+		fis e d8 d\fE d d4 r8
+		d,4.\p h' a g %10
+		fis e d8 d'\f d d4 d8
+		cis4( d8) cis4( d8) cis4( d8) cis4( d8)
+		g,4 r8 fis4 r8 <cis' e, a,>4 q8 q4 gis'8\p
+		gis4. a4 f,8 f4. e4 a,8\f
+		d4 e8 f( b) gis-! a( h) gis-! a4 r8 %15
+		a d d d d d h h h cis4( h8)
+		cis4( h8) cis4( h8) cis4( h8) cis4( h8)
+		cis cis cis h h h a a a gis gis gis
+		a( cis) e,-! fis-! fis( gis) a( cis) e,-! fis-! fis( gis)
+		a4. fis' e d %20
+		cis8.( d16) h8-! a8.( h16) gis8-! a4. fis'
+		e d cis8.( d16) h8-! a8.( h16) gis8-!
+		a cis cis cis cis cis cis cis cis cis cis cis
+		cis cis cis cis cis cis cis cis cis cis cis cis
+		cis cis cis cis cis cis cis cis cis cis cis cis %25
+		cis cis cis cis cis cis h h h ais4 eis'8
+		eis4. fis4 h,8 h4. ais4 fis8
+		h,4 cis8 d( g!) eis-! fis( gis) eis-! fis4 r8
+		dis' dis dis dis dis dis e e e e e e
+		cis cis cis cis cis cis d! d d d d d %30
+		cis cis cis d d d \once \slurDashed d4.( cis4) r8
+		d,4 a'8 f4 d8 b4 a'8 f4 d8
+		a4 a'8 f4 d8 b4 a'8 f4 d8
+		a cis cis cis cis cis cis4 r8 r4 r8
+		e e e e e e d4 r8 r4 r8 %35
+		e e e e e e d4 r8 r4 r8
+		R1.
+		a'8 a a a a a a a a a a a
+		a a a g g g fis fis fis e e e
+		d( fis) a,-! h-! h( cis) d( fis) a,-! h-! h( cis) %40
+		d4. h'' a g
+		\slurDashed fis8.( g16) e8-\parenthesize-! d8.( e16) cis8-\parenthesize-! d4. h'
+		a g fis8.( g16) e8-\parenthesize-! d8.( e16) cis8-\parenthesize-!
+		d4 fis8 d( a) fis'-!^\critnote d4 a'8 d,( a) a'-!
+		<fis a, d,>4 r8 r4 r8 r2.\fermata \bar "|." %45 FINIS
 	}
 }
