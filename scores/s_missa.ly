@@ -528,31 +528,31 @@
 						\EtResurrexitViola
 					}
 				>>
-% 				\new ChoirStaff <<
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Soprano"
-% 						\new Voice = "Soprano" { \dynamicUp \EtResurrexitSopranoNotes }
-% 					}
-% 					\new Lyrics \lyricsto Soprano \EtResurrexitSopranoLyrics
-% 					
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Alto"
-% 						\new Voice = "Alto" { \dynamicUp \EtResurrexitAltoNotes }
-% 					}
-% 					\new Lyrics \lyricsto Alto \EtResurrexitAltoLyrics
-% 					
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Tenore"
-% 						\new Voice = "Tenore" { \dynamicUp \EtResurrexitTenoreNotes }
-% 					}
-% 					\new Lyrics \lyricsto Tenore \EtResurrexitTenoreLyrics
-% 					
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Basso"
-% 						\new Voice = "Basso" { \dynamicUp \EtResurrexitBassoNotes }
-% 					}
-% 					\new Lyrics \lyricsto Basso \EtResurrexitBassoLyrics
-% 				>>
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "Soprano"
+						\new Voice = "Soprano" { \dynamicUp \EtResurrexitSopranoNotes }
+					}
+					\new Lyrics \lyricsto Soprano \EtResurrexitSopranoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \EtResurrexitAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \EtResurrexitAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \EtResurrexitTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \EtResurrexitTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basso"
+						\new Voice = "Basso" { \dynamicUp \EtResurrexitBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \EtResurrexitBassoLyrics
+				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"

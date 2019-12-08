@@ -219,45 +219,45 @@ EtResurrexitTimpani = {
 		g r r
 		R2.
 		r4 g c
-		c r r
+		c r r %305
 		c r r
 		r r g
 		c g r
 		c r r
-		g r r
+		g r r %310
 		c c8 c c c
 		c4 r r
-		R2.*7
-		g4 r r
+		R2.*7 %319
+		g4 r r %320
 		g r r
 		R2.
 		r4 g g
-		R2.*7
+		R2.*7 %330
 		g4 r r
 		R2.*2
 		g4 g r
-		R2.*3
+		R2.*3 %337
 		g4 g r
-		R2.*12
+		R2.*12 %350
 		g4 c r
-		R2.*5
+		R2.*5 %356
 		r4 r c
 		g g r
-		R2.*6
-		r4 r r8 c
+		R2.*6 %364
+		r4 r r8 c %365
 		g4 g8 g c4
 		R2.*3
-		g4 c r
-		R2.*11
+		g4 c r %370
+		R2.*11 %381
 		c4 r g
 		c r g
 		c r r
-		R2.
+		R2. %385
 		r4 r g
 		c r r
 		R2.*2
-		r4 g g
+		r4 g g %390
 		c r g
-		c r r\fermata \bar "|."
+		c r r\fermata \bar "|." %392 FINIS
 	}
 }

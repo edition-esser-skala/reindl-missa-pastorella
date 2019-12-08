@@ -661,7 +661,7 @@ EtResurrexitCornoII = {
 		g
 		c %365
 		g4. c16 d c4
-		c r r
+		g4(-\critnote g8) r r4
 		g4( c8) r r4
 		g2.
 		g4 c, r %370
