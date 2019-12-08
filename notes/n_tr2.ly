@@ -252,6 +252,69 @@ EtResurrexitTrombaII = {
 		\clef treble
 		\key c \major \time 3/4 \tempoEtResurrexit
 			\set Score.currentBarNumber = #297
-		
+		R2.*4 %300
+		e4\fE r r
+		g r r
+		R2.
+		g4. d'8 c4
+		c, r r %305
+		c r r
+		g'8 r c r d r
+		c4 g r
+		c, r r
+		g' r r %310
+		e e e
+		e r r
+		R2.*7 %319
+		d'4 r r %320
+		d r r
+		R2.
+		d2 g,4
+		R2.*5 %328
+		d'2.
+		d %330
+		g,4 r r
+		R2.
+		r4 d' d
+		g, r r
+		R2.*2 %336
+		r4 d' d
+		d r r
+		R2.
+		e,4 r r %340
+		e e r
+		R2.*8 %349
+		r4 r d' %350
+		g, c r
+		R2.*4 %355
+		c2.
+		c
+		\once \slurDashed c8( g) g4 r
+		R2.*4 %362
+		g4 r r
+		g r r
+		r r r8 c %365
+		g4. c16 d c4
+		g r r
+		g r r
+		d' c r
+		g c r %370
+		R2.*3
+		e,4 r r
+		c' c c %375
+		c r r
+		d d d
+		d r r
+		R2.*3 %381
+		c2 g4
+		c2 g4
+		c r r
+		R2. %385
+		r8 c d4 g,
+		e r r
+		R2.*2
+		r4 c' g %390
+		e r g
+		e r r\fermata \bar "|." %392 FINIS
 	}
 }
