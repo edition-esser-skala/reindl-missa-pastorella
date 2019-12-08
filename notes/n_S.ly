@@ -1692,9 +1692,9 @@ EtResurrexitSopranoLyrics = \lyricmode {
 	men, a --
 	men,
 	
-	a --
+	a -- %390
 	men, a --
-	men.
+	men. %392 FINIS
 }
 
 % SopranoNotes = {
