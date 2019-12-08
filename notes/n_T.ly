@@ -1127,7 +1127,7 @@ EtResurrexitTenoreLyrics = \lyricmode {
 	tu -- ri sae -- cu --
 	li, a --
 	men, a -- %385
-	men, a --
+	[men, a] --
 	men,
 	
 	a -- %390

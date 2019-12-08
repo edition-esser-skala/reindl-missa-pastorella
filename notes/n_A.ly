@@ -1351,7 +1351,7 @@ EtResurrexitAltoNotes = {
 		fis8 fis fis4 fis8 fis
 		g g g g g g
 		fis fis fis4 fis %365
-		e4. fis16([ g)] fis8 r16 a
+		e4. fis16([ g)] fis8 a^\critnote
 		a8. a16 a4 r
 		e fis r
 		a a r8 fis
