@@ -429,11 +429,11 @@
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Flauto I"
-% 							\EtIncarnatusFlautoI
+							\EtIncarnatusFlautoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Flauto II"
-% 							\EtIncarnatusFlautoII
+							\EtIncarnatusFlautoII
 						}
 					>>
 				>>
@@ -462,20 +462,20 @@
 				\new ChoirStaff <<
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "Soprano" "solo" } }
-% 						\new Voice = "Soprano" { \dynamicUp \EtIncarnatusSopranoNotes }
+						\new Voice = "Soprano" { \dynamicUp \EtIncarnatusSopranoNotes }
 					}
-% 					\new Lyrics \lyricsto Soprano \EtIncarnatusSopranoLyrics
+					\new Lyrics \lyricsto Soprano \EtIncarnatusSopranoLyrics
 					\new Staff {
 						\set Staff.instrumentName = \markup { \center-column { "Alto" "solo" } }
-% 						\new Voice = "Alto" { \dynamicUp \EtIncarnatusAltoNotes }
+						\new Voice = "Alto" { \dynamicUp \EtIncarnatusAltoNotes }
 					}
-% 					\new Lyrics \lyricsto Alto \EtIncarnatusAltoLyrics
+					\new Lyrics \lyricsto Alto \EtIncarnatusAltoLyrics
 				>>
 				\new StaffGroup <<
 					\new PianoStaff <<
 						\set PianoStaff.instrumentName = \markup { \center-column { "Organo" "solo" } }
-% 						\new Staff = "RH" { \EtIncarnatusOrganoR }
-% 						\new Staff = "LH" { \EtIncarnatusOrganoL }
+						\new Staff = "RH" { \EtIncarnatusOrganoR }
+						\new Staff = "LH" { \EtIncarnatusOrganoL }
 					>>
 				>>
 				\new FiguredBass {
