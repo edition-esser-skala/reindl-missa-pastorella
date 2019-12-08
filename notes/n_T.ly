@@ -957,6 +957,19 @@ CredoTenoreLyrics = \lyricmode {
 	lis. %123 finis
 }
 
+EtResurrexitTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key d \major \time 3/4 \autoBeamOff \tempoEtResurrexit
+			\set Score.currentBarNumber = #297
+		
+	}
+}
+
+EtResurrexitTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

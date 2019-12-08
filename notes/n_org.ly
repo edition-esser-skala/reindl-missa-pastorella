@@ -2228,3 +2228,38 @@ EtIncarnatusViolone = {
 		g2 r4\fermata \bar "||" %296 finis
 	}
 }
+
+% Organo = {
+% 	\relative c {
+% 		\clef bass
+% 		
+% 		
+% 	}
+% }
+% 
+% BassFigures = \figuremode {
+% 	
+% }
+
+EtResurrexitOrgano = {
+	\relative c {
+		\clef bass
+		\key d \major \time 3/4 \tempoEtResurrexit
+			\set Score.currentBarNumber = #297
+		\mvTr d4-!\fE-\tuttiE a8-! d-! \appoggiatura g16 fis8-! e16-! d-!
+		e4-! a,8-! e'-! \appoggiatura a16 g8-! fis16-! e-!
+		d8 cis d e fis g
+		a4 a, d
+		d-! a8-! d-! \appoggiatura g16 fis8-! e16-! d-!
+		e4-! a,8-! e'-! \appoggiatura a16 g8-! fis16-! e-!
+		d8 cis d e fis g
+		a4 a, d
+		fis4( d8) d[-! d-! d-!]
+		fis4( d8) d[-! d-! d-!]
+		
+	}
+}
+
+EtResurrexitBassFigures = \figuremode {
+	
+}

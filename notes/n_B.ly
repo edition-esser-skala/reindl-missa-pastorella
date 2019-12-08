@@ -948,6 +948,19 @@ CredoBassoLyrics = \lyricmode {
 	lis. %123 finis
 }
 
+EtResurrexitBassoNotes = {
+	\relative c {
+		\clef bass
+		\key d \major \time 3/4 \autoBeamOff \tempoEtResurrexit
+			\set Score.currentBarNumber = #297
+		
+	}
+}
+
+EtResurrexitBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

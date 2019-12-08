@@ -208,3 +208,12 @@ CredoTimpani = {
 		c4 r r\fermata \bar "||" %128 finis
 	}
 }
+
+EtResurrexitTimpani = {
+	\relative c {
+		\clef bass
+		\key c \major \time 3/4 \tempoEtResurrexit
+			\set Score.currentBarNumber = #297
+		
+	}
+}

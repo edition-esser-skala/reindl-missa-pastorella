@@ -610,3 +610,12 @@ EtIncarnatusCornoI = {
 		c2 r4\fermata \bar "||" %296 finis
 	}
 }
+
+EtResurrexitCornoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoEtResurrexit
+			\set Score.currentBarNumber = #297
+		
+	}
+}

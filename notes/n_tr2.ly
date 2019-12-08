@@ -246,3 +246,12 @@ CredoTrombaII = {
 		e r r\fermata \bar "||" %128 finis
 	}
 }
+
+EtResurrexitTrombaII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoEtResurrexit
+			\set Score.currentBarNumber = #297
+		
+	}
+}

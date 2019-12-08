@@ -999,3 +999,12 @@ EtIncarnatusViola = {
 		g2-\critnote r4\fermata \bar "||" %296 finis
 	}
 }
+
+EtResurrexitViola = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 3/4 \tempoEtResurrexit
+			\set Score.currentBarNumber = #297
+		
+	}
+}
