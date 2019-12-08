@@ -1043,8 +1043,8 @@ EtResurrexitViolinoI = {
 		e16 e e e e e e e e e e e %320
 		e e e e e e e e e e e e
 		cis8 h cis d e fis
-		<h, e,>4. cis16( d) cis8 r
-		r cis\p cis cis cis cis
+		<h, e,>4. cis16( d) cis4
+		r8 cis\p cis cis cis cis
 		r cis cis cis cis cis %325
 		r h h h h h
 		r h h h h h
@@ -1065,7 +1065,7 @@ EtResurrexitViolinoI = {
 		h fis8 h \appoggiatura e16 d8 cis16 h
 		cis4 fis,8 cis' \appoggiatura fis16 e8 d16 cis
 		h8 cis d e fis g
-		h, ais ais d d d %345
+		h, ais ais d[-\parenthesize-! d-\parenthesize-! d-\parenthesize-!] %345
 		fis4( d8) cis16([ d)] cis( d) cis( d)
 		fis4( d8) d[-! d-! d-!]
 		d d4 h' d,8
@@ -1073,12 +1073,12 @@ EtResurrexitViolinoI = {
 		d e8 h' g fis16 e %350
 		cis4 d8 a' fis e16 d
 		e8 g, g g g g
-		fis d' e16( d cis d) e( d cis d)
+		fis d' e16-! d( cis d) e-! d( cis d)
 		e8 g, g g g g
-		fis d' e16( d cis d) e( d cis d) %355
+		fis d' e16-! d( cis d) e-! d( cis d) %355
 		d8 d d d d d
 		d^\critnote d d d d d
-		d cis cis4 r
+		\once \slurDashed d( cis) cis4 r
 		d, a8 d \appoggiatura g16 fis8 e16 d
 		e4 a,8 e' \appoggiatura a16 g8 fis16 e %360
 		d8 e fis g a h
