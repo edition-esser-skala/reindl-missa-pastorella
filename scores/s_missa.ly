@@ -639,7 +639,7 @@
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 120 }
+			\midi { \tempo 4. = 90 }
 		}
 	}
 }

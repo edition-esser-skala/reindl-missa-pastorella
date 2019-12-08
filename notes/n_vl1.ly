@@ -1120,7 +1120,51 @@ SanctusViolinoI = {
 	\relative c' {
 		\clef treble
 		\key d \major \time 12/8 \tempoSanctus
-		
+		d4\fE fis8 fis4 a8 a4 fis8 fis4 d8
+		d4 g8 g4 h8 h4 g8 g4 d8
+		d4 fis8 fis4 a8 a4 fis8 fis4 d8
+		e' e e e4 g8 fis( g) e-! d4 r8
+		d,4 a'8 f-! f( d) b4 a'8 f-! f( d) %5
+		a4 a'8 f-! f( d) b4 a'8 f-! f( d)
+		a cis' cis cis cis cis <cis e, a,>4 r8 r4 r8
+		d4.\p d' cis h
+		a g fis8 fis\f fis fis4.
+		d,\p d' cis h %10
+		a g fis8 fis'\f fis fis4 a8
+		a a a a a a a a a a a a
+		e4 r8 d4 r8 <cis e, a,>4 q8 q4 gis'8\p
+		gis4. a4 d,8 d4. cis4 a,8\f
+		d4 e8 f( b) gis-! a( h) gis-! a4 r8 %15
+		a fis'! fis fis fis fis e e e e4 e8
+		e e e e e e e e e e e e
+		e e e d d d cis cis cis h h h
+		a cis e, fis fis gis a cis e, fis fis gis
+		a4. a' gis fis %20
+		e8.( fis16) d8-! cis8.( d16) h8-! a4. a'
+		gis fis e8.( fis16) d8-! cis8.( d16) h8-!
+		a e' e e e e e e e e e e
+		e e e e e e e e e e e e
+		e e e e e e e e e e e e %25
+		e e e e e e d d d cis4 eis8
+		eis4. fis4 d8 d4. cis4 fis,8
+		h4 cis8 d( g!) eis-! fis( gis) eis-! fis4 r8
+		fis fis fis fis fis fis g! g g g g g
+		e e e e e e fis fis fis fis fis fis %30
+		e e e fis fis fis fis4.( e4) r8
+		d,4 a'8 f4 d8 b4 a'8 f4 d8
+		a4 a'8 f4 d8 b4 a'8 f4 d8
+		a a' a a a a a4 r8 r4 r8
+		a8 a a g g g fis! d' cis d cis h %35
+		a4. g fis8( d) fis-! a( fis) a-!
+		d( a) d-! fis( d) fis-! a4 r8 r4 cis,8^\critnote
+		d4( cis8) d4( cis8) d4( cis8) d4( cis8)
+		d d d d d d d d d cis cis cis
+		d( fis) a,-! h-! h( cis) d( fis) a,-! h-! h( cis) %40
+		d4. d' cis h
+		a8.( h16) g8-! fis8.( g16) e8-! d4. d'
+		cis h a8.( h16) g8-! fis8.( g16) e8-!
+		d4 fis8 d( a) fis'-! d4 a'8 d,( a) a'-!
+		<fis a, d,>4 r8 r4 r8 r2.\fermata \bar "|." %45 FINIS
 	}
 }
 
