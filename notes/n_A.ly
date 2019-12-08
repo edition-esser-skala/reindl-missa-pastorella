@@ -1470,12 +1470,72 @@ SanctusAltoNotes = {
 	\relative c' {
 		\clef treble
 		\key d \major \time 12/8 \autoBeamOff \tempoSanctus
-		
+		\mvTr fis1.\fE^\tuttiE
+		g
+		\once \tieDashed fis2.~ fis4. fis
+		h8 h h a4 a8 a4 a8 fis4 r8
+		R1.*3 %7
+		d4. h' a g
+		fis e d4 r8 r4 r8
+		R1. %10
+		r2. r4 r8 r4 fis8(
+		e4 fis8) e4( fis8) e4 fis8 e4( fis8)
+		g4. fis e4 e8 e4 r8
+		R1.*2 %15
+		a4. a gis4 gis8 a4 r8
+		a4( gis8) a4( gis8) a4 gis8 a4( gis8)
+		a4. fis e e
+		cis4 r8 r4 r8 r2.
+		R1.*3 %22
+		a'4. a4 a8 a4. a
+		a a4 a8 a4. a4 a8
+		ais2. ais %25
+		\once \tieDashed ais?4.~ ais8. ais16 ais8 fis4( gis8) fis4 r8
+		R1.*2
+		fis4. fis4 fis8 g!4. g4 g8
+		e4. e fis fis %30
+		e fis8. fis16 fis8 fis4. e4 r8
+		R1.*5 %36
+		r2. r4 r8 r4 e8
+		fis4( e8) fis4( e8) fis4( e8) fis4( e8)
+		fis4. g fis( e)
+		fis4 r8 r4 r8 r2. %40
+		R1.*4
+		R1.\fermataMarkup \bar "|." %45 FINIS
 	}
 }
 
 SanctusAltoLyrics = \lyricmode {
+	San --
+	_
+	_ ctus
+	Do -- mi -- nus De -- us Sa -- ba -- oth,
 	
+	san -- _ _ _ %8
+	_ _ ctus,
+	
+	san -- %11
+	ctus __ Do -- mi -- nus
+	De -- us Sa -- ba -- oth,
+	
+	san -- ctus Do -- mi -- nus, %16
+	san -- ctus Do -- mi -- nus,
+	De -- us Sa -- ba --
+	oth.
+	
+	Ple -- ni sunt coe -- li, %23
+	ple -- ni sunt coe -- li et
+	ter -- ra %25
+	glo -- ri -- a tu -- a,
+	
+	ple -- ni sunt coe -- li et %29
+	ter -- ra glo -- ri -- %30
+	a, glo -- ri -- a tu -- a.
+	
+	O -- %37
+	san -- _ _ na __
+	in ex -- cel --
+	sis. %40 FINIS
 }
 
 % AltoNotes = {

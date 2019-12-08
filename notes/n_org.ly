@@ -2510,7 +2510,7 @@ SanctusBassFigures = \figuremode {
 	<8 3>2. \bassFigureExtendersOn q4. q4 q8
 	<6 4 2>2. q4. q4 q8
 	<7 5 _+>2. q4. q4 q8 \bassFigureExtendersOff %25
-	<7 _+>4. r4 <_!>8 <7 5 [_+]>4. <_+>
+	<7 _+>4. r <_!>4 <7 5 [_+]>8 <_+>4.
 	<7>4 <8>8 <6 4>4. <\t \t> <5 _+>
 	r1.
 	<4\+ 2>4. <\t \t> <6> <\t>

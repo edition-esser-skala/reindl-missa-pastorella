@@ -1701,12 +1701,78 @@ SanctusSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key d \major \time 12/8 \autoBeamOff \tempoSanctus
-		
+		\mvTr d'1.~\fE^\tuttiE
+		d~
+		\once \tieDashed d2.~ d4. d
+		e8 e e e4 g8 fis([ g)] e d4r8
+		R1.*3 %7
+		d,4. d' cis h
+		a g fis4 r8 r4 r8
+		R1. %10
+		r2. r4 r8 r4 d'8(
+		cis4 d8) cis4( d8) cis4( d8) cis4 d8
+		e4. d cis4 cis8 cis4 r8
+		R1.*2 %15
+		fis!4. fis e4 e8 e4.
+		e e e4 e8 e4.
+		e d cis h
+		a4 r8 r4 r8 r2.
+		R1.*3 %22
+		e'4. e4 e8 e4. e
+		e e4 e8 e4. e4 e8
+		e1. %25
+		e4. e8. e16 e8 d4. cis4 r8
+		R1.*2
+		dis4. dis4 dis8 e4. e4 e8
+		cis4. cis d d %30
+		cis d8. d16 d8 d4. cis4 r8
+		R1.*2
+		r2. r4 r8 r4 a8
+		a4. g fis8[ d' cis] d[ cis h] %35
+		a4. g fis8([ d)] fis a[ fis a]
+		d[ a d] fis[ d fis] a4 r8 r4 cis,8
+		d4( cis8) d4( cis8) d4( cis8) d4( cis8)
+		d4. d d( cis)
+		d4 r8 r4 r8 r2. %40
+		R1.*4
+		R1.\fermataMarkup \bar "|." %45 FINIS
 	}
 }
 
 SanctusSopranoLyrics = \lyricmode {
+	San --
 	
+	ctus
+	Do -- mi -- nus De -- us Sa -- ba -- oth,
+	
+	san -- _ _ _ %8
+	_ _ ctus,
+	
+	san -- %11
+	ctus Do -- mi -- nus __
+	De -- us Sa -- ba -- oth,
+	
+	san -- ctus Do -- mi -- nus, %16
+	san -- ctus Do -- mi -- nus,
+	De -- us Sa -- ba --
+	oth.
+	
+	Ple -- ni sunt coe -- li, %23
+	ple -- ni sunt coe -- li et
+	ter -- %25
+	ra glo -- ri -- a tu -- a,
+	
+	ple -- ni sunt coe -- li et %29
+	ter -- ra glo -- ri -- %30
+	a, glo -- ri -- a tu -- a.
+	
+	O -- %34
+	san -- _ _ _ %35
+	_ na in ex -- cel --
+	_ _ sis, o --
+	san -- _ _ na __
+	in ex -- cel --
+	sis. %40 FINIS
 }
 
 % SopranoNotes = {
