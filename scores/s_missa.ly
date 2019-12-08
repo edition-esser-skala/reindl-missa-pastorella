@@ -603,31 +603,31 @@
 						\SanctusViola
 					}
 				>>
-				\new ChoirStaff <<
-					\new Staff {
-						\set Staff.instrumentName = "Soprano"
-						\new Voice = "Soprano" { \dynamicUp \SanctusSopranoNotes }
-					}
-					\new Lyrics \lyricsto Soprano \SanctusSopranoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Alto"
-						\new Voice = "Alto" { \dynamicUp \SanctusAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \SanctusAltoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Tenore"
-						\new Voice = "Tenore" { \dynamicUp \SanctusTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \SanctusTenoreLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = "Basso"
-						\new Voice = "Basso" { \dynamicUp \SanctusBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \SanctusBassoLyrics
-				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Soprano"
+% 						\new Voice = "Soprano" { \dynamicUp \SanctusSopranoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Soprano \SanctusSopranoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Alto"
+% 						\new Voice = "Alto" { \dynamicUp \SanctusAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \SanctusAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Tenore"
+% 						\new Voice = "Tenore" { \dynamicUp \SanctusTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \SanctusTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Basso"
+% 						\new Voice = "Basso" { \dynamicUp \SanctusBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \SanctusBassoLyrics
+% 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
