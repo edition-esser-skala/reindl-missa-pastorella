@@ -497,6 +497,116 @@ EtIncarnatusCornoI = {
 		\clef treble
 		\key c \major \time 3/4 \tempoEtIncarnatus
 			\set Score.currentBarNumber = #129
-		
+		R2.*3 %131
+		r8 c\fE e g c4
+		g r r
+		g r r
+		g r r %135
+		r r e'
+		e d r
+		R2.
+		g,8 r g r g r
+		c4 r r %140
+		g8 r g r g r
+		c4 r r
+		R2.*2
+		r4 r r8 d %145
+		c4 r r
+		R2.*4 %150
+		c2.
+		c
+		g4 r r8 d'
+		c2.
+		c %155
+		c4 r r
+		R2.
+		c4 e8 g, g' g,
+		c4 e8 g, g' g,
+		c4 e8 g, g' g, %160
+		\pao c4 e8 g, g' g,
+		c'4 r r
+		R2.
+		c,4 e8 g, g' g,
+		c4 e8 g, g' g, %165
+		\pao c4 e8 g, g' g,
+		c4 c c
+		c2 r4
+		R2.*3 %171
+		r8 c\pE e g c4
+		R2.*2
+		g,2. %175
+		g
+		g
+		g
+		g4 r r
+		R2.*3 %182
+		r4 r8 d' d d
+		R2.*2 %185
+		g2.
+		g
+		e8. f16 g4 r
+		e(\fE d8) r r4
+		f( e8) r r4 %190
+		R2.*4
+		d2.\pE %195
+		d
+		d
+		d
+		d4 r r
+		R2.*13 %212
+		d2.
+		d
+		g4 r r %215
+		R2.*3
+		d2.
+		d %220
+		d
+		R
+		g,
+		g
+		g4 r r %225
+		R2.*7 %232
+		g4\fE r r
+		g r r
+		g r r %235
+		r r r8 fis'
+		g4 g g
+		R2.*3 %240
+		g,4\pE r r
+		R2.*5 %246
+		g'2.
+		R
+		g,
+		g %250
+		g
+		g
+		g4 r r
+		R2.*4 %257
+		c4 r r
+		R2.*2 %260
+		c8 r c r c r
+		c4 r e
+		e d r
+		g, r r
+		g r r %265
+		g8 r g r g r
+		c4 r r
+		g8 r g r g r
+		c4 r r
+		R2.*7 %276
+		g'2.
+		g
+		e4 r r
+		R2.*4 %283
+		c4 e8 g, g' g,
+		c4 e8 g, g' g, %285
+		c g e' g, g' g,
+		c'4 r r
+		R2.*4 %291
+		c,4\fE e8 g, g' g,
+		c4 e8 g, g' g,
+		c g e' g, g' g,
+		c4 c c %295
+		c2 r4\fermata \bar "||" %296 finis
 	}
 }

@@ -429,11 +429,11 @@
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Flauto I"
-							\EtIncarnatusFlautoI
+% 							\EtIncarnatusFlautoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Flauto II"
-							\EtIncarnatusFlautoII
+% 							\EtIncarnatusFlautoII
 						}
 					>>
 				>>
@@ -474,8 +474,8 @@
 				\new StaffGroup <<
 					\new PianoStaff <<
 						\set PianoStaff.instrumentName = \markup { \center-column { "Organo" "solo" } }
-						\new Staff = "RH" { \EtIncarnatusOrganoR }
-						\new Staff = "LH" { \EtIncarnatusOrganoL }
+% 						\new Staff = "RH" { \EtIncarnatusOrganoR }
+% 						\new Staff = "LH" { \EtIncarnatusOrganoL }
 					>>
 				>>
 				\new FiguredBass {
