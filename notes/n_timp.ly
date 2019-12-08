@@ -214,6 +214,50 @@ EtResurrexitTimpani = {
 		\clef bass
 		\key c \major \time 3/4 \tempoEtResurrexit
 			\set Score.currentBarNumber = #297
-		
+		R2.*4 %300
+		c4\fE r r
+		g r r
+		R2.
+		r4 g c
+		c r r
+		c r r
+		r r g
+		c g r
+		c r r
+		g r r
+		c c8 c c c
+		c4 r r
+		R2.*7
+		g4 r r
+		g r r
+		R2.
+		r4 g g
+		R2.*7
+		g4 r r
+		R2.*2
+		g4 g r
+		R2.*3
+		g4 g r
+		R2.*12
+		g4 c r
+		R2.*5
+		r4 r c
+		g g r
+		R2.*6
+		r4 r r8 c
+		g4 g8 g c4
+		R2.*3
+		g4 c r
+		R2.*11
+		c4 r g
+		c r g
+		c r r
+		R2.
+		r4 r g
+		c r r
+		R2.*2
+		r4 g g
+		c r g
+		c r r\fermata \bar "|."
 	}
 }
