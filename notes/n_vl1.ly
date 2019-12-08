@@ -1017,7 +1017,102 @@ EtResurrexitViolinoI = {
 		\clef treble
 		\key d \major \time 3/4 \tempoEtResurrexit
 			\set Score.currentBarNumber = #297
-		
+		d4\fE a8 d \appoggiatura g16 fis8 e16 d
+		e4 a,8 e' \appoggiatura a16 g8 fis16 e
+		d8 e fis g a h
+		a g g8.(\trill fis32 g) fis4 %300
+		d'16 d d d d d d d d d d d
+		cis cis cis cis cis cis cis cis cis cis cis cis
+		d8 e fis g a h
+		e,4. fis16 g fis4
+		a( fis8) eis16([ fis)] eis( fis) eis( fis) %305
+		a4( fis8) eis16([ fis)] eis( fis) eis( fis)
+		e8 r fis r g r
+		fis4 e r
+		d,2 \appoggiatura g16 fis8 e16 d
+		a'2 \appoggiatura d16 cis8 h16 a %310
+		d4 d, r
+		fis'~ fis16 e d cis d cis h a
+		gis'8( a) a4 r
+		d,8 d'4 d h8
+		a4 gis r %315
+		a, e8 a \appoggiatura d16 cis8^\missgrace h16 a
+		h4 e,8 h' \appoggiatura e16 d8^\missgrace cis16 h
+		a8 h cis d e fis
+		e d \appoggiatura  e16 d8 cis16 d cis4
+		e16 e e e e e e e e e e e %320
+		e e e e e e e e e e e e
+		cis8 h cis d e fis
+		<h, e,>4. cis16( d) cis8 r
+		r cis\p cis cis cis cis
+		r cis cis cis cis cis %325
+		r h h h h h
+		r h h h h h
+		h16 e,\f fis gis a gis a h cis h cis d
+		e e e e e e e e e e e e
+		e e e e e e e e e e e e %330
+		e8 a4 a a8
+		a8. e16 a8. e16 a8. e16
+		\appoggiatura gis16 fis8 e16 d cis4 h
+		a r8 cis-! cis-! cis-!
+		e4( cis8) his16([ cis)] his( cis) his( cis) %335
+		e4( cis8) gis'16([ a)] gis( a) gis( a)
+		\appoggiatura gis fis8 e16 d cis4 h\trill
+		a8 cis16 e e8 e4 \once \tieDashed e8~
+		e e4 e \once \tieDashed e8~
+		e e4 e e8 %340
+		d4 cis r
+		h fis8 h \appoggiatura e16 d8 cis16 h
+		cis4 fis,8 cis' \appoggiatura fis16 e8 d16 cis
+		h8 cis d e fis g
+		h, ais ais d d d %345
+		fis4( d8) cis16([ d)] cis( d) cis( d)
+		fis4( d8) d[-! d-! d-!]
+		d d4 h' d,8
+		cis4 fis e
+		d e8 h' g fis16 e %350
+		cis4 d8 a' fis e16 d
+		e8 g, g g g g
+		fis d' e16( d cis d) e( d cis d)
+		e8 g, g g g g
+		fis d' e16( d cis d) e( d cis d) %355
+		d8 d d d d d
+		d^\critnote d d d d d
+		d cis cis4 r
+		d, a8 d \appoggiatura g16 fis8 e16 d
+		e4 a,8 e' \appoggiatura a16 g8 fis16 e %360
+		d8 e fis g a h
+		a g \appoggiatura a16 g8 fis16 g fis4
+		a'16 a a a a a a a a a a a
+		a a a a a a a a a a a a
+		fis8 e fis g a h %365
+		e,4. fis16 g fis4
+		g4( fis8) gis,16([ a)] gis( a) gis( a)
+		cis4( d8) gis,16([ a)] gis( a) gis( a)
+		g'!4( fis8) gis,16([ a)] gis( a) gis( a)
+		\once \slurDashed cis4( d) r %370
+		h8 h h h h h
+		h dis e16 dis e fis g8 g
+		a, a a a a a
+		a h16 cis d( cis d e) fis( e fis g)
+		a8 c, c c c c %375
+		h16-! g'( fis g) a-! g( fis g) a-! g( fis g)
+		h8 d, d d d d
+		cis16-! a'( gis a) h-! a( gis a) h-! a( gis a)
+		r8 a,\p a a a a
+		gis gis gis gis gis gis %380
+		a h16 cis d( cis d e) fis( e fis g)
+		a16\fE a a a a a a a a a a a
+		a a a a a a a a a a a a
+		fis8 g([ fis)] h([ a)] cis([
+		d)] g,([ fis)] h([ a)] cis([ %385
+		d)] fis, g4 e
+		d r8 fis fis fis
+		a4( fis8) eis16([ fis]) eis( fis) eis( fis)
+		a4( fis8) cis'16([ d)] cis( d) cis( d)
+		\appoggiatura cis16 h8 a16 g fis4 e %390
+		d r <e a,>
+		<fis a, d,> r r\fermata \bar "|." %392 FINIS
 	}
 }
 
