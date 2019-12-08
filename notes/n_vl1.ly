@@ -966,7 +966,7 @@ EtIncarnatusViolinoI = {
 		h h h h h h
 		h h h h h h
 		h4 h r
-		d8 g \tuplet 3/2 4 { g8 fis e d c h }
+		d8 g \tuplet 3/2 4 { fis e d c h a }
 		h16( g) d'( h) \appoggiatura h4 a2 %255
 		d8 g \tuplet 3/2 4 { g8 fis e d c h }
 		h16( g) d'( h) \appoggiatura h4 a2

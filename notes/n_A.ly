@@ -1181,7 +1181,7 @@ EtIncarnatusAltoNotes = {
 		h4. \tieSolid h8 h16([ a)] a([ fis)]
 		\appoggiatura fis8 g4^\missgrace r r
 		R2.*2 %290
-		h4. h8 h16([ a)] a([ fis)]
+		h4. h8 a16([ g)] g([ fis)]
 		\appoggiatura fis4 g2 r4
 		R2.*3 %295
 		R2.\fermataMarkup \bar "||" %296 finis

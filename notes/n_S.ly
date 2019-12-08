@@ -1370,9 +1370,9 @@ EtIncarnatusSopranoNotes = {
 		d8([ g)] \tuplet 3/2 4 { fis([ e d)] c([ h)] a }
 		h16([ g) d'( h)] \appoggiatura h4 a2 %255
 		R2.*2
-		g4 r8 h16([ g)] c[ a d h]
+		g4 r8 h16([ g)] c[( a) d( h)]
 		e8 r d r c r
-		h4 r8 d16([ h)] e[ c fis d] %260
+		h4 r8 d16([ h)] e[( c) fis( d)] %260
 		g4 fis e
 		d8[ g16( d]) d[( c) a'( c,]) c[( h)] g'([ h,])
 		h8.([\trillE a32 h)] a4 r
@@ -1401,7 +1401,7 @@ EtIncarnatusSopranoNotes = {
 		g4. d8 d16([ c)] c([ a)]
 		\appoggiatura a8 g4 r r
 		R2.*2 %290
-		g'4. d8 d16([ c)] c([ a)]
+		g'4. d8 c16([ h)] h([ a)]
 		\appoggiatura a4 g2 r4
 		R2.*3 %295
 		R2.\fermataMarkup \bar "||" %296 finis

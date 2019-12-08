@@ -405,7 +405,7 @@ EtIncarnatusFlautoI = {
 		g
 		g
 		g8\stopTrillSpan h16 c h8 h h d
-		d, g \tuplet 3/2 4 { g^\critnote fis e d c h }
+		d, g \tuplet 3/2 4 { fis^\critnote e d c h a }
 		\slurDashed h16( g) d'( h) \slurSolid \appoggiatura h4 a2 %255
 		d'2.\startTrillSpan
 		d
