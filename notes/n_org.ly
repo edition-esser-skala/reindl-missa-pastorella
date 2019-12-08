@@ -2331,7 +2331,7 @@ EtResurrexitOrgano = {
 		a\p a a a a a
 		a a a a a a %380
 		a4 r r
-		d,4 a8 fis' \appoggiatura a16 g8 fis16 e
+		d,4\f a8 fis' \appoggiatura a16 g8 fis16 e
 		d4 a8 fis' \appoggiatura a16 g8 fis16 e
 		d8 h' a g fis e
 		d h' a g fis e %385
