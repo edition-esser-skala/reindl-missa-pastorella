@@ -1489,8 +1489,8 @@ SanctusAltoNotes = {
 		R1.*3 %22
 		a'4. a4 a8 a4. a
 		a a4 a8 a4. a4 a8
-		ais2. ais %25
-		\once \tieDashed ais?4.~ ais8. ais16 ais8 fis4( gis8) fis4 r8
+		ais1. %25
+		ais?4. ais8. ais16 ais8 fis4( gis8) fis4 r8
 		R1.*2
 		fis4. fis4 fis8 g!4. g4 g8
 		e4. e fis fis %30
@@ -1515,18 +1515,18 @@ SanctusAltoLyrics = \lyricmode {
 	_ _ ctus,
 	
 	san -- %11
-	ctus __ Do -- mi -- nus
+	ctus __ Do -- mi -- nus __
 	De -- us Sa -- ba -- oth,
 	
 	san -- ctus Do -- mi -- nus, %16
-	san -- ctus Do -- mi -- nus,
+	san -- ctus __ Do -- mi -- nus, __
 	De -- us Sa -- ba --
 	oth.
 	
 	Ple -- ni sunt coe -- li, %23
 	ple -- ni sunt coe -- li et
-	ter -- ra %25
-	glo -- ri -- a tu -- a,
+	ter -- %25
+	ra glo -- ri -- a tu -- a,
 	
 	ple -- ni sunt coe -- li et %29
 	ter -- ra glo -- ri -- %30

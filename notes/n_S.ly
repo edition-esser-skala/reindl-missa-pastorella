@@ -1710,7 +1710,7 @@ SanctusSopranoNotes = {
 		a g fis4 r8 r4 r8
 		R1. %10
 		r2. r4 r8 r4 d'8(
-		cis4 d8) cis4( d8) cis4( d8) cis4 d8
+		cis4 d8) cis4( d8) cis4 d8 cis4( d8)
 		e4. d cis4 cis8 cis4 r8
 		R1.*2 %15
 		fis!4. fis e4 e8 e4 r8
@@ -1749,7 +1749,7 @@ SanctusSopranoLyrics = \lyricmode {
 	_ _ ctus,
 	
 	san -- %11
-	ctus Do -- mi -- nus __
+	ctus __ Do -- mi -- nus __
 	De -- us Sa -- ba -- oth,
 	
 	san -- ctus Do -- mi -- nus, %16

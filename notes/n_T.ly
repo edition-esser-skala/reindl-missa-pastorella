@@ -1184,7 +1184,7 @@ SanctusTenoreLyrics = \lyricmode {
 	De -- us Sa -- ba -- oth,
 	
 	san -- ctus Do -- mi -- nus, %16
-	san -- ctus Do -- mi -- nus,
+	san -- ctus __ Do -- mi -- nus, __
 	De -- us Sa -- ba --
 	oth.
 	
