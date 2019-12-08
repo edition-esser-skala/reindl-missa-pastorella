@@ -289,6 +289,162 @@ EtIncarnatusFlautoI = {
 		\clef treble
 		\key g \major \time 3/4 \tempoEtIncarnatus
 			\set Score.currentBarNumber = #129
-		
+		d''4\fE h8( g) a( d,)
+		d g \appoggiatura a16 g8.( fis32 e) \appoggiatura e8 d4 %130
+		r8 e \once \slurDashed d[( c']) c16( h) h( a)
+		\appoggiatura a8 g4 r r
+		r r8 a,-! h( a)
+		r4 r8 h-! c( h)
+		r4 r8 a-! h( a) %135
+		r4 r g'8 h,
+		h4 a8 fis' g16 d c h
+		h8.(\trill a32 h) a4 r
+		R2.
+		r8 d16( e) d8-! d-! g( h) %140
+		R2.
+		r8 d,16( e) d8-! d-! g( h)
+		e, g r g16( fis) \appoggiatura a g8 \once \slurDashed fis16( e)
+		d8 g16.(^\critnote d32) d16( c) g'( c,) \appoggiatura c8 h4
+		a8 e' e16( d) d( c) c( h) h( a) %145
+		g8( h) d( h) d16( h) d( h)
+		d4 r r
+		g16( a h c) d8( h) d16( h) d( h)
+		d4 r r
+		h r r %150
+		g( d8) d[-! d-! d-!]
+		g4( d8) d[-! d-! d-!]
+		g4( d8) d'32([ h16.)] c32([ a16.)] a32([ fis16.)]
+		\appoggiatura fis8 g4^\missgrace r8 d16( h) d( h) d( h)
+		g'4( d8) d16([ h)] d( h) d( h) %155
+		g'4( d8) d16([ h)] d( h) d( h)
+		g'4( d8) d'32([ h16.)] c32([ a16.)] a32([ fis16.)]
+		g2.\startTrillSpan
+		g
+		g %160
+		g,4\stopTrillSpan h d
+		g r r
+		r r8 d'32(^\critnote h16.) c32([ a16.)] a32( fis16.)
+		g2.\startTrillSpan
+		g %165
+		g4\stopTrillSpan h, d
+		g g g
+		g2 r4
+		R2.*2 %170
+		r8 e\pE e16( d) d( c) c( h) h( a)
+		\appoggiatura a8 g4 r r
+		d'8. g16 \appoggiatura g4 fis2
+		d8. g16 \appoggiatura g4 fis2
+		d2.\startTrillSpan %175
+		d
+		d
+		d
+		d8\stopTrillSpan g d d16 e d8 d
+		R2. %180
+		r4 r8 a'16( h) a8^\critnote a
+		d, g \tuplet 3/2 4 { fis e d c h a }
+		h16( g) d'( h) \appoggiatura h4 a2
+		h4( d8) r r a
+		h4( d8) r r4 %185
+		d'2.\startTrillSpan
+		d2 r8\stopTrillSpan c
+		h h16 c d4 r
+		g,(\fE fis8) r r4
+		a( g8) r r4 %190
+		R2.*4
+		a2.~\pE %195
+		a~
+		a~
+		a~
+		a4 fis16 g a h a8 a
+		r4 r8 e-! fis( e) %200
+		r4 r8 fis-! g( fis)
+		a2.\trill
+		r8 a,16 h a8 a d fis
+		a2.\trill
+		r8 a,16 h a8 a d fis %205
+		\appoggiatura fis16 e8 d16 e d4 r
+		d'(\fE cis8) r r4
+		e( d8) r r4
+		d,(\pE cis8) r r4
+		e( d8) r r4 %210
+		d4. e16( fis) fis( g) e( cis)
+		d4. e16( fis) fis( g) e( cis)
+		a'2.\startTrillSpan
+		a
+		a,8\stopTrillSpan( d) d( fis) fis( a) %215
+		\appoggiatura cis16 h8^\missgrace a16 g fis4 e
+		a8. d16 \appoggiatura d4 cis2^\missgrace
+		a,8. d16 \appoggiatura d4 cis2
+		d2.\startTrillSpan
+		d4\stopTrillSpan fis8 a, a' a, %220
+		d a fis' a, a' a,
+		d'4. a8 a16( g) g( e)
+		\appoggiatura e8 d4 r r
+		R2.*3 %226
+		r4 r8 a'16( fis) a( fis) a( fis)
+		d'4. a8 a16( g) g( e)
+		\appoggiatura e8 d4 r r
+		R2. %230
+		d16(\fE e fis g) a8( fis) a16( fis) a( fis)
+		a4 r r
+		r r8 a16( fis) a( fis) a( fis)
+		d'4( a8) a16([ fis)] a( fis) a( fis)
+		d'4( a8) a16([ fis)] a( fis) a( fis) %235
+		\once \slurDashed d'4( a8) a32([^\critnote fis16.)] g32([ e16.)] e32([ cis16.)]
+		\appoggiatura cis4 d2 r4
+		R2.*3 %240
+		r8 fis\pE fis( g) g( a)
+		a( h) h( c!) \appoggiatura d16 c8 h16 a
+		\appoggiatura a8 h4 r r
+		R2.*2 %245
+		h,8 d16 e d8 d g h
+		d,8. g16 \appoggiatura g4 fis2
+		d8. g16 \appoggiatura g4 fis2
+		g2.\startTrillSpan
+		g %250
+		g
+		g
+		g8\stopTrillSpan h16 c h8 h h d
+		d, g \tuplet 3/2 4 { g^\critnote fis e d c h }
+		\slurDashed h16( g) d'( h) \slurSolid \appoggiatura h4 a2 %255
+		d'2.~
+		d
+		r4 r8 h, c d
+		e-! r d-! r c-! r
+		h4 r8 d e fis %260
+		g-! r fis-! r e-! r
+		\slurDashed d g16.( d32) \appoggiatura d16 c8 a'16.( c,32) \appoggiatura c16 h8 g'16.( h,32) \slurSolid
+		h4 a16 h a g fis4
+		r r8 a-! h( a) %265
+		r4 r8 h-! c( h)
+		R2.
+		d8. e16 d8 g16( d) d( c) c( h)
+		d'2.\trill
+		d,8. e16 d8 g16( d) d( c) c( h) %270
+		g8( h) d( h) d16( h) d( h)
+		d4 r r
+		g,16( a h c) d8( h) d16( h) d( h)
+		d4 r r
+		d8 g g16( fis) fis( e) d4 %275
+		R2.*2
+		d'2.\startTrillSpan
+		d
+		g,4\stopTrillSpan r r
+		g8.\fE a16 fis8 r r4 %280
+		a8. h16 g8 r r4
+		R2.*2
+		g2.\startTrillSpan\pE
+		g %285
+		g
+		g4.\stopTrillSpan d8 d16( c) c( a)
+		g4 r r
+		r r8 d'16(\fE h) d( h) d( h)
+		g'4( d8) d16([\pE h)] d( h) d( h) %290
+		\once \slurDashed g'4( d8) d16([ h)] c( h) h( a)
+		g4\fE r r
+		g'2.\startTrillSpan
+		g4\stopTrillSpan r r
+		g8( h) g( h) g( h) %295
+		g4 r r\fermata \bar "||" %296 finis
 	}
 }

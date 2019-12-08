@@ -926,7 +926,7 @@ EtIncarnatusViolinoII = {
 		R2.*2
 		d4. e16( fis) fis( g) e( cis)
 		d4. e16( fis) fis( g) e( cis)
-		fis8 a a d d fis %215
+		\slurDashed fis8( a) a( d) d( fis) \slurSolid %215
 		\appoggiatura cis16 h8 a16 g fis4 e
 		fis4 g e
 		fis g e
@@ -938,8 +938,8 @@ EtIncarnatusViolinoII = {
 		fis8 fis fis fis g \once \slurDashed g16( a)
 		fis4 r8 fis'\fE fis fis %225
 		fis4 r8 fis fis fis
-		fis4 r8 fis fis fis
-		fis,2\pE fis16( e) e( cis)
+		fis4 r8 fis\pE fis fis
+		fis,2 fis16( e) e( cis)
 		d4\fE r r
 		cis'8( e) g( e) g16( e) g( e) %230
 		d4 r r
@@ -970,9 +970,9 @@ EtIncarnatusViolinoII = {
 		d8 g \tuplet 3/2 4 { g8 fis e d c h }
 		h16( g) d'( h) \appoggiatura h4 a2
 		g4 r8 g a h
-		c r h r a r
+		c-\parenthesize-! r h-\parenthesize-! r a-\parenthesize-! r
 		g4 r8 h c d %260
-		e r d r c r
+		e-\parenthesize-! r d-\parenthesize-! r c-\parenthesize-! r
 		h4 r r
 		R2.
 		d,8-! fis16( a) d,4 r

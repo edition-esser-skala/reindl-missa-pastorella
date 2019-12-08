@@ -1761,12 +1761,12 @@ EtIncarnatusOrganoR = {
 		a4 r r
 		R2.*8 %240
 		r8 << {
-			fis, fis g g a
-			a h h c! \appoggiatura d16 c8 h16 a
+			fis, \slurDashed fis( g) g( a)
+			a( h) h( c!) \slurSolid \appoggiatura d16 c8 h16 a
 			\appoggiatura a8 h4
 		} \\ {
-			d,8 d e e fis
-			fis g g a \appoggiatura h16 a8 g16 fis
+			d,8 \slurDashed d( e) e( fis)
+			fis( g) g( a) \slurSolid \appoggiatura h16 a8 g16 fis
 			\appoggiatura fis8 g4
 		} >> r4 r
 		R2.*2 %245
@@ -1907,8 +1907,8 @@ EtIncarnatusOrganoL = {
 		d~ \tieSolid
 		d4 r8 d\fE d d %225
 		d4 r8 d d d
-		d4 r8 d d d
-		a'2\pE a,4
+		d4 r8 d\pE d d
+		a'2 a,4
 		d\fE r r
 		\slurDashed a'8( cis) e( cis) e16( cis) e( cis) %230
 		d4 r r
@@ -2087,8 +2087,8 @@ EtIncarnatusViolone = {
 		d~ \tieSolid
 		d4 r8 d\fE d d %225
 		d4 r8 d d d
-		d4 r8 d d d
-		a'2\pE a,4
+		d4 r8 d\pE d d
+		a'2 a,4
 		d\fE r r
 		\slurDashed a8( cis) e( cis) e16( cis) e( cis) %230
 		d4 r r
@@ -2150,8 +2150,8 @@ EtIncarnatusViolone = {
 		d'4 r d
 		g, r8 g'\fE g g
 		g4 r8 g g g
-		g4 r8 g g g %290
-		d4\pE r8 d d d
+		g4 r8 g\pE g g %290
+		d4 r8 d d d
 		\once \tieDashed g2.~\fE
 		g
 		g,4 h d

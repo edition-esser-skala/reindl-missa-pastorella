@@ -927,8 +927,8 @@ EtIncarnatusViola = {
 		d~ \tieSolid
 		d4 r8 d\fE d d %225
 		d4 r8 d d d
-		d4 r8 d d d
-		a2\pE a4
+		d4 r8 d\pE d d
+		a2 a4
 		fis\fE r r
 		a8( cis) e( cis) e16( cis) e( cis) %230
 		d4 r r
