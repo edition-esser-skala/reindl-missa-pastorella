@@ -2248,18 +2248,198 @@ EtResurrexitOrgano = {
 			\set Score.currentBarNumber = #297
 		\mvTr d4-!\fE-\tuttiE a8-! d-! \appoggiatura g16 fis8-! e16-! d-!
 		e4-! a,8-! e'-! \appoggiatura a16 g8-! fis16-! e-!
-		d8 cis d e fis g
-		a4 a, d
+		d8-! cis-! d-! e-! fis-! g-!
+		a4 a, d %300
 		d-! a8-! d-! \appoggiatura g16 fis8-! e16-! d-!
 		e4-! a,8-! e'-! \appoggiatura a16 g8-! fis16-! e-!
 		d8 cis d e fis g
 		a4 a, d
+		fis4( d8) d[-! d-! d-!] %305
 		fis4( d8) d[-! d-! d-!]
-		fis4( d8) d[-! d-! d-!]
-		
+		a' r fis r cis r
+		d4 a r
+		d2-! \appoggiatura g16 fis8-! e16-! d-!
+		a'2-! \appoggiatura d16 cis8-! h16-! a-! %310
+		d8-! h-! a-! g-! fis-! e-!
+		d d' d d d d
+		d d cis cis a a
+		h a gis fis e gis
+		a4 e r %315
+		a-! e8-! a-! \appoggiatura d16 cis8-!^\missgrace h16-! a-!
+		h4-! e,8-! h'-! \appoggiatura e16 d8-!^\missgrace cis16-! h-!
+		a8 gis a h cis d
+		e4 e, a
+		a e8 a \appoggiatura d16 cis8^\missgrace h16 a %320
+		h4 e,8 h' \appoggiatura e16 d8^\missgrace cis16 h
+		a8 gis a h cis d
+		e4 e, a
+		r8 a\p a a a a
+		r fis fis fis fis fis %325
+		r d d d d d
+		r dis dis dis dis dis
+		e4 r r
+		a\f e8 cis' \appoggiatura e16 d8 cis16 h
+		a4 e8 cis' \appoggiatura e16 d8^\missgrace cis16 h %330
+		a4 gis8 fis e d
+		cis4 r r8 r16 cis
+		d4 e e,
+		a r8 a' a a
+		cis4( a8) a[ a a] %335
+		cis4( a8) cis,[ cis cis]
+		d4 e e,
+		a8 a' a a a a
+		g! g g g g g
+		fis fis fis fis fis fis %340
+		h4 fis r
+		h-! fis8-! h-! \appoggiatura e16 d8-!^\missgrace cis16-! h-!
+		cis4-! fis,8-! cis'-! \appoggiatura fis16 e8-!^\missgrace d16-! cis-!
+		h,8 ais h cis d e
+		fis4 r8 h h h %345
+		d4( h8) h[ h h]
+		d4( h8) h[ h h]
+		eis, eis eis eis eis eis
+		fis fis fis fis fis fis
+		h4( g!8) g[ g g] %350
+		a!4( fis8) fis[ fis fis]
+		cis cis cis cis cis cis
+		d d d d d d
+		cis cis cis cis cis cis
+		d d' d d d d %355
+		h h h h h h
+		gis gis gis gis gis gis
+		a4 a, r
+		d-! a8-! d-! \appoggiatura g16 fis8-! e16-! d-!
+		e4-! a,8-! e'-! \appoggiatura a16 g8-! fis16-! e-! %360
+		d8 cis d e fis g
+		a4 a, d
+		d a8 d \appoggiatura g16 fis8^\missgrace e16 d
+		e4 a,8 e' \appoggiatura a16 g8^\missgrace fis16 e
+		d8 cis d e fis g %365
+		a4 a, d
+		cis( d8) r r4
+		g( fis8) r r4
+		cis4( d8) r r d
+		g4( fis8) r r4 %370
+		dis8 dis dis dis dis dis
+		e fis g fis e d
+		cis cis cis cis cis cis
+		d4 d, r
+		fis'8 fis fis fis fis fis %375
+		g g g g g g
+		gis gis gis gis gis gis
+		a a a a a a
+		a\p a a a a a
+		a a a a a a %380
+		a4 r r
+		d,4 a8 fis' \appoggiatura a16 g8 fis16 e
+		d4 a8 fis' \appoggiatura a16 g8 fis16 e
+		d8 h' a g fis e
+		d h' a g fis e %385
+		d h' g4 a
+		d, r8 d d d
+		fis4( d8) d[ d d]
+		fis4( d8) fis[ fis fis]
+		g4 a a, %390
+		d r a
+		d, r r\fermata \bar "|." %392 FINIS
 	}
 }
 
 EtResurrexitBassFigures = \figuremode {
-	
+	r2. %297
+	r
+	r
+	<8 6>4 <7 5> r %300
+	r2.
+	r
+	r
+	r
+	<6> %305
+	<6>
+	r4 <6> <5>
+	r2.
+	r
+	r %310
+	r
+	r
+	<4\+ 2>4 <6> r
+	<5> <6> <[_+]>
+	r <_+>2 %315
+	r2.
+	r
+	<3>8 q q q q q
+	<8 6>4 <7 5 [_+]>2
+	<8 3>2 \bassFigureExtendersOn q8 q %320
+	<6\\>2 q8 q \bassFigureExtendersOff
+	<3>8 q q q q q
+	<8 6>4 <7 5 [_+]>2
+	r2.
+	r8 <5 3>r2 %325
+	r8 <6 5> r2
+	r8 <6 5> r2
+	<[_+]>2.
+	r2 <4\+ 2>4
+	r2 <4\+ 2>4 %330
+	<8 3>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff
+	<6>2.
+	<6 5>4 <[6] 4> <[5] _+>
+	r2.
+	<6> %335
+	q4. q
+	<6 5>4 <[6] 4> <[5] _+>
+	r2.
+	<6 4 2>
+	<7 _+> %340
+	<_!>4 <_+>2
+	r2.
+	r
+	<8 3>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff
+	<6 4>4 <5 _+>2 %345
+	<6>2.
+	q
+	<7 5 [_+]>
+	<_+>
+	r4 <6>2 %350
+	r4 <6>2
+	<6 5>2.
+	r
+	<6 5>
+	r %355
+	<5 3>
+	<7 5>
+	<6 4>4 <5 3>2
+	r2.
+	r %360
+	r
+	<8 6>4 <7 5>2
+	<8 3>2 \bassFigureExtendersOn q8 q
+	<6>2 q8 q \bassFigureExtendersOff
+	<3>8 q q q q q %365
+	<[8 6]>4 <[7 5]>2
+	<6 5>2.
+	<4 2>4 <6>2
+	<6 5>2.
+	<4 2>4 <6>2 %370
+	<6 5>2.
+	r
+	<6 5>
+	r
+	<6 5!> %375
+	r
+	<6 5>
+	r
+	r
+	<7+ 4 2> %380
+	<8 3>
+	r2 <4 2>4
+	r2 <4 2>4
+	r8 <[6]> <[6 4]> <[5]> <[6]> q
+	r8 q <[6 4]> <[5]> <[6]> q %385
+	r <5> <6>2
+	r2.
+	<6>
+	q4. q
+	<6>4 <[6] 4> <[5] 3> %390
+	r2.
+	r %392 FINIS
 }
