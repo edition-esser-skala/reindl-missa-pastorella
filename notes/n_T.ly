@@ -1139,12 +1139,68 @@ SanctusTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key d \major \time 12/8 \autoBeamOff \tempoSanctus
-		
+		\mvTr a1.\fE^\tuttiE
+		h
+		a2. d4. d
+		d8 d d cis4 e8 d4 cis8 a4 r8
+		R1.*5 %9
+		d,4. d' cis h %10
+		a g fis4 r8 r4 r8
+		a4. a a4 a8 a4.
+		a a a4 a8 a4 r8
+		R1.*2 %15
+		d4. d h4 h8 cis4 r8
+		cis4( h8) cis4( h8) cis4 h8 cis4( h8)
+		a4. h a gis
+		a4 r8 r4 r8 r2.
+		R1.*3 %22
+		cis4. cis4 cis8 cis4. cis
+		cis cis4 cis8 cis4. cis4 cis8
+		cis1. %25
+		cis4. cis8. cis16 cis8 h4. ais4 r8
+		R1.*2
+		h4. h4 h8 h4. h4 h8
+		a4. a a a %30
+		a a8. a16 a8 a4. a4 r8
+		R1.*5 %36
+		r2. r4 r8 r4 a8
+		a2. a4. a~
+		a g a2.
+		a4 r8 r4 r8 r2. %40
+		R1.*4
+		R1.\fermataMarkup \bar "||" %45 FINIS
 	}
 }
 
 SanctusTenoreLyrics = \lyricmode {
+	San --
+	_
+	_ _ ctus
+	Do -- mi -- nus De -- us Sa -- ba -- oth,
 	
+	san -- _ _ _ %10
+	_ _ ctus,
+	san -- ctus Do -- mi -- nus
+	De -- us Sa -- ba -- oth,
+	
+	san -- ctus Do -- mi -- nus, %16
+	san -- ctus Do -- mi -- nus,
+	De -- us Sa -- ba --
+	oth.
+	
+	Ple -- ni sunt coe -- li, %23
+	ple -- ni sunt coe -- li et
+	ter -- %25
+	ra glo -- ri -- a tu -- a,
+	
+	ple -- ni sunt coe -- li et %29
+	ter -- ra glo -- ri -- %30
+	a, glo -- ri -- a tu -- a.
+	
+	O -- %37
+	san -- na in __
+	ex -- cel --
+	sis. %40 FINIS
 }
 
 % TenoreNotes = {

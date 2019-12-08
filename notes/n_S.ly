@@ -1713,8 +1713,8 @@ SanctusSopranoNotes = {
 		cis4 d8) cis4( d8) cis4( d8) cis4 d8
 		e4. d cis4 cis8 cis4 r8
 		R1.*2 %15
-		fis!4. fis e4 e8 e4.
-		e e e4 e8 e4.
+		fis!4. fis e4 e8 e4 r8
+		e4. e e4 e8 e4.
 		e d cis h
 		a4 r8 r4 r8 r2.
 		R1.*3 %22
