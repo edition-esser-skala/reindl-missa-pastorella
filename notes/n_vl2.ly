@@ -1058,7 +1058,7 @@ EtResurrexitViolinoII = {
 		\appoggiatura e d8 cis16 h a4 gis
 		a8. h16 cis8^\critnote cis4 \once \tieDashed cis8~
 		cis8 cis4 cis \once \tieDashed cis8~
-		cis8 cis4 cis \once \tieDashed cis8~ %340
+		cis8 cis4 cis cis8 %340
 		h4 ais r
 		h fis8 h \appoggiatura e16 d8^\missgrace cis16 h
 		cis4 fis,8 cis' \appoggiatura fis16 e8^\missgrace d16 cis

@@ -2248,10 +2248,10 @@ EtResurrexitOrgano = {
 			\set Score.currentBarNumber = #297
 		\mvTr d4-!\fE-\tuttiE a8-! d-! \appoggiatura g16 fis8-! e16-! d-!
 		e4-! a,8-! e'-! \appoggiatura a16 g8-! fis16-! e-!
-		d8-! cis-! d-! e-! fis-! g-!
+		d8 cis d e fis g
 		a4 a, d %300
-		d-! a8-! d-! \appoggiatura g16 fis8-! e16-! d-!
-		e4-! a,8-! e'-! \appoggiatura a16 g8-! fis16-! e-!
+		d a8 d \appoggiatura g16 fis8 e16 d
+		e4 a,8 e' \appoggiatura a16 g8 fis16 e
 		d8 cis d e fis g
 		a4 a, d
 		fis4( d8) d[-! d-! d-!] %305
@@ -2348,11 +2348,11 @@ EtResurrexitOrgano = {
 EtResurrexitBassFigures = \figuremode {
 	r2. %297
 	r
-	r
+	<[3]>8 q q q q q
 	<8 6>4 <7 5> r %300
+	<[8 3]>2 \bassFigureExtendersOn <8 3>8 q
+	<[6]>2 <6>8 q \bassFigureExtendersOff
 	r2.
-	r
-	r
 	r
 	<6> %305
 	<6>
@@ -2361,7 +2361,7 @@ EtResurrexitBassFigures = \figuremode {
 	r
 	r %310
 	r
-	r
+	<[5]>4 <[6]>2
 	<4\+ 2>4 <6> r
 	<5> <6> <[_+]>
 	r <_+>2 %315
@@ -2393,8 +2393,8 @@ EtResurrexitBassFigures = \figuremode {
 	<_!>4 <_+>2
 	r2.
 	r
-	<8 3>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff
-	<6 4>4 <5 _+>2 %345
+	<[3]>8 q q q q q
+	<6 4> <5 _+> r2 %345
 	<6>2.
 	q
 	<7 5 [_+]>
@@ -2410,7 +2410,7 @@ EtResurrexitBassFigures = \figuremode {
 	<6 4>4 <5 3>2
 	r2.
 	r %360
-	r
+	<[3]>8 q q q q q
 	<8 6>4 <7 5>2
 	<8 3>2 \bassFigureExtendersOn q8 q
 	<6>2 q8 q \bassFigureExtendersOff

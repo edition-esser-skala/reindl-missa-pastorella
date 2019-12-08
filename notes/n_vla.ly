@@ -1005,6 +1005,101 @@ EtResurrexitViola = {
 		\clef treble
 		\key d \major \time 3/4 \tempoEtResurrexit
 			\set Score.currentBarNumber = #297
-		
+		d4\fE a8 d \appoggiatura g16 fis8 e16 d
+		e4 a,8 e' \appoggiatura a16 g8 fis16 e
+		d8 cis d e fis g
+		a4 a, d %300
+		fis16 fis fis fis fis fis fis fis fis fis fis fis
+		g g g g g g g g g g g g
+		d8 cis d e fis g
+		a4 a, d
+		fis( d8) d[ d d] %305
+		fis4( d8) d[ d d]
+		a' r fis r cis r
+		d4 a' r
+		d,2 \appoggiatura g16 fis8^\missgrace e16 d
+		a'2 \appoggiatura d16 cis8^\missgrace h16 a %310
+		d4 d, r
+		d8 d d d d d
+		e4 e r
+		fis h8 a gis h
+		e,4 e r %315
+		a e8 a \appoggiatura d16 cis8^\missgrace h16 a
+		h4 e,8 h' \appoggiatura e16 d8^\missgrace cis16 h
+		a8 gis a h cis d
+		e4 e, a
+		a16 a a a a a a a a a a a %320
+		gis gis gis gis gis gis gis gis gis gis gis gis
+		a8 gis a h cis d
+		e4 e, a
+		r8 e\p e e e e
+		r fis fis fis fis fis %325
+		r fis fis fis fis fis
+		r fis fis fis fis fis
+		e4 r r
+		a16\f a a a a a a a gis gis gis gis
+		a a a a a a a a gis gis gis gis %330
+		a4 gis8 fis e d
+		cis4 r r
+		r e d
+		cis r8 a' a a
+		cis4( a8) a[ a a] %335
+		cis4( a8) e[ e e]
+		fis4 e d
+		cis8 a'4 a \once \tieDashed a8~
+		a a4 a a8
+		ais ais4 ais ais8 %340
+		fis4 fis r
+		h fis8 h \appoggiatura e16 d8^\missgrace cis16 h
+		cis4 fis,8 cis' \appoggiatura fis16 e8^\missgrace d16 cis
+		h,8 ais h cis d e
+		fis4 r8 h h h %345
+		h4 r8 h h h
+		h4 r8 fis fis fis
+		gis gis4 gis gis8
+		fis fis fis fis fis fis
+		fis4( g!8) r r4 %350
+		e( fis8) r r4
+		a,8 a a a a a
+		a a a a a a
+		a a a a a a
+		a a a a a a %355
+		h h h h h h
+		h h h h h h
+		a4 a r
+		d a8 d \appoggiatura g16 fis8 e16 d
+		e4 a,8 e' \appoggiatura a16 g8^\missgrace fis16 e %360
+		d8 cis d e fis g
+		a4 a, d
+		d'16 d d d d d d d d d d d
+		cis cis cis cis cis cis cis cis cis cis cis cis
+		d,8 cis d e fis g %365
+		a4 a, d
+		\once \slurDashed a'4( a8) r r4
+		\once \slurDashed a4( a8) r r4
+		a4( a8) r r4
+		\once \slurDashed a4( a8) r r4 %370
+		fis8 fis fis fis fis fis
+		e4 r r
+		e8 e e e e e
+		d4 r r
+		r8 d d d d d %375
+		d4 r r
+		r8 e e e e e
+		e4 r r
+		r8 e\p e e e e
+		d d d d e e %380
+		e4 r r
+		d'16\f d d d d d d d cis cis cis cis
+		d d d d d d d d cis cis cis cis
+		d8 h a g fis e
+		d h' a g fis e %385
+		d^\critnote h' g4 a
+		d, r8 d d d
+		fis4( d8) d[ d d]
+		fis4( d8) a'[ a a]
+		g4 a g %390
+		fis r a
+		fis r r\fermata \bar "|." %392 FINIS
 	}
 }
