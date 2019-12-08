@@ -2443,10 +2443,10 @@ SanctusOrgano = {
 		d4-! a'8-! f4-! d8-! b4-! a'8-! f4-! d8-! %5
 		a4-! a'8-! f4-! d8-! b4-! a'8-! f4-! d8-!
 		a a a a a a a4 r8 r4 r8
-		d d d d d d d d d d d d
-		d fis g a h cis d a fis d4 fis8
-		d d d d d d d d d d d d %10
-		d fis g a h cis d a fis d4 fis8
+		d\pE d d d d d d d d d d d
+		d fis g a h cis d a\fE fis d4 fis8
+		d\pE d d d d d d d d d d d %10
+		d fis g a h cis d a\fE fis d4 fis8
 		g4( fis8) g4( fis8) g4( fis8) g4( fis8)
 		cis4 r8 d4 r8 a' e cis a4 r8
 		r2. r4 r8 r4 a8
@@ -2461,8 +2461,8 @@ SanctusOrgano = {
 		a'4 cis8 cis4 e8 e4 cis8 cis4 a8
 		g!4 cis8 cis4 e8 e4 cis8 cis4 g8
 		fis4( g!8) fis4( g!8) fis4( g!8) fis4( g!8) %25
-		fis fis fis fis fis fis h4 eis,8 fis fis fis
-		fis fis fis fis fis fis fis fis fis fis4 fis,8
+		fis fis fis fis fis fis h4 eis,8 fis fis fis\pE
+		fis fis fis fis fis fis fis fis fis fis4 fis,8\fE
 		h4-! cis8-!-\critnote d-! g!-! eis-! fis-! gis-! eis-! fis4-! r8
 		a!4( h8) a4( h8) g! h a g fis e
 		\slurDashed g4( a8) g4( a8) \slurSolid fis a g fis e d %30
@@ -2470,9 +2470,9 @@ SanctusOrgano = {
 		d4-! a'8-! f4-! d8-! b4-! a'8-! f4-! d8-!
 		a4-! a'8-! f4-! d8-! b4-! a'8-! f4-! d8-!
 		a a a a a a a4r8 r4 r8
-		cis cis cis cis cis cis d4 r8 r4 d8 %35
+		cis\pE cis cis cis cis cis d4 r8 r4 d8 %35
 		cis cis cis cis cis cis d4 r8 r4 r8
-		r2. r4 r8 r4 g8
+		r2. r4 r8 r4 g8\fE
 		fis4( g8) fis4( g8) fis4( g8) fis4( g8)
 		fis fis fis h h h a a a a, a a
 		d4-! a8-! h4-! cis8-! d4-! a8-! h4-! cis8-! %40

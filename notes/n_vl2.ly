@@ -1143,8 +1143,8 @@ SanctusViolinoII = {
 		a cis cis cis cis cis cis cis cis cis cis cis
 		cis cis cis cis cis cis cis cis cis cis cis cis
 		cis cis cis cis cis cis cis cis cis cis cis cis %25
-		cis cis cis cis cis cis h h h ais4 eis'8
-		eis4. fis4 h,8 h4. ais4 fis8
+		cis cis cis cis cis cis h4. ais4 eis'8\pE
+		eis4. fis4 h,8 h4. ais4 fis8\fE
 		h,4 cis8 d( g!) eis-! fis( gis) eis-! fis4 r8
 		dis' dis dis dis dis dis e e e e e e
 		cis cis cis cis cis cis d! d d d d d %30
@@ -1152,10 +1152,10 @@ SanctusViolinoII = {
 		d,4 a'8 f4 d8 b4 a'8 f4 d8
 		a4 a'8 f4 d8 b4 a'8 f4 d8
 		a cis cis cis cis cis cis4 r8 r4 r8
-		e e e e e e d4 r8 r4 r8 %35
+		e\pE e e e e e d4 r8 r4 r8 %35
 		e e e e e e d4 r8 r4 r8
 		R1.
-		a'8 a a a a a a a a a a a
+		a'8\fE a a a a a a a a a a a
 		a a a g g g fis fis fis e e e
 		d( fis) a,-! h-! h( cis) d( fis) a,-! h-! h( cis) %40
 		d4. h'' a g

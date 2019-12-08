@@ -1108,6 +1108,50 @@ SanctusViola = {
 	\relative c' {
 		\clef treble
 		\key d \major \time 12/8 \tempoSanctus
-		
+		d4\fE fis8 fis4 a8 a4 fis8 fis4 d8
+		d4 g8 g4 h8 h4 g8 g4 d8
+		d4 fis8 fis4 a8 a4 fis8 fis4 d8
+		h' h h a a a d4 a8 d,4 r8
+		d4 a'8 f4 d8 b4 a'8 f4 d8 %5
+		a4 a'8 f4 d8 b4 a'8 f4 d8
+		a e' e e e e e4 r8 r4 r8
+		d\p d d d d d d d d d d d
+		d fis g a h cis d a\fE fis d4 r8
+		d\pE d d d d d d d d d d d %10
+		d fis g a h cis d a\fE fis d4 r8
+		e4( fis8) e4( fis8) e4( fis8) e4( fis8)
+		a,4 r8 a4 r8 a4 a8 a a a\p
+		a a a a a a a a a a a a\fE
+		d4 e8 f b gis a h gis a4 r8 %15
+		fis! a a a a a gis gis gis a4( gis8)
+		a4( gis8) a4( gis8) a4( gis8) a4( gis8)
+		a a a fis fis fis e e e e e e
+		a4 e8 fis4 gis8 a4 e8 fis4 gis8
+		a a a a a a a a a a a a %20
+		a4 fis8 e4 d8 cis a a a a a
+		a a a a a a a4 d8 e4 e,8
+		a a' a a a a a a a a a a
+		a a a a a a a a a a a a
+		ais ais ais ais ais ais ais ais ais ais ais ais %25
+		ais? ais ais ais ais ais fis4 gis8 fis8 fis fis\p
+		fis fis fis fis fis fis fis fis fis fis4 fis,8\f
+		h4 cis8 d g! eis fis gis eis fis4 r8
+		h h h h h h h h h h h h
+		a a a a a a a a a a a a %30
+		a a a a a a a4. a4 r8
+		d,4 a'8 f4 d8 b4 a'8 f4 d8
+		a4 a'8 f4 d8 b4 a'8 f4 d8
+		a e' e e e e e4 r8 r4 r8
+		a,\pE a a a a a a4 r8 r4 r8 %35
+		a a a a a a a4 r8 r4 r8
+		R1.
+		fis'4(\fE e8) fis4( e8) fis4( e8) fis4( e8)
+		fis fis fis h, h h a a a a a a
+		d4 a8 h4 cis8 d4 a8 h4 cis8 %40
+		d d d d d d d d d d d d
+		d4 g8 a4 a,8 d d d d d d
+		d d d d d d d4 g8 a4 a,8
+		d <fis a> q q q q q q q q q q
+		fis4 r8 r4 r8 r2.\fermata \bar "|." %45 FINIS
 	}
 }
