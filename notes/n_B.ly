@@ -1126,6 +1126,18 @@ EtResurrexitBassoLyrics = \lyricmode {
 	men. %392 FINIS
 }
 
+SanctusBassoNotes = {
+	\relative c {
+		\clef bass
+		\key d \major \time 12/8 \autoBeamOff \tempoSanctus
+		
+	}
+}
+
+SanctusBassoLyrics = \lyricmode {
+	
+}
+
 % BassoNotes = {
 % 	\relative c {
 % 		\clef bass

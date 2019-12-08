@@ -1466,6 +1466,18 @@ EtResurrexitAltoLyrics = \lyricmode {
 	men. %392 FINIS
 }
 
+SanctusAltoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 12/8 \autoBeamOff \tempoSanctus
+		
+	}
+}
+
+SanctusAltoLyrics = \lyricmode {
+	
+}
+
 % AltoNotes = {
 % 	\relative c' {
 % 		\clef treble

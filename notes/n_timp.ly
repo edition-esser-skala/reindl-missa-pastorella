@@ -261,3 +261,11 @@ EtResurrexitTimpani = {
 		c r r\fermata \bar "|." %392 FINIS
 	}
 }
+
+SanctusTimpani = {
+	\relative c {
+		\clef bass
+		\key c \major \time 12/8 \tempoSanctus
+		
+	}
+}

@@ -2229,18 +2229,6 @@ EtIncarnatusViolone = {
 	}
 }
 
-% Organo = {
-% 	\relative c {
-% 		\clef bass
-% 		
-% 		
-% 	}
-% }
-% 
-% BassFigures = \figuremode {
-% 	
-% }
-
 EtResurrexitOrgano = {
 	\relative c {
 		\clef bass
@@ -2443,3 +2431,27 @@ EtResurrexitBassFigures = \figuremode {
 	r2.
 	r %392 FINIS
 }
+
+SanctusOrgano = {
+	\relative c {
+		\clef bass
+		\key d \major \time 12/8 \tempoSanctus
+		\mvTr d4\fE-\tuttiE fis8 fis4 a8 a4 fis8 fis4 d8
+	}
+}
+
+SanctusBassFigures = \figuremode {
+	
+}
+
+% Organo = {
+% 	\relative c {
+% 		\clef bass
+% 		
+% 		
+% 	}
+% }
+% 
+% BassFigures = \figuremode {
+% 	
+% }

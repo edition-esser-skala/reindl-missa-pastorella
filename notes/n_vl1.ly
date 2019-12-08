@@ -1116,6 +1116,14 @@ EtResurrexitViolinoI = {
 	}
 }
 
+SanctusViolinoI = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 12/8 \tempoSanctus
+		
+	}
+}
+
 % ViolinoI = {
 % 	\relative c' {
 % 		\clef treble

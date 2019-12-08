@@ -687,3 +687,11 @@ EtResurrexitCornoII = {
 		c, r r\fermata \bar "|." %392 FINIS
 	}
 }
+
+SanctusCornoII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 12/8 \tempoSanctus
+		
+	}
+}

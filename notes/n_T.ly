@@ -1135,6 +1135,18 @@ EtResurrexitTenoreLyrics = \lyricmode {
 	men. %392 FINIS
 }
 
+SanctusTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key d \major \time 12/8 \autoBeamOff \tempoSanctus
+		
+	}
+}
+
+SanctusTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

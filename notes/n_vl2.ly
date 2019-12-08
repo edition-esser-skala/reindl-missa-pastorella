@@ -1113,3 +1113,11 @@ EtResurrexitViolinoII = {
 		<fis a, d,> r r\fermata \bar "|." %392 FINIS
 	}
 }
+
+SanctusViolinoII = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 12/8 \tempoSanctus
+		
+	}
+}

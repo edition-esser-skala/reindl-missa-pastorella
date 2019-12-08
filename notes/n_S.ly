@@ -1697,6 +1697,18 @@ EtResurrexitSopranoLyrics = \lyricmode {
 	men. %392 FINIS
 }
 
+SanctusSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 12/8 \autoBeamOff \tempoSanctus
+		
+	}
+}
+
+SanctusSopranoLyrics = \lyricmode {
+	
+}
+
 % SopranoNotes = {
 % 	\relative c' {
 % 		\clef treble
@@ -1706,5 +1718,5 @@ EtResurrexitSopranoLyrics = \lyricmode {
 % }
 %
 % SopranoLyrics = \lyricmode {
-% %	
+%		
 % }

@@ -1103,3 +1103,11 @@ EtResurrexitViola = {
 		fis r r\fermata \bar "|." %392 FINIS
 	}
 }
+
+SanctusViola = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 12/8 \tempoSanctus
+		
+	}
+}
