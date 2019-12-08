@@ -2437,11 +2437,99 @@ SanctusOrgano = {
 		\clef bass
 		\key d \major \time 12/8 \tempoSanctus
 		\mvTr d4\fE-\tuttiE fis8 fis4 a8 a4 fis8 fis4 d8
+		d4 g8 g4 h8 h4 g8 g4 d8
+		d4 fis8 fis4 a8 a4 fis8 fis4 d8
+		g g g a a a d a fis d4 r8
+		d4-! a'8-! f4-! d8-! b4-! a'8-! f4-! d8-! %5
+		a4-! a'8-! f4-! d8-! b4-! a'8-! f4-! d8-!
+		a a a a a a a4 r8 r4 r8
+		d d d d d d d d d d d d
+		d fis g a h cis d a fis d4 fis8
+		d d d d d d d d d d d d %10
+		d fis g a h cis d a fis d4 fis8
+		g4( fis8) g4( fis8) g4( fis8) g4( fis8)
+		cis4 r8 d4 r8 a' e cis a4 r8
+		r2. r4 r8 r4 a8
+		d4-! e8-! f-! b-! gis-! a-! h-! gis-! a4-! r8 %15
+		d,8 d' d d d d d d d cis4 d,8
+		cis4 d8 cis4 d8 cis4 d8 cis4 d8
+		cis cis cis d d d e e e e, e e
+		a'4-! e8-! fis4-! gis8-! a4-! e8-! fis4-! gis8-!
+		a a a a a a a a a a a a %20
+		a4 d,8 e4 e,8 a a a a a a
+		a a a a a a a4 d8 e4 e,8
+		a'4 cis8 cis4 e8 e4 cis8 cis4 a8
+		g!4 cis8 cis4 e8 e4 cis8 cis4 g8
+		fis4( g!8) fis4( g!8) fis4( g!8) fis4( g!8) %25
+		fis fis fis fis fis fis h4 eis,8 fis fis fis
+		fis fis fis fis fis fis fis fis fis fis4 fis,8
+		h4-! e8-! d-! g!-! eis-! fis-! gis-! eis-! fis4-! r8
+		a!4( h8) a4( h8) g! h a g fis e
+		\slurDashed g4( a8) g4( a8) \slurSolid fis a g fis e d %30
+		a a' g fis e d a'4. a,4 r8
+		d4-! a'8-! f4-! d8-! b4-! a'8-! f4-! d8-!
+		a4-! a'8-! f4-! d8-! b4-! a'8-! f4-! d8-!
+		a a a a a a a4r8 r4 r8
+		cis cis cis cis cis cis d4 r8 r4 d8 %35
+		cis cis cis cis cis cis d4 r8 r4 r8
+		r2. r4 r8 r4 g8
+		fis4( g8) fis4( g8) fis4( g8) fis4( g8)
+		fis fis fis h h h a a a a, a a
+		d4-! a8-! h4-! cis8-! d4-! a8-! h4-! cis8-! %40
+		d d d d d d d d d d d d
+		d4 g8 a4 a,8 d d d d d d
+		d d d d d d d4 g8 a4 a,8
+		d d d d d d d d d d d d
+		d4 r8 r4 r8 r2.\fermata \bar "|." %45 FINIS
 	}
 }
 
 SanctusBassFigures = \figuremode {
-	
+	<8 3>2. \bassFigureExtendersOn q4. q4 q8
+	<6 4>2. q4. q4 q8
+	<8 3>2. q4. q4 q8 \bassFigureExtendersOff
+	<6 5>4. r r2.
+	r1. %5
+	r
+	<_+>
+	<8 _+>4. <8 6> <7 5> <6 4>
+	<5 3> <7> r2.
+	r4. <8 6> <7 5> <6 4> %10
+	<5 3> <7> r2.
+	<4 2>4 <6>8 <4 2>4 <6>8 <4 2>4 <6>8 <4 2>4 <6>8
+	<5 3>1.
+	r
+	r %15
+	<[5 _+]>2. <4\+ 2>4. <6>4 <4\+ 2>8
+	<6>4 <4\+ 2>8 <6>4 <4\+ 2>8 <6>4 <4\+ 2>8 <6>4 <4\+ 2>8
+	<6>4. <6 5> <6 4> <5 _+>
+	r1.
+	r4. <8 6> <7+ 5> <6 4> %20
+	<5 3>4 <6>8 <4>4 <_+>8 r4. <8 6>
+	<7+ 5> <6 4> <[5 3]>4 <8 6>8 <6 4>4 <5 _+>8
+	<8 3>2. \bassFigureExtendersOn q4. q4 q8
+	<6 4 2>2. q4. q4 q8
+	<7 5 _+>2. q4. q4 q8 \bassFigureExtendersOff %25
+	<7 _+>4. r4 <_!>8 <7 5 [_+]>4. <_+>
+	<7>4 <8>8 <6 4>4. <\t \t> <5 _+>
+	r1.
+	<4\+ 2>4. <\t \t> <6> <\t>
+	<4 2> <\t \t> <6>2. %30
+	r4. <6> <6 4> <5 3>
+	r1.
+	r
+	<5 3>
+	<6>4. <5> r2. %35
+	<6>4. <5> r2.
+	r2. r4. r4 <4 2>8
+	<6>4 <4 2>8 <6>4 <4 2>8 <6>4 <4 2>8 <6>4 <4 2>8
+	<6>4. q <6 4> <5 3>
+	r1. %40
+	r4. <8 6> <7 5> <6 4>
+	<5 3>4 <8 6>8 <6 4>4 <5 3>8 r4. <8 6>
+	<7 5> <6 4> <5 3>4 <8 6>8 <6 4>4 <5 3>8
+	r1.
+	r %45 FINIS
 }
 
 % Organo = {
