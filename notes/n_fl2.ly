@@ -289,6 +289,161 @@ EtIncarnatusFlautoII = {
 		\clef treble
 		\key g \major \time 3/4 \tempoEtIncarnatus
 			\set Score.currentBarNumber = #129
-		
+		h'8\fE h h h c c
+		h e \appoggiatura fis16 e8.(^\missgrace d32 c) \appoggiatura c8 h4 %130
+		r8 c \once \slurDashed h([ e)] e16( d) d( c)
+		\appoggiatura c8 h4 r r
+		r r8 fis-! g( fis)
+		r4 r8 g-! a( g)
+		r4 r8 fis-! g( fis) %135
+		r4 r h8 g
+		g4 fis8 c' \appoggiatura c16 h8 a16 g
+		g8.(\trill fis32 g) fis4 r
+		R2.
+		r8 \slurDashed h16( c) h8-\parenthesize-! h-\parenthesize-! h( d) %140
+		R2.
+		r8 h16( c) h8-\parenthesize-! h-\parenthesize-! h( d) \slurSolid
+		e g r g16 fis \appoggiatura a g8 \once \slurDashed fis16( e)
+		d8 g16.(^\critnote d32) d16( c) a'( c,) \appoggiatura c8 h4^\missgrace
+		a8 c c16( h) h( a) a( g) g( fis) %145
+		g8 r r4 r
+		\once \slurDashed fis8( a) c( a) c16( a) c( a)
+		h4 r r
+		fis'16( g a h) \once \slurDashed c8( a)  c16( a) c( a)
+		h4 r r %150
+		h,2.\startTrillSpan
+		h
+		h4\stopTrillSpan r8 h'32( g16.) a32([ fis16.)] c32( a16.)
+		\appoggiatura a8 h4^\critnote r8 h h h
+		d4( h8) h16([ g)] h( g) h( g) %155
+		\once \slurDashed h4( h8) h16([ g)] h( g) h( g)
+		g'4 r8 h32( g16.) a32([ fis16.)] c32( a16.)
+		g2.\startTrillSpan
+		g
+		g %160
+		g4\stopTrillSpan h d
+		g r r
+		r r8 h32([^\critnote g16.)] a32([ fis16.)] c32([ a16.)]
+		g2.\startTrillSpan
+		g %165
+		g4\stopTrillSpan h d
+		h h h
+		h2 r4
+		R2.*2 %170
+		r8 c\pE c16( h) h( a) a( g) g( fis)
+		\appoggiatura fis8 g4 r r
+		d' c a
+		d c a
+		h2.\startTrillSpan %175
+		h
+		h
+		h
+		h4\stopTrillSpan h8 h16 c h8 h
+		R2. %180
+		r4 r8 \once \slurDashed c16( d) c8 c
+		d g \tuplet 3/2 4 { fis e d c h a }
+		h16( g) d'( h) \appoggiatura h4 a2
+		g4( h8) r r fis
+		g4( h8) r r4 %185
+		d2.\startTrillSpan
+		d2 r8\stopTrillSpan a'
+		g8. a16 h8 r r4
+		h,4(\fE a8) r r4
+		c( h8) r r4 %190
+		R2.*4
+		fis'2.\startTrillSpan\pE %195
+		fis
+		fis
+		fis
+		fis4\stopTrillSpan d16 e fis g fis8 fis
+		r4 r8 cis-! d( cis) %200
+		r4 r8 d-! e( d)
+		a2.\trill
+		r8 fis16( g) fis8-\parenthesize-! fis-\parenthesize-! \once \slurDashed fis( a)
+		a2.\trill
+		r8 \slurDashed fis16( g) fis8-\parenthesize-! fis-\parenthesize-! fis( a) \slurSolid %205
+		\appoggiatura a16 g8 fis16 g fis4 r
+		fis'(\fE e8) r r4
+		g( fis8) r r4
+		fis,(\pE e8) r r4
+		g( fis8) r r4 %210
+		a2.\startTrillSpan
+		a
+		a
+		a
+		fis8(\stopTrillSpan a) a( d) d( fis) %215
+		\appoggiatura a16 g8 fis16 e d4 cis
+		a2.\startTrillSpan
+		a
+		fis
+		fis %220
+		fis
+		fis'4.\stopTrillSpan fis8 fis16( e) e( cis)
+		\appoggiatura cis8 d4 r r
+		R2.*3 %226
+		r4 r8 fis fis fis
+		fis2 fis16( e) e( cis)
+		\appoggiatura cis8 d4 r r
+		R2.*2 %231
+		cis16(\fE d e fis) g8( e) g16( e) g( e)
+		fis4 r8 fis fis fis
+		fis4 r8 fis fis fis
+		fis4 r8 fis fis fis %235
+		fis4 r8 fis32(^\critnote d16.) e32([ cis16.)] g32( e16.)
+		\appoggiatura e4 fis2 r4
+		R2.*3 %240
+		r8 d'\pE d( e) e( fis)
+		fis( g) g( a) \appoggiatura h16 a8 g16 fis
+		\appoggiatura fis8 g4 r r
+		R2.*2 %245
+		g,8 \slurDashed h16( c) h8-\parenthesize-! h-\parenthesize-! h( d) \slurSolid
+		d2.\startTrillSpan
+		d
+		h
+		h %250
+		h
+		h
+		h8\stopTrillSpan g'16 a g8 g g h
+		d,2.\startTrillSpan
+		d %255
+		d
+		d
+		r4\stopTrillSpan r8 g, a h
+		c r h r a r
+		g4 r8 h c d %260
+		e r d r c r
+		h \once \slurDashed d16.( h32) \appoggiatura h16 a8-\missgrace \once \slurDashed c16.( a32) \appoggiatura a16 g8-\missgrace \once \slurDashed h16.( g32)
+		g4 fis16 g fis e d4
+		r r8 fis-! g( fis)
+		r4 r8 g-! a( g) %265
+		R2.
+		h8. c16 h8 d16( h) h( a) a( g)
+		d'2.\trillE
+		h8. c16 h8 d16( h) h( a) a( g)
+		R2. %270
+		\once \slurDashed fis16( g a h) c8( a) c16( a) c( a)
+		h4 r r
+		fis16( g a h) c8( a) c16( a) c( a)
+		h8 e e16( d) d( c) \appoggiatura c8 h4
+		R2.*2 %276
+		d2.\startTrillSpan
+		d
+		h4\stopTrillSpan r r
+		h8.(\fE c16) a8 r r4 %280
+		c8.( d16) h8 r r4
+		R2.*2
+		h2.\startTrillSpan\pE
+		h %285
+		h
+		h4\stopTrillSpan r8 h h16( a) a( fis)
+		g4 r r
+		r r8 h\fE h h
+		h4^\critnote r8 h\pE h h %290
+		\once \slurDashed h4( h8) h16( g) a( g) g( fis)
+		g4\fE r r
+		h2.\startTrillSpan
+		h4\stopTrillSpan r r
+		\slurDashed h8( d) h( d) h( d) %295
+		h4 r r\fermata \bar "||" %296 finis
 	}
 }

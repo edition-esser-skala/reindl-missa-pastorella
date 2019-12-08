@@ -1795,7 +1795,7 @@ EtIncarnatusOrganoR = {
 		r4 r8 d'16( h) d( h) d( h)
 		g'4( d8) d16([ h)] d( h) d( h)
 		g'4( d8) d16([ h)] d( h) d( h) %290
-		<< { g'4 d8 d d16 c c a } \\ { h4 h8 h h16 a a fis } >>
+		<< { g'4 d8 d c16 h h a } \\ { h4 h8 h a16 g g fis } >>
 		g4 h8 d, d' d,
 		g4 h8 d, d' d,
 		g d h' d, d' d,

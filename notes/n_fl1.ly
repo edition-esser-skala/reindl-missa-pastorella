@@ -304,7 +304,7 @@ EtIncarnatusFlautoI = {
 		R2.
 		r8 d,16( e) d8-! d-! g( h)
 		e, g r g16( fis) \appoggiatura a g8 \once \slurDashed fis16( e)
-		d8 g16.(^\critnote d32) d16( c) g'( c,) \appoggiatura c8 h4
+		d8 g16.(^\critnote d32) d16( c) a'( c,) \appoggiatura c8 h4
 		a8 e' e16( d) d( c) c( h) h( a) %145
 		g8( h) d( h) d16( h) d( h)
 		d4 r r
@@ -331,8 +331,8 @@ EtIncarnatusFlautoI = {
 		g2 r4
 		R2.*2 %170
 		r8 e\pE e16( d) d( c) c( h) h( a)
-		\appoggiatura a8 g4 r r
-		d'8. g16 \appoggiatura g4 fis2
+		\appoggiatura a8 h4^\critnote r r
+		d8. g16 \appoggiatura g4 fis2
 		d8. g16 \appoggiatura g4 fis2
 		d2.\startTrillSpan %175
 		d
@@ -347,21 +347,21 @@ EtIncarnatusFlautoI = {
 		h4( d8) r r4 %185
 		d'2.\startTrillSpan
 		d2 r8\stopTrillSpan c
-		h h16 c d4 r
+		h8.^\critnote c16 d4 r
 		g,(\fE fis8) r r4
 		a( g8) r r4 %190
 		R2.*4
-		a2.~\pE %195
-		a~
-		a~
-		a~
-		a4 fis16 g a h a8 a
+		a2.\startTrillSpan\pE %195
+		a
+		a
+		a
+		a4\stopTrillSpan fis16 g a h a8 a
 		r4 r8 e-! fis( e) %200
 		r4 r8 fis-! g( fis)
 		a2.\trill
-		r8 a,16 h a8 a d fis
+		r8 \slurDashed a,16( h) a8-\parenthesize-! a-\parenthesize-! d( fis)
 		a2.\trill
-		r8 a,16 h a8 a d fis %205
+		r8 a,16( h) a8-\parenthesize-! a-\parenthesize-! d( fis) \slurSolid %205
 		\appoggiatura fis16 e8 d16 e d4 r
 		d'(\fE cis8) r r4
 		e( d8) r r4
@@ -397,7 +397,7 @@ EtIncarnatusFlautoI = {
 		a( h) h( c!) \appoggiatura d16 c8 h16 a
 		\appoggiatura a8 h4 r r
 		R2.*2 %245
-		h,8 d16 e d8 d g h
+		h,8 \slurDashed d16( e) d8-\parenthesize-! d-\parenthesize-! g( h) \slurSolid
 		d,8. g16 \appoggiatura g4 fis2
 		d8. g16 \appoggiatura g4 fis2
 		g2.\startTrillSpan
@@ -407,31 +407,31 @@ EtIncarnatusFlautoI = {
 		g8\stopTrillSpan h16 c h8 h h d
 		d, g \tuplet 3/2 4 { g^\critnote fis e d c h }
 		\slurDashed h16( g) d'( h) \slurSolid \appoggiatura h4 a2 %255
-		d'2.~
+		d'2.\startTrillSpan
 		d
-		r4 r8 h, c d
-		e-! r d-! r c-! r
+		r4\stopTrillSpan r8 h, c d
+		e r d r c r
 		h4 r8 d e fis %260
-		g-! r fis-! r e-! r
+		g r fis r e r
 		\slurDashed d g16.( d32) \appoggiatura d16 c8 a'16.( c,32) \appoggiatura c16 h8 g'16.( h,32) \slurSolid
 		h4 a16 h a g fis4
-		r r8 a-! h( a) %265
-		r4 r8 h-! c( h)
+		r r8 a-! h( a)
+		r4 r8 h-! c( h) %265
 		R2.
 		d8. e16 d8 g16( d) d( c) c( h)
 		d'2.\trill
-		d,8. e16 d8 g16( d) d( c) c( h) %270
-		g8( h) d( h) d16( h) d( h)
+		d,8. e16 d8 g16( d) d( c) c( h)
+		g8( h) d( h) d16( h) d( h) %270
 		d4 r r
 		g,16( a h c) d8( h) d16( h) d( h)
 		d4 r r
-		d8 g g16( fis) fis( e) d4 %275
-		R2.*2
+		d8 g g16( fis) fis( e) \appoggiatura e8 d4^\missgrace
+		R2.*2 %276
 		d'2.\startTrillSpan
 		d
 		g,4\stopTrillSpan r r
-		g8.\fE a16 fis8 r r4 %280
-		a8. h16 g8 r r4
+		\once \slurDashed g8.(\fE a16) fis8 r r4 %280
+		\once \slurDashed a8.( h16) g8 r r4
 		R2.*2
 		g2.\startTrillSpan\pE
 		g %285

@@ -971,9 +971,9 @@ EtIncarnatusViolinoI = {
 		d8 g \tuplet 3/2 4 { g8 fis e d c h }
 		h16( g) d'( h) \appoggiatura h4 a2
 		g4 r8 h c d
-		e-\parenthesize-! r d-\parenthesize-! r c-\parenthesize-! r
+		e r d r c r
 		h4 r8 d e fis %260
-		g-\parenthesize-! r fis-\parenthesize-! r e-\parenthesize-! r
+		g r fis r e r
 		d4 r r
 		R2.
 		d,8-! fis16( a) d,4 r
@@ -986,7 +986,7 @@ EtIncarnatusViolinoI = {
 		d4 r r
 		g,16( a h c) d8( h) d16( h) d( h)
 		d4 r r
-		d8 g g16( fis) fis( e) d4
+		d8 g g16( fis) fis( e) \appoggiatura e8 d4^\missgrace
 		g,4. a16( h) h( c) a( fis) %275
 		g4. a16( h) h( c) a( fis)
 		\tieDashed d'2.~
@@ -1003,7 +1003,7 @@ EtIncarnatusViolinoI = {
 		g4 r8 d'16(\fE h) d( h) d( h)
 		g'4( d8) d16([ h)] d( h) d( h)
 		g'4( d8) d16([\pE h)] d( h) d( h) %290
-		\once \slurDashed g'4( d8) d32([ h16.)] c32( a16.) a32([ fis16.)]
+		\once \slurDashed g'4( d8) d32([ h16.)] c32(^\critnote h16.) h32([ a16.)]
 		\once \tieDashed g2.~\fE
 		g
 		g4 h d
