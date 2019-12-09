@@ -1779,12 +1779,203 @@ BenedictusSopranoNotes = {
 	\relative c' {
 		\clef treble
 		\key a \major \time 3/8 \autoBeamOff \tempoBenedictus
-		
+		R4.*23 %23
+		a'4 \appoggiatura cis32 h16([ a32 gis)]
+		a16.([ d32)] cis8 r %25
+		cis4 \appoggiatura e32 d16([ cis32 h)]
+		cis16.([ fis32)] e8 r
+		a,4( e'16[ cis)]
+		cis([ h)] h8 h
+		h8. cis16 d8 %30
+		cis16 h a8 a
+		fis'[ d] r16 fis
+		e8[ cis] r16 e
+		\appoggiatura e8 d4.
+		cis16[( h)] d([ cis)] fis([ e]) %35
+		\appoggiatura e8 d4.
+		\tuplet 3/2 8 { cis16[ h a] } a8 r
+		a4( e'16[ cis])
+		cis([ h)] h4
+		h( e16[ dis32 cis)] %40
+		h16([ a] a8.)\trill gis32([ a)]
+		gis4 h8
+		h16([ e)] e8 r16 h
+		cis e e8 r
+		fis,([ gis)] a %45
+		a([ gis)] r16 cis
+		h4 gis16 h
+		a4 fis8
+		gis4( a16[ gis32 a)]
+		h4 cis16[ h32 cis] %50
+		dis4 e16[ dis32 e]
+		fis8[ fis e]
+		dis[ dis cis]
+		h[ h] a
+		gis4 h8 %55
+		h16([ e)] e8 r16 h
+		cis e e8 r
+		fis,([ gis)] a
+		\appoggiatura a gis4 gis8
+		gis([ e)] a16([ fis)] %60
+		h8([ gis)] a16([ fis)]
+		e'4.\startTrillSpan
+		e
+		gis,8([\stopTrillSpan e)] a16([ fis)]
+		h8([ gis)] a16 fis %65
+		e4.(
+		fis'4)\trillE fis8
+		e4 r8
+		R4.*12 %80
+		e,4 \appoggiatura gis32 fis16([ e32 dis)]
+		e16([ a)] \appoggiatura a8 gis4
+		gis \appoggiatura h32 a16([ gis32 fis)]
+		gis16([ cis)] h8. h16
+		\appoggiatura h8 a4. %85
+		gis16([ fis)] a([ gis)] cis([ h)]
+		h([ a)] a8 a
+		\tuplet 3/2 8 { gis16[ e gis] a[ fis a] h[ gis h] }
+		\tuplet 3/2 8 { cis[ a cis] d![ h d] e[( cis]) e }
+		d8. d16 cis8 %90
+		R4.*4
+		a4 \appoggiatura cis32 h16([ a32 gis)] %95
+		a16.([ d32)] cis4
+		cis \appoggiatura e32 d16([ cis32 h)]
+		cis16.([ fis32)] e4
+		d4.
+		cis16([ h)] d([ cis)] fis([ e)] %100
+		\appoggiatura e8 d4.
+		cis32([ h cis d)] e8 r16 fis
+		e4 cis16 e
+		d8. d16 h8
+		a([ fis')] dis %105
+		\appoggiatura dis? e4 r8
+		e4 cis16([ a)]
+		a([ gis)] gis4
+		e'( cis16[ a)]
+		g([ fis)] fis4 %110
+		fis' dis16([ h)]
+		h([ ais)] ais4
+		fis'( dis16[ a)]
+		a([ gis!)] gis4
+		e'( h16_[ gis)] %115
+		\tuplet 3/2 8 { a[( e a] cis^[ a cis)] } e8
+		e4( cis16[ a)]
+		\tuplet 3/2 8 { gis([ e gis] h[ gis h)] } e8
+		cis,4( \appoggiatura e32 d16[ cis32 d)]
+		e4 fis16[ e32 fis] %120
+		gis4 a16[ gis32 a]
+		h8. d16 cis([ e)]
+		d8. d16 cis a
+		cis8([ a)] d16([ h)]
+		e8([ cis)] d16([ h)] %125
+		a4.\startTrillSpan
+		a
+		cis8([\stopTrillSpan a)] d16([ h)]
+		e8([ cis)] d16 h
+		e,4.( %130
+		h'4)\trill h8
+		a4 r8
+		R4.*13 %145
+		R4.\fermataMarkup \bar "|." %146 FINIS
 	}
 }
 
 BenedictusSopranoLyrics = \lyricmode {
+	Be -- ne -- %24
+	di -- ctus, %25
+	be -- ne --
+	di -- ctus,
+	qui __
+	ve -- nit in
+	no -- mi -- ne %30
+	Do -- mi -- ni, qui
+	ve -- _
+	_ _
+	_
+	_ _ _ %35
+	_
+	_ nit,
+	qui __
+	ve -- nit
+	in __ %40
+	no -- mi --
+	ne, qui
+	ve -- nit in
+	no -- mi -- ne
+	Do -- mi %45
+	ni, __ qui
+	ve -- nit, qui
+	ve -- nit
+	in __
+	no -- _ %50
+	_ _
+	_
+	_
+	_ mi --
+	ne, qui %55
+	ve -- nit in
+	no -- mi -- ne
+	Do -- mi --
+	ni, in
+	no -- _ %60
+	_ _
+	_
+	_
+	_ _
+	_ mi -- ne %65
+	Do --
+	mi --
+	ni.
 	
+	Be -- ne -- %81
+	di -- ctus,
+	be -- ne --
+	di -- ctus, qui
+	ve -- %85
+	_ _ _
+	_ nit in
+	no -- _ _
+	_ _ mi -- ne
+	Do -- mi -- ni. %90
+	
+	Be -- ne -- %95
+	di -- ctus,
+	be -- ne --
+	di -- ctus,
+	qui
+	ve -- _ _ %100
+	_
+	_ nit, qui
+	ve -- nit in
+	no -- mi -- ne
+	Do -- mi -- %105
+	ni.
+	Be -- ne --
+	di -- ctus,
+	qui __
+	ve -- nit, %110
+	be -- ne --
+	di -- ctus,
+	qui __
+	ve -- nit,
+	qui __ %115
+	ve -- nit,
+	qui __
+	ve -- nit
+	in __
+	no -- _ %120
+	_ _
+	_ mi -- ne
+	Do -- mi -- ni, in
+	no -- _
+	_ _ %125
+	_
+	_
+	_ _
+	_ mi -- ne
+	Do -- %130
+	mi --
+	ni. %132 FINIS
 }
 
 % SopranoNotes = {
