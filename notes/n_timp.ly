@@ -266,6 +266,37 @@ SanctusTimpani = {
 	\relative c {
 		\clef bass
 		\key c \major \time 12/8 \tempoSanctus
-		
+		c4\fE r8 r4 r8 r2.
+		c4 r8 r4 r8 r2.
+		c4 r8 r4 r8 r2.
+		r4 r8 r g g c c c c4 r8
+		R1.*2 %6
+		g8 g g g g g g4 r8 r4 r8
+		R1.
+		c4.\pE r4 g8 c c\fE c c4 r8
+		R1. %10
+		r4 r8 r4 g8\pE c c\fE c c4 r8
+		R1.
+		g4 r8 c4 r8 g g g g4 r8
+		R1.*5 %18
+		g4 r8 r4 r8 r2.
+		R1. %20
+		r2. g8 g g g4.
+		R1.
+		g8 g g g4. r2.
+		R1.*6 %29
+		r4 r8 r4 g8 c4 r8 r4 r8 %30
+		g4. c g8 g g g4 r8
+		R1.*2
+		g8 g g g g g g4 r8 r4 r8
+		R1.*2 %36
+		r2. c8 c c c4 r8
+		R1.
+		r2. g8 g g g g g
+		c4 r8 r4 r8 r2. %40
+		R1.*2
+		r2. r4 r8 g4 g8
+		c4 r8 r4 r8 c c c c c c
+		c4 r8 r4 r8 r2.\fermata \bar "|."
 	}
 }
