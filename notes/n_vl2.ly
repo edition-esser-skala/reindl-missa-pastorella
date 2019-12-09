@@ -1165,3 +1165,11 @@ SanctusViolinoII = {
 		<fis a, d,>4 r8 r4 r8 r2.\fermata \bar "|." %45 FINIS
 	}
 }
+
+BenedictusViolinoII = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 3/8 \tempoBenedictus
+		
+	}
+}

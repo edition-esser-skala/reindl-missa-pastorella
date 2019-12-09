@@ -448,3 +448,11 @@ EtIncarnatusFlautoI = {
 		g4 r r\fermata \bar "||" %296 finis
 	}
 }
+
+BenedictusFlautoI = {
+	\relative c' {
+		\clef treble
+		\key a \major \time 3/8 \tempoBenedictus
+		
+	}
+}

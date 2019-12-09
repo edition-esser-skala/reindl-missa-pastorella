@@ -2532,6 +2532,18 @@ SanctusBassFigures = \figuremode {
 	r %45 FINIS
 }
 
+BenedictusOrgano = {
+	\relative c {
+		\clef bass
+		\key a \major \time 3/8 \tempoBenedictus
+		\mvTr a'8\fE-\soloE a a
+	}
+}
+
+BenedictusBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass
