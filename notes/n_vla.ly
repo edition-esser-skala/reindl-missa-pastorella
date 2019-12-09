@@ -1106,7 +1106,7 @@ EtResurrexitViola = {
 
 SanctusViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key d \major \time 12/8 \tempoSanctus
 		d4\fE fis8 fis4 a8 a4 fis8 fis4 d8
 		d4 g8 g4 h8 h4 g8 g4 d8
