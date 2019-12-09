@@ -335,7 +335,7 @@ SanctusTrombaI = {
 		r4 r8 r4 e8 d4 e8 d4 e8
 		f4 r8 e4 r8 d d d d4 r8
 		R1.*3 %16
-		d4 r8 r4 r8 r2.
+		\pao d4 r8 r4 r8 r2.
 		r g4. fis
 		g4 r8 r4 r8 r2.
 		R1. %20

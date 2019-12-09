@@ -692,6 +692,45 @@ SanctusCornoII = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 12/8 \tempoSanctus
-		
+		e'2.\fE e
+		f1.
+		e
+		r4 r8 g,4 d'8 c4 g8 e4 r8
+		R1.*2 %6
+		g8 g g g g g g4 r8 r4 r8
+		c,1.\pE
+		c4. g c4 r8 r4 r8
+		R1. %10
+		e'4. d c8 c\fE c c4 c8
+		g4 c8 g4 c8 g2.
+		g4 r8 c,4 r8 g g g g4 r8
+		R1.*3 %16
+		d''1.
+		d4 r8 r4 r8 d4. d
+		g,4 r8 r4 r8 r2.
+		g,1.~ %20
+		g4 r8 r4 r8 r2.
+		r r4 r8 d''4 d8
+		g, g g g g g g4 r8 r4 r8
+		R1.*2 %25
+		e8 e e e e e e4. e4 r8
+		R1.*2
+		r2. d'4. d
+		g,2. c, %30
+		g'4. c c g4 r8
+		R1.
+		g,4 r8 r4 r8 r2.
+		g8 g g g g g g4 r8 r4 r8
+		g'4.\pE d' c4 r8 r4 r8 %35
+		g4. d' c8 c c c c c
+		c c c c c c c4 r8 r4 r8
+		g1.\fE
+		g4. c c g
+		c,4 r8 r4 r8 c4 r8 r4 r8 %40
+		c c c c c c c4 r8 r4 r8
+		e'4 d8 c4 g8 c, c c c c c
+		c c c c c c c4 r8 r4 g'8
+		c,2. c
+		c4 r8 r4 r8 r2.\fermata \bar "|." %45 FINIS
 	}
 }
