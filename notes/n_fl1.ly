@@ -579,3 +579,11 @@ BenedictusFlautoI = {
 		\appoggiatura h8 a4 r8\fermata \bar "|." %146 FINIS
 	}
 }
+
+AgnusDeiFlautoI = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 3/4 \tempoAgnusDei
+		
+	}
+}

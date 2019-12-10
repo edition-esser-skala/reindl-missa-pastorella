@@ -642,20 +642,73 @@
 % 			\midi { \tempo 4. = 80 }
 % 		}
 % 	}
+% 	\bookpart {
+% 		\header {
+% 			movement = "5 BENEDICTUS"
+% 		}
+% 		\paper {
+% 			systems-per-page = #2
+% 			system-system-spacing.basic-distance = #20
+% 			system-system-spacing.minimum-distance = #20
+% 			top-system-spacing.basic-distance = #10
+% 			top-system-spacing.minimum-distance = #10
+% 			top-markup-spacing.basic-distance = #0
+% 			top-markup-spacing.minimum-distance = #0
+% 			markup-system-spacing.basic-distance = #10
+% 			markup-system-spacing.minimum-distance = #10
+% 		}
+% 		\score {
+% 			<<
+% 				\new StaffGroup <<
+% 					\new GrandStaff <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Flauto I"
+% 							\BenedictusFlautoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Flauto II"
+% 							\BenedictusFlautoII
+% 						}
+% 					>>
+% 				>>
+% 				\new StaffGroup <<
+% 					\new GrandStaff \with { \violinGroupDistance } <<
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino I"
+% 							\BenedictusViolinoI
+% 						}
+% 						\new Staff {
+% 							\set Staff.instrumentName = "Violino II"
+% 							\BenedictusViolinoII
+% 						}
+% 					>>
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Viola"
+% 						\BenedictusViola
+% 					}
+% 				>>
+% 				\new Staff {
+% 					\set Staff.instrumentName = \markup { \center-column { "Soprano" "solo" } }
+% 					\new Voice = "Soprano" { \dynamicUp \BenedictusSopranoNotes }
+% 				}
+% 				\new Lyrics \lyricsto Soprano \BenedictusSopranoLyrics
+% 				\new StaffGroup <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = "Organo"
+% 						\BenedictusOrgano
+% 					}
+% 				>>
+% 				\new FiguredBass {
+% 					\BenedictusBassFigures
+% 				}
+% 			>>
+% 			\layout { }
+% 			\midi { \tempo 4. = 40 }
+% 		}
+% 	}
 	\bookpart {
 		\header {
-			movement = "5 BENEDICTUS"
-		}
-		\paper {
-			systems-per-page = #2
-			system-system-spacing.basic-distance = #20
-			system-system-spacing.minimum-distance = #20
-			top-system-spacing.basic-distance = #10
-			top-system-spacing.minimum-distance = #10
-			top-markup-spacing.basic-distance = #0
-			top-markup-spacing.minimum-distance = #0
-			markup-system-spacing.basic-distance = #10
-			markup-system-spacing.minimum-distance = #10
+			movement = "6.1 AGNUS DEI"
 		}
 		\score {
 			<<
@@ -663,47 +716,67 @@
 					\new GrandStaff <<
 						\new Staff {
 							\set Staff.instrumentName = "Flauto I"
-							\BenedictusFlautoI
+							\AgnusDeiFlautoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Flauto II"
-							\BenedictusFlautoII
+							\AgnusDeiFlautoII
 						}
+					>>
+				>>
+				\new StaffGroup <<
+					\new Staff <<
+						\set Staff.instrumentName = \markup { \center-column { "Corno I, II" "ex D" } }
+						\partcombine \AgnusDeiCornoI \AgnusDeiCornoII
 					>>
 				>>
 				\new StaffGroup <<
 					\new GrandStaff \with { \violinGroupDistance } <<
 						\new Staff {
 							\set Staff.instrumentName = "Violino I"
-							\BenedictusViolinoI
+							\AgnusDeiViolinoI
 						}
 						\new Staff {
 							\set Staff.instrumentName = "Violino II"
-							\BenedictusViolinoII
+							\AgnusDeiViolinoII
 						}
 					>>
 					\new Staff {
 						\set Staff.instrumentName = "Viola"
-						\BenedictusViola
+						\AgnusDeiViola
 					}
 				>>
-				\new Staff {
-					\set Staff.instrumentName = \markup { \center-column { "Soprano" "solo" } }
-					\new Voice = "Soprano" { \dynamicUp \BenedictusSopranoNotes }
-				}
-				\new Lyrics \lyricsto Soprano \BenedictusSopranoLyrics
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = \markup { \center-column { "Alto" "solo" } }
+						\new Voice = "Alto" { \dynamicUp \AgnusDeiAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \AgnusDeiAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = \markup { \center-column { "Tenore" "solo" } }
+						\new Voice = "Tenore" { \dynamicUp \AgnusDeiTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \AgnusDeiTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = \markup { \center-column { "Basso" "solo" } }
+						\new Voice = "Basso" { \dynamicUp \AgnusDeiBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \AgnusDeiBassoLyrics
+				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
-						\BenedictusOrgano
+						\AgnusDeiOrgano
 					}
 				>>
 				\new FiguredBass {
-					\BenedictusBassFigures
+					\AgnusDeiBassFigures
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4. = 40 }
+			\midi { \tempo 4 = 120 }
 		}
 	}
 }

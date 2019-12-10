@@ -2819,6 +2819,18 @@ BenedictusBassFigures = \figuremode {
 	r4. %146 FINIS
 }
 
+AgnusDeiOrgano = {
+	\relative c {
+		\clef bass
+		\key d \major \time 3/4 \tempoAgnusDei
+		\mvTr d4\fE-\soloE fis a
+	}
+}
+
+AgnusDeiBassFigures = \figuremode {
+	
+}
+
 % Organo = {
 % 	\relative c {
 % 		\clef bass

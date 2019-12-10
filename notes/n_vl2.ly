@@ -1315,3 +1315,11 @@ BenedictusViolinoII = {
 		\appoggiatura gis8 a4-\missgrace r8\fermata \bar "|."
 	}
 }
+
+AgnusDeiViolinoII = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 3/4 \tempoAgnusDei
+		
+	}
+}

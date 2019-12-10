@@ -1203,6 +1203,18 @@ SanctusTenoreLyrics = \lyricmode {
 	sis. %40 FINIS
 }
 
+AgnusDeiTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key c \major \time 3/4 \autoBeamOff \tempoAgnusDei
+		
+	}
+}
+
+AgnusDeiTenoreLyrics = \lyricmode {
+	
+}
+
 % TenoreNotes = {
 % 	\relative c' {
 % 		\clef "treble_8"

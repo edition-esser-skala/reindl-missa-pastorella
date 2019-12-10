@@ -734,3 +734,11 @@ SanctusCornoI = {
 		c4 r8 r4 r8 r2.\fermata \bar "|." %45 FINIS
 	}
 }
+
+AgnusDeiCornoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 3/4 \tempoAgnusDei
+		
+	}
+}

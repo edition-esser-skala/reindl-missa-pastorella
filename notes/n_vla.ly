@@ -1303,3 +1303,11 @@ BenedictusViola = {
 		\appoggiatura d cis4^\missgrace r8\fermata \bar "|." %146 FINIS
 	}
 }
+
+AgnusDeiViola = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 3/4 \tempoAgnusDei
+		
+	}
+}

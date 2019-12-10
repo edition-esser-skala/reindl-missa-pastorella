@@ -577,3 +577,11 @@ BenedictusFlautoII = {
 		\appoggiatura gis8 a4 r8\fermata \bar "|." %146 FINIS
 	}
 }
+
+AgnusDeiFlautoII = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 3/4 \tempoAgnusDei
+		
+	}
+}
