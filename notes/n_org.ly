@@ -2824,11 +2824,191 @@ AgnusDeiOrgano = {
 		\clef bass
 		\key d \major \time 3/4 \tempoAgnusDei
 		\mvTr d4\fE-\soloE fis a
+		d8 d, d d d d
+		a' a a a a a
+		d,4 r r
+		d'8 d d d d d %5
+		a a a a a a
+		d, d d d d d
+		a' a a a a a
+		d d d d d d
+		d,4 e fis %10
+		g a h
+		a cis, d
+		a' a, r
+		R2.*2 %15
+		fis'8 fis fis fis fis fis
+		g4 a a,
+		d r a'
+		d, r a
+		d a d, %20
+		d'\p fis a
+		d8 d, d d d d
+		a' a a a a a
+		d d, d d d d
+		a' a a a a a %25
+		d,4 d, r
+		r8 d' d d d d
+		r a a a a a
+		d4-! f-! a-!
+		d-! b-! a-! %30
+		gis8 gis gis gis gis gis
+		a a a a a a
+		d d d d d d
+		d d cis cis a a
+		e e e e e e %35
+		a4 a, r
+		R2.*2
+		cis8 cis cis cis cis cis
+		d d d d d d %40
+		d d d d d d
+		e4 e e
+		a8 a a a a a
+		a4 e r8 e
+		a4 e r8 e %45
+		a4 r r
+		r8 a gis fis e d
+		cis fis e d cis h
+		a d e4 e,
+		a cis e %50
+		a r r
+		cis,8 cis cis cis cis cis
+		d4 e e,
+		a r e'
+		a r e %55
+		a,8 a' a a a a
+		h h h h h h
+		dis, dis dis dis dis dis
+		r e e e e e
+		e4 h r8 h %60
+		e4 h r8 h
+		e4 h e,
+		g'8 g g g g g
+		fis fis fis fis fis fis
+		a,4 d r %65
+		d a r8 a
+		d4 a r8 a
+		d8 d d d d d
+		a' a a a a a
+		d, d d d d d %70
+		a' a a a a a
+		d d, d( fis) fis( a)
+		d2 d,4
+		a' a, r8 a'
+		d4 a r8 a, %75
+		d4 a r
+		r8 d' cis h a g
+		fis h a g fis e
+		d g a4 a,
+		d r r8 a' %80
+		d4 a r8 a,
+		d4 a r
+		r8 d' cis h a g
+		fis h a g fis e
+		d g a4 a, %85
+		d8 d d d d d
+		d4\f fis a
+		d r r
+		fis,8 fis fis fis fis fis
+		g4 a a, %90
+		d r a'
+		d, r a'
+		d a d,\fermata \bar "||" %93 finis
 	}
 }
 
 AgnusDeiBassFigures = \figuremode {
-	
+	r4 <[6]> <7>
+	r2.
+	<5 3>8 <6 4> <8 6> <\t \t> <7 5> <\t \t>
+	r2.
+	r %5
+	<4>4 <3>2
+	r2.
+	r
+	r
+	r %10
+	r4 <7>8 <6> <[6]>4
+	r <5!> r
+	<6 4> <5 3>2
+	r2.*2 %15
+	<[6]>2.
+	<6>4 <[6] 4> <[5] 3>
+	r2 <7>4
+	r2 q4
+	r2. %20
+	r4 <[6]> <[7]>
+	r2.
+	<5 3>8 <6 4> <8 6> <\t \t> <7 5> <\t \t>
+	r2.
+	r %25
+	r
+	r8 <_!> r2
+	r8 <_+> r2
+	r2.
+	r %30
+	<7! 5>
+	<_+>
+	<_+>4 <6> <5>
+	<4\+ 2> <6>2
+	<6 4>4 <5 _+>2 %35
+	r2.
+	r2.*2
+	<3>2 <_+>4
+	<2+> <3>2 %40
+	<5+>4 <6>2
+	<5 _+>4 <6 4> <7 5 [_+]>
+	r2.
+	<6 4>4 <5 _+>2
+	<6 4>4 <5 _+>2 %45
+	r2.
+	r8 <8 3> \bassFigureExtendersOn q2
+	q2.
+	q8 \bassFigureExtendersOff <6> <[6] 4>4 <[5] _+>
+	r <[6]> <[7 _+]> %50
+	r2.
+	<6>
+	<6>4 <[6] 4> <[5] _+>
+	r2 <_+>4
+	r2 <7 _+>4 %55
+	r2 <6>8 <7>
+	<_+>2.
+	<6>4 <5>2
+	r8 <_!> r2
+	r4 <_+>2 %60
+	<_!>4 <_+>2
+	<_!>4 <_+> <_!>
+	<5\+>4 <6>2
+	<7>4 <6>2
+	<7 5>2. %65
+	r2.
+	r
+	r
+	r
+	r %70
+	r
+	<8 3>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff
+	r2.
+	<6 4>4 <5 3>4. <7>8
+	r2 r8 <7> %75
+	r2.
+	r8 <8 3> \bassFigureExtendersOn q2
+	q2.
+	q8 \bassFigureExtendersOff <6> <6 4>4 <5 3>
+	r2 r8 <7> %80
+	r2 r8 <7>
+	r2.
+	r8 <8 3> \bassFigureExtendersOn q2
+	q2.
+	q8 \bassFigureExtendersOff <6> <6 4>4 <5 3> %85
+	r2.
+	r4 <[6]> <[7]>
+	r2.
+	<[6]>
+	<6>4 <[6] 4> <[5] 3> %90
+	r2.
+	r
+	r %93 FINIS
 }
 
 % Organo = {
