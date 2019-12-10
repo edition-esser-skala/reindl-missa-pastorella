@@ -2544,10 +2544,10 @@ BenedictusOrgano = {
 		r d d
 		e fis gis
 		a a, r
-		r4 e'8
-		a e r %10
-		r4 e8
-		a e r
+		r4 e'8-\parenthesize-!
+		\once \slurDashed a( e) r %10
+		r4 e8-\parenthesize-!
+		\once \slurDashed a( e) r
 		r cis fis
 		r h, e
 		a-! fis-! dis-! %15
@@ -2636,7 +2636,7 @@ BenedictusOrgano = {
 		r cis,( fis)
 		r h,( e)
 		a-! fis-! dis-! %105
-		\appoggiatura dis? e4 r8
+		\appoggiatura dis e4 r8
 		r a, a
 		r h h
 		r cis cis

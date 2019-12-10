@@ -1172,7 +1172,150 @@ BenedictusViolinoI = {
 	\relative c' {
 		\clef treble
 		\key a \major \time 3/8 \tempoBenedictus
-		
+		a'4\fE \appoggiatura cis32 h16( a32 gis)
+		\once \slurDashed a16.([ d32)] cis8 r
+		cis4 \appoggiatura e32 d16( cis32 h)
+		cis16.([ fis32)] e8 r
+		e a, r16 cis %5
+		cis4( h8)
+		gis'16 h \tuplet 3/2 8 { h[ a gis] fis e d }
+		d8 cis e32([ dis e fis)]
+		e4 e,8-\parenthesize-!
+		a( e) e'32([ dis e fis)] %10
+		e4 e,8-\parenthesize-!
+		a( e) r16 fis'
+		e4 cis16( e)
+		d4( h8)
+		a fis dis %15
+		dis4( e8)
+		R4.
+		r4 gis'32( a16.)
+		\appoggiatura gis32 fis16( e32 d) cis8[ h]
+		cis'-! cis( gis) %20
+		a-! a( e)
+		fis16( d) d([ cis)] cis( h)
+		\appoggiatura h8 a4 r8
+		a4\p \appoggiatura cis32 h16( a32 gis)
+		a16.([ d32)] cis8 r %25
+		cis4 \appoggiatura e32 d16( cis32 h)
+		\once \slurDashed cis16.([ fis32)] e8 r
+		r a, a
+		r h h
+		h8. cis16 d8 %30
+		cis4 r8
+		fis( d) r16 fis-!
+		e8( cis) r16 e-\parenthesize-!
+		\appoggiatura e8 d4.\trill-\missgrace
+		cis16( h) d([ cis)] fis(^\critnote e) %35
+		\appoggiatura e8 d4.\trill-\missgrace
+		cis4 r8
+		r e e
+		r e e
+		r e e %40
+		r a, a
+		gis4 r8
+		r8 e'32([ dis e fis)] e8
+		r16 e e32([ dis e fis)] e8-!
+		fis, gis a %45
+		\appoggiatura a gis4 r16 cis
+		h4 gis16( h)
+		a4 fis8
+		gis4 \appoggiatura h32 a16( gis32 a)
+		h4 \appoggiatura dis32 cis16( h32 cis) %50
+		dis4 \appoggiatura fis32 e16( dis32 e)
+		fis8-! fis( e)
+		dis-! dis( cis)
+		h-! h( a)
+		\appoggiatura a gis4 r8 %55
+		r e'32([ dis e fis)] e8
+		r e32([ dis e fis)] e8
+		fis, gis a
+		\appoggiatura a gis4 r8
+		R4.*2 %61
+		\once \slurDashed gis8( e) a16([ fis)]
+		h8( gis) a16([ fis)]
+		e4 r8
+		R4. %65
+		r16 e' e e e e
+		r fis fis fis fis fis
+		e4\f h'32( ais h cis)
+		h4 h,,8-\parenthesize-!
+		\once \slurDashed e( h) h'32([ ais h cis)] %70
+		h4 h,8-\parenthesize-!
+		\once \slurDashed e( h) r
+		R4.
+		r4 dis'32([ e16.)]
+		\appoggiatura dis?32 cis16( h32 a) gis8[ fis] %75
+		h'-! h( gis)
+		gis-! gis( dis)
+		e-! e( h)
+		cis16([ a)] a([ gis)] gis([ fis)]
+		\appoggiatura fis8 e4 r8 %80
+		e4 \appoggiatura gis32 fis16(-\missgrace e32 dis)
+		\once \slurDashed e16.([ a32)] \appoggiatura a8 gis8-\missgrace r
+		gis4 \appoggiatura h32 a16( gis32 fis)
+		\once \slurDashed gis16.([ cis32)] h4
+		\appoggiatura h8 a4.-\missgrace %85
+		gis16([ fis)] a([ gis)] cis([ h)]
+		\appoggiatura h8 a4.-\missgrace
+		gis16 r a r h r
+		cis r d! r e r
+		d4 cis8 %90
+		e, e e
+		e e e
+		e e e
+		a,4 r8
+		a'4 \appoggiatura cis32 h16( a32 gis) %95
+		\once \slurDashed a16.( d32) cis4
+		cis \appoggiatura e32 d16( cis32 h)
+		\once \slurDashed cis16.( fis32) e4
+		\appoggiatura e8 d4.^\missgrace
+		cis16( h) d[( cis)] fis( e) %100
+		\appoggiatura e8 d4.^\missgrace
+		cis16.([ d32)] e8 r16 fis
+		e4 cis16( e)
+		d4 h8
+		a fis' dis %105
+		\appoggiatura dis8 e4^\missgrace r8
+		r cis cis
+		r d! d
+		r e e
+		r d d %110
+		r dis dis
+		r e e
+		r fis fis
+		r e e
+		r e e %115
+		r e e
+		r e e
+		r e e
+		cis,4 \appoggiatura e32 d16(-\missgrace cis32 d)
+		e4 \appoggiatura gis32 fis16( e32 fis) %120
+		gis4 \appoggiatura h32 a16( gis32 a)
+		h8. d16 cis([ e)]
+		d4 cis8
+		R4.*2 %125
+		\once \slurDashed cis,8( a) d16([ h)]
+		\once \slurDashed e8( cis) d16([ h)]
+		a4 r8
+		r4 d'8
+		cis16^\critnote cis cis cis cis cis %130
+		h h h h h h
+		a4\f e'32([ dis e fis)]
+		e4 e,8-\parenthesize-!
+		a( e) e'32([ dis e fis)]
+		e4 e,8-\parenthesize-! %135
+		a( e) r
+		R4.
+		r4 gis'32( a16.)
+		\appoggiatura gis32 fis16( e32 d) cis8[ h]\trill
+		cis'-! cis( gis) %140
+		a-! a( e)
+		fis16( d) d([ cis)] cis( h)
+		cis'8-! cis( gis)
+		a-! a( e)
+		fis16( d) d([ cis)] cis( h) %145
+		\appoggiatura h8 a4 r8\fermata \bar "|." %146 FINIS
 	}
 }
 
