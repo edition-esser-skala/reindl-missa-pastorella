@@ -2548,8 +2548,8 @@ BenedictusOrgano = {
 		\once \slurDashed a( e) r %10
 		r4 e8-\parenthesize-!
 		\once \slurDashed a( e) r
-		r cis fis
-		r h, e
+		r \once \slurDashed cis( fis)
+		r \once \slurDashed h,( e)
 		a-! fis-! dis-! %15
 		dis?4( e8)
 		R4.

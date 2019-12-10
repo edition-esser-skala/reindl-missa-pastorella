@@ -1160,6 +1160,146 @@ BenedictusViola = {
 	\relative c' {
 		\clef treble
 		\key a \major \time 3/8 \tempoBenedictus
-		
+		a8\fE a a
+		a a a
+		a a a
+		a a a
+		r e' e %5
+		r fis fis
+		e fis gis^\critnote
+		a4 a8-\parenthesize-!
+		gis([ h)] e,-!
+		a([ e)] a-! %10
+		gis([ h)] e,-!
+		\once \slurDashed a( e) r
+		r cis( fis)
+		r h,( e)
+		a fis dis %15
+		dis4( e8)
+		a, a a
+		a a cis
+		d e e,
+		R4.*2 %21
+		d'8 e e
+		\appoggiatura d cis4^\missgrace r8
+		a\p a a
+		a a a %25
+		a a a
+		a a a
+		r e' e
+		r fis fis
+		e4 e8 %30
+		e4 r8
+		a a a
+		a a a
+		fis h gis
+		a4. %35
+		fis8 h gis
+		a4 r8
+		r cis( a)
+		r gis( e)
+		r gis( e) %40
+		r \once \slurDashed h( dis)
+		h4 r8
+		r gis gis
+		r a a
+		h h h %45
+		cis4 r8
+		r gis'( cis)
+		r fis,( h)
+		e, e e
+		e e e %50
+		h h h
+		h h h
+		h4 r8
+		r4 dis8
+		h4 r8 %55
+		r gis gis
+		r a a
+		h h h
+		cis4 r8
+		e4 r8 %60
+		R4.
+		gis8( e) a16([ fis)]
+		h8( gis) a16([ fis)]
+		e4 r8
+		r 4 cis8 %65
+		r16 h h h h h
+		r dis dis dis dis dis
+		e4 e8-\parenthesize-!\f
+		dis([ fis)] h,-!
+		\once \slurDashed e([ h)] e-\parenthesize-! %70
+		dis([ fis)] h,-\parenthesize-!
+		\once \slurDashed e( h) r
+		e, e e
+		e4 r8
+		a h h %75
+		R4.*3
+		cis8 h a
+		\appoggiatura a gis4-\missgrace r8 %80
+		e\p e e
+		e e e
+		e e e
+		e e e
+		cis' fis dis %85
+		e4 r8
+		cis fis dis
+		e4^\critnote r8
+		R4.
+		gis4 e8 %90
+		e, e e
+		e e e
+		e e e
+		a4 r8
+		a a a %95
+		a a a
+		a a a
+		a a a
+		fis' h gis
+		e a a %100
+		fis h gis
+		a4 r8
+		r cis,( fis)
+		r h,( e)
+		a fis dis %105
+		\appoggiatura dis8 e4^\missgrace r8
+		r a, a
+		r h h
+		r a a
+		r a a %110
+		r h h
+		r cis cis
+		r h h
+		r h h
+		r gis' gis %115
+		r a a
+		r a a
+		r gis gis
+		a, a a
+		a a a %120
+		e' e e
+		e4 a8
+		e4 e8
+		a,4 r8
+		R4. %125
+		cis8( a) d16([ h)]
+		e8( cis) d16([ h)]
+		a4 r8
+		r4 fis'8
+		e16^\critnote e e e e e %130
+		e e e e e e
+		cis4 a'8\f
+		gis([ h)] e,-\parenthesize-!
+		a([ e)] a-\parenthesize-!
+		gis([ h)] e,-\parenthesize-! %135
+		a( e) r
+		a, a a
+		a4 cis8
+		d e e,
+		R4.*2 %141
+		d'8 e e,
+		R4.*2
+		d'8 e d %145
+		\appoggiatura d cis4^\missgrace r8\fermata \bar "|." %146 FINIS
 	}
 }
