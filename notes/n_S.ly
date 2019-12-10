@@ -1829,7 +1829,7 @@ BenedictusSopranoNotes = {
 		e,4 \appoggiatura gis32 fis16([ e32 dis)]
 		e16.([^\critnote a32)] \appoggiatura a8 gis4
 		gis \appoggiatura h32 a16([ gis32 fis)]
-		gis16.([^\critnote cis32)] h8. h16
+		gis16.([^\critnote cis32)] \appoggiatura cis8 h8.^\missgrace h16
 		\appoggiatura h8 a4. %85
 		gis16([ fis)] a([ gis)] cis([ h)]
 		h([ a)] a8 a
@@ -1838,9 +1838,9 @@ BenedictusSopranoNotes = {
 		d8. d16 cis8 %90
 		R4.*4
 		a4 \appoggiatura cis32 h16([ a32 gis)] %95
-		a16.([ d32)] cis4
+		a16.([ d32)] \appoggiatura d8 cis4^\missgrace
 		cis \appoggiatura e32 d16([ cis32 h)]
-		cis16.([ fis32)] e4
+		cis16.([ fis32)] \appoggiatura fis8 e4^\missgrace
 		\appoggiatura e8 d4.^\missgrace
 		cis16([ h)] d([ cis)] fis([ e)] %100
 		\appoggiatura e8 d4.

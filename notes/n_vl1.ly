@@ -1176,7 +1176,7 @@ BenedictusViolinoI = {
 		\once \slurDashed a16.([ d32)] cis8 r
 		cis4 \appoggiatura e32 d16( cis32 h)
 		cis16.([ fis32)] e8 r
-		e a, r16 cis %5
+		\once \slurDashed e( a,) r16 cis %5
 		cis4( h8)
 		gis'16 h \tuplet 3/2 8 { h[ a gis] fis e d }
 		d8 cis e32([ dis e fis)]
@@ -1238,7 +1238,7 @@ BenedictusViolinoI = {
 		R4. %65
 		r16 e' e e e e
 		r fis fis fis fis fis
-		e4\f h'32( ais h cis)
+		e4 h'32(\f ais h cis)
 		h4 h,,8-\parenthesize-!
 		\once \slurDashed e( h) h'32([ ais h cis)] %70
 		h4 h,8-\parenthesize-!
@@ -1251,10 +1251,10 @@ BenedictusViolinoI = {
 		e-! e( h)
 		cis16([ a)] a([ gis)] gis([ fis)]
 		\appoggiatura fis8 e4 r8 %80
-		e4 \appoggiatura gis32 fis16(-\missgrace e32 dis)
+		e4\p \appoggiatura gis32 fis16(-\missgrace e32 dis)
 		\once \slurDashed e16.([ a32)] \appoggiatura a8 gis8-\missgrace r
 		gis4 \appoggiatura h32 a16( gis32 fis)
-		\once \slurDashed gis16.([ cis32)] h4
+		\once \slurDashed gis16.([ cis32)] \appoggiatura cis8 h4^\missgrace
 		\appoggiatura h8 a4.-\missgrace %85
 		gis16([ fis)] a([ gis)] cis([ h)]
 		\appoggiatura h8 a4.-\missgrace
@@ -1266,9 +1266,9 @@ BenedictusViolinoI = {
 		e e e
 		a,4 r8
 		a'4 \appoggiatura cis32 h16( a32 gis) %95
-		\once \slurDashed a16.( d32) cis4
+		\once \slurDashed a16.( d32) \appoggiatura d8 cis4^\missgrace
 		cis \appoggiatura e32 d16( cis32 h)
-		\once \slurDashed cis16.( fis32) e4
+		\once \slurDashed cis16.( fis32) \appoggiatura fis8 e4^\missgrace
 		\appoggiatura e8 d4.^\missgrace
 		cis16( h) d[( cis)] fis( e) %100
 		\appoggiatura e8 d4.^\missgrace
@@ -1301,7 +1301,7 @@ BenedictusViolinoI = {
 		r4 d'8
 		cis16^\critnote cis cis cis cis cis %130
 		h h h h h h
-		a4\f e'32([ dis e fis)]
+		a4 e'32([\f dis e fis)]
 		e4 e,8-\parenthesize-!
 		a( e) e'32([ dis e fis)]
 		e4 e,8-\parenthesize-! %135
