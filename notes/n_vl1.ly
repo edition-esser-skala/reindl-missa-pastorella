@@ -1246,7 +1246,7 @@ BenedictusViolinoI = {
 		R4.
 		r4 dis'32([ e16.)]
 		\appoggiatura dis?32 cis16( h32 a) gis8[ fis] %75
-		h'-! h( gis)
+		h'-! h( fis)^\critnote
 		gis-! gis( dis)
 		e-! e( h)
 		cis16([ a)] a([ gis)] gis([ fis)]

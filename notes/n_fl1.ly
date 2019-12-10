@@ -519,7 +519,7 @@ BenedictusFlautoI = {
 		gis'4 \appoggiatura h32 a16( gis32 a)
 		h8 gis r
 		R4. %75
-		h8-! h( gis)
+		h8-! h( fis)^\critnote
 		gis-! gis( dis)
 		e-! e( h)
 		cis16( a) a([ gis)] gis( fis)
