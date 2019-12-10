@@ -646,6 +646,17 @@
 		\header {
 			movement = "5 BENEDICTUS"
 		}
+		\paper {
+			systems-per-page = #2
+			system-system-spacing.basic-distance = #20
+			system-system-spacing.minimum-distance = #20
+			top-system-spacing.basic-distance = #10
+			top-system-spacing.minimum-distance = #10
+			top-markup-spacing.basic-distance = #0
+			top-markup-spacing.minimum-distance = #0
+			markup-system-spacing.basic-distance = #10
+			markup-system-spacing.minimum-distance = #10
+		}
 		\score {
 			<<
 				\new StaffGroup <<
@@ -692,7 +703,7 @@
 				}
 			>>
 			\layout { }
-			\midi { \tempo 4 = 72 }
+			\midi { \tempo 4. = 40 }
 		}
 	}
 }

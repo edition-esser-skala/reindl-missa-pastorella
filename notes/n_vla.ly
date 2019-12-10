@@ -1158,7 +1158,7 @@ SanctusViola = {
 
 BenedictusViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key a \major \time 3/8 \tempoBenedictus
 		a8\fE a a
 		a a a
