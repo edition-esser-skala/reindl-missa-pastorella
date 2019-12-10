@@ -1865,7 +1865,7 @@ BenedictusSopranoNotes = {
 		e4 \appoggiatura gis32 fis16[^\missgrace e32 fis] %120
 		gis4 \appoggiatura h32 a16[^\missgrace gis32 a]
 		h8. d16 cis([ e)]
-		d8. d16 cis a
+		\appoggiatura e8 d8.^\missgrace d16 cis a
 		cis8([ a)] d16([ h)]
 		e8([ cis)] d16([ h)] %125
 		a4.\startTrillSpan

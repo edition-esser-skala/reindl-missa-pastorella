@@ -453,6 +453,129 @@ BenedictusFlautoI = {
 	\relative c' {
 		\clef treble
 		\key a \major \time 3/8 \tempoBenedictus
-		
+		a'4\fE \appoggiatura cis32 h16( a32 gis)
+		\once \slurDashed a16.([ d32)] cis8 r
+		cis4 \appoggiatura e32 d16( cis32 h)
+		cis16.([ fis32)] e8 r
+		R4.*2 %6
+		gis16 h \tuplet 3/2 8 { h[ a gis] fis e d }
+		d8([ cis)] cis-\parenthesize-!
+		h( d) r
+		r4 cis8-\parenthesize-! %10
+		\once \slurDashed h(^\critnote d) r
+		r4 r16 fis
+		e4 cis16( e)
+		d4( h8)
+		cis a' a %15
+		a4 gis8
+		cis,4 \appoggiatura e32 d16(^\missgrace cis32 d)
+		e8 cis r
+		R4.
+		cis'8-! cis( gis) %20
+		a-! a( e)
+		fis16( d) d([ cis)] cis( h)
+		\appoggiatura h8 a4 r8
+		R4.*2 %25
+		cis4\pE \appoggiatura e32 d16( cis32 h)
+		\once \slurDashed cis16.([ fis32)] e8 r
+		R4.*2
+		h'8. cis16 d8 %30
+		cis4 r8
+		a4.\startTrillSpan
+		a\stopTrillSpan
+		R
+		r4 fis16( e) %35
+		\appoggiatura e8 d4.\trillE
+		\slurDashed cis16([ d) d( e)] \slurSolid e8
+		R4.*3 %40
+		r4 a8
+		\slurDashed gis16([ a) a( h)] \slurSolid h8
+		e,4.\startTrillSpan
+		e4 r8\stopTrillSpan
+		fis gis a %45
+		\appoggiatura a gis4 r8
+		h4 gis8
+		a4 fis8
+		gis,4 \appoggiatura h32 a16( gis32 a)
+		h4 \appoggiatura dis32 cis16( h32 cis) %50
+		dis4 \appoggiatura fis32 e16( dis32 e)
+		fis8-! fis( e)
+		dis-! dis( cis)
+		h-! h( a)
+		\appoggiatura a gis4 r8 %55
+		e'4.\startTrillSpan
+		e\stopTrillSpan
+		fis,8 gis a
+		\appoggiatura a gis4 r8
+		R4.*2 %61
+		e'4.\startTrillSpan
+		e\stopTrillSpan
+		R4.*4 %67
+		r4 gis8-\parenthesize-!\fE
+		\once \slurDashed fis( a) r
+		r4 gis,8-\parenthesize-! %70
+		\once \slurDashed fis( a) r
+		R4.
+		gis'4 \appoggiatura h32 a16( gis32 a)
+		h8 gis r
+		R4. %75
+		h8-! h( gis)
+		gis-! gis( dis)
+		e-! e( h)
+		cis16( a) a([ gis)] gis( fis)
+		\appoggiatura fis8 e4-\missgrace r8 %80
+		R4.*2
+		gis'4\pE \appoggiatura h32 a16( gis32 fis)
+		\once \slurDashed gis16.([ cis32)] \appoggiatura cis8 h4
+		r a8 %85
+		gis16( fis) a([ gis)] cis( h)
+		\appoggiatura h8 a4.
+		gis8 r r
+		R4.*2 %90
+		h8-! h( a)
+		gis-! gis( fis)
+		e-! e( d!)
+		d16([ cis) fis( e)] e8
+		R4.*2 %96
+		cis4 \appoggiatura e32 d16( cis32 h)
+		\once \slurDashed cis16.([ fis32)] \appoggiatura fis8 e4
+		\appoggiatura e8 d4.^\missgrace
+		cis16( h) d([ cis)] fis( e) %100
+		\appoggiatura e8 d4.^\missgrace
+		\once \slurDashed cis16.([^\critnote d32)] e8 r
+		R4.*7 %109
+		r8 \once \slurDashed a32([ h a g)] fis8 %110
+		R4.*3
+		r8 h32([ cis h a)] gis8
+		e4.\startTrillSpan %115
+		e
+		e
+		e\stopTrillSpan
+		R4.*2 %120
+		gis4 \appoggiatura h32 a16( gis32 a)
+		h8. d16 \once \slurDashed cis([ e)]
+		\appoggiatura e8 d4 cis8
+		R4.*2 %125
+		a4.\startTrillSpan
+		a\stopTrillSpan
+		cis,4 d8
+		e4 d8
+		cis4. %130
+		h\trill
+		a8 r cis-\parenthesize-!\fE
+		\once \slurDashed h( d) r
+		r4 cis8-\parenthesize-!
+		\once \slurDashed h( d) r %135
+		R4.
+		cis4 \appoggiatura e32 d16( cis32 d)
+		e8 cis r
+		R4.
+		cis'8-! cis( gis) %140
+		a-! a( e)
+		fis16( d) d([ cis)] cis( h)
+		cis'8-! cis( gis)
+		a-! a( e)
+		fis16( d) d([ cis)] cis( h) %145
+		\appoggiatura h8 a4 r8\fermata \bar "|." %146 FINIS
 	}
 }

@@ -2795,8 +2795,8 @@ BenedictusBassFigures = \figuremode {
 	r %120
 	r
 	<7>
-	q
-	r
+	<[8 6]>8 <[7 5]>4
+	r4.
 	r %125
 	<6>4. \bassFigureExtendersOn
 	q4 q16 q \bassFigureExtendersOff

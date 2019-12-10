@@ -1290,7 +1290,7 @@ BenedictusViolinoII = {
 		cis4 \appoggiatura e32 d16(-\missgrace cis32 d) %120
 		e4 \appoggiatura gis32 fis16(-\missgrace e32 fis)
 		gis8. h16 a([ cis)]
-		h4 a8
+		\appoggiatura cis8 h4^\missgrace a8
 		R4.*2 %125
 		\slurDashed cis,8( a) d16([ h)]
 		e8( cis) \slurSolid d16([ h)]

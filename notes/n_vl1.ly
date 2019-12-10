@@ -1293,7 +1293,7 @@ BenedictusViolinoI = {
 		e4 \appoggiatura gis32 fis16( e32 fis) %120
 		gis4 \appoggiatura h32 a16( gis32 a)
 		h8. d16 cis([ e)]
-		d4 cis8
+		\appoggiatura e8 d4^\missgrace cis8
 		R4.*2 %125
 		\once \slurDashed cis,8( a) d16([ h)]
 		\once \slurDashed e8( cis) d16([ h)]
