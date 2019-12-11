@@ -1308,6 +1308,90 @@ AgnusDeiViola = {
 	\relative c' {
 		\clef treble
 		\key d \major \time 3/4 \tempoAgnusDei
-		
+		R2.*9 %9
+		fis4\fE g a %10
+		h, cis d
+		r a' a
+		a a, r
+		d, fis a
+		d r r %15
+		a'8 a a a a a
+		g4 a a,
+		d r r8 a'
+		cis,4 r a
+		d a d, %20
+		d'\p fis a
+		d8 d, d d d d
+		a' a a a a a
+		d, d d d d d
+		a' a a a a a %25
+		a4 r r
+		r8 a a a a a
+		r a a a a a
+		d, d f f a a
+		d d b b a a %30
+		gis gis gis gis gis gis
+		a a a a a a
+		d d d d d d
+		h h cis cis cis cis
+		e, e e e e e %35
+		a a a a a a
+		e, e e e e e
+		a4 r r
+		r8 cis cis cis cis cis
+		d d d d d d %40
+		d d d d d d
+		e e e e e e
+		a a a a a a
+		a4 e r8 e
+		a4 e r8 e %45
+		a4 r r
+		r8 cis h a gis fis
+		e a gis fis e d
+		cis fis e4 e,
+		a cis e %50
+		a r r
+		e8\f e e e e e
+		d4 e d
+		cis r e
+		cis r r8 d %55
+		cis cis\p cis cis cis cis
+		h h' h h h h
+		r h h h h h
+		r h h h h h
+		e,4 h r8 h %60
+		e4 h r8 h
+		e4 h e,
+		g'8 g g g g g
+		fis fis fis fis fis fis
+		a,4 a r %65
+		d a r8 a
+		d4 a r8 a
+		d d d d d d
+		a a a a a a
+		d d d d d d %70
+		a a a a a a
+		d4 r r
+		d8 d d d d d
+		a'4 a, r8 a
+		d4 a r8 a %75
+		d4 a r
+		r8 d' cis h a g
+		fis h a g fis e
+		d g a4 a
+		fis r r8 a, %80
+		d4 a r8 a
+		d4 a r
+		r8 d' cis h a g
+		fis h a g fis e
+		d g a4 a, %85
+		d8 d d d d d
+		d,4\f fis a
+		d8 d d d d d
+		a' a a a a a
+		r h a4 g %90
+		fis4 r a
+		fis r a
+		\appoggiatura g4 fis2 r4\fermata \bar "||" %93 finis
 	}
 }
