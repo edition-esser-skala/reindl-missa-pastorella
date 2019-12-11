@@ -624,7 +624,7 @@ AgnusDeiFlautoI = {
 		cis,8\fE e16 fis e8 e e e %50
 		cis16( a') a( gis) gis( fis) fis( e) e4
 		R2.
-		\appoggiatura gis16 fis!8 e16 d cis4 h\trillE
+		\appoggiatura g!16 fis8 e16 d cis4 h\trillE
 		a8 a' e cis \appoggiatura e16 d8 cis16 h
 		a8 a' e cis \appoggiatura e16 d8 cis16 h %55
 		\appoggiatura h8 a4 r r

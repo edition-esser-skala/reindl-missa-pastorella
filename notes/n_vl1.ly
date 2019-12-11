@@ -1374,8 +1374,8 @@ AgnusDeiViolinoI = {
 		a16( e) fis( h) a4 gis\trillE
 		a r r %50
 		R2.
-		\slurDashed a,8\f( a') a([ gis)] \slurSolid gis(^\critnote f)
-		\appoggiatura g16 fis8 e16 d cis4 h\trill
+		\slurDashed a,8\f( a') a([ gis)] \slurSolid gis(^\critnote g)
+		\appoggiatura g!16 fis8 e16 d cis4 h\trill
 		a8 a' e cis \appoggiatura e16 d8 cis16 h
 		a8 a' e cis \appoggiatura e16 d8 cis16 h %55
 		a8 a'\p a a a a

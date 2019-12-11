@@ -1306,7 +1306,7 @@ BenedictusViola = {
 
 AgnusDeiViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key d \major \time 3/4 \tempoAgnusDei
 		R2.*9 %9
 		fis4\fE g a %10
@@ -1318,7 +1318,7 @@ AgnusDeiViola = {
 		a'8 a a a a a
 		g4 a a,
 		d r r8 a'
-		cis,4 r a
+		d,4 r a
 		d a d, %20
 		d'\p fis a
 		d8 d, d d d d
