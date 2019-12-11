@@ -1371,7 +1371,7 @@ AgnusDeiViolinoI = {
 		a4 r r
 		a,8 a a a a16( h32 cis d e fis gis)
 		a8 a, a a a16( h32 cis d e fis gis)
-		a16( e) fis( h) a4 gis
+		a16( e) fis( h) a4 gis\trillE
 		a r r %50
 		R2.
 		\slurDashed a,8\f( a') a([ gis)] \slurSolid gis(^\critnote f)
@@ -1384,7 +1384,7 @@ AgnusDeiViolinoI = {
 		r e e e e e
 		e4. dis16 e \appoggiatura g16 fis8 e16 dis %60
 		e4. dis16 e \appoggiatura g16 fis8 e16 dis
-		\appoggiatura fis16 e8 dis16 e fis8 e16 dis e4
+		\appoggiatura fis16 e8 dis16 e \appoggiatura g fis8^\missgrace e16 dis e4
 		h'8 h h h h h
 		a a a a a a
 		e8.( fis32 g) fis4 r %65
@@ -1398,16 +1398,16 @@ AgnusDeiViolinoI = {
 		fis a4 d fis,8
 		fis8.(\trill e32 fis) e4 cis16( e) e( g)
 		fis4 e cis16( e) e( g) %75
-		fis4 e r
+		fis4\trillE e r
 		r8 d-! d-! d-! d16( e32 fis g a h cis)
 		d8 d, d d d16( e32 fis g a h cis)
-		d16 a h g fis4 e
+		\slurDashed d16( a) h( g) \slurSolid fis4 e
 		d r e8.( fis32 g) %80
 		fis4 e cis16( e) e( g)
 		fis4 e r
 		r8 d d d d16( e32 fis g a h cis)
 		d8 d, d d d16( e32 fis g a h cis)
-		d16 a h g fis4 e %85
+		\slurDashed d16( a) h( g) \slurSolid fis4 e %85
 		d8-! a'32( h a g) fis8-! a32( h a g) fis8-! a32( h a g)
 		fis4 r r
 		R2.

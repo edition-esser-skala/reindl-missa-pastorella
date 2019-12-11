@@ -746,25 +746,25 @@
 						\AgnusDeiViola
 					}
 				>>
-				\new ChoirStaff <<
-					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Alto" "solo" } }
-						\new Voice = "Alto" { \dynamicUp \AgnusDeiAltoNotes }
-					}
-					\new Lyrics \lyricsto Alto \AgnusDeiAltoLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Tenore" "solo" } }
-						\new Voice = "Tenore" { \dynamicUp \AgnusDeiTenoreNotes }
-					}
-					\new Lyrics \lyricsto Tenore \AgnusDeiTenoreLyrics
-					
-					\new Staff {
-						\set Staff.instrumentName = \markup { \center-column { "Basso" "solo" } }
-						\new Voice = "Basso" { \dynamicUp \AgnusDeiBassoNotes }
-					}
-					\new Lyrics \lyricsto Basso \AgnusDeiBassoLyrics
-				>>
+% 				\new ChoirStaff <<
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Alto" "solo" } }
+% 						\new Voice = "Alto" { \dynamicUp \AgnusDeiAltoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Alto \AgnusDeiAltoLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Tenore" "solo" } }
+% 						\new Voice = "Tenore" { \dynamicUp \AgnusDeiTenoreNotes }
+% 					}
+% 					\new Lyrics \lyricsto Tenore \AgnusDeiTenoreLyrics
+% 					
+% 					\new Staff {
+% 						\set Staff.instrumentName = \markup { \center-column { "Basso" "solo" } }
+% 						\new Voice = "Basso" { \dynamicUp \AgnusDeiBassoNotes }
+% 					}
+% 					\new Lyrics \lyricsto Basso \AgnusDeiBassoLyrics
+% 				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"

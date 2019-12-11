@@ -584,6 +584,82 @@ AgnusDeiFlautoI = {
 	\relative c' {
 		\clef treble
 		\key d \major \time 3/4 \tempoAgnusDei
-		
+		d''8\fE a16 h a8 a a a
+		a32( h a g) fis8 r4 r8 fis
+		e16( g) fis( a) a4 g\trillE
+		fis8([ h)] h( a) a4
+		R2. %5
+		r4 r8 g16 a \appoggiatura cis h8 a16 g
+		g4( fis8) r r4
+		r r8 g16 a \appoggiatura cis h8 a16 g
+		fis8-\parenthesize-! a32( h a g) fis8-\parenthesize-! a32( h a g) fis8-\parenthesize-! a32( h a g)
+		fis4 r r %10
+		R2.
+		r4 g! fis16( d') d( fis,)
+		fis4 e r
+		fis8 a16 h a8 a a a
+		\slurDashed a16( d) d( cis) cis( h) h( a) \slurSolid a4 %15
+		R2.
+		\appoggiatura c16 h8 a16 g fis4 e\trillE
+		d8 d' a fis \appoggiatura a16 g8 fis16 e
+		d8 d' a fis \appoggiatura a16 g8 fis16 e
+		\appoggiatura e4 d2 r4 %20
+		d'8\pE a16 h a8 a a a
+		\once \slurDashed a( fis) fis4 r8 fis
+		\slurDashed e16( g) fis( a) \slurSolid a4^\critnote g
+		\appoggiatura a16 \once \slurDashed g8( fis) fis4 r
+		r r r8 g %25
+		fis8-\parenthesize-! a32( h a g) fis8-\parenthesize-! a32( h a g) fis4
+		R2.*5 %31
+		a8-\parenthesize-! e32( fis e d) cis8-\parenthesize-! e32( fis e d) cis4
+		R2.*3 %35
+		r4 r a'8. cis,16
+		cis4 h16( d) cis( e) \appoggiatura e d8 cis16 h
+		cis( a') a( gis) gis( fis) fis( e) e4
+		R2.*5 %43
+		a4. gis16 a \appoggiatura cis h8 a16 gis
+		a4. gis16 a \appoggiatura cis h8 a16 gis %45
+		a4 r r
+		R2.*3
+		cis,8\fE e16 fis e8 e e e %50
+		cis16( a') a( gis) gis( fis) fis( e) e4
+		R2.
+		\appoggiatura gis16 fis!8 e16 d cis4 h\trillE
+		a8 a' e cis \appoggiatura e16 d8 cis16 h
+		a8 a' e cis \appoggiatura e16 d8 cis16 h %55
+		\appoggiatura h8 a4 r r
+		R2.*4 %60
+		g'4.\pE fis16 g \appoggiatura h a8^\missgrace g16 fis
+		\appoggiatura a g8^\missgrace fis16 g \appoggiatura h a8^\missgrace g16 fis g4
+		R2.*2
+		r4 fis8 a16 h a8 a %65
+		R2.
+		fis4. e16 fis \appoggiatura a g8 fis16 e
+		\once \slurDashed fis( e fis g) a4 r
+		r r8 g16 a \appoggiatura cis h8^\missgrace a16 g
+		\once \slurDashed g8( fis) fis4 r %70
+		r r8 g16 a \appoggiatura cis h8^\missgrace a16 g
+		\once \slurDashed g8( fis) fis4 r
+		r r r8 fis
+		fis8.(\trillE e32 fis) e4 r
+		r r cis16( e) e( g) %75
+		fis4\trill e r
+		fis2.\startTrillSpan
+		d'
+		d16(\stopTrillSpan a) h( g) fis4 e
+		d r r %80
+		r r cis16( e) e( g)
+		fis4\trill e r
+		fis2.\startTrillSpan
+		d'
+		d16(\stopTrillSpan a) h( g) fis4 e %85
+		d r r
+		fis8\fE a16 h a8 a a a
+		a16( d) d( cis) cis( h) h( a) a4
+		R2.
+		\appoggiatura c16 h8 a16 g fis4 e\trill %90
+		d8 d' a fis \appoggiatura a16 g8 fis16 e
+		d8 d' a fis \appoggiatura a16 g8 fis16 e
+		\appoggiatura e4 d2 r4\fermata \bar "||" %93 finis
 	}
 }

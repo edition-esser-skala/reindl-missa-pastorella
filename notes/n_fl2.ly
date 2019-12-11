@@ -582,6 +582,82 @@ AgnusDeiFlautoII = {
 	\relative c' {
 		\clef treble
 		\key d \major \time 3/4 \tempoAgnusDei
-		
+		fis'8\fE fis16 g fis8 fis fis fis
+		\once \slurDashed fis32( g fis e) d8 r4 r8 d
+		cis16( e) d( fis) fis4 e\trill
+		\slurDashed d8( g) g([ fis)] \slurSolid fis4
+		R2. %5
+		r4 r8 e16( fis) \appoggiatura a g8 fis16 e
+		e4( d8) r r4
+		r r8 e16 fis \appoggiatura a g8 fis16 e
+		d8-! fis32( g fis e) d8-\parenthesize-! fis32( g fis e) d8-\parenthesize-! fis32( g fis e)
+		d4^\critnote r r %10
+		R2.
+		r4 e d16( fis) fis( d)
+		d4 cis r
+		d8 fis16 g fis8 fis fis fis
+		fis16( h) h( a) a( g) g( fis) fis4 %15
+		R2.
+		\appoggiatura a16 g8 fis16 e d4 cis
+		d fis8 d \appoggiatura fis16 e8 d16 cis
+		d4 fis8 d \appoggiatura fis16 e8 d16 cis
+		\appoggiatura cis4 d2^\missgrace r4 %20
+		fis8\pE fis16 g fis8 fis fis fis
+		\once \slurDashed fis( d) d4 r8 d
+		cis16( e) d( fis) fis4 e
+		\appoggiatura fis16 e8(^\missgrace d) d4 r
+		r r r8 e %25
+		d8-! fis32( g fis e) d8-! fis32( g fis e) d4
+		R2.*5 %31
+		cis8-! cis32( d cis h) a8-! cis32( d cis h) a4
+		R2.*3 %35
+		r4 r cis8. a16
+		a4 \slurDashed gis16( h) a( cis) \slurSolid \appoggiatura cis h8 a16 gis
+		a( fis') fis( e) e( d) d( cis) cis4
+		R2.*5 %43
+		cis4. h16 cis \appoggiatura e d8 cis16 h
+		cis4. h16 cis \appoggiatura e d8 cis16 h %45
+		cis4 r r
+		R2.*3
+		cis8\fE e16 fis e8 e e e %50
+		cis16( fis) fis( e) e( d) d( cis) cis4
+		R2.
+		\appoggiatura e16 d8 cis16 h a4 gis
+		a4 cis8 a \appoggiatura cis16 h8 a16 gis
+		a4 cis8 a \appoggiatura cis16 h8 a16 gis %55
+		\appoggiatura gis8 a4-\missgrace r r
+		R2.*4 %60
+		e'4.\pE dis16 e \appoggiatura g16 fis8 e16 dis
+		\appoggiatura fis16 e8-\missgrace dis16 e \appoggiatura g16 fis8 e16 dis e4
+		R2.*2
+		r4 d!8 fis16 g fis8 fis %65
+		R2.
+		d4. cis16 d \appoggiatura fis e8 d16 cis
+		\once \slurDashed d16( cis d e) fis4 r
+		r r8 e16 fis \appoggiatura a g8 fis16 e
+		e8( d) d4 r %70
+		r r8 e16 fis \appoggiatura a g8 fis16 e
+		e8( d) d4 r
+		r r r8 d
+		d8.(\trill cis32 d) cis4 r
+		r r a16( cis) cis( e) %75
+		d4 cis r
+		d2.\startTrillSpan
+		fis
+		fis8\stopTrillSpan \once \tieDashed g16( e) d4 cis
+		d r r %80
+		r r a16( cis) cis( e)
+		d4 cis r
+		d2.\startTrillSpan
+		fis
+		fis8\stopTrillSpan \once \tieDashed g16( e) d4 cis %85
+		d r r
+		d8\fE fis16 g fis8 fis fis fis
+		fis16( h) h( a) a( g) g( fis) fis4
+		R2.
+		\appoggiatura a16 g8 fis16 e d4 cis
+		d fis8 d \appoggiatura fis16 e8 d16 cis
+		d4 fis8 d \appoggiatura fis16 e8 d16 cis
+		\appoggiatura cis4 d2 r4\fermata \bar "||"
 	}
 }

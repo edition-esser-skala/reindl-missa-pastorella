@@ -1231,7 +1231,7 @@ AgnusDeiTenoreNotes = {
 		R2.*9 %59
 		e4. dis16[ e] \appoggiatura g16 fis8^\missgrace e16([ dis)] %60
 		e4.^\critnote dis16[ e] \appoggiatura g16 fis8^\missgrace e16([ dis)]
-		\appoggiatura fis e8([^\missgrace dis16 e] fis8[ e16 dis)] e4
+		\appoggiatura fis e8([^\missgrace dis16 e] \appoggiatura g fis8[^\missgrace e16 dis)] e4
 		R2.*3 %65
 		d4.( cis16[ d] e8) d16([ cis)]
 		d4.( cis16[ d] e8) d16([ cis)]

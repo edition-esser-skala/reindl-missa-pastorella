@@ -1380,7 +1380,7 @@ AgnusDeiViolinoII = {
 		r g g g g g
 		g4. fis16 g \appoggiatura h16 a8-\missgrace g16 fis %60
 		g4. fis16 g \appoggiatura h16 a8-\missgrace g16 fis
-		\appoggiatura a16 g8-\missgrace fis16 g a8 g16 fis g4
+		\appoggiatura a16 g8-\missgrace fis16 g \appoggiatura h a8^\missgrace g16 fis g4
 		dis'?8 dis e e e e
 		e e d d d d
 		cis8.( d32 e) d4 r %65
@@ -1397,13 +1397,13 @@ AgnusDeiViolinoII = {
 		d4 cis r
 		r8 d-\parenthesize-! d-\parenthesize-! d-\parenthesize-! d16( e32 fis g a h cis)
 		d8 d, d d d16( e32 fis g a h cis)
-		d16 fis, g e d4 cis
+		\slurDashed d16( fis,) g( e) \slurSolid d4 cis
 		d r cis8.( d32 e) %80
 		d4 cis a16( cis) cis( e)
 		d4 cis r
 		r8 d d d d16( e32 fis g a h cis)
 		d8 d, d d d16( e32 fis g a h cis)
-		d16 fis, g e d4 cis %85
+		\slurDashed d16( fis,) g( e) \slurSolid d4 cis %85
 		d8-! fis32( g fis e) d8-! fis32( g fis e) d8-! fis32( g fis e)
 		d4 r r
 		R2.

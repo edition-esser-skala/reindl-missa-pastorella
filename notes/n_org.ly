@@ -2870,9 +2870,9 @@ AgnusDeiOrgano = {
 		r8 a gis fis e d
 		cis fis e d cis h
 		a d e4 e,
-		a cis e %50
+		a\fE cis e %50
 		a r r
-		cis,8\fE cis cis cis cis cis
+		cis,8 cis cis cis cis cis
 		d4 e e,
 		a r e'
 		a r e %55
@@ -2918,13 +2918,13 @@ AgnusDeiOrgano = {
 }
 
 AgnusDeiBassFigures = \figuremode {
-	r4 <[6]> <7>
+	<8 3>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff
 	r2.
 	<5 3>8 <6 4> <8 6> <\t \t> <7 5> <\t \t>
 	r2.
 	r %5
 	<[6] 4>4 <[5] 3>2
-	r2.
+	<[9 4]>4 <[8 ]>2
 	<[7 5]>8 <[6 4]> <[5 3]>2
 	r2.
 	r4 <[6]> <[5!]> %10
@@ -2965,7 +2965,7 @@ AgnusDeiBassFigures = \figuremode {
 	r8 <8 3> \bassFigureExtendersOn q2
 	q2.
 	q8 \bassFigureExtendersOff <6> <[6] 4>4 <[5] _+>
-	r <[6]> <[7 _+]> %50
+	<[8 3]>2 \bassFigureExtendersOn <8 3>4 \bassFigureExtendersOff %50
 	r2.
 	<6>2 <[5!]>4
 	<[5]>8 <6> <[6] 4>4 <[5] _+>
@@ -2985,7 +2985,7 @@ AgnusDeiBassFigures = \figuremode {
 	r4 <[6 4]>8 <[5 3]>4.
 	r2.
 	<[6 4]>4 <[5 3]>2
-	r2. %70
+	<[9 4]>4 <[8 3]>2 %70
 	<[6 4]>4 <[5 3]>2
 	<8 3>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff
 	r2.
@@ -3002,7 +3002,7 @@ AgnusDeiBassFigures = \figuremode {
 	q2.
 	q8 \bassFigureExtendersOff <6> <6 4>4 <5 3> %85
 	r2.
-	r4 <[6]> <[7]>
+	<8 3>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff
 	r2.
 	<[6]>2 <[5!]>4
 	<[5]>8 <6> <[6] 4>4 <[5] 3> %90

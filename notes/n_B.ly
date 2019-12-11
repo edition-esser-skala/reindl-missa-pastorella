@@ -1227,7 +1227,7 @@ AgnusDeiBassoNotes = {
 		g([ h16 g)] e4 r
 		g4. fis16[ g] \appoggiatura h a8^\missgrace g16([ fis)] %60
 		g4. fis16[ g] \appoggiatura h a8^\missgrace g16([ fis)]
-		\appoggiatura a g8([^\missgrace fis16 g] a8[ g16 fis]) g4
+		\appoggiatura a g8([^\missgrace fis16 g] \appoggiatura h a8[^\missgrace g16 fis]) g4
 		R2.*7 %69
 		r4 r d'8 d %70
 		a4 a, r
