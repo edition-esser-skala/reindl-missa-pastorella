@@ -1207,13 +1207,105 @@ AgnusDeiTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
 		\key d \major \time 3/4 \autoBeamOff \tempoAgnusDei
-		
+		R2.*20 %20
+		fis2\pE fis4
+		fis8([ d)] d4 r8 d
+		cis16([ e)] d fis fis4 e
+		e8([ d)] d4 r
+		R2.*9 %33
+		r4 r cis~
+		cis4. h16([ cis)] d8 h %35
+		a16([ h cis d)] \appoggiatura d8 cis4 r
+		R2.*3
+		a2 ais4 %40
+		ais?8([ h)] h4 r
+		h8( cis4) d8 d cis16([ h)]
+		cis([ d e fis)] e4 r
+		cis4.( h16[ cis] d8) cis16([ h)]
+		cis4. h16[ cis] \appoggiatura e16 d8[ cis16 h] %45
+		cis8 cis d([ h)] h([ cis)]^\critnote
+		\once \tieDashed cis2.~
+		\once \tieDashed cis~
+		cis8 d cis4( h)
+		cis r r %50
+		R2.*9 %59
+		e4.( dis16[ e] fis8) e16([ dis)] %60
+		e2( fis8) e16([ dis)]
+		e8([ dis16 e] fis8[ e16 dis)] e4
+		R2.*3 %65
+		d4.( cis16[ d] e8) d16([ cis)]
+		d4.( cis16[ d] e8) d16([ cis)]
+		d([ cis d e)] fis8 d16([ e] fis8) e16([ d)]
+		d8([ cis)] cis4 r
+		r r8 d16([ e] fis8) e16([ d)] %70
+		d8([ cis)] cis4 r
+		r d d
+		d8([ fis] fis4.) d8
+		d8.([ cis32 d)] cis4 a16([ cis)] cis([ e)]
+		d4 cis a16([ cis)] cis([ e)] %75
+		d4 cis a16([ cis)] cis([ e)]
+		d2.
+		\once \tieDashed fis~
+		fis8 g16([ e)] d4( cis)
+		d r cis8. d32([ e)] %80
+		d4 cis a16([ cis)] cis([ e)]
+		d8.([ cis32 d)] cis4 a16([ cis)] cis([ e)]
+		d2.
+		\once \tieDashed fis~
+		fis8 g16([ e)] d4 \appoggiatura fis16 e8[ d16 cis] %85
+		\appoggiatura cis8 d4 r r
+		R2.*6 %92
+		R2.\fermataMarkup \bar "||" %93 finis
 	}
 }
 
 AgnusDeiTenoreLyrics = \lyricmode {
-% 	A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% 	Mi -- se -- re -- re no -- bis.
+	A -- gnus %21
+	De -- i, qui
+	tol -- lis pec -- ca -- ta
+	mun -- di:
+	
+	Mi -- %34
+	se -- re -- re %35
+	no -- bis,
+	
+	mi -- se -- %40
+	re -- re,
+	mi -- se -- re -- re
+	no -- bis,
+	mi -- se --
+	re -- _ _ %45
+	_ re, mi -- se --
+	re --
+	
+	re no --
+	bis. %50
+	
+	Mi -- se -- %60
+	re -- re
+	no -- bis,
+	
+	mi -- se -- %66
+	re -- re
+	no -- bis, mi -- se --
+	re -- re,
+	mi -- se -- %70
+	re -- re,
+	mi -- se --
+	re -- re
+	no -- bis, mi -- se --
+	re -- re, mi -- se -- %75
+	re -- re, mi -- se --
+	re --
+	_
+	re no --
+	bis, mi -- se -- %80
+	re -- re, mi -- se --
+	re -- re, mi -- se --
+	re --
+	_
+	re no -- _ %85
+	bis. %86 finis
 }
 
 % TenoreNotes = {

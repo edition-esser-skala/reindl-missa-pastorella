@@ -1554,14 +1554,14 @@ AgnusDeiAltoNotes = {
 		fis!4( h) a
 		gis16([ e h' gis)] a4 a~
 		a4. gis16([ a)] h8 d, %35
-		cis16([ d e fis)] e4 r
+		cis16([ d e fis)] \appoggiatura fis8 e4^\missgrace r
 		R2.*2
 		e2 eis4
 		eis?8([ fis)] fis4 r %40
 		R2.*3
 		a4.( gis16[ a] \once \stemUp h8) a16([ gis)]
-		a4.( gis16[ a] h8[ a16 gis] %45
-		a8) e fis([ gis)] gis([ a)]
+		a4. gis16[ a] \appoggiatura cis16 h8[^\missgrace a16 gis] %45
+		a8 e fis([ gis)] gis([ a)]
 		a2.~
 		\once \tieDashed a~
 		a16[ e] fis([ h)] a4( gis)
@@ -1588,11 +1588,11 @@ AgnusDeiAltoNotes = {
 		d'~\once \tieDashed
 		d16[ a] h([ g)] fis4( e)\trill
 		d r e8. fis32([ g)] %80
-		fis4 e cis16([ e)] fis([ g)]
+		fis4 e cis16([ e)] e([ g)]
 		fis8.([ e32 fis)] e4 cis16([ e)] e([ g)]
 		fis2.
 		d'~\once \tieDashed
-		d16[ a] h([ g)] fis4( \appoggiatura a16 g8[ fis16 e]) %85
+		d16[ a] h([ g)] fis4 \appoggiatura a16 g8[ fis16 e] %85
 		\appoggiatura e8 d4 r r
 		R2.*6 %92
 		R2.\fermataMarkup \bar "||" %93 finis
@@ -1617,8 +1617,8 @@ AgnusDeiAltoLyrics = \lyricmode {
 	re -- re, %40
 	
 	mi -- se -- %44
-	re -- %45
-	re, mi -- se --
+	re -- _ _ %45
+	_ re, mi -- se --
 	re --
 	
 	re no --
@@ -1649,7 +1649,7 @@ AgnusDeiAltoLyrics = \lyricmode {
 	re -- re, mi -- se --
 	re --
 	_
-	re no -- %85
+	re no -- _ %85
 	bis. %86 finis
 }
 
