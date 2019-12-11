@@ -1198,13 +1198,107 @@ AgnusDeiBassoNotes = {
 	\relative c {
 		\clef bass
 		\key d \major \time 3/4 \autoBeamOff \tempoAgnusDei
-		
+		R2.*20 %20
+		d4\pE( fis) a
+		d d, r
+		R2.
+		r4 r a'8([ d)]
+		d4( cis8[ h)] a([ g)] %25
+		fis([ e)] \appoggiatura e4 d2
+		R2.*2
+		d4( f) a
+		d( b) a %30
+		gis2.
+		a4 r r
+		R2.*2
+		e4. e8 e e %35
+		a4 a, r
+		R2.*5 %41
+		gis'8 a a( h4) a16([ gis)]
+		a([ h cis d)] cis4 r
+		R2.*3 %46
+		r8 a([ gis fis)] e([ d)]
+		cis([ fis e d cis h]
+		a) d e2
+		a,4 r r %50
+		R2.*6 %56
+		r4 r r8 h'
+		h8.([ c16)] h8 a g fis
+		g([ h16 g)] e4 r
+		g4.( fis16[ g] a8) g16([ fis)] %60
+		g4.( fis16[ g] a8) g16([ fis)]
+		g8([ fis16 g] a8[ g16 fis]) g4
+		R2.*7 %69
+		r4 r d'8 d %70
+		a4 a, r
+		r4^\critnote d8([ fis)] fis([ a)]
+		d2 d,4
+		a' a, a'8. a16
+		d4 a a8 a %75
+		d4 a r
+		r8 d([ cis h)] a([ g)]
+		fis([ h a g fis e]
+		d) g a4( a,)
+		d r a'8. a16 %80
+		d4 a a8. a16
+		d4 a r
+		r8 d([ cis h)] a([ g)]
+		fis([ h a g fis e]
+		d) g a4( a,) %85
+		d r r
+		R2.*6 %92
+		R2.\fermataMarkup \bar "||" %93 finis
 	}
 }
 
 AgnusDeiBassoLyrics = \lyricmode {
-% 	A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
-% 	Mi -- se -- re -- re no -- bis.
+	A -- gnus %21
+	De -- i,
+	
+	pec -- %24
+	ca -- ta %25
+	mun -- di:
+	
+	Mi -- se -- %29
+	re -- re %30
+	no --
+	bis,
+	
+	mi -- se -- re -- re %35
+	no -- bis,
+	
+	mi -- se -- re -- re %42
+	no -- bis,
+	
+	mi -- se -- %47
+	re --
+	re no --
+	bis. %50
+	
+	qui %57
+	tol -- lis pec -- ca -- ta
+	mun -- di:
+	Mi -- se -- %60
+	re -- re __
+	no -- bis,
+	
+	mi -- se -- %70
+	re -- re,
+	mi -- se --
+	re -- re
+	no -- bis, mi -- se --
+	re -- re, mi -- se -- %75
+	re -- re,
+	mi -- se --
+	re --
+	re no --
+	bis, mi -- se -- %80
+	re -- re, mi -- se --
+	re -- re,
+	mi -- se --
+	re --
+	re no -- %85
+	bis. %86 finis
 }
 
 % BassoNotes = {

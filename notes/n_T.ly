@@ -1219,7 +1219,7 @@ AgnusDeiTenoreNotes = {
 		R2.*3
 		a2 ais4 %40
 		ais?8([ h)] h4 r
-		h8( cis4) d8 d cis16([ h)]
+		h8 cis cis( d4) cis16([ h)]
 		cis([ d e fis)] e4 r
 		cis4.( h16[ cis] d8) cis16([ h)]
 		cis4. h16[ cis] \appoggiatura e16 d8[ cis16 h] %45
@@ -1282,7 +1282,7 @@ AgnusDeiTenoreLyrics = \lyricmode {
 	bis. %50
 	
 	Mi -- se -- %60
-	re -- re
+	re -- re __
 	no -- bis,
 	
 	mi -- se -- %66
