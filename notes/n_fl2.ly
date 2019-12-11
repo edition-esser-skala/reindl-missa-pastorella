@@ -655,9 +655,9 @@ AgnusDeiFlautoII = {
 		d8\fE fis16 g fis8 fis fis fis
 		fis16( h) h( a) a( g) g( fis) fis4
 		R2.
-		\appoggiatura a16 g8 fis16 e d4 cis
+		\appoggiatura a16 g8 fis16 e d4 cis %90
 		d fis8 d \appoggiatura fis16 e8 d16 cis
 		d4 fis8 d \appoggiatura fis16 e8 d16 cis
-		\appoggiatura cis4 d2 r4\fermata \bar "||"
+		\appoggiatura cis4 d2 r4\fermata \bar "||" %93 finis
 	}
 }

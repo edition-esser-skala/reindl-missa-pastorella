@@ -739,6 +739,83 @@ AgnusDeiCornoII = {
 	\relative c' {
 		\clef treble
 		\key c \major \time 3/4 \tempoAgnusDei
-		
+		c4\fE e g
+		c r8 c c c
+		g4 r r
+		c, r r
+		c'8. d16 c8 c16 d \appoggiatura f e8 d16 c %5
+		c4 g r
+		r r8 c16 d \appoggiatura f e8-\missgrace d16 c
+		\appoggiatura d8 c4-\missgrace g r
+		c,8 c c c c c
+		R2.*2 %11
+		r4 d' c
+		c g8 g g4
+		c, e g
+		c, r r %15
+		R2.
+		\appoggiatura g''16 f8-\missgrace e16 d c4 g
+		e r g
+		e r g
+		c, c c %20
+		R2.
+		\once \slurDashed e'8(\p c) c4 r8 c
+		\slurDashed g16( d') c( e) \slurSolid e4 d
+		\once \slurDashed d8( c) c4 r
+		r8 g, g g g g %25
+		c4 r r
+		r8 c c c c c
+		r g g g g g
+		c4 r r
+		R2.*2 %31
+		r8 g' g g g4
+		R2.*4 %36
+		d'2.
+		g,4 r r
+		R2.*3 %41
+		d'8 d d d d d
+		g,4 r r
+		d'2.
+		d %45
+		g4 r r
+		g,2.
+		g2 r4
+		r d' d
+		g, r r %50
+		g8\fE g g g g4
+		R2.
+		r4 d' d
+		g, r d'
+		g, r d' %55
+		g, r r
+		R2.*8 %64
+		\once \slurDashed g8(\pE d') c4 r %65
+		c4. g16 c d8 g,
+		c,4 g r
+		r r8 c'16 d e8 d16 c
+		\once \slurDashed c8( g) g4 r
+		r r8 c, c c %70
+		g g g g g g
+		c4 c' c
+		c8 e4 e c8
+		c4 g r
+		c g r %75
+		c, g r
+		c'2.
+		e
+		e8 \once \slurDashed f16( d) c4 g
+		c, r g'8. d'16 %80
+		c8 e, g4 g8 d'
+		c e, g4 r
+		c2.
+		e
+		e8 \once \slurDashed f16( d) c4 g %85
+		c,8 c c c c c
+		c4 r r
+		R2.*2
+		\appoggiatura g''16 f8\fE-\missgrace e16 d c4 g %90
+		e r g
+		c, r g'
+		c, c c\fermata \bar "||" %93 finis
 	}
 }
