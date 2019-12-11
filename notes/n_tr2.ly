@@ -358,3 +358,12 @@ SanctusTrombaII = {
 		e4 r8 r4 r8 r2.\fermata \bar "|." %45 FINIS
 	}
 }
+
+DonaNobisTrombaII = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoDonaNobis
+			\set Score.currentBarNumber = #94
+		
+	}
+}

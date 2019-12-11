@@ -246,6 +246,8 @@ tempoCredo = \tempoMarkup "Allegro"
 tempoSanctus = \tempoMarkup "Allegro"
 tempoBenedictus = \tempoMarkup "Andante"
 tempoAgnusDei = \tempoMarkup "Andante molto"
+tempoDonaNobis = \tempoMarkup "Adagio"
+	tempoDonaNobisB = \tempoMarkup "Allegro"
 
 
 

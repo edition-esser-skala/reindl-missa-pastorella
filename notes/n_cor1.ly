@@ -819,3 +819,12 @@ AgnusDeiCornoI = {
 		c c c\fermata \bar "||" %93 finis
 	}
 }
+
+DonaNobisCornoI = {
+	\relative c' {
+		\clef treble
+		\key c \major \time 4/4 \tempoDonaNobis
+			\set Score.currentBarNumber = #94
+		
+	}
+}

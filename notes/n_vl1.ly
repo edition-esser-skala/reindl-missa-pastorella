@@ -1419,10 +1419,11 @@ AgnusDeiViolinoI = {
 	}
 }
 
-% ViolinoI = {
-% 	\relative c' {
-% 		\clef treble
-%		
-%		
-% 	}
-% }
+DonaNobisViolinoI = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \tempoDonaNobis
+			\set Score.currentBarNumber = #94
+		
+	}
+}

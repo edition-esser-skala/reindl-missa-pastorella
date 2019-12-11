@@ -1414,3 +1414,12 @@ AgnusDeiViolinoII = {
 		\appoggiatura cis4 d2^\missgrace r4\fermata \bar "||" %93 finis
 	}
 }
+
+DonaNobisViolinoII = {
+	\relative c' {
+		\clef treble
+		\key d \major \time 4/4 \tempoDonaNobis
+			\set Score.currentBarNumber = #94
+		
+	}
+}

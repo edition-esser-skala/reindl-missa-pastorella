@@ -300,3 +300,12 @@ SanctusTimpani = {
 		c4 r8 r4 r8 r2.\fermata \bar "|."
 	}
 }
+
+DonaNobisTimpani = {
+	\relative c {
+		\clef bass
+		\key c \major \time 4/4 \tempoDonaNobis
+			\set Score.currentBarNumber = #94
+		
+	}
+}

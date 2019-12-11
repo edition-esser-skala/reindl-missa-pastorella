@@ -1978,14 +1978,15 @@ BenedictusSopranoLyrics = \lyricmode {
 	ni. %132 FINIS
 }
 
-% SopranoNotes = {
-% 	\relative c' {
-% 		\clef treble
-% 		
-% 		
-% 	}
-% }
-%
-% SopranoLyrics = \lyricmode {
-%		
-% }
+DonaNobisSopranoNotes = {
+	\relative c' {
+		\clef treble
+		\key d \major \autoBeamOff \time 4/4 \tempoDonaNobis
+			\set Score.currentBarNumber = #94
+		
+	}
+}
+
+DonaNobisSopranoLyrics = \lyricmode {
+		
+}

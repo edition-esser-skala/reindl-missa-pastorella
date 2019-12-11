@@ -1308,14 +1308,15 @@ AgnusDeiTenoreLyrics = \lyricmode {
 	bis. %86 finis
 }
 
-% TenoreNotes = {
-% 	\relative c' {
-% 		\clef "treble_8"
-% 		
-% 		
-% 	}
-% }
-%
-% TenoreLyrics = \lyricmode {
-%	
-% }
+DonaNobisTenoreNotes = {
+	\relative c' {
+		\clef "treble_8"
+		\key d \major \autoBeamOff \time 4/4 \tempoDonaNobis
+			\set Score.currentBarNumber = #94
+		
+	}
+}
+
+DonaNobisTenoreLyrics = \lyricmode {
+	
+}

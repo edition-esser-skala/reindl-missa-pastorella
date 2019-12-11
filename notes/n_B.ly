@@ -1301,14 +1301,15 @@ AgnusDeiBassoLyrics = \lyricmode {
 	bis. %86 finis
 }
 
-% BassoNotes = {
-% 	\relative c {
-% 		\clef bass
-% 		
-% 		
-% 	}
-% }
-%
-% BassoLyrics = \lyricmode {
-%	
-% }
+DonaNobisBassoNotes = {
+	\relative c {
+		\clef bass
+		\key d \major \autoBeamOff \time 4/4 \tempoDonaNobis
+			\set Score.currentBarNumber = #94
+		
+	}
+}
+
+DonaNobisBassoLyrics = \lyricmode {
+	
+}

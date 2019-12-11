@@ -3011,14 +3011,19 @@ AgnusDeiBassFigures = \figuremode {
 	r %93 FINIS
 }
 
-% Organo = {
-% 	\relative c {
-% 		\clef bass
-% 		
-% 		
-% 	}
-% }
-% 
-% BassFigures = \figuremode {
-% 	
-% }
+DonaNobisOrgano = {
+	\relative c {
+		\clef bass
+		\key d \major \time 4/4 \tempoDonaNobis
+			\set Score.currentBarNumber = #94
+		\mvTr h8\fE-\tuttiE h h h fis' fis fis fis
+		dis dis dis dis e e e e
+		cis4 d a2 \noBreak
+		a1\fermata \bar "||"
+		\twofourtime \time 2/4 \tempoDonaNobisB d4 d \noBreak
+	}
+}
+
+DonaNobisBassFigures = \figuremode {
+	
+}
