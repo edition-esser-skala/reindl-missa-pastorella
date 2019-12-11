@@ -1559,7 +1559,7 @@ AgnusDeiAltoNotes = {
 		e2 eis4
 		eis?8([ fis)] fis4 r %40
 		R2.*3
-		a4.( gis16[ a] \once \stemUp h8) a16([ gis)]
+		a4. gis16[ a] \appoggiatura cis \once \stemUp h8^\missgrace a16([ gis)]
 		a4. gis16[ a] \appoggiatura cis16 h8[^\missgrace a16 gis] %45
 		a8 e fis([ gis)] gis([ a)]
 		a2.~
@@ -1616,7 +1616,7 @@ AgnusDeiAltoLyrics = \lyricmode {
 	mi -- se -- %39
 	re -- re, %40
 	
-	mi -- se -- %44
+	mi -- _ _ se -- %44
 	re -- _ _ %45
 	_ re, mi -- se --
 	re --

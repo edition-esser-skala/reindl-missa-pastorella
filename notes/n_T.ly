@@ -1221,7 +1221,7 @@ AgnusDeiTenoreNotes = {
 		ais?8([ h)] h4 r
 		h8 cis cis( d4) cis16([ h)]
 		cis([ d e fis)] e4 r
-		cis4.( h16[ cis] d8) cis16([ h)]
+		cis4. h16[ cis] \appoggiatura e16 d8^\missgrace cis16([ h)]
 		cis4. h16[ cis] \appoggiatura e16 d8[ cis16 h] %45
 		cis8 cis d([ h)] h([ cis)]^\critnote
 		\once \tieDashed cis2.~
@@ -1229,9 +1229,9 @@ AgnusDeiTenoreNotes = {
 		cis8 d cis4( h)
 		cis r r %50
 		R2.*9 %59
-		e4.( dis16[ e] fis8) e16([ dis)] %60
-		e2( fis8) e16([ dis)]
-		e8([ dis16 e] fis8[ e16 dis)] e4
+		e4. dis16[ e] \appoggiatura g16 fis8^\missgrace e16([ dis)] %60
+		e4.^\critnote dis16[ e] \appoggiatura g16 fis8^\missgrace e16([ dis)]
+		\appoggiatura fis e8([^\missgrace dis16 e] fis8[ e16 dis)] e4
 		R2.*3 %65
 		d4.( cis16[ d] e8) d16([ cis)]
 		d4.( cis16[ d] e8) d16([ cis)]
@@ -1273,7 +1273,7 @@ AgnusDeiTenoreLyrics = \lyricmode {
 	re -- re,
 	mi -- se -- re -- re
 	no -- bis,
-	mi -- se --
+	mi -- _ _ se --
 	re -- _ _ %45
 	_ re, mi -- se --
 	re --
@@ -1281,8 +1281,8 @@ AgnusDeiTenoreLyrics = \lyricmode {
 	re no --
 	bis. %50
 	
-	Mi -- se -- %60
-	re -- re __
+	Mi -- _ _ se -- %60
+	re -- _ _ re __
 	no -- bis,
 	
 	mi -- se -- %66

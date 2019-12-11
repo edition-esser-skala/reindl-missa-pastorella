@@ -1225,9 +1225,9 @@ AgnusDeiBassoNotes = {
 		r4 r r8 h'
 		h8.([ c16)] h8 a g fis
 		g([ h16 g)] e4 r
-		g4.( fis16[ g] a8) g16([ fis)] %60
-		g4.( fis16[ g] a8) g16([ fis)]
-		g8([ fis16 g] a8[ g16 fis]) g4
+		g4. fis16[ g] \appoggiatura h a8^\missgrace g16([ fis)] %60
+		g4. fis16[ g] \appoggiatura h a8^\missgrace g16([ fis)]
+		\appoggiatura a g8([^\missgrace fis16 g] a8[ g16 fis]) g4
 		R2.*7 %69
 		r4 r d'8 d %70
 		a4 a, r
@@ -1278,8 +1278,8 @@ AgnusDeiBassoLyrics = \lyricmode {
 	qui %57
 	tol -- lis pec -- ca -- ta
 	mun -- di:
-	Mi -- se -- %60
-	re -- re __
+	Mi -- _ _ se -- %60
+	re -- _ _ re __
 	no -- bis,
 	
 	mi -- se -- %70

@@ -2870,13 +2870,13 @@ AgnusDeiOrgano = {
 		r8 a gis fis e d
 		cis fis e d cis h
 		a d e4 e,
-		a cis e %50
+		a\fE cis e %50
 		a r r
 		cis,8 cis cis cis cis cis
 		d4 e e,
 		a r e'
 		a r e %55
-		a,8 a' a a a a
+		a,8 a'\pE a a a a
 		h h h h h h
 		dis, dis dis dis dis dis
 		r e e e e e

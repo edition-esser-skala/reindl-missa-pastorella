@@ -1323,7 +1323,99 @@ AgnusDeiViolinoI = {
 	\relative c' {
 		\clef treble
 		\key d \major \time 3/4 \tempoAgnusDei
-		
+		d4\fE fis a
+		d8 d, d d d d
+		a' a a a a a
+		d,4 r r
+		fis'8. g16 fis8 fis16 g \appoggiatura h a8 g16 fis %5
+		fis4 e r
+		r r8 fis16 g a8 g16 fis
+		\appoggiatura g8 fis4( e8) r r4
+		fis8-! a32( h a g) fis8-! a32( h a g) fis8-! a32( h a g)
+		\slurDashed fis8( d') d([ cis)] cis( c) \slurSolid %10
+		c?( h) h( a) a( gis)
+		a,4 g' fis16( d) a'( fis)
+		fis8.(\trill e32 fis) e4 r
+		d, fis a
+		d r r %15
+		\slurDashed d8( d') d([ cis)] cis( c) \slurSolid
+		h8 a16 g fis4 e\trill
+		d8 d' a fis \appoggiatura a16 g8 fis16 e
+		d8 d' a fis \appoggiatura a16 g8 fis16 e
+		\appoggiatura e4 d2 r4 %20
+		d'8\p a16 h a8 a a a
+		a( fis) fis4 r8 fis
+		e16( g) fis( a) a4 g
+		g8 fis fis4 a8 d
+		d4 cis8 h a g %25
+		fis4 r r
+		r8 f f f f f
+		r e e e e e
+		d, d f f a a
+		d d b b a a %30
+		gis gis gis gis gis gis
+		a8-\parenthesize-! e'32( fis e d) cis8-\parenthesize-! e32( fis e d) cis4
+		r8 h' h h a^\critnote a
+		gis gis a a a a
+		a4. gis16 a h8 d, %35
+		cis16( d e fis) e4 r
+		e,8 e e e e e
+		a,4 r r
+		e''2 eis4
+		eis?8( fis) fis4 r %40
+		fis8 fis fis fis fis fis
+		h, cis4 d cis16( h)
+		\once \slurDashed cis( d e fis) e2
+		a4. gis16 a \appoggiatura cis16 h8 a16 gis
+		a4. gis16 a \appoggiatura cis16 h8^\missgrace a16 gis %45
+		a4 r r
+		a,8 a a a a16( h32 cis d e fis gis)
+		a8 a, a a a16( h32 cis d e fis gis)
+		a16( e) fis( h) a4 gis
+		a r r %50
+		R2.
+		\slurDashed a,8\f( a') a([ gis)] \slurSolid gis(^\critnote f)
+		\appoggiatura g16 fis8 e16 d cis4 h\trill
+		a8 a' e cis \appoggiatura e16 d8 cis16 h
+		a8 a' e cis \appoggiatura e16 d8 cis16 h %55
+		a8 a'\p a a a a
+		r fis fis fis fis fis
+		r fis fis fis fis fis
+		r e e e e e
+		e4. dis16 e \appoggiatura g16 fis8 e16 dis %60
+		e4. dis16 e \appoggiatura g16 fis8 e16 dis
+		\appoggiatura fis16 e8 dis16 e fis8 e16 dis e4
+		h'8 h h h h h
+		a a a a a a
+		e8.( fis32 g) fis4 r %65
+		fis4. e16 fis g8 fis16 e
+		fis4. e16 fis g8 fis16 e
+		fis16( e fis g) a8 fis16 g a8 g16 fis
+		fis8( e) e4 r
+		r r8 fis16( g) a8 g16( fis) %70
+		fis8( e) e4 r
+		r8 fis4 fis fis8
+		fis a4 d fis,8
+		fis8.(\trill e32 fis) e4 cis16( e) e( g)
+		fis4 e cis16( e) e( g) %75
+		fis4 e r
+		r8 d-! d-! d-! d16( e32 fis g a h cis)
+		d8 d, d d d16( e32 fis g a h cis)
+		d16 a h g fis4 e
+		d r e8.( fis32 g) %80
+		fis4 e cis16( e) e( g)
+		fis4 e r
+		r8 d-! d-! d-! d16( e32 fis g a h cis)
+		d8 d, d d d16( e32 fis g a h cis)
+		d16 a h g fis4 e %85
+		d8-! a'32( h a g) fis8-! a32( h a g) fis8-! a32( h a g)
+		fis4 r r
+		R2.
+		d8(\fE d') d([ cis)] cis( c)
+		\appoggiatura c16 h8 a16 g fis4 e\trill %90
+		d8 d' a fis \appoggiatura a16 g8 fis16 e
+		d8 d' a fis \appoggiatura a16 g8 fis16 e
+		\appoggiatura e4 d2 r4\fermata \bar "||" %93 finis
 	}
 }
 
