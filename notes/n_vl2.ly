@@ -1320,6 +1320,97 @@ AgnusDeiViolinoII = {
 	\relative c' {
 		\clef treble
 		\key d \major \time 3/4 \tempoAgnusDei
-		
+		d4\fE fis a
+		d8 d, d d d d
+		a' a a a a a
+		d,4 r r
+		d'8. e16 d8 d16 e \appoggiatura g fis8^\missgrace e16 d %5
+		d4( cis8) r r4
+		r r8 d16 e \appoggiatura g fis8 e16 d
+		\appoggiatura e8 \once \slurDashed d4(^\missgrace cis8) r r4
+		d8-! fis32( g fis e) d8-! fis32( g fis e) d8-! fis32( g fis e)
+		\slurDashed fis8( d') d([ cis)] cis( c) \slurSolid %10
+		c?( h) h( a) a( gis)
+		a,4 e' d
+		d8.(\trill cis32 d) cis4 r
+		d, fis a
+		d r r %15
+		r r r8 a'
+		\appoggiatura a16 g8 fis16 e d4 cis
+		d8 d' a fis \appoggiatura fis16 e8 d16 cis
+		d8 d' a fis \appoggiatura fis16 e8 d16 cis
+		\appoggiatura cis4 d2^\missgrace r4 %20
+		fis8\p fis16 g fis8 fis fis fis
+		\once \slurDashed fis( d) d4 r8 d
+		cis16( e) d( fis) fis4 e
+		e8( d) d4 fis8 fis
+		fis4 e8 g fis e %25
+		d4 r r
+		r8 d d d d d
+		r cis! cis cis cis cis
+		d, d f f a a
+		d d b b a a %30
+		gis gis gis gis gis gis
+		a8-\parenthesize-! cis!32( d cis h) a8-\parenthesize-! cis32( d cis h) a4
+		r8 fis' fis fis fis fis
+		e e e e cis cis
+		cis4. h16 cis d8 h %35
+		\once \slurDashed a16( h cis d) cis4 r
+		e,8 e e e e e
+		a,4 r r
+		a'8 a a a a a
+		a a a a ais ais %40
+		\once \slurDashed ais?( h) h4 r
+		gis8 a4 h \once \slurDashed a16( gis)
+		\once \slurDashed a( h cis d) cis2
+		cis4. h16 cis \appoggiatura e d8 cis16 h
+		cis4. h16 cis \appoggiatura e d8 cis16 h %45
+		cis4 r r
+		a8 a a a a16( h32 cis d e fis gis)
+		a8 a, a a a16( h32 cis d e fis gis)
+		a8 fis16 d cis4 h\trill
+		cis r r %50
+		R2.*2
+		\appoggiatura e16 d8\fE cis16 h a4 gis
+		a8 a' e cis \appoggiatura cis16 h8 a16 gis
+		a8 a' e cis \appoggiatura cis16 h8 a16 gis %55
+		a8 fis'\pE fis fis fis fis
+		r dis dis dis dis dis
+		fis a, a a a a
+		r g g g g g
+		g4. fis16 g \appoggiatura h16 a8-\missgrace g16 fis %60
+		g4. fis16 g \appoggiatura h16 a8-\missgrace g16 fis
+		\appoggiatura a16 g8-\missgrace fis16 g a8 g16 fis g4
+		dis'?8 dis e e e e
+		e e d d d d
+		cis8.( d32 e) d4 r %65
+		d4. cis16 d \appoggiatura fis16 e8 d16 cis
+		d4. cis16 d \appoggiatura fis16 e8 d16 cis
+		\slurDashed d16( cis d e) fis8 d16 e fis8 e16 d
+		d8( cis) cis4 r
+		r r8 d16( e) fis8 e16( d) %70
+		d8( cis) \slurSolid cis4 r
+		r8 d4 d d8
+		d fis4 fis d8
+		d8.(\trillE cis32 d) cis4 a16( cis) cis( e)
+		d4 cis a16( cis) cis( e) %75
+		d4 cis r
+		r8 d-\parenthesize-! d-\parenthesize-! d-\parenthesize-! d16( e32 fis g a h cis)
+		d8 d, d d d16( e32 fis g a h cis)
+		d16 fis, g e d4 cis
+		d r cis8.( d32 e) %80
+		d4 cis a16( cis) cis( e)
+		d4 cis r
+		r8 d d d d16( e32 fis g a h cis)
+		d8 d, d d d16( e32 fis g a h cis)
+		d16 fis, g e d4 cis %85
+		d8-! fis32( g fis e) d8-! fis32( g fis e) d8-! fis32( g fis e)
+		d4 r r
+		R2.
+		r4 r r8 a'\fE
+		\appoggiatura a16 g8 fis16 e d4 cis %90
+		d8 d' a fis \appoggiatura fis16 e8 d16 cis
+		d8 d' a fis \appoggiatura fis16 e8 d16 cis
+		\appoggiatura cis4 d2^\missgrace r4\fermata \bar "||" %93 finis
 	}
 }

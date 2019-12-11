@@ -1328,8 +1328,8 @@ AgnusDeiViolinoI = {
 		a' a a a a a
 		d,4 r r
 		fis'8. g16 fis8 fis16 g \appoggiatura h a8 g16 fis %5
-		fis4 e r
-		r r8 fis16 g a8 g16 fis
+		\once \slurDashed fis4( e8) r r4
+		r r8 fis16 g \appoggiatura h a8^\missgrace g16 fis
 		\appoggiatura g8 fis4( e8) r r4
 		fis8-! a32( h a g) fis8-! a32( h a g) fis8-! a32( h a g)
 		\slurDashed fis8( d') d([ cis)] cis( c) \slurSolid %10
@@ -1339,14 +1339,14 @@ AgnusDeiViolinoI = {
 		d, fis a
 		d r r %15
 		\slurDashed d8( d') d([ cis)] cis( c) \slurSolid
-		h8 a16 g fis4 e\trill
+		\appoggiatura c16 h8^\missgrace a16 g fis4 e\trill
 		d8 d' a fis \appoggiatura a16 g8 fis16 e
 		d8 d' a fis \appoggiatura a16 g8 fis16 e
 		\appoggiatura e4 d2 r4 %20
 		d'8\p a16 h a8 a a a
 		a( fis) fis4 r8 fis
 		e16( g) fis( a) a4 g
-		g8 fis fis4 a8 d
+		\once \slurDashed g8( fis) fis4 a8 d
 		d4 cis8 h a g %25
 		fis4 r r
 		r8 f f f f f
@@ -1388,8 +1388,8 @@ AgnusDeiViolinoI = {
 		h'8 h h h h h
 		a a a a a a
 		e8.( fis32 g) fis4 r %65
-		fis4. e16 fis g8 fis16 e
-		fis4. e16 fis g8 fis16 e
+		fis4. e16 fis \appoggiatura a g8^\missgrace fis16 e
+		fis4. e16 fis \appoggiatura a g8^\missgrace fis16 e
 		fis16( e fis g) a8 fis16 g a8 g16 fis
 		fis8( e) e4 r
 		r r8 fis16( g) a8 g16( fis) %70
@@ -1405,7 +1405,7 @@ AgnusDeiViolinoI = {
 		d r e8.( fis32 g) %80
 		fis4 e cis16( e) e( g)
 		fis4 e r
-		r8 d-! d-! d-! d16( e32 fis g a h cis)
+		r8 d d d d16( e32 fis g a h cis)
 		d8 d, d d d16( e32 fis g a h cis)
 		d16 a h g fis4 e %85
 		d8-! a'32( h a g) fis8-! a32( h a g) fis8-! a32( h a g)
