@@ -1206,13 +1206,14 @@ SanctusTenoreLyrics = \lyricmode {
 AgnusDeiTenoreNotes = {
 	\relative c' {
 		\clef "treble_8"
-		\key c \major \time 3/4 \autoBeamOff \tempoAgnusDei
+		\key d \major \time 3/4 \autoBeamOff \tempoAgnusDei
 		
 	}
 }
 
 AgnusDeiTenoreLyrics = \lyricmode {
-	
+% 	A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
+% 	Mi -- se -- re -- re no -- bis.
 }
 
 % TenoreNotes = {

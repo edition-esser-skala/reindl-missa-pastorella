@@ -1541,13 +1541,116 @@ SanctusAltoLyrics = \lyricmode {
 AgnusDeiAltoNotes = {
 	\relative c' {
 		\clef treble
-		\key c \major \time 3/4 \autoBeamOff \tempoAgnusDei
-		
+		\key d \major \time 3/4 \autoBeamOff \tempoAgnusDei
+		R2.*20 %20
+		d'4(\pE a) a
+		a8([ fis)] fis4 r8 fis
+		e16([ g)] fis a a4 g
+		g8([ fis)] fis4 r
+		R2.*2 %26
+		a8([ f)] f4.( e16[ f)]
+		a8([ e)] e4 r
+		R2.*4 %32
+		fis!4( h) a
+		gis16([ e h' gis)] a4 a~
+		a4. gis16([ a)] h8 d, %35
+		cis16([ d e fis)] e4 r
+		R2.*2
+		e2 eis4
+		eis?8([ fis)] fis4 r %40
+		R2.*3
+		a4.( gis16[ a] \once \stemUp h8) a16([ gis)]
+		a4.( gis16[ a] h8[ a16 gis] %45
+		a8) e fis([ gis)] gis([ a)]
+		a2.~
+		\once \tieDashed a~
+		a16[ e] fis([ h)] a4( gis)
+		a r r %50
+		R2.*5 %55
+		r4 \once \tieDashed a~ a16[ g!] fis([ e)]
+		e8([ dis)] dis4 r
+		R2.*5 %62
+		h'2 \appoggiatura a16 g8([ fis16 e)]
+		a2 \appoggiatura g16 fis8([ e16 d)]
+		e8.([ fis32 g)] fis4 r %65
+		fis4.( e16[ fis] g8) fis16([ e)]
+		fis4.( e16[ fis] g8) fis16([ e])
+		fis([ e fis g)] a8 fis16([ g] a8) g16([ fis)]
+		fis8([ e)] e4 r
+		r r8 fis16([ g] a8) g16([ fis)] %70
+		fis8([ e)] e4 r
+		r fis fis
+		fis8( a4 d) fis,8
+		fis8.([ e32 fis)] e4 cis16([ e)] e([ g)]
+		fis4 e cis16([ e)] e([ g)] %75
+		fis4 e cis16([ e)] e([ g)]
+		fis2.
+		d'~\once \tieDashed
+		d16[ a] h([ g)] fis4( e)\trill
+		d r e8. fis32([ g)] %80
+		fis4 e cis16([ e)] fis([ g)]
+		fis8.([ e32 fis)] e4 cis16([ e)] e([ g)]
+		fis2.
+		d'~\once \tieDashed
+		d16[ a] h([ g)] fis4( \appoggiatura a16 g8[ fis16 e]) %85
+		\appoggiatura e8 d4 r r
+		R2.*6 %92
+		R2.\fermataMarkup \bar "||" %93 finis
 	}
 }
 
 AgnusDeiAltoLyrics = \lyricmode {
+	A -- gnus %21
+	De -- i, qui
+	tol -- lis pec -- ca -- ta
+	mun -- di:
 	
+	Mi -- se -- %27
+	re -- re,
+	
+	mi -- se -- %33
+	re -- re, mi --
+	se -- re -- re %35
+	no -- bis,
+	
+	mi -- se -- %39
+	re -- re, %40
+	
+	mi -- se -- %44
+	re -- %45
+	re, mi -- se --
+	re --
+	
+	re no --
+	bis. %50
+	
+	A -- gnus %56
+	De -- i,
+	
+	Mi -- se -- %63
+	re -- re __
+	no -- bis, %65
+	mi -- se --
+	re -- re
+	no -- bis, mi -- se --
+	re -- re,
+	mi -- se -- %70
+	re -- re,
+	mi -- se --
+	re -- re
+	no -- bis, mi -- se --
+	re -- re, mi -- se -- %75
+	re -- re, mi -- se --
+	re --
+	_
+	re no --
+	bis, mi -- se -- %80
+	re -- re, mi -- se --
+	re -- re, mi -- se --
+	re --
+	_
+	re no -- %85
+	bis. %86 finis
 }
 
 % AltoNotes = {

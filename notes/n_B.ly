@@ -1197,13 +1197,14 @@ SanctusBassoLyrics = \lyricmode {
 AgnusDeiBassoNotes = {
 	\relative c {
 		\clef bass
-		\key c \major \time 3/4 \autoBeamOff \tempoAgnusDei
+		\key d \major \time 3/4 \autoBeamOff \tempoAgnusDei
 		
 	}
 }
 
 AgnusDeiBassoLyrics = \lyricmode {
-	
+% 	A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
+% 	Mi -- se -- re -- re no -- bis.
 }
 
 % BassoNotes = {
