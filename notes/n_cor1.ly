@@ -825,6 +825,92 @@ DonaNobisCornoI = {
 		\clef treble
 		\key c \major \time 4/4 \tempoDonaNobis
 			\set Score.currentBarNumber = #94
-		
+		R1
+		r2 r4 r8 f'\fE %95
+		d4 c g g8 g \noBreak
+		g1\fermata \bar "||"
+		\twofourtime \time 2/4 \tempoDonaNobisB e'8. f16 g8 g \noBreak
+		g( e) r4
+		g,8 g g g %100
+		c4 r8 e
+		d8. e16 f8 f
+		e8. f16 g8 g
+		R2*2 %105
+		g4 g8 r
+		e8. f16 g8 g
+		g( e) r4
+		g2
+		c,4 r %110
+		g'2
+		g
+		g
+		c,4 r
+		R2*7 %121
+		d8 d r4
+		g,4 g
+		g r
+		d'2\p %125
+		d4 r8 d
+		d2
+		d4 r
+		R2*4 %132
+		d2\fE
+		d
+		d %135
+		d
+		d
+		d8 d r4
+		R2*6 %144
+		d2 %145
+		fis
+		g\pE
+		g
+		g
+		g8 r r4 %150
+		R2*10 %160
+		d2\fE
+		fis
+		g4 r
+		g2
+		g %165
+		g
+		g
+		g
+		g4 r
+		R2*3 %172
+		d4 c
+		g r
+		R2*2 %176
+		d'4 d8 d
+		d4 r
+		R2*4 %182
+		g,2
+		c4 r
+		g'2 %185
+		g
+		R
+		r4 r8 e
+		d8. e16 f8 f
+		e8. f16 g8 g %190
+		R2*6 %196
+		e2
+		d^\critnote
+		c4 r
+		c2^\critnote %200
+		c8 g e c
+		g'4 r
+		R2*2
+		g2\pE %205
+		g4 r
+		R2*6 %212
+		e'2\fE
+		d
+		c4 r %215
+		c2\p
+		c4 r
+		R2*4 %221
+		c2\f
+		c
+		c4 r\fermata \bar "|." %224 FINIS
 	}
 }

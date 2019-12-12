@@ -815,31 +815,31 @@
 						\DonaNobisViola
 					}
 				>>
-% 				\new ChoirStaff <<
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Soprano"
-% 						\new Voice = "Soprano" { \dynamicUp \DonaNobisSopranoNotes }
-% 					}
-% 					\new Lyrics \lyricsto Soprano \DonaNobisSopranoLyrics
-% 					
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Alto"
-% 						\new Voice = "Alto" { \dynamicUp \DonaNobisAltoNotes }
-% 					}
-% 					\new Lyrics \lyricsto Alto \DonaNobisAltoLyrics
-% 					
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Tenore"
-% 						\new Voice = "Tenore" { \dynamicUp \DonaNobisTenoreNotes }
-% 					}
-% 					\new Lyrics \lyricsto Tenore \DonaNobisTenoreLyrics
-% 					
-% 					\new Staff {
-% 						\set Staff.instrumentName = "Basso"
-% 						\new Voice = "Basso" { \dynamicUp \DonaNobisBassoNotes }
-% 					}
-% 					\new Lyrics \lyricsto Basso \DonaNobisBassoLyrics
-% 				>>
+				\new ChoirStaff <<
+					\new Staff {
+						\set Staff.instrumentName = "Soprano"
+						\new Voice = "Soprano" { \dynamicUp \DonaNobisSopranoNotes }
+					}
+					\new Lyrics \lyricsto Soprano \DonaNobisSopranoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Alto"
+						\new Voice = "Alto" { \dynamicUp \DonaNobisAltoNotes }
+					}
+					\new Lyrics \lyricsto Alto \DonaNobisAltoLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Tenore"
+						\new Voice = "Tenore" { \dynamicUp \DonaNobisTenoreNotes }
+					}
+					\new Lyrics \lyricsto Tenore \DonaNobisTenoreLyrics
+					
+					\new Staff {
+						\set Staff.instrumentName = "Basso"
+						\new Voice = "Basso" { \dynamicUp \DonaNobisBassoNotes }
+					}
+					\new Lyrics \lyricsto Basso \DonaNobisBassoLyrics
+				>>
 				\new StaffGroup <<
 					\new Staff {
 						\set Staff.instrumentName = "Organo"
