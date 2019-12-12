@@ -3046,15 +3046,15 @@ DonaNobisOrgano = {
 		a gis16 fis gis8 e
 		a e r4
 		a a
-		a r8 e-!\p
-		fis-! gis-! a-! h-! %125
-		a gis r e-!
-		fis-! gis-! a-! h-!
+		a r8 e\p
+		fis gis a h %125
+		a gis r e
+		fis gis a h
 		a gis r4
 		gis?8.\f a16 h8 h
 		a( cis) r cis %130
 		h8. cis16 d8 d
-		cis a r a
+		\once \slurDashed cis( a) r a
 		gis8. a16 h8 h
 		a8. h16 cis8 cis
 		h8. cis16 d8 d %135
@@ -3084,20 +3084,20 @@ DonaNobisOrgano = {
 		e, e e e
 		a4 r
 		a8. h16 cis8 cis
-		cis a r a %165
+		\once \slurDashed cis( a) r a %165
 		h8. cis16 d8 d
 		d( h) r h
 		cis8. d16 e8 e
 		e( cis) r cis
 		d8. e16 fis8 fis %170
 		fis( d) d'4
-		\once \tieDashed g,2~
+		\once \tieDashed g,!2~
 		g8 fis16 e fis8 d
 		a' a, a'4-!
 		gis-! a-! %175
-		\appoggiatura g16 f8 e16 d cis8-! d-!
+		\appoggiatura g16 f8 e16 d cis!8-! d-!
 		a4-! a8.-! a16-!
-		a4 r8 d
+		a4-\parenthesize-! r8 d
 		e fis! g a
 		fis g r e %180
 		fis-! gis-! a-! h-!
@@ -3117,20 +3117,20 @@ DonaNobisOrgano = {
 		d %200
 		d'8-! a-! \appoggiatura g16 fis8-! e16-! d-!
 		a4 r8 a\p
-		h-! cis-! d-! e-!
-		d( cis) r a
-		h-! cis-! d-! e-! %205
-		d( cis) r4
+		h cis d e
+		d cis r a
+		h cis d e %205
+		d cis r4
 		R2*4 %210
 		d8.\f e16 fis8 fis
 		g8. a16 h8 h
 		a a a a
 		a, a a a
 		d4 r8 d\p %215
-		e-! fis-! g-! a-!
-		g( fis) r d\pp
 		e fis g a
-		g( fis) r4
+		g fis r d\pp
+		e fis g a
+		g fis r4
 		g2\f %220
 		e
 		d4 d

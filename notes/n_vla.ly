@@ -1401,6 +1401,136 @@ DonaNobisViola = {
 		\clef treble
 		\key d \major \time 4/4 \tempoDonaNobis
 			\set Score.currentBarNumber = #94
-		
+		h8\fE h h h fis fis fis fis
+		h' h h h h h h h %95
+		a4 a a2 \noBreak
+		a1\fermata \bar "||"
+		\twofourtime \time 2/4 \tempoDonaNobisB d,4 d \noBreak
+		d r8 d
+		a' a a a %100
+		a4 r
+		r8 a, a a
+		r d d d
+		a' a a a
+		h h h h %105
+		a4 r
+		d, d
+		d r8 d
+		cis d e cis
+		d4 r %110
+		a'2
+		a4 r
+		a2
+		a4 r8 a,\p-\parenthesize-!
+		h-! cis-! d-! d-! %115
+		d( cis) r a-\parenthesize-!
+		h-! cis-! d-! e-!
+		d( cis) r4
+		d'2~\f
+		d8 cis16 h cis8 a %120
+		a gis16 fis gis8 e
+		e e r4
+		a a
+		a r8 e\p-\parenthesize-!
+		fis-! gis-! a-! h-! %125
+		a( gis) r e-\parenthesize-!
+		fis-! gis-! a-! h-!
+		a( gis) r4
+		gis8.\f a16 h8 h
+		a( cis) r cis, %130
+		h8. cis16 d8 d
+		cis( a) r4
+		e'16 e e e e e e e
+		e e e e e e e e
+		e e e e e e e e %135
+		e e e e e e e e
+		e e e e e e e e
+		e8 e r4
+		a8\p e h' e,
+		cis' e, h' e, %140
+		a e h' e,
+		cis' e, h' e,
+		a4\fE r
+		R2
+		e8 e e e %145
+		e e e e
+		a a h\pE h
+		a a h h
+		a a h h
+		a dis, dis dis %150
+		e4 f
+		e8 dis dis dis
+		e4 f
+		e r
+		a,8 a h h %155
+		cis cis h h
+		a a h h
+		cis cis h h
+		a8.\f h16 cis8 cis
+		d8. e16 fis8 fis %160
+		e e e e
+		e e e e
+		cis4 r
+		a8. h16 cis8 cis
+		cis( a) r a %165
+		h8. cis16 d8 d
+		d( h) r h
+		cis8. d16 e8 e
+		e( cis) r cis
+		d8. e16 fis8 fis %170
+		fis( d) r4
+		g!2~
+		g8 fis16 e fis8 d
+		a' a, a'4
+		gis a %175
+		\appoggiatura g16 f8^\missgrace e16 d cis!8 d
+		a4 a8. a16
+		a4 r8 d-\parenthesize-!
+		e-! fis-! g-! a-!
+		fis( g) r e-\parenthesize-! %180
+		fis-! gis-! a-! h-!
+		gis( a) r d,
+		a4 r
+		d r
+		cis8. d16 e8 e %185
+		d8. e16 fis8 fis
+		e8. fis16 g8 g
+		fis8. e16 d4
+		a r
+		d r %190
+		d8\p a e' a,
+		fis' a, e' a,
+		d a e' a,
+		fis' a, e' a,
+		d8.\f e16 fis8 fis %195
+		g8. a16 h8 h
+		a a a a
+		a a a a
+		d, d e e
+		d d e e %200
+		fis a \appoggiatura g16 fis8 e16 d
+		a4 r8 a\p-\parenthesize-!
+		h-! cis-! d-! e-!
+		d( cis) r a-\parenthesize-!
+		h-! cis-! d-! e-! %205
+		d( cis) r4
+		d8 d e e
+		fis fis e e
+		d d e e
+		fis fis e e %210
+		d8.\f e16 fis8 fis
+		g8. a16 h8 h
+		a a a a
+		a a a a
+		fis4 r8 d\p-\parenthesize-! %215
+		e-! fis-! g-! a-!
+		g( fis) r d-\parenthesize-!\pp
+		e-! fis-! g-! a-!
+		g( fis) r4
+		d2\f^\critnote %220
+		e
+		d4 d
+		d d
+		d r\fermata \bar "|." %224 FINIS
 	}
 }

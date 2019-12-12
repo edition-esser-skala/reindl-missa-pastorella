@@ -1452,13 +1452,13 @@ DonaNobisViolinoII = {
 		a8. h16 cis8 cis
 		\once \slurDashed cis( a) r gis\p-\parenthesize-!
 		a-! h-! cis-! d-! %125
-		cis-! h-! r gis-!
+		cis( h) r gis-!
 		a-! h-! cis-! d-!
-		cis-! h-! r4
+		cis( h) r4
 		e16\f e e e e e e e
 		e e e e e e e e %130
 		e e e e e e e e
-		e8 cis r4
+		\once \tieDashed e8( cis) r4
 		h'8. cis16 d8 d
 		cis8.^\critnote h16 a8 a
 		gis8. a16 h8 h %135
@@ -1502,12 +1502,12 @@ DonaNobisViolinoII = {
 		a4 a8 d
 		d( cis) a'4
 		gis a %175
-		\appoggiatura g16 f8^\missgrace e16 d cis8 d
+		\appoggiatura g16 f8^\missgrace e16 d cis!8 d
 		<cis e, a,>4 q
-		q r8 fis,!
-		g( a h c)
-		a( g)-\critnote r gis %180
-		a( h cis d)
+		q r8 fis,!-\parenthesize-!
+		g-\parenthesize-! a-\parenthesize-! h-\parenthesize-! c-\parenthesize-!
+		a( g)-\critnote r gis-\parenthesize-! %180
+		a-\parenthesize-! h-\parenthesize-! cis-\parenthesize-! d-\parenthesize-!
 		h( a) r d-!
 		\once \slurDashed cis8.( d16) e8-\parenthesize-! e-\parenthesize-!
 		\once \slurDashed d8.( e16) fis8-\parenthesize-! fis-\parenthesize-!

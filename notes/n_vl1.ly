@@ -1446,9 +1446,9 @@ DonaNobisViolinoI = {
 		cis8. d16 e8 e
 		d( fis) r cis\p-\parenthesize-!
 		d-! e-! fis-! g-! %115
-		fis-! e-! r8 cis-\parenthesize-!
+		fis( e) r8 cis-\parenthesize-!
 		d-! e-! fis-! g-!
-		fis-! e-! r a,\f
+		fis( e) r a,\f
 		fis'2
 		e4 e8 cis %120
 		d4 e8 d^\critnote
@@ -1460,9 +1460,9 @@ DonaNobisViolinoI = {
 		e e e e
 		e e r e\f
 		h8. cis16 d8 d
-		cis8 a r a %130
+		\once \slurDashed cis8( a) r a %130
 		gis8. a16 h8 h
-		a cis r4
+		\once \slurDashed a( cis) r4
 		h'8. cis16 d8 d
 		cis8. h16 a8 a
 		gis8. a16 h8 h %135
@@ -1506,7 +1506,7 @@ DonaNobisViolinoI = {
 		cis4 d8 fis
 		\once \slurDashed fis( e) a4
 		gis a %175
-		\appoggiatura g16 f8^\missgrace e16 d cis8 d
+		\appoggiatura g16 f8^\missgrace e16 d cis!8 d
 		<cis e, a,>4 q
 		q r8 d
 		d d d d
