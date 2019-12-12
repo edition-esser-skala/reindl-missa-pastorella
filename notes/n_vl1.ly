@@ -1431,7 +1431,7 @@ DonaNobisViolinoI = {
 		\twofourtime \time 2/4 \tempoDonaNobisB fis8. g16 a8 a \noBreak
 		a( fis) r fis16( a)
 		e( a fis a) g( a e a) %100
-		a8 d r fis,
+		\once \slurDashed fis8(^\critnote a) r fis
 		e8. fis16 g8 g
 		fis8. g16 a8 a
 		a d4 cis8
@@ -1504,7 +1504,7 @@ DonaNobisViolinoI = {
 		d( fis) fis4
 		fis8( g) e( d)
 		cis4 d8 fis
-		fis e a4
+		\once \slurDashed fis( e) a4
 		gis a %175
 		\appoggiatura g16 f8^\missgrace e16 d cis8 d
 		<cis e, a,>4 q
@@ -1512,7 +1512,7 @@ DonaNobisViolinoI = {
 		d d d d
 		c( h) r e %180
 		e e e e
-		d( cis!) r fis
+		d( cis!) r fis-\parenthesize-!
 		<e a,>8.( fis16) g8-! g-!
 		fis8.( g16) a8-! a-!
 		e8. fis16 g8 g %185
@@ -1521,11 +1521,11 @@ DonaNobisViolinoI = {
 		d8. e16 fis4
 		e,8. fis16 g8 g
 		fis8. g16 a8 a %190
-		fis'4 g16( e cis a)
+		fis'4\pE g16( e cis a)
 		<a a'>4 g'16( e cis a)
 		fis'4 g16( e cis a)
 		<a a'>4 g'16( e cis a)
-		fis'8. g16 a8 a %195
+		fis'8.\fE g16 a8 a %195
 		h8. cis16 d8 d
 		d,16 fis d fis d fis d fis
 		e cis' e, cis' e, cis' e, cis'
@@ -1551,7 +1551,7 @@ DonaNobisViolinoI = {
 		d d d d
 		d4 r
 		h2\f %220
-		cis
+		cis!
 		d4 <fis a, d,>8 a
 		<fis a, d,>4 q8 a
 		<fis a, d,>4 r\fermata \bar "|." %224 FINIS

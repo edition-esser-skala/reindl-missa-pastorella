@@ -1420,6 +1420,136 @@ DonaNobisViolinoII = {
 		\clef treble
 		\key d \major \time 4/4 \tempoDonaNobis
 			\set Score.currentBarNumber = #94
-		
+		d'8\fE h h h h ais ais4
+		a8 a a a a g g g %95
+		g4 fis fis e8 d \noBreak
+		e1\fermata \bar "||"
+		\twofourtime \time 2/4 \tempoDonaNobisB d8. e16 fis8 fis \noBreak
+		\once \slurDashed fis( d) r d'
+		cis d e cis %100
+		d( fis) r-\critnote d
+		cis8. d16 e8 e
+		d8. e16 fis8 fis
+		r4 r8 a
+		a16( g) g( fis) fis( e) e( d) %105
+		d4( cis8) r
+		d,8. e16 fis8 fis
+		\once \slurDashed fis( d) r d
+		\slurDashed e16( a fis a) g( a e a) \slurSolid
+		fis4 r8 fis' %110
+		e8. fis16 g8 g
+		fis( d) r d
+		cis8. d16 e8 e
+		d( fis) r a,\p
+		a a a a %115
+		a4 r8 a
+		a a a a
+		a4 r
+		r8 fis\f h a
+		gis4 a %120
+		h gis
+		a8 gis r4
+		a8. h16 cis8 cis
+		\once \slurDashed cis( a) r gis\p-\parenthesize-!
+		a-! h-! cis-! d-! %125
+		cis-! h-! r gis-!
+		a-! h-! cis-! d-!
+		cis-! h-! r4
+		e16\f e e e e e e e
+		e e e e e e e e %130
+		e e e e e e e e
+		e8 cis r4
+		h'8. cis16 d8 d
+		cis8.^\critnote h16 a8 a
+		gis8. a16 h8 h %135
+		a8. h16 cis8 cis
+		h8. cis16 d8 d
+		\once \slurDashed a( gis) r4
+		e,8\p e e e
+		e e e e %140
+		e e e e
+		e e e e
+		a,8.\f h16 cis8 cis
+		d8. e16 fis8 fis
+		a16 cis a cis a cis a cis %145
+		gis h gis h gis h gis h
+		cis8 cis d\pE d
+		cis cis d d
+		cis cis d d
+		cis8 dis, dis dis %150
+		e4 f
+		e8 dis dis dis
+		e4 f
+		e r
+		e8 e e e %155
+		e e e e
+		e e e e
+		e e e e
+		cis'8.\fE d16 e8 e
+		fis8. gis16 a8 a %160
+		a,16 cis a cis a cis a cis
+		gis h gis h gis h gis h
+		a4 r
+		cis8. d16 e8 e
+		e( cis) r cis %165
+		d8. e16 fis8 fis
+		fis( d) r d
+		e8. fis16 g!8 g
+		g( e) r e
+		fis8. e16 d8 d %170
+		d( fis) a,4
+		h2
+		a4 a8 d
+		d( cis) a'4
+		gis a %175
+		\appoggiatura g16 f8^\missgrace e16 d cis8 d
+		<cis e, a,>4 q
+		q r8 fis,!
+		g( a h c)
+		a( g)-\critnote r gis %180
+		a( h cis d)
+		h( a) r d-!
+		\once \slurDashed cis8.( d16) e8-\parenthesize-! e-\parenthesize-!
+		\once \slurDashed d8.( e16) fis8-\parenthesize-! fis-\parenthesize-!
+		a,16 a' a, a' a, a' a, a' %185
+		a, a' a, a' a, a' a, a'
+		a, a' a, a' a, a' a, a'
+		a,8. cis16 d4
+		cis,8. d16 e8 e
+		d8. e16 fis8 fis %190
+		a\p a a a
+		a a a a
+		a a a a
+		a a a a
+		fis'8.\f g16 a8 a %195
+		h8. cis16 d8 d
+		fis,16 d' fis, d' fis, d' fis, d'
+		cis, e cis e cis e cis e
+		fis,8 fis g g
+		fis fis g g %200
+		fis a \appoggiatura g16 fis8 e16 d
+		<a' e a,>4 r8 cis,-!\p
+		d-! e-! fis-! g-!
+		fis( e) r cis-\parenthesize-!
+		d-! e-! fis-! g-! %205
+		\once \slurDashed fis( e) r4
+		a8 a a a
+		a a a a
+		a a a a
+		a a a a %210
+		fis'8.\f g16 a8 a
+		h8. cis16 d8 d
+		d,16 fis d fis d fis d fis
+		cis e cis e cis e cis e
+		d4 r8 fis,-!\p %215
+		g-! a-! h-! c-!
+		h( a) r fis-!\pp
+		g-! a-! h-! c-!
+		h( a) r4
+		g2\f %220
+		g
+		fis4 <fis' a, d,>8 a
+		<fis a, d,>4 q8 a
+		<fis a, d,>4 r\fermata \bar "|." %224 FINIS
 	}
 }

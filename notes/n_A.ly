@@ -1724,7 +1724,7 @@ DonaNobisAltoNotes = {
 		e,4 d8 fis
 		fis e r4
 		R2*3 %177
-		r4 r8 fis(
+		r4 r8 fis!(
 		g[ a)] h([ c)]
 		a g r gis( %180
 		a[ h)] cis!([ d)]

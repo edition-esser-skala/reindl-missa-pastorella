@@ -1380,7 +1380,7 @@ DonaNobisBassoNotes = {
 		gis a r4
 		a2
 		d,4 r
-		cis8. d16 e8 cis %185
+		cis8. d16 e8 e %185
 		d8.([ e16)] fis4
 		e8. fis16 g8 g
 		fis8.([ e16)] d4
