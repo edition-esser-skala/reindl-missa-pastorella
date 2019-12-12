@@ -1995,9 +1995,9 @@ DonaNobisSopranoNotes = {
 		e'8. fis16 g8 g
 		fis d r4
 		cis8. d16 e8 e
-		d fis r cis(
+		d fis r cis(\p
 		d) e fis g %115
-		fis e r cis(\p
+		fis e r cis(
 		d[ e)] fis([ g)]
 		fis e r4
 		fis2\f
@@ -2079,7 +2079,7 @@ DonaNobisSopranoNotes = {
 		d4. d8
 		d d r4
 		h2(\f %220
-		cis)
+		cis!)
 		d4 r
 		R2
 		R\fermataMarkup \bar "|." %224 FINIS
@@ -2136,8 +2136,8 @@ DonaNobisSopranoLyrics = \lyricmode {
 	
 	pa -- %161
 	
-	cem.
-	Do -- na no -- bis
+	cem,
+	do -- na no -- bis
 	pa -- cem, do -- %165
 	na no -- bis
 	pa -- cem, do --
