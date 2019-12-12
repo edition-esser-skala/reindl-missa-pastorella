@@ -1987,7 +1987,7 @@ DonaNobisSopranoNotes = {
 		a2 a8([ g)] g e' %95
 		e4 d d4.( cis16[ h)] \noBreak
 		cis1\fermata \bar "||"
-		\twofourtime \time 2/2 \tempoDonaNobisB R2*9 %106
+		\twofourtime \time 2/4 \tempoDonaNobisB R2*9 %106
 		fis,8. g16 a8 a
 		a fis r4
 		a8 a a a

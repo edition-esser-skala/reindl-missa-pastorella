@@ -1662,7 +1662,7 @@ DonaNobisAltoNotes = {
 		fis2 fis8([ e)] e g %95
 		g4 fis fis( e8[ d)] \noBreak
 		e1\fermata \bar "||"
-		\twofourtime \time 2/2 \tempoDonaNobisB R2*9 %106
+		\twofourtime \time 2/4 \tempoDonaNobisB R2*9 %106
 		d8. e16 fis8 fis
 		fis d r4
 		e8 fis g e

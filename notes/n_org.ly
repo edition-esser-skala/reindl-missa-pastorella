@@ -3041,7 +3041,7 @@ DonaNobisOrgano = {
 		d cis r a
 		h cis d e
 		d cis r4
-		d'2\f
+		\once \tieDashed d'2~\f
 		d8 cis16 h cis8 a %120
 		a gis16 fis gis8 e
 		a e r4
@@ -3091,7 +3091,7 @@ DonaNobisOrgano = {
 		e( cis) r cis
 		d8. e16 fis8 fis %170
 		fis( d) d'4
-		g,2
+		\once \tieDashed g,2~
 		g8 fis16 e fis8 d
 		a' a, a'4-!
 		gis-! a-! %175

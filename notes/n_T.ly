@@ -1317,7 +1317,7 @@ DonaNobisTenoreNotes = {
 		h2 h4 h8 h %95
 		a4 a a2 \noBreak
 		a1\fermata \bar "||"
-		\twofourtime \time 2/2 \tempoDonaNobisB R2*9 %106
+		\twofourtime \time 2/4 \tempoDonaNobisB R2*9 %106
 		d8. d16 d8 d
 		d a r4
 		a8 a a a
