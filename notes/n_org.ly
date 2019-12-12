@@ -3155,12 +3155,12 @@ DonaNobisBassFigures = \figuremode {
 	<6 4>4 <5 3>
 	r2
 	r
-	<6>
-	r %110
-	<6>
+	<6>4 <[6]>8 q
+	r2 %110
+	<6>4 <[6 5]>
 	r8 q4.
-	<6 4>2
-	<6>
+	<6 4>8. <[6]>16 <[2]>4
+	<6>2
 	<7 3>8 \bassFigureExtendersOn <7 3\!> q q %115
 	q q r4
 	q8 q q q
@@ -3172,18 +3172,18 @@ DonaNobisBassFigures = \figuremode {
 	r2
 	r4. <_+>8
 	<3> q q q %125
+	q q4 <[3]>8
+	q q q q
 	q q4.
-	r2
-	r
-	<6>
+	<6>4 <6\\>
 	r8 <6>4. %130
-	<6\\>4 <4\+ 2>
+	<6\\>8. <[6]>16 <4\+ 2>4
 	<6>2
 	<3>8. q16 q8 q
 	r8. <6\\>16 <6>4
 	<6\\>8. <[6]>16 <4\+ 2>4 %135
-	<6>2
-	q
+	<6>8. <[6\\]>16 r4
+	<6> <[6\\]>
 	r8 <_+>4.
 	r4 <6\\>
 	<6> <6\\> %140
@@ -3197,9 +3197,9 @@ DonaNobisBassFigures = \figuremode {
 	r
 	r
 	r %150
-	<_+>4 <6\\>
+	<_+>4 <6\\ [4 3]>
 	<_+>2
-	<_+>4 <6\\>
+	<_+>4 <6\\ [4 3]>
 	<_+>2
 	r2*4 %158
 	<3>8. q16 q8 q
@@ -3211,8 +3211,8 @@ DonaNobisBassFigures = \figuremode {
 	<6> %165
 	<7>
 	<[\t]>
-	<6>
-	<[\t]>
+	<6 [5!]>
+	<[\t \t]>
 	<3>8. q16 q8 q %170
 	<6>2
 	<7>4 <6>8 <[5]>
@@ -3228,11 +3228,11 @@ DonaNobisBassFigures = \figuremode {
 	<5>2
 	r
 	r
-	<6> %185
-	r4 <6>
-	<6> <4 2>
-	<6>2
-	r
+	<6>4 <[6]> %185
+	r8. <[6]>16 <6>4
+	<6>8. <[6]>16 <4 2>4
+	<6>8. <[6]>16 r4
+	r2
 	r %190
 	r2*6 %196
 	<6 4>2
@@ -3251,12 +3251,12 @@ DonaNobisBassFigures = \figuremode {
 	<6 4>
 	<5 3>
 	r %215
-	<7 3>8 \bassFigureExtendersOn <7 3\!> q q
-	q q r4
-	q8 q q q
-	q q4. \bassFigureExtendersOff
+	<7 3>8 \bassFigureExtendersOn <7 3\!> q <7 [_!]>
+	<7 3\!> q r4
+	q8 q q <7 [_!]>
+	<7 3\!> q4. \bassFigureExtendersOff
 	r2 %220
-	<6>
+	<6\\>
 	r
 	r
 	r %224 FINIS
