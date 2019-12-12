@@ -3247,8 +3247,8 @@ DonaNobisBassFigures = \figuremode {
 	q q4. \bassFigureExtendersOff
 	r2*4 %210
 	<3>8. q16 q8 q
+	<[3]>8. q16 q8 q
 	<6 4>2
-	<6 4>
 	<5 3>
 	r %215
 	<7 3>8 \bassFigureExtendersOn <7 3\!> q <7 [_!]>

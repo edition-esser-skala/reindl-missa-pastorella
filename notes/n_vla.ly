@@ -1398,7 +1398,7 @@ AgnusDeiViola = {
 
 DonaNobisViola = {
 	\relative c' {
-		\clef treble
+		\clef alto
 		\key d \major \time 4/4 \tempoDonaNobis
 			\set Score.currentBarNumber = #94
 		h8\fE h h h fis fis fis fis
