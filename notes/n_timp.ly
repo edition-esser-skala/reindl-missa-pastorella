@@ -306,6 +306,52 @@ DonaNobisTimpani = {
 		\clef bass
 		\key c \major \time 4/4 \tempoDonaNobis
 			\set Score.currentBarNumber = #94
-		
+		R1*2 %95
+		r4 c\fE g g8 g \noBreak
+		g1\fermata \bar "||"
+		\twofourtime \time 2/4 \tempoDonaNobisB R2 \noBreak
+		r4 r8 c
+		g g g g %100
+		c4 r
+		R2*4 %105
+		g4 g
+		R2*16 %122
+		g4 g
+		g r
+		R2*22 %146
+		g4\pE r
+		g r
+		g r
+		g r %150
+		R2*12 %162
+		g4\fE g8 g
+		g4 r
+		R2*8 %172
+		r4 c
+		g8 g r4
+		R2*2 %176
+		g4 g8 g
+		g4 r
+		R2*3 %181
+		r4 r8 c
+		g4 r
+		c r
+		R2*3 %187
+		g4 c
+		R2*8 %196
+		g4 r
+		g g8 g
+		c4 r
+		R2 %200
+		c4 c
+		g r
+		R2*10 %212
+		g4 r
+		g g8 g
+		c4 r %215
+		R2*6 %221
+		c4 c8 c
+		c4 c8 c
+		c4 r\fermata \bar "|." %224 FINIS
 	}
 }
