@@ -3017,13 +3017,247 @@ DonaNobisOrgano = {
 		\key d \major \time 4/4 \tempoDonaNobis
 			\set Score.currentBarNumber = #94
 		\mvTr h8\fE-\tuttiE h h h fis' fis fis fis
-		dis dis dis dis e e e e
+		dis dis dis dis e e e e %95
 		cis4 d a2 \noBreak
 		a1\fermata \bar "||"
 		\twofourtime \time 2/4 \tempoDonaNobisB d4 d \noBreak
+		d r8 d
+		a' a a a %100
+		d,4 r
+		r8 a' a a
+		r d, d d
+		fis fis fis fis
+		g4 r8 gis %105
+		a4 a,8 r
+		d4 d
+		d r8 d'
+		cis d e cis
+		d4 r8 d, %110
+		cis8. d16 e8 e
+		d fis r fis
+		e8. fis16 g8 g
+		fis d r a\p
+		h cis d e %115
+		d cis r a
+		h cis d e
+		d cis r4
+		d'2\f
+		d8 cis16 h cis8 a %120
+		a gis16 fis gis8 e
+		a e r4
+		a a
+		a r8 e-!\p
+		fis-! gis-! a-! h-! %125
+		a gis r e-!
+		fis-! gis-! a-! h-!
+		a gis r4
+		gis?8.\f a16 h8 h
+		a( cis) r cis %130
+		h8. cis16 d8 d
+		cis a r a
+		gis8. a16 h8 h
+		a8. h16 cis8 cis
+		h8. cis16 d8 d %135
+		cis8. h16 a8 a
+		gis8. a16 h8 h
+		a e r4
+		a8 e h' e,
+		cis' e, h' e, %140
+		a e h' e,
+		cis' e, h' e,
+		a4 r
+		R2
+		e8 e e e %145
+		e, e e e
+		\mvTr a2~\p-\tasto
+		a~
+		a
+		a8 dis-!\fE dis-! dis-! %150
+		e4 f
+		e8 dis-! dis-! dis-!
+		e4 f
+		e r
+		R2*4 %158
+		a,8. h16 cis8 cis
+		d8. e16 fis8 fis %160
+		e e e e
+		e, e e e
+		a4 r
+		a8. h16 cis8 cis
+		cis a r a %165
+		h8. cis16 d8 d
+		d( h) r h
+		cis8. d16 e8 e
+		e( cis) r cis
+		d8. e16 fis8 fis %170
+		fis( d) d'4
+		g,2
+		g8 fis16 e fis8 d
+		a' a, a'4-!
+		gis-! a-! %175
+		\appoggiatura g16 f8 e16 d cis8-! d-!
+		a4-! a8.-! a16-!
+		a4 r8 d
+		e fis! g a
+		fis g r e %180
+		fis-! gis-! a-! h-!
+		gis a r d,
+		a4 r
+		d r
+		cis8. d16 e8 e %185
+		d8. e16 fis8 fis
+		e8. fis16 g8 g
+		fis8. e16 d4
+		a r
+		d r %190
+		R2*6 %196
+		a'8 a a a
+		a, a a a
+		d2~-\tasto
+		d %200
+		d'8-! a-! \appoggiatura g16 fis8-! e16-! d-!
+		a4 r8 a\p
+		h-! cis-! d-! e-!
+		d( cis) r a
+		h-! cis-! d-! e-! %205
+		d( cis) r4
+		R2*4 %210
+		d8.\f e16 fis8 fis
+		g8. a16 h8 h
+		a a a a
+		a, a a a
+		d4 r8 d\p %215
+		e-! fis-! g-! a-!
+		g( fis) r d\pp
+		e fis g a
+		g( fis) r4
+		g2\f %220
+		e
+		d4 d
+		d d
+		d r\fermata \bar "|." %224 FINIS
 	}
 }
 
 DonaNobisBassFigures = \figuremode {
-	
+	<_!>2 <6 4>4 <5 _+> %94
+	<6 5!>2 <_!> %95
+	<6 5> <6 4>4 <5 3>
+	r1
+	r2
+	r
+	r %100
+	r
+	r
+	r
+	<6>
+	r4. <7 5>8 %105
+	<6 4>4 <5 3>
+	r2
+	r
+	<6>
+	r %110
+	<6>
+	r8 q4.
+	<6 4>2
+	<6>
+	<7 3>8 \bassFigureExtendersOn <7 3\!> q q %115
+	q q r4
+	q8 q q q
+	q q4. \bassFigureExtendersOff
+	<5>4 <6>8 <5>
+	<4\+>4 <6> %120
+	<4 2> <6>8 <[_+]>
+	r <_+>4.
+	r2
+	r4. <_+>8
+	<3> q q q %125
+	q q4.
+	r2
+	r
+	<6>
+	r8 <6>4. %130
+	<6\\>4 <4\+ 2>
+	<6>2
+	<3>8. q16 q8 q
+	r8. <6\\>16 <6>4
+	<6\\>8. <[6]>16 <4\+ 2>4 %135
+	<6>2
+	q
+	r8 <_+>4.
+	r4 <6\\>
+	<6> <6\\> %140
+	r <6\\>
+	<6> <6\\>
+	r2
+	r
+	<6 4> %145
+	<5 _+>
+	r
+	r
+	r
+	r %150
+	<_+>4 <6\\>
+	<_+>2
+	<_+>4 <6\\>
+	<_+>2
+	r2*4 %158
+	<3>8. q16 q8 q
+	q8. q16 q8 q %160
+	<6 4>2
+	<5 _+>
+	r
+	r
+	<6> %165
+	<7>
+	<[\t]>
+	<6>
+	<[\t]>
+	<3>8. q16 q8 q %170
+	<6>2
+	<7>4 <6>
+	<4 2> <6>
+	<6 4>8 <5 3>4.
+	r2 %175
+	r
+	r
+	r4. <[8 _+]>8 \bassFigureExtendersOn
+	<8 _+>4. q8 \bassFigureExtendersOff
+	<5!>4. <8 _+>8 \bassFigureExtendersOn %180
+	q4. q8 \bassFigureExtendersOff
+	<5>2
+	r
+	r
+	<6> %185
+	r4 <6>
+	<6> <4 2>
+	<6>2
+	r
+	r %190
+	r2*6 %196
+	<6 4>2
+	<5 3>
+	r
+	r %200
+	r
+	r
+	<7 3>8 \bassFigureExtendersOn <7 3\!> q q
+	q q r4
+	q8 q q q %205
+	q q4. \bassFigureExtendersOff
+	r2*4 %210
+	<3>8. q16 q8 q
+	<6 4>2
+	<6 4>
+	<5 3>
+	r %215
+	<7 3>8 \bassFigureExtendersOn <7 3\!> q q
+	q q r4
+	q8 q q q
+	q q4. \bassFigureExtendersOff
+	r2 %220
+	<6>
+	r
+	r
+	r %224 FINIS
 }
