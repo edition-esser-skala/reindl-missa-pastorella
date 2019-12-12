@@ -1996,7 +1996,7 @@ DonaNobisSopranoNotes = {
 		fis d r4
 		cis8. d16 e8 e
 		d fis r cis(\p
-		d) e fis g %115
+		d[) e] fis([ g)] %115
 		fis e r cis(
 		d[ e)] fis([ g)]
 		fis e r4
@@ -2099,8 +2099,8 @@ DonaNobisSopranoLyrics = \lyricmode {
 	pa -- cem,
 	do -- na no -- bis
 	pa -- cem, do --
-	na no -- bis %115
-	pa -- cem, pa --
+	[na %115
+	no -- bis,] pa --
 	cem,
 	pa -- cem,
 	pa --
