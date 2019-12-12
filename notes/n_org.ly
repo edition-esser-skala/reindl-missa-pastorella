@@ -3061,17 +3061,17 @@ DonaNobisOrgano = {
 		cis8. h16 a8 a
 		gis8. a16 h8 h
 		a e r4
-		a8 e h' e,
+		a8\pE e h' e,
 		cis' e, h' e, %140
 		a e h' e,
 		cis' e, h' e,
-		a4 r
+		a4\fE r
 		R2
 		e8 e e e %145
 		e, e e e
 		\mvTr a2~\p-\tasto
 		a~
-		a
+		a~
 		a8 dis-! dis-! dis-! %150
 		e4 f
 		e8 dis-! dis-! dis-!

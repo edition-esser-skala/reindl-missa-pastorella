@@ -1985,7 +1985,7 @@ DonaNobisSopranoNotes = {
 			\set Score.currentBarNumber = #94
 		\mvTr h'4.\fE^\tutti h8 h([ ais)] ais4
 		a2 a8([ g)] g e' %95
-		e4 d d4.( cis16[ h)] \noBreak
+		e4 d d4(^\critnote cis8[ h)] \noBreak
 		cis1\fermata \bar "||"
 		\twofourtime \time 2/4 \tempoDonaNobisB R2*9 %106
 		fis,8. g16 a8 a
@@ -2020,12 +2020,12 @@ DonaNobisSopranoNotes = {
 		e~
 		e
 		cis8 h r4
-		cis d8.([ cis32 d)]
+		cis\pE d8.([ cis32 d)]
 		e4 r %140
 		cis d8.([ cis32 d)]
 		e4 r
 		R2*2
-		cis2( %145
+		cis2(\fE %145
 		h)
 		a4 r
 		R2*3 %150

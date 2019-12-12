@@ -1695,13 +1695,13 @@ DonaNobisAltoNotes = {
 		a8.[ h16] cis8 cis
 		h8.[ cis16] d8 d
 		a gis r4
-		e2
+		e2\pE
 		e4 r %140
 		e2
 		e4 r
 		R2*2
-		a2(
-		gis) %145
+		a2(\fE %145
+		gis)
 		e4 r
 		R2*3 %150
 		gis4(\p a)

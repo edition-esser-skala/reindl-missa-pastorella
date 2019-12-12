@@ -1344,12 +1344,12 @@ DonaNobisBassoNotes = {
 		cis8.[ h16] a8 a
 		gis8.[ a16] h8 h
 		a e r4
-		a h8.([ a32 h)]
+		a\pE h8.([ a32 h)]
 		cis4 r %140
 		a h8.([ a32 h)]
 		cis4 r
 		R2*2
-		e2( %145
+		\mvDll e2(\fE %145
 		e,)
 		a4 r
 		R2*3 %150
