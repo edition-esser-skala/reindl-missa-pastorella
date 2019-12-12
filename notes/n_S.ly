@@ -1983,10 +1983,202 @@ DonaNobisSopranoNotes = {
 		\clef treble
 		\key d \major \autoBeamOff \time 4/4 \tempoDonaNobis
 			\set Score.currentBarNumber = #94
-		
+		\mvTr h'4.\fE^\tutti h8 h([ ais)] ais4
+		a2 a8([ g)] g e' %95
+		e4 d d4.( cis16[ h)] \noBreak
+		cis1\fermata \bar "||"
+		\twofourtime \time 2/2 \tempoDonaNobisB R2*9 %106
+		fis,8. g16 a8 a
+		a fis r4
+		a8 a a a
+		d a r4 %110
+		e'8. fis16 g8 g
+		fis d r4
+		cis8. d16 e8 e
+		d fis r cis(
+		d) e fis g %115
+		fis e r cis(\p
+		d[ e)] fis([ g)]
+		fis e r4
+		fis2\f
+		e %120
+		d4 e8[ d]
+		cis h r4
+		cis8. d16 e8 e
+		e cis r e~\p
+		e4. e8 %125
+		e e r e~
+		e4. e8
+		e e r4
+		h8.\f cis16 d8 d
+		cis a r4 %130
+		gis8. a16 h8 h
+		a cis r4
+		e2~
+		e~
+		e~ %135
+		e~
+		e
+		cis8 h r4
+		cis d8.([ cis32 d)]
+		e4 r %140
+		cis d8.([ cis32 d)]
+		e4 r
+		R2*2
+		cis2( %145
+		h)
+		a4 r
+		R2*3 %150
+		h2\p
+		h4 r
+		h2
+		h4 r
+		R2*6 %160
+		cis2(\f
+		h)
+		a4 r
+		cis8. d16 e8 e
+		e cis r cis( %165
+		d8.) e16 fis8 fis
+		fis d r d(
+		e8.) fis16 g!8 g
+		g e r e(
+		fis8.) e16 d8 d %170
+		d fis fis4~
+		fis8[ e16 d] e8[ d]
+		cis4 \once \tieDashed d~
+		d8 cis r4
+		R2*3 %177
+		r4 r8 d~
+		d4. c8
+		c? h r \once \tieDashed e~ %180
+		e4. d8
+		d cis! r4
+		e2
+		fis4 r
+		e8. fis16 g8 g %185
+		fis8.([ e16)] d4
+		cis8. d16 e8 e
+		d8.([ e16)] fis4
+		R2*8 %196
+		fis2(
+		e)
+		d4 r
+		R2*2 %201
+		r4 r8 a~\p
+		a4. a8
+		a a r a~
+		a4. a8 %205
+		a a r4
+		R2*6 %212
+		fis'2\f(
+		e)
+		d4 r8 \once \tieDashed d~\p %215
+		d4. d8
+		d d r d~\pp
+		d4. d8
+		d d r4
+		h2(\f %220
+		cis)
+		d4 r
+		R2
+		R\fermataMarkup \bar "|." %224 FINIS
 	}
 }
 
 DonaNobisSopranoLyrics = \lyricmode {
-		
+	A -- gnus De -- i, %94
+	qui tol -- lis pec -- %95
+	ca -- ta mun -- di:
+	
+	Do -- na no -- bis %107
+	pa -- cem,
+	do -- na no -- bis
+	pa -- cem, %110
+	do -- na no -- bis
+	pa -- cem,
+	do -- na no -- bis
+	pa -- cem, do --
+	na no -- bis %115
+	pa -- cem, pa --
+	cem,
+	pa -- cem,
+	pa --
+	_ %120
+	_ _
+	_ cem,
+	do -- na no -- bis
+	pa -- cem, do --
+	na %125
+	no -- bis pa --
+	cem,
+	pa -- cem,
+	do -- na no -- bis
+	pa -- cem, %130
+	do -- na no -- bis
+	pa -- cem,
+	pa --
+	
+	_ cem, %138
+	pa -- _
+	cem, %140
+	pa -- _
+	cem,
+	
+	pa -- %145
+	
+	cem,
+	
+	pa -- %151
+	cem,
+	pa --
+	cem,
+	
+	pa -- %161
+	
+	cem.
+	Do -- na no -- bis
+	pa -- cem, do -- %165
+	na no -- bis
+	pa -- cem, do --
+	na no -- bis
+	pa -- cem, do --
+	na no -- bis %170
+	pa -- cem, pa --
+	_
+	_ _
+	cem.
+	
+	Do -- %178
+	na
+	no -- bis pa -- %180
+	cem,
+	pa -- cem,
+	pa --
+	cem,
+	do -- na no -- bis %185
+	pa -- cem,
+	do -- na no -- bis
+	pa -- cem,
+	
+	pa -- %197
+	
+	cem,
+	
+	do -- %202
+	na
+	no -- bis pa --
+	cem, %205
+	pa -- cem,
+	
+	pa -- %213
+	
+	cem, do -- %215
+	na
+	no -- bis pa --
+	cem,
+	pa -- cem,
+	pa -- %220
+	
+	cem. %222 FINIS
 }

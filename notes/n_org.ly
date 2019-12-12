@@ -3072,13 +3072,13 @@ DonaNobisOrgano = {
 		\mvTr a2~\p-\tasto
 		a~
 		a
-		a8 dis-!\fE dis-! dis-! %150
+		a8 dis-! dis-! dis-! %150
 		e4 f
 		e8 dis-! dis-! dis-!
 		e4 f
 		e r
 		R2*4 %158
-		a,8. h16 cis8 cis
+		a,8.\fE h16 cis8 cis
 		d8. e16 fis8 fis %160
 		e e e e
 		e, e e e
