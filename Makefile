@@ -7,8 +7,8 @@
 project = Reindl_Missa_Pastorella_Ex_G
 zipname = Reindl_Missa_Pastorella_Ex_G_Engraving_files
 notes = fl1 fl2 tr1 tr2 cor1 cor2 timp vl1 vl2 vla S A T B org
-parts = fl1 fl2 ottoni vl1 vl2 vl1 coro b org
-movements = missa
+parts = fl1 fl2 ottoni vl1 vl2 vla coro b org
+movements = kyrie gloria credo sanctus
 
 
 .DEFAULT_GOAL := info

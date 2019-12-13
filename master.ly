@@ -9,7 +9,7 @@
 % \include "scores/s_kyrie.ly"
 % \include "scores/s_gloria.ly"
 % \include "scores/s_credo.ly"
-\include "scores/s_sanctus.ly"
+% \include "scores/s_sanctus.ly"
 
 % \include "parts/p_fl1.ly"
 % \include "parts/p_fl2.ly"
