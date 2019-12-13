@@ -1130,7 +1130,7 @@ SanctusBassoNotes = {
 	\relative c {
 		\clef bass
 		\key d \major \time 12/8 \autoBeamOff \tempoSanctus
-		\mvTr d'1.~\fE^\tuttiE
+		\mvTrh d'1.~\fE^\tuttiE
 		d~
 		d2. d,4. d
 		g8 g g a4 a8 d4 a8 d,4 r8

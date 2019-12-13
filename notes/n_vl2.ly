@@ -44,7 +44,7 @@ KyrieViolinoII = {
 		g2 r4 d
 		g2 d4 h' %35
 		g2 r4 \once \slurDashed h8(\p g)
-		fis( a) g( h) \appoggiatura h a4^\critnote \once \slurDashed g8( fis)
+		fis( a) g( h) \appoggiatura h a4-\critnote \once \slurDashed g8( fis)
 		g2 r4 d\f
 		g2 d4 h'
 		g2 r4 \once \slurDashed h8(\p g) %40
