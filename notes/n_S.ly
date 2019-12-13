@@ -730,7 +730,7 @@ QuiTollisSopranoNotes = {
 		d8.([ fis32 e)] d8 a
 		d8.([ fis32 e)] d8 a
 		d,16[( fis) fis( a)] a[( d]) d([ a)]
-		a([ g e g)] \appoggiatura g8 fis4^\critnote %240
+		a([ g e g)] \appoggiatura g8 fis4^\missgrace %240
 		a4. \appoggiatura a32 g16([ fis32 g)]
 		fis8 fis4 e8
 		d8. d'16 d([ c!)] h([ c)]
@@ -760,13 +760,13 @@ QuiTollisSopranoNotes = {
 		c!16([ h!) h( d)] d([ c)] c([ e)]
 		e([ d)] d([ f)] e8 e %270
 		d16([ cis) cis( e)] e([ d)] d([ fis)]
-		fis([ e) e( g)] \appoggiatura g8 fis4^\critnote
+		fis([ e) e( g)] \appoggiatura g8 fis4^\missgrace
 		r8 g([ e)] c!
 		r fis([ d)] h
 		r e([ c)] a %275
 		r d([ h)] g
 		R2*2
-		d'8 \appoggiatura a'32 g16([^\critnote fis32 e)] d8 \appoggiatura a'32 g16([^\critnote fis32 e)]
+		d'8 \appoggiatura a'32 g16([^\missgrace fis32 e)] d8 \appoggiatura a'32 g16([^\missgrace fis32 e)]
 		d16([ e c h)] a8 r %280
 		\tuplet 3/2 8 { h16([ c d)] e([ fis g)] } a,8.([ h32 c)]
 		\tuplet 3/2 8 { h16[ c d] e[ fis g] } a,8.([ h32 c)]
@@ -873,7 +873,7 @@ QuoniamSopranoNotes = {
 		\mvTr d'2\fE^\tuttiE fis8([ a,)]
 		d2 fis8([ a,)]
 		d2 d8([ fis)] %290
-		\appoggiatura fis16 e8([^\critnote d16 e)] d4 r
+		\appoggiatura fis16 e8([^\missgrace d16 e)] d4 r
 		d d d
 		d4.( e16[ fis)] e4
 		e e e

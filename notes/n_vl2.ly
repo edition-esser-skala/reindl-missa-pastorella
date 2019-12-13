@@ -44,7 +44,7 @@ KyrieViolinoII = {
 		g2 r4 d
 		g2 d4 h' %35
 		g2 r4 \once \slurDashed h8(\p g)
-		fis( a) g( h) \appoggiatura h a4-\critnote \once \slurDashed g8( fis)
+		fis( a) g( h) \appoggiatura h a4-\missgrace \once \slurDashed g8( fis)
 		g2 r4 d\f
 		g2 d4 h'
 		g2 r4 \once \slurDashed h8(\p g) %40
@@ -67,7 +67,7 @@ KyrieViolinoII = {
 		c'!4-!\p a( gis a)
 		r a8 h c4 h8 a
 		h4-! g( fis g)
-		r g8 a \appoggiatura c h4^\critnote a8 g %60
+		r g8 a \appoggiatura c h4^\missgrace a8 g %60
 		g4( h) h( g)
 		g2( fis)
 		h4 h h h
@@ -125,7 +125,7 @@ KyrieViolinoII = {
 		d8 a fis' a, d a a' a, %115
 		d2 a4 fis'
 		d8 a fis' a, d a a' a,
-		d4 \appoggiatura cis'16 h8^\critnote a16 g fis4 \appoggiatura cis'16 h8^\critnote a16 g
+		d4 \appoggiatura cis'16 h8^\missgrace a16 g fis4 \appoggiatura cis'16 h8^\missgrace a16 g
 		fis4 \appoggiatura a16 g8 fis16 e d4 \appoggiatura fis16 e8 d16 cis
 		d4 d cis cis %120
 		d d cis cis
@@ -133,7 +133,7 @@ KyrieViolinoII = {
 		a d, b gis
 		a r r2
 		R1 %125
-		fis4 \appoggiatura cis'16 h8-\critnote a16 g fis4 \appoggiatura cis'16 h8-\critnote a16 g
+		fis4 \appoggiatura cis'16 h8-\missgrace a16 g fis4 \appoggiatura cis'16 h8-\missgrace a16 g
 		fis4 \appoggiatura a16 g8 fis16 e d4 \appoggiatura fis16 e8 d16 cis
 		d4 h'8(-\critnote g) a( fis) g( e)
 		\once \tieDashed d'1~
@@ -196,7 +196,7 @@ KyrieViolinoII = {
 		fis8( a) g( h) \appoggiatura h a4 \once \slurDashed g8( fis)
 		fis2( g4)^\critnote r
 		h2 \once \slurDashed g8( a h c)
-		h4 \appoggiatura d16 c8^\critnote h16 a g4 \once \slurDashed h8( g)
+		h4 \appoggiatura d16 c8^\missgrace h16 a g4 \once \slurDashed h8( g)
 		fis8( a) g( h) \appoggiatura h a4 \slurDashed g8( fis) %190
 		fis2( g4) \slurSolid r
 		r c c c
@@ -412,7 +412,7 @@ QuiTollisViolinoII = {
 		d d d d d d d d %150
 		d( g) g( h) h( d) d( g)
 		d( c a c) \appoggiatura c8 h4
-		\appoggiatura g16 fis8.-\critnote a16 \appoggiatura a g8.-\critnote h16
+		\appoggiatura g16 fis8.-\missgrace a16 \appoggiatura a g8.-\missgrace h16
 		\once \slurDashed h( a fis a) \appoggiatura a8 g4
 		d8 d4 fis8 %155
 		g g4 fis8
@@ -430,8 +430,8 @@ QuiTollisViolinoII = {
 		r c c c
 		h^\critnote r h r
 		r c c c %170
-		h4 r8 \appoggiatura h32 a16-\critnote g32 a
-		g4 r8 \appoggiatura d'32 c16-\critnote h32 c
+		h4 r8 \appoggiatura h32 a16-\missgrace g32 a
+		g4 r8 \appoggiatura d'32 c16-\missgrace h32 c
 		h4 r
 		g16 h a g fis d e fis
 		g h a g fis d e fis %175
@@ -448,7 +448,7 @@ QuiTollisViolinoII = {
 		h,16\pE h h h h h h h \noBreak
 		h h h h h h h h
 		h4 r8 h'
-		\once \slurDashed h16( a fis a) \appoggiatura a8 g4-\critnote
+		\once \slurDashed h16( a fis a) \appoggiatura a8 g4-\missgrace
 		\appoggiatura g16 fis8.\fE a16 \appoggiatura a g8. h16 %190
 		\once \slurDashed h( a fis a) \appoggiatura a8 g4
 		d8\pE d4 fis8
@@ -498,7 +498,7 @@ QuiTollisViolinoII = {
 		fis,16\pE fis fis fis fis fis fis fis
 		fis fis fis fis fis fis fis fis
 		fis4 r8 a
-		a16( g e g) \appoggiatura g8 fis4-\critnote %240
+		a16( g e g) \appoggiatura g8 fis4-\missgrace %240
 		a,8 a4 cis8
 		d d4 cis8
 		d8 d' d16( c!) h( c)
@@ -506,7 +506,7 @@ QuiTollisViolinoII = {
 		h,16 h h h h h h h %245
 		h h h h h h h h
 		h4 r8 g''16( d)
-		d( c a c) \appoggiatura c8 h4^\critnote
+		d( c a c) \appoggiatura c8 h4^\missgrace
 		d,8 d4 fis8
 		g g4 fis8 %250
 		g4 h16( a) h( g)
@@ -557,7 +557,7 @@ QuoniamViolinoII = {
 		fis8\fE a fis a fis a
 		fis a fis a fis a
 		fis a fis a fis a %290
-		\appoggiatura a16 g8-\critnote fis16 g fis4 r
+		\appoggiatura a16 g8-\missgrace fis16 g fis4 r
 		<fis d'> q q
 		q4. e'16 fis e4
 		cis cis cis

@@ -156,7 +156,7 @@ KyrieAltoNotes = {
 		fis2 r
 		R1*5 %187
 		\mvTr h4.\pE^\solo h8 g([ a)] h([ c)]
-		h4 \appoggiatura d16 c8[(^\critnote h16 a)] g4 h8([ g)]
+		h4 \appoggiatura d16 c8[(^\missgrace h16 a)] g4 h8([ g)]
 		fis([ a)] g h a4( g8[ fis)] %190
 		fis2( g4) r
 		R1*3

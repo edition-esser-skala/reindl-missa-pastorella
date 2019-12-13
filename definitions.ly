@@ -7,14 +7,14 @@
 
 
 \paper {
-	#(set-paper-size "a4" 'landscape)
+	#(set-paper-size "a4" 'portrait)
 	two-sided = ##t
 	top-margin = 1\cm
 	bottom-margin = .5\cm
 	outer-margin = 2\cm
 	inner-margin = 1.5\cm
 	indent = 2.5\cm
-
+	
 	oddFooterMarkup = \markup {}
 	evenFooterMarkup = \markup {}
 	oddHeaderMarkup = \markup {
@@ -27,26 +27,26 @@
 	}
 
 	system-system-spacing =
+    #'((basic-distance . 30)
+       (minimum-distance . 30)
+       (padding . -100)
+       (stretchability . 0))
+
+	top-system-spacing =
     #'((basic-distance . 20)
        (minimum-distance . 20)
        (padding . -100)
        (stretchability . 0))
 
-	top-system-spacing =
-    #'((basic-distance . 12)
-       (minimum-distance . 12)
-       (padding . -100)
-       (stretchability . 0))
-
 	top-markup-spacing =
-    #'((basic-distance . 0)
-       (minimum-distance . 0)
+    #'((basic-distance . 5)
+       (minimum-distance . 5)
        (padding . -100)
        (stretchability . 0))
 
 	markup-system-spacing =
-    #'((basic-distance . 12)
-       (minimum-distance . 12)
+    #'((basic-distance . 15)
+       (minimum-distance . 15)
        (padding . -100)
        (stretchability . 0))
 
@@ -376,6 +376,20 @@ tempoDonaNobis = \tempoMarkup "Adagio"
 	}
 	\context {
 		\GrandStaff
+		\override InstrumentName.font-shape = #'italic
+		\override StaffGrouper.staffgroup-staff-spacing =
+		  #'((basic-distance . 15)
+         (minimum-distance . 15)
+         (padding . -100)
+         (stretchability . 0))
+		\override StaffGrouper.staff-staff-spacing =
+		  #'((basic-distance . 12)
+         (minimum-distance . 12)
+         (padding . -100)
+         (stretchability . 0))
+	}
+	\context {
+		\PianoStaff
 		\override InstrumentName.font-shape = #'italic
 		\override StaffGrouper.staffgroup-staff-spacing =
 		  #'((basic-distance . 15)

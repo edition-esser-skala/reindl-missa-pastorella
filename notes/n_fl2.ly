@@ -14,7 +14,7 @@ KyrieFlautoII = {
 		\slurDashed fis8( a) g( h) \slurSolid \appoggiatura h a4 \once \slurDashed g8( fis)
 		fis2( g)
 		h \once \slurDashed g8( a h c)
-		h4 \appoggiatura d16 \tuplet 3/2 4 { c8^\critnote h a } g4 \slurDashed h8( g) %15
+		h4 \appoggiatura d16 \tuplet 3/2 4 { c8^\missgrace h a } g4 \slurDashed h8( g) %15
 		fis( a) g( h) \slurSolid \appoggiatura h a4 \once \slurDashed g8( fis)
 		fis2( g4) r
 		r2 e'8( d) d( c)
@@ -47,7 +47,7 @@ KyrieFlautoII = {
 		c'4-!\pE a( gis a)
 		r a8 h c4 h8 a
 		h4-! g( fis g)
-		r g8 a \appoggiatura c h4^\critnote a8 g %60
+		r g8 a \appoggiatura c h4^\missgrace a8 g %60
 		h2 h4 g
 		g2( fis)
 		R1*2
@@ -128,7 +128,7 @@ KyrieFlautoII = {
 		\slurDashed fis8( a) g( h) \slurSolid \appoggiatura h a4 g8( fis)
 		fis2( g4) r
 		h,2 \once \slurDashed g8( a h c)
-		h4 \appoggiatura d16 c8^\critnote h16 a g4 \slurDashed h8( g)
+		h4 \appoggiatura d16 c8^\missgrace h16 a g4 \slurDashed h8( g)
 		fis( a) g( h) \slurSolid \appoggiatura h a4 \once \slurDashed g8( fis) %190
 		fis2( g4) r
 		r2 e'8( d) d( c)
@@ -203,7 +203,7 @@ QuiTollisFlautoII = {
 		R2*3
 		r4 r8 d\fE %195
 		h8([ a16) r32 c-!] a8([ g16) r32 h-!]
-		\appoggiatura a32 g16(-\critnote fis) fis8-! r4
+		\appoggiatura a32 g16(-\missgrace fis) fis8-! r4
 		R2
 		r4 fis'8(\pE d)
 		R2 %200
@@ -269,7 +269,7 @@ QuiTollisFlautoII = {
 		r r8 c'\pE
 		c16( h!) h( d) c8 r %270
 		r4 r8 fis,!16( d')
-		d( cis) cis( e) \appoggiatura e8 d4^\critnote
+		d( cis) cis( e) \appoggiatura e8 d4^\missgrace
 		R2*4 %276
 		r8 h\fE h h
 		d16( e) c( h) a8 r

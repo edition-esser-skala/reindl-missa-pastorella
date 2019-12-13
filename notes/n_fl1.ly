@@ -47,7 +47,7 @@ KyrieFlautoI = {
 		a'4-\parenthesize-!\pE \once \slurDashed c,( h c)
 		r c8 d e4 d8 c
 		h'4-\parenthesize-! \once \slurDashed \stemUp h,( a h) \stemNeutral
-		r h8 c \appoggiatura e d4^\critnote c8 h %60
+		r h8 c \appoggiatura e d4^\missgrace c8 h %60
 		g'2 \tuplet 3/2 4 { g8[ fis e] d c h }
 		\once \slurDashed h2( a)
 		R1*2
@@ -92,13 +92,13 @@ KyrieFlautoI = {
 		fis2 r4 a16( h a g) %115
 		fis2 r4 fis16( g fis e)
 		d2 r4 a16( h a g) \slurSolid
-		fis4 \appoggiatura e''16 d8^\critnote cis16 h a4 \appoggiatura e'16 d8^\critnote cis16 h
+		fis4 \appoggiatura e''16 d8^\missgrace cis16 h a4 \appoggiatura e'16 d8^\missgrace cis16 h
 		a4 \appoggiatura cis16 h8 a16 g fis4 \appoggiatura a16 g8 fis16 e
 		d4 r \slurDashed e4.( fis8) %120
 		d4 r e4.( fis8) \slurSolid
 		d2 r
 		R1*3 %125
-		a'4 \appoggiatura e'16 d8^\critnote cis16 h a4 \appoggiatura e'16 d8^\critnote cis16 h
+		a'4 \appoggiatura e'16 d8^\missgrace cis16 h a4 \appoggiatura e'16 d8^\missgrace cis16 h
 		a4 \appoggiatura cis16 h8 a16 g fis4 \appoggiatura a16 g8 fis16 e
 		d2 r
 		R1*13 %141
@@ -125,10 +125,10 @@ KyrieFlautoI = {
 		R1*11 %183
 		d'2\pE \once \slurDashed h8( c d e)
 		d4 \tuplet 3/2 4 { e8 d c } h4 h %185
-		a8( c) h( d) \appoggiatura d c4^\critnote \once \slurDashed h8( a)
+		a8( c) h( d) \appoggiatura d c4^\missgrace \once \slurDashed h8( a)
 		a2( h4) r
 		d,2 \once \slurDashed h8( c d e)
-		d4 \appoggiatura fis16 e8^\critnote d16 c h4 \slurDashed g'8( h,)
+		d4 \appoggiatura fis16 e8^\missgrace d16 c h4 \slurDashed g'8( h,)
 		a( c) h( d) \slurSolid \appoggiatura d c4 \once \slurDashed h8( a) %190
 		a2( h4) r
 		r2 g'8( f) f( e)
@@ -224,7 +224,7 @@ QuiTollisFlautoI = {
 		r8 d'16( h) h( a) a( g)
 		fis8 r r4
 		R2*3 %221
-		a8\fE \noBeam \appoggiatura e'32 d16^\critnote cis32 h a8\noBeam \appoggiatura e'32 d16^\critnote cis32 h
+		a8\fE \noBeam \appoggiatura e'32 d16^\missgrace cis32 h a8\noBeam \appoggiatura e'32 d16^\missgrace cis32 h
 		a16( h) g( fis) e8 r
 		\once \tieDashed a2~\startTrillSpan
 		a\stopTrillSpan %225
@@ -243,7 +243,7 @@ QuiTollisFlautoI = {
 		a16( g e g) \appoggiatura g8 fis4 %240
 		R2*2
 		r8 d' d16( c! h c)
-		\appoggiatura c8 h4^\critnote r
+		\appoggiatura c8 h4^\missgrace r
 		\once \tieDashed g2~\startTrillSpan %245
 		g\stopTrillSpan
 		R2*2
