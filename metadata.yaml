@@ -1,0 +1,17 @@
+composer: Reindl, Constantin
+title: Missa pastorella ex D
+id: (D-BAR Ba 120 Bü 238)
+genre: mass
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 fl, 2 cor (D/G), 2 clno (D), timp (D–A), 2 vl, vla, b, org solo
+sources:
+  1:
+    siglum: D-BAR
+    shelfmark: Ba 120 Bü 238
+    type: manuscript copy
+    date: 1787
+    rism: 450001492
+    url: http://www.landesarchiv-bw.de/plink/?f=3-217491-1
+github: reindl-missa-pastorella-ex-G
+imslp: Missa_Pastorella_ex_D_(Reindl,_Constantin)
+notes:
+
